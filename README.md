@@ -60,34 +60,37 @@ The key design challenge is to avoid creating a static bibliometric dashboard. T
 ## 5. Planned Dashboard Structure
 
 ### Growth View
+
 Tracks the expansion of AI research over time through publication volume, topic growth, and temporal trends.
 
-![Growth Wireframe](Growth.png)
+<img src="./Wire%20Frame/Growth.png" width="900"/>
 
 ---
 
 ### Impact View
+
 Explores citation distributions, scientific influence, and research impact concentration across papers and venues.
 
-![Impact Wireframe](Impact.png)
+<img src="./Wire%20Frame/Impact.png" width="900"/>
 
 ---
 
 ### Concentration View
+
 Visualizes institutional, geographic, and topic-level concentration within the AI research ecosystem.
 
-![Concentration Wireframe](Concentration.png)
+<img src="./Wire%20Frame/Concentration.png" width="900"/>
 
 ---
 
 ### Pressure Index View
+
 Combines multiple analytical indicators into an interpretable research pressure and concentration dashboard.
 
-![Pressure Index Wireframe](Pressure%20index.png)
-
+<img src="./Wire%20Frame/Pressure%20index.png" width="900"/>
 ---
 
-## 7. Team Members & Responsibilities
+## 6. Team Members & Responsibilities
 
 | Team Member | Student ID | Role | Responsibilities |
 |---|---|---|---|
@@ -97,7 +100,7 @@ Combines multiple analytical indicators into an interpretable research pressure 
 | Nguyen Hoang Nam | V202401647 | Storytelling & Dashboard Design | Dashboard structure, narrative flow, UI/UX consistency, presentation materials, and storytelling integration |
 ---
 
-## 8. Project Plan And Status
+## 7. Project Plan And Status
 
 ## Project Timeline
 - **May 18** — Proposal Submission
