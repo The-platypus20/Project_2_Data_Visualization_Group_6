@@ -59,17 +59,31 @@ The key design challenge is to avoid creating a static bibliometric dashboard. T
 
 ## 5. Planned Dashboard Structure
 
-### 1. Growth
-Analyze publication expansion and topic growth over time.
+### Growth View
+Tracks the expansion of AI research over time through publication volume, topic growth, and temporal trends.
 
-### 2. Impact
-Explore citation distributions, low-citation share, and research influence.
+![Growth Wireframe](Growth.png)
 
-### 3. Concentration
-Visualize concentration across countries, institutions, and research topics.
+---
 
-### 4. Pressure Indicators
-Combine multiple analytical signals into interpretable indicators of research pressure and concentration.
+### Impact View
+Explores citation distributions, scientific influence, and research impact concentration across papers and venues.
+
+![Impact Wireframe](Impact.png)
+
+---
+
+### Concentration View
+Visualizes institutional, geographic, and topic-level concentration within the AI research ecosystem.
+
+![Concentration Wireframe](Concentration.png)
+
+---
+
+### Pressure Index View
+Combines multiple analytical indicators into an interpretable research pressure and concentration dashboard.
+
+![Pressure Index Wireframe](Pressure%20index.png)
 
 ---
 
