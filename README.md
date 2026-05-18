@@ -63,7 +63,7 @@ The key design challenge is to avoid creating a static bibliometric dashboard. T
 
 Tracks the expansion of AI research over time through publication volume, topic growth, and temporal trends.
 
-<img src="./Wire%20Frame/Growth.png" width="900"/>
+<img src="./Wireframe/Growth.png" width="900"/>
 
 ---
 
@@ -71,7 +71,7 @@ Tracks the expansion of AI research over time through publication volume, topic 
 
 Explores citation distributions, scientific influence, and research impact concentration across papers and venues.
 
-<img src="./Wire%20Frame/Impact.png" width="900"/>
+<img src="./Wireframe/Impact.png" width="900"/>
 
 ---
 
@@ -79,7 +79,7 @@ Explores citation distributions, scientific influence, and research impact conce
 
 Visualizes institutional, geographic, and topic-level concentration within the AI research ecosystem.
 
-<img src="./Wire%20Frame/Concentration.png" width="900"/>
+<img src="./Wireframe/Concentration.png" width="900"/>
 
 ---
 
