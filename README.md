@@ -1,4 +1,3 @@
-# Project_2_Data_Visualization_Group_6
 # Exploring Growth and Concentration in AI Research
 
 COM4010 – Data Visualization Final Project
@@ -33,52 +32,19 @@ This project is motivated by the need to move beyond simple publication counts a
 
 ## 3. Dataset Description
 
-The primary dataset is collected from the **OpenAlex API**, an open scholarly database containing metadata on:
-
-- Academic publications
-- Citations
-- Authors
-- Institutions
-- Venues
-- Research topics
-
-The current sample dataset contains approximately:
-
-- ~4,000 AI-related papers
-- Publication years: 2015–2026
-
-The dataset is planned to expand to approximately:
-
-- 20,000–50,000 papers
-
-using broader AI-related search terms such as:
-
-- Machine Learning
-- Deep Learning
-- Large Language Models
-- Generative AI
+The primary dataset is collected from the **OpenAlex API**, an open scholarly database containing metadata on: Academic publications, Citations, Authors, Institutions, Venues, Research topics. 
+The current sample dataset contains approximately: ~4,000 AI-related papers and ~ publication years: 2015–2026 .
+The dataset is planned to expand to approximately: - 20,000–50,000 papers. 
+The searching using broader AI-related search terms such as: - Machine Learning - Deep Learning - Large Language Models- Generative AI. 
 
 ### Dataset Features
 
-#### Publication Metadata
-- Paper title
-- Publication year
-- Publication type
-- Venue/source
-
-#### Impact Metrics
-- Citation count
-- Referenced works
-
-#### Research Context
-- Topics
-- Keywords
-- AI subfields
-
-#### Contributor Metadata
-- Authors
-- Institutions
-- Countries
+| Category | Features | Description |
+|---|---|---|
+| Publication Metadata | Paper title, Publication year, Publication type, Venue/Source | Basic publication information describing when and where a paper was published |
+| Impact Metrics | Citation count, Referenced works | Metrics related to research impact and citation relationships |
+| Research Context | Topics, Keywords, AI subfields | Information describing the research domain and thematic focus of papers |
+| Contributor Metadata | Authors, Institutions, Countries | Metadata about researchers, affiliations, and geographic distribution |
 
 
 ## Additional Data Sources
@@ -138,38 +104,19 @@ Combine multiple analytical signals into interpretable indicators of research pr
 
 ---
 
-## 6. Technologies & Libraries
+## 7. Team Members & Responsibilities
 
-### Data Collection & Processing
-- Python
-- Pandas
-- PyAlex
-- Requests
+## 👥 Team Members & Responsibilities
 
-### Analytics & Machine Learning
-- Scikit-learn
-- SentenceTransformers
-- SciPy
-
-### Visualization & Dashboard
-- Python Shiny
-- Plotly
-- Altair
-- GeoPandas
-- PyDeck
-
+| Student ID | Team Member | Role | Responsibilities |
+|---|---|---|---|
+| V202401781 | Nguyen Thi Phuong Thao | Data Collection & EDA | OpenAlex API collection, data preprocessing, cleaning, exploratory data analysis (EDA), and dataset management |
+| V202401694 | Le Thao Vy | Machine Learning & NLP Analysis | Topic modeling, clustering, textual similarity analysis, novelty exploration, and ML-based analytical methods |
+| V202401748 | Ngo Thanh An | Visualization Development | Interactive charts, dashboard visualizations, map visualizations, and Python Shiny implementation |
+| V2024 | Nguyen Hoang Nam | Storytelling & Dashboard Design | Dashboard structure, narrative flow, UI/UX consistency, presentation materials, and storytelling integration |
 ---
 
-## 7. Team Members
-
-- Nguyen Thi Phuong Thao
-- Le Thao Vy
-- Ngo Thanh An
-- Nguyen Hoang Nam
-
----
-
-## Project Status
+## 8. Project Status
 
 ### Current Progress
 - Proposal completed
