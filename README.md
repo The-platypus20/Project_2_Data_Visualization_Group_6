@@ -83,13 +83,6 @@ Visualizes institutional, geographic, and topic-level concentration within the A
 
 ---
 
-### Pressure Index View
-
-Combines multiple analytical indicators into an interpretable research pressure and concentration dashboard.
-
-<img src="Proposal/Wireframe/Pressure_index.png" width="900"/> 
----
-
 ## 6. Team Members & Responsibilities
 
 | Team Member | Student ID | Role | Responsibilities |
