@@ -1,5 +1,27 @@
 # Exploring Growth and Concentration in AI Research
 
+## Setup and Run
+
+1. Create and activate a Python virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Launch Jupyter Lab or Notebook:
+   ```bash
+   jupyter lab
+   ```
+4. Open `Data_Download_Preprocess.ipynb`.
+5. Set your OpenAlex email in the notebook or export it before running:
+   ```bash
+   export OPENALEX_EMAIL=your.email@example.com
+   ```
+6. Run the cells to download and clean the dataset. The output files are saved under `Dataset/`.
+
 COM4010 – Data Visualization Final Project
 ---
 

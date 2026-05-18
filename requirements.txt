@@ -1,4 +1,7 @@
-shiny
-shinywidgets
-plotly
-pandas
+pandas>=2.0
+pyalex>=0.2.3
+plotly>=5.0
+shiny>=0.1.8
+shinywidgets>=0.1.6
+jupyterlab>=4.0
+notebook>=6.5
