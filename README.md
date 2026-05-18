@@ -87,7 +87,7 @@ Visualizes institutional, geographic, and topic-level concentration within the A
 
 Combines multiple analytical indicators into an interpretable research pressure and concentration dashboard.
 
-<img src="./Wire%20Frame/Pressure%20index.png" width="900"/>
+<img src="./Wireframe/Pressure_index.png" width="900"/>
 ---
 
 ## 6. Team Members & Responsibilities
