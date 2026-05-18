@@ -5,20 +5,13 @@ COM4010 – Data Visualization Final Project
 
 ## 1. Project Overview
 
-This project explores how AI research has evolved during the rapid expansion of modern artificial intelligence, particularly after the rise of deep learning, generative AI, and large language models.
+This project explores how AI research has evolved during the rapid expansion of modern artificial intelligence, particularly after the rise of deep learning, generative AI, and large language models. Instead of only measuring publication volume, the project investigates how scientific attention, citation impact, topic concentration, and institutional influence change over time.
 
-Rather than focusing only on publication volume, the project investigates how scientific attention, citation impact, topic concentration, and institutional influence change over time.
+The final product will be an interactive Python Shiny dashboard that guides users through four connected analytical views: publication growth, research impact, concentration, and research pressure indicators. 
 
-The final product will be an interactive **Python Shiny dashboard** that guides users through four connected analytical views:
+### The project aims to answer the main Research Question:
 
-- Publication Growth
-- Research Impact
-- Concentration
-- Research Pressure Indicators
-
-### Main Research Question
-
-> Is the rapid growth of AI research associated with broader scientific diversity and influence, or is attention becoming increasingly concentrated around a small number of topics, papers, and institutions?
+> How is the global AI research landscape structurally organized across different subfields, institutions, and geographies, and how have these scientific trajectories shifted over time?
 
 ---
 
@@ -29,63 +22,39 @@ AI research is expanding too fast for researchers to track manually. This projec
 This project is motivated by the need to move beyond simple publication counts and examine how scientific attention and influence are distributed within the AI research ecosystem. The dashboard focuses on identifying patterns such as citation concentration, topic crowding, institutional dominance, and shifts in research attention over time.
 
 ---
-
 ## 3. Dataset Description
 
-The primary dataset is collected from the **OpenAlex API**, an open scholarly database containing metadata on: Academic publications, Citations, Authors, Institutions, Venues, Research topics. 
-The current sample dataset contains approximately: ~4,000 AI-related papers and ~ publication years: 2015–2026 .
-The dataset is planned to expand to approximately: - 20,000–50,000 papers. 
-The searching using broader AI-related search terms such as: - Machine Learning - Deep Learning - Large Language Models- Generative AI. 
+The primary dataset will be collected from the **OpenAlex API**, an open scholarly database containing metadata on academic publications, citations, authors, institutions, venues, and research topics. The current sample dataset contains approximately 4,000 AI-related papers published between 2015 and 2026, with plans to expand to around 20,000–50,000 papers using broader AI-related search terms such as *“machine learning,” “deep learning,”* and *“large language model.”*
 
-### Dataset Features
+The dataset comprises several interconnected dimensions, structured to support multi-layered exploration:
 
-| Category | Features | Description |
-|---|---|---|
-| Publication Metadata | Paper title, Publication year, Publication type, Venue/Source | Basic publication information describing when and where a paper was published |
-| Impact Metrics | Citation count, Referenced works | Metrics related to research impact and citation relationships |
-| Research Context | Topics, Keywords, AI subfields | Information describing the research domain and thematic focus of papers |
-| Contributor Metadata | Authors, Institutions, Countries | Metadata about researchers, affiliations, and geographic distribution |
+- **Publication metadata & Impact metrics:**  
+  Paper title, publication year, venue/source, citation counts, and forward/backward citation links to measure scientific attention.
 
+- **Hierarchical Research Context (Topics & Fields):**  
+  Instead of relying on noisy, unstandardized raw keywords, the project leverages OpenAlex’s structured Concept/Topic Taxonomy. This hierarchical system allows for multi-level filtering and drill-down analysis:
+  
+  - *Level 0 & 1 (Macro Domain):*  
+    Broad fields such as Computer Science and Artificial Intelligence.
+  
+  - *Level 2 & 3 (Subfields & Methods):*  
+    Specialized sub-domains like Deep Learning, Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, and Generative AI.
 
-## Additional Data Sources
+  This structured taxonomy enables the dashboard to group related papers consistently and track macro-to-micro transitions smoothly over time.
 
-### Epoch AI Models Database
-- Model scaling information
-- Organization metadata
-- Compute-related metrics
+- **Contributor metadata:**  
+  Authors, institutions, and countries.
 
-### Stanford AI Index
-- Industry vs academia trends
-- AI investment context
-- Frontier model development statistics
+To augment frontier-AI context, optional supplementary data may be integrated from the Epoch AI Models Database and the Stanford AI Index, linking academic publication trends with real-world model scaling properties.
+
+Overall, the dataset combines numerical, categorical, temporal, network-based, and textual data, making it suitable for both statistical analysis and machine-learning-based exploration of AI research trends, concentration, and scientific influence.
 
 ---
 
 ## 4. Visualization Challenges
+This dataset is non-trivial to visualize because it contains multiple interconnected dimensions, including publication growth over time, highly skewed citation distributions, overlapping research topics, institutional concentration, and textual similarity across papers.
 
-This dataset is non-trivial to visualize because it contains multiple interconnected dimensions, including:
-
-- Publication growth over time
-- Highly skewed citation distributions
-- Overlapping research topics
-- Institutional concentration
-- Textual similarity across papers
-
-The key design challenge is to avoid creating a static bibliometric dashboard.
-
-Instead, the dashboard is designed to support a visual reasoning workflow where users:
-
-1. Observe publication growth
-2. Evaluate whether impact keeps up
-3. Explore concentration patterns
-4. Analyze combined research pressure indicators
-
-This requires:
-- Linked filtering
-- Drill-down exploration
-- Normalized metrics
-- Interactive analytical components
-
+The key design challenge is to avoid creating a static bibliometric dashboard. The dashboard must support a visual reasoning workflow: users first see the growth pattern, then test whether impact keeps up, then inspect concentration, and finally explore how different pressure signals combine. This requires linked filtering, drill-down tables, normalized metrics, and explainable analytical components
 ---
 
 ## 5. Planned Dashboard Structure
@@ -114,7 +83,28 @@ Combine multiple analytical signals into interpretable indicators of research pr
 | Nguyen Hoang Nam | V202401647 | Storytelling & Dashboard Design | Dashboard structure, narrative flow, UI/UX consistency, presentation materials, and storytelling integration |
 ---
 
-## 8. Project Status
+## 8. Project Plan And Status
+
+## Project Timeline
+- **May 18** — Proposal Submission
+
+---
+
+### Phase 1 — Data Scaling & Pipeline Engineering  
+**May 19 – May 24**
+
+### Phase 2 — Core Analytics & Machine Learning  
+**May 25 – May 31**
+
+### Phase 3 — Dashboard Integration & UI/UX Optimization  
+**June 1 – June 4**
+
+### Phase 4 — Testing, Documentation & Finalization  
+**June 5 – June 7**
+
+---
+
+- **June 7** — Final Submission & Presentation
 
 ### Current Progress
 - Proposal completed
