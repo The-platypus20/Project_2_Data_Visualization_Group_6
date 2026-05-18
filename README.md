@@ -108,12 +108,12 @@ Combine multiple analytical signals into interpretable indicators of research pr
 
 ## 👥 Team Members & Responsibilities
 
-| Student ID | Team Member | Role | Responsibilities |
+| Team Member | Student ID | Role | Responsibilities |
 |---|---|---|---|
-| V202401781 | Nguyen Thi Phuong Thao | Data Collection & EDA | OpenAlex API collection, data preprocessing, cleaning, exploratory data analysis (EDA), and dataset management |
-| V202401694 | Le Thao Vy | Machine Learning & NLP Analysis | Topic modeling, clustering, textual similarity analysis, novelty exploration, and ML-based analytical methods |
-| V202401748 | Ngo Thanh An | Visualization Development | Interactive charts, dashboard visualizations, map visualizations, and Python Shiny implementation |
-| V2024 | Nguyen Hoang Nam | Storytelling & Dashboard Design | Dashboard structure, narrative flow, UI/UX consistency, presentation materials, and storytelling integration |
+|  Nguyen Thi Phuong Thao | V202401781 | Data Collection & EDA | OpenAlex API collection, data preprocessing, cleaning, exploratory data analysis (EDA), and dataset management |
+| Le Thao Vy | V202401694 | Machine Learning & NLP Analysis | Topic modeling, clustering, textual similarity analysis, novelty exploration, and ML-based analytical methods |
+| Ngo Thanh An | V202401748 | Visualization Development | Interactive charts, dashboard visualizations, map visualizations, and Python Shiny implementation |
+| Nguyen Hoang Nam | V202401647 | Storytelling & Dashboard Design | Dashboard structure, narrative flow, UI/UX consistency, presentation materials, and storytelling integration |
 ---
 
 ## 8. Project Status
