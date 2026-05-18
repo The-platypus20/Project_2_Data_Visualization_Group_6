@@ -106,8 +106,6 @@ Combine multiple analytical signals into interpretable indicators of research pr
 
 ## 7. Team Members & Responsibilities
 
-## 👥 Team Members & Responsibilities
-
 | Team Member | Student ID | Role | Responsibilities |
 |---|---|---|---|
 |  Nguyen Thi Phuong Thao | V202401781 | Data Collection & EDA | OpenAlex API collection, data preprocessing, cleaning, exploratory data analysis (EDA), and dataset management |
