@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 .env
 .ipynb_checkpoints/
+
+# Local convenience copy of the app data; the app falls back to Dataset/ on a
+# fresh clone, so this duplicate is not tracked.
+data/

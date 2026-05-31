@@ -1,28 +1,104 @@
 # Exploring Growth and Concentration in AI Research
 
-## Setup and Run
+COMP4010 – Data Visualization · Project 2 · Group 6
 
-1. Create and activate a Python virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch Jupyter Lab or Notebook:
-   ```bash
-   jupyter lab
-   ```
-4. Open `Data_Download_Preprocess.ipynb`.
-5. Set your OpenAlex email in the notebook or export it before running:
-   ```bash
-   export OPENALEX_EMAIL=your.email@example.com
-   ```
-6. Run the cells to download and clean the dataset. The output files are saved under `Dataset/`.
+An interactive **Python Shiny** dashboard that explores how (highly-cited) AI
+research has grown, whether citation impact keeps pace, and how output
+concentrates across countries, institutions and topics.
 
-COM4010 – Data Visualization Final Project
+## Run the dashboard
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+shiny run app.py --reload          # then open http://127.0.0.1:8000
+```
+
+The dashboard reads `data/ai_papers_processed.csv` if present, otherwise falls
+back to `Dataset/ai_papers_processed.csv` (the tracked copy) — no API calls or
+credentials are needed to run it.
+
+## Dashboard structure
+
+Four tabs share one sidebar of filters (year range, region, topic, venue):
+
+| Tab | What it answers |
+|---|---|
+| **Growth** | How fast is AI output growing? KPIs (total, growth %, CAGR, top-growth topic), papers-per-year with YoY overlay, YoY acceleration, and a topic-contribution stacked area. |
+| **Impact** | Does impact keep up with volume? Median citations, low-citation share, top-1% citation share, novelty proxy, citation distribution by cohort, and a searchable Paper Explorer. |
+| **Concentration** | Where does research cluster? Top-5 country share, topic entropy, citation Gini, a world choropleth (4 selectable metrics), topic heatmap, Lorenz curve, country/institution drill-down tables, and **Academia vs Industry** sector charts. |
+| **Pressure Index** | A composite indicator combining growth, impact dilution, geographic concentration and topic crowding into one 0–100 score over time. |
+| **ML & NLP** | Three models: TF-IDF + KMeans **title clustering** (2-D projection + top terms), a Holt's-trend **publication forecast**, and a Random-Forest **citation-velocity classifier** (feature importances, ROC, confusion matrix). |
+
+### Chart variety
+
+Line, bar (vertical + horizontal), stacked area, histogram, scatter, pie/donut,
+choropleth map, heatmap, Lorenz curve, radar, ROC curve and confusion matrix —
+well beyond the "≥3 chart types" requirement.
+
+## Analytical & ML methods
+
+- **NLP title clustering** (`src/mlnlp.py::cluster_titles`) — TF-IDF over paper
+  titles (1–2 grams, `sublinear_tf`, common terms dropped), reduced with
+  TruncatedSVD and L2-normalised (LSA), then grouped with KMeans. Reports a
+  silhouette score and the top terms per cluster.
+- **Time-series forecast** (`forecast_publications`) — Holt's linear-trend
+  exponential smoothing on annual counts, with a ±95% band. Because the dataset
+  samples *highly-cited* works, recent years are right-censored, so the forecast
+  is framed as a trend extrapolation (with an in-app caveat).
+- **Citation-velocity classifier** (`citation_model`) — a Random Forest predicts
+  whether a paper reaches the top quartile of citations-per-year from metadata
+  (references, team size, openness, topic, sector, venue). Velocity is used
+  instead of raw citations to control for paper age. Reports held-out ROC AUC,
+  accuracy, feature importances, the ROC curve and a confusion matrix.
+
+### Academia vs Industry sector classification
+
+Institution names are labelled by a transparent **rule-based heuristic**
+(`src/sector.py`): a curated company list + corporate suffixes → *Industry*;
+national labs / academies / ministries → *Government/Other*; university /
+college / institute / polytechnic keywords → *Academia*. Each paper is then
+assigned a collaboration category — *Academia*, *Industry*, *Academia–Industry*
+or *Other / Mixed* — from the set of sectors among its institutions. This is a
+heuristic for revealing broad structural trends (e.g. the rise of
+academia–industry collaboration), not an authoritative per-paper label.
+
+## Project layout
+
+```
+app.py                 # Shiny entry point (navbar + shared sidebar + server wiring)
+src/                   # one module per concern, for easy tracking
+  data.py              # load + enrich the dataset (topic buckets, regions, novelty)
+  geo.py               # ISO-2 -> name / ISO-3 / region / population lookup
+  metrics.py           # Gini, Lorenz, entropy, CAGR, YoY helpers
+  theme.py             # shared Plotly styling
+  mod_growth.py        # Growth tab UI + server
+  mod_impact.py        # Impact tab UI + server
+  mod_concentration.py # Concentration tab UI + server
+  mod_pressure.py      # Pressure Index tab UI + server
+data/                  # ai_papers_processed.csv (canonical app data)
+Dataset/               # raw + processed OpenAlex exports
+Notebooks/             # crawl, preprocessing/EDA, and metric-derivation notebooks
+Proposal/              # proposal PDF + wireframes
+```
+
+## Data note (important)
+
+The dataset is a sample of **highly-cited** AI-related works (minimum citation
+count is in the hundreds), not all AI output. Volume trends therefore describe
+the growth of *impactful* AI literature. The `novelty_proxy` field is a
+transparent structural stand-in (fewer references → higher novelty) pending the
+NLP similarity model; both caveats are surfaced in the dashboard.
+
+## Re-crawling / re-processing the data (optional)
+
+```bash
+export OPENALEX_EMAIL=your.email@example.com
+jupyter lab   # then run Notebooks/crawl_more_data.ipynb and data_preprocessing.ipynb
+```
+
 ---
 
 ## 1. Project Overview
