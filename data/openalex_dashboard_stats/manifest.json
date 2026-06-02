@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-06-02T11:13:01Z",
+  "base_filter": "primary_topic.subfield.id:1702,has_doi:true,is_retracted:false,is_paratext:false,type:article|preprint|book-chapter|proceedings-article,from_publication_date:2000-01-01,to_publication_date:2026-12-31",
+  "start_year": 2000,
+  "end_year": 2026,
+  "sample_size_requested": 30000,
+  "sample_size_materialized": 2700,
+  "top_countries_for_institution_drilldown": 25,
+  "top_institutions_per_country": 15,
+  "files": [
+    "exact_country_counts.csv",
+    "exact_country_year_counts.csv",
+    "exact_oa_status_counts.csv",
+    "exact_oa_status_year_counts.csv",
+    "exact_primary_topic_year_counts.csv",
+    "exact_subfield_counts.csv",
+    "exact_subfield_year_counts.csv",
+    "exact_top_institutions_by_country.csv",
+    "exact_topic_bucket_year_counts.csv",
+    "exact_type_counts.csv",
+    "exact_type_year_counts.csv",
+    "exact_year_counts.csv",
+    "manifest.json",
+    "sample_plan.csv",
+    "sampled_papers.csv"
+  ]
+}

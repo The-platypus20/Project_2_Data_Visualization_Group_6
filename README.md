@@ -2,9 +2,9 @@
 
 COMP4010 – Data Visualization · Project 2 · Group 6
 
-An interactive **Python Shiny** dashboard that queries the **OpenAlex API**
-live to explore how AI research has grown, whether citation impact keeps pace,
-and how output concentrates across countries, institutions and topics.
+An interactive **Python Shiny** dashboard that reads a **precomputed OpenAlex
+snapshot** to explore how AI research has grown, whether citation impact keeps
+pace, and how output concentrates across countries, institutions and topics.
 
 ## Run the dashboard
 
@@ -13,24 +13,32 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 export OPENALEX_API_KEY=your_key_here
+export OPENALEX_EMAIL=your_email@example.com
+
+python Scripts/precompute_openalex_dashboard_stats.py
+# this writes data/openalex_dashboard_stats/
 
 shiny run app.py --reload          # then open http://127.0.0.1:8000
 ```
 
-The dashboard now loads data directly from OpenAlex. It requires
-`OPENALEX_API_KEY`; get a free key from `https://openalex.org/settings/api`.
-Use the sidebar to set the search query and how many works to fetch.
+The dashboard itself does not query OpenAlex live. Instead:
+
+1. `Scripts/precompute_openalex_dashboard_stats.py` runs once and saves exact
+   grouped statistics plus a stratified paper sample into
+   `data/openalex_dashboard_stats/`.
+2. `app.py` reads those saved files and renders the dashboard from the local
+   snapshot.
 
 ## Dashboard structure
 
-Four tabs share one sidebar of filters (query, year range, region, topic,
-venue):
+Four tabs share one sidebar of filters (currently a global year range over the
+saved snapshot):
 
 | Tab | What it answers |
 |---|---|
 | **Growth** | How fast is AI output growing? KPIs (total, growth %, CAGR, top-growth topic), papers-per-year with YoY overlay, YoY acceleration, and a topic-contribution stacked area. |
-| **Impact** | Does impact keep up with volume? Median citations, low-citation share, top-1% citation share, novelty proxy, citation distribution by cohort, and a searchable Paper Explorer. |
-| **Concentration** | Where does research cluster? Top-5 country share, topic entropy, citation Gini, a world choropleth (4 selectable metrics), topic heatmap, Lorenz curve, country/institution drill-down tables, and **Academia vs Industry** sector charts. |
+| **Impact** | Does impact keep up with volume? Sample-weighted mean citations, threshold-based high-impact share, citations-per-year, reference intensity, citation distributions by cohort, and a sampled Paper Explorer. |
+| **Concentration** | Where does research cluster? Top-5 country share, topic entropy, map views, topic heatmap, country concentration curve, country/institution drill-down tables, and OA-structure charts. |
 | **Pressure Index** | A composite indicator combining growth, impact dilution, geographic concentration and topic crowding into one 0–100 score over time. |
 
 ### Chart variety
@@ -38,23 +46,12 @@ venue):
 Line, bar (vertical + horizontal), stacked area, histogram, pie/donut,
 choropleth map, heatmap, Lorenz curve and radar.
 
-### Academia vs Industry sector classification
-
-Institution names are labelled by a transparent **rule-based heuristic**
-(`src/sector.py`): a curated company list + corporate suffixes → *Industry*;
-national labs / academies / ministries → *Government/Other*; university /
-college / institute / polytechnic keywords → *Academia*. Each paper is then
-assigned a collaboration category — *Academia*, *Industry*, *Academia–Industry*
-or *Other / Mixed* — from the set of sectors among its institutions. This is a
-heuristic for revealing broad structural trends (e.g. the rise of
-academia–industry collaboration), not an authoritative per-paper label.
-
 ## Project layout
 
 ```
 app.py                 # Shiny entry point (navbar + shared sidebar + server wiring)
 src/                   # one module per concern, for easy tracking
-  data.py              # fetch + enrich OpenAlex API results
+  data.py              # load the precomputed OpenAlex snapshot
   geo.py               # ISO-2 -> name / ISO-3 / region / population lookup
   metrics.py           # Gini, Lorenz, entropy, CAGR, YoY helpers
   theme.py             # shared Plotly styling
@@ -62,6 +59,7 @@ src/                   # one module per concern, for easy tracking
   mod_impact.py        # Impact tab UI + server
   mod_concentration.py # Concentration tab UI + server
   mod_pressure.py      # Pressure Index tab UI + server
+Scripts/               # one-shot snapshot precompute helpers
 Dataset/               # older CSV exports kept for reference only
 Notebooks/             # crawl, preprocessing/EDA, and metric-derivation notebooks
 Proposal/              # proposal PDF + wireframes
@@ -69,10 +67,10 @@ Proposal/              # proposal PDF + wireframes
 
 ## Data note
 
-The dashboard queries OpenAlex live, sorts matching works by `cited_by_count`,
-and caps the loaded sample by the sidebar's "Max works to load" setting. It is
-therefore an interactive view over a live, citation-ranked sample rather than a
-full snapshot download.
+The snapshot precompute uses **exact OpenAlex grouped counts wherever
+possible**. Only the views that fundamentally need row-level citation or paper
+metadata rely on the saved stratified sample. This keeps the dashboard cheap to
+refresh while preserving the main story of each tab.
 
 ---
 

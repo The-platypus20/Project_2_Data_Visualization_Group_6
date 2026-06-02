@@ -1,0 +1,201 @@
+﻿country_code,country_name,paper_count,region
+CN,China,356601,Asia
+US,United States,342909,North America
+IN,India,114833,Asia
+GB,United Kingdom,106780,Europe
+DE,Germany,96201,Europe
+JP,Japan,76984,Asia
+FR,France,68794,Europe
+IT,Italy,59719,Europe
+ID,Indonesia,59639,Asia
+CA,Canada,59353,North America
+AU,Australia,49873,Oceania
+ES,Spain,46127,Europe
+KR,South Korea,34441,Asia
+BR,Brazil,31961,South America
+NL,Netherlands,30718,Europe
+RU,Russia,29212,Europe
+SG,Singapore,22260,Asia
+CH,Switzerland,21688,Europe
+TW,Taiwan,21606,Asia
+PL,Poland,21109,Europe
+IR,Iran,19463,Asia
+TR,Turkey,19261,Asia
+HK,Hong Kong,18580,Asia
+AT,Austria,16409,Europe
+IL,Israel,16249,Asia
+SE,Sweden,16163,Europe
+MY,Malaysia,16131,Asia
+SA,Saudi Arabia,15371,Asia
+BE,Belgium,15288,Europe
+GR,Greece,13290,Europe
+PT,Portugal,13026,Europe
+CZ,Czechia,12917,Europe
+MX,Mexico,12436,North America
+FI,Finland,11352,Europe
+DK,Denmark,11350,Europe
+EG,Egypt,11021,Africa
+PK,Pakistan,10566,Asia
+NO,Norway,9277,Europe
+IE,Ireland,8915,Europe
+AE,United Arab Emirates,7767,Asia
+RO,Romania,7365,Europe
+BD,Bangladesh,7311,Asia
+VN,Vietnam,7031,Asia
+NZ,New Zealand,6608,Oceania
+JO,Jordan,6591,Asia
+UA,Ukraine,6485,Europe
+IQ,Iraq,6480,Asia
+ZA,South Africa,6326,Africa
+MA,Morocco,6231,Africa
+TH,Thailand,6217,Asia
+HU,Hungary,6114,Europe
+NG,Nigeria,5570,Africa
+DZ,Algeria,5459,Africa
+TN,Tunisia,4909,Africa
+CL,Chile,4728,South America
+BG,Bulgaria,4039,Europe
+SK,Slovakia,3659,Europe
+SI,Slovenia,3619,Europe
+AR,Argentina,3579,South America
+CO,Colombia,3511,South America
+MO,Macao,3443,Asia
+RS,Serbia,3268,Europe
+PH,Philippines,2614,Asia
+LU,Luxembourg,2522,Europe
+QA,Qatar,2485,Asia
+HR,Croatia,2315,Europe
+EE,Estonia,2028,Europe
+CY,Cyprus,1955,Europe
+KZ,Kazakhstan,1878,Asia
+LK,Sri Lanka,1802,Asia
+LB,Lebanon,1669,Asia
+UZ,Uzbekistan,1634,Asia
+LT,Lithuania,1582,Europe
+EC,Ecuador,1545,South America
+NP,Nepal,1522,Asia
+OM,Oman,1392,Asia
+LV,Latvia,1372,Europe
+PE,Peru,1343,South America
+ET,Ethiopia,1266,Africa
+GH,Ghana,1116,Africa
+KW,Kuwait,1100,Asia
+MK,North Macedonia,1043,Europe
+AZ,Azerbaijan,1009,Asia
+YE,Yemen,992,Asia
+BH,Bahrain,944,Asia
+BY,Belarus,938,Europe
+KE,Kenya,922,Africa
+PS,Palestine,890,Asia
+CU,Cuba,861,North America
+CM,Cameroon,761,Africa
+VE,Venezuela,688,South America
+TJ,Tajikistan,659,Asia
+IS,Iceland,647,Europe
+SS,South Sudan,644,Africa
+UY,Uruguay,640,South America
+MT,Malta,635,Europe
+BI,Burundi,622,Africa
+BA,Bosnia and Herzegovina,591,Europe
+MM,Myanmar,558,Asia
+MN,Mongolia,519,Asia
+AM,Armenia,513,Asia
+SD,Sudan,511,Africa
+PR,Puerto Rico,501,North America
+SY,Syria,478,Asia
+LY,Libya,451,Africa
+CR,Costa Rica,409,North America
+UG,Uganda,382,Africa
+AL,Albania,369,Europe
+GE,Georgia,363,Asia
+MD,Moldova,353,Europe
+SN,Senegal,344,Africa
+KH,Cambodia,343,Asia
+TZ,Tanzania,334,Africa
+ME,Montenegro,312,Europe
+BN,Brunei,284,Asia
+ZW,Zimbabwe,281,Africa
+KY,Cayman Islands,255,North America
+RW,Rwanda,249,Africa
+BW,Botswana,248,Africa
+MU,Mauritius,236,Africa
+KG,Kyrgyzstan,197,Asia
+BO,Bolivia,192,South America
+ZM,Zambia,192,Africa
+JM,Jamaica,183,North America
+AF,AF,177,Other
+MZ,MZ,175,Other
+FJ,Fiji,164,Oceania
+XK,Kosovo,151,Europe
+BJ,Benin,146,Africa
+RE,Reunion,144,Africa
+CI,Cote d'Ivoire,141,Africa
+CD,CD,138,Other
+MW,Malawi,138,Africa
+TT,Trinidad and Tobago,137,North America
+NA,Namibia,133,Africa
+BF,Burkina Faso,132,Africa
+PY,Paraguay,131,South America
+GT,Guatemala,111,North America
+KP,KP,108,Other
+PA,Panama,104,North America
+MG,Madagascar,101,Africa
+DO,Dominican Republic,95,North America
+NI,Nicaragua,79,North America
+VG,VG,79,Other
+SV,SV,78,Other
+LI,Liechtenstein,74,Europe
+HN,HN,73,Other
+NE,NE,68,Other
+SO,Somalia,60,Africa
+GP,GP,59,Other
+ML,Mali,46,Africa
+TG,TG,45,Other
+MR,MR,44,Other
+MV,Maldives,44,Asia
+GA,Gabon,43,Africa
+PF,PF,42,Other
+PG,PG,42,Other
+AO,AO,39,Other
+BM,Bermuda,36,North America
+BT,BT,35,Other
+CG,Congo,34,Africa
+BB,Barbados,29,North America
+LR,LR,27,Other
+TD,TD,26,Other
+GF,French Guiana,24,South America
+LA,LA,24,Other
+GM,Gambia,22,Africa
+SZ,Eswatini,22,Africa
+BS,Bahamas,21,North America
+GY,Guyana,21,South America
+KN,KN,21,Other
+ER,ER,20,Other
+LS,Lesotho,19,Africa
+NC,New Caledonia,19,Oceania
+SL,Sierra Leone,19,Africa
+TL,TL,19,Other
+FO,FO,18,Other
+AG,Antigua and Barbuda,17,North America
+GU,GU,15,Other
+CV,CV,14,Other
+CF,CF,13,Other
+DJ,DJ,11,Other
+GD,GD,11,Other
+HT,HT,11,Other
+TO,TO,11,Other
+SM,SM,9,Other
+TC,TC,9,Other
+VI,VI,9,Other
+AD,AD,8,Other
+MC,Monaco,8,Europe
+MQ,MQ,8,Other
+TM,TM,8,Other
+GL,Greenland,7,North America
+GN,GN,7,Other
+BZ,BZ,5,Other
+LC,LC,5,Other
+MS,MS,5,Other
+SX,SX,5,Other
+VU,VU,5,Other
+CW,CW,4,Other

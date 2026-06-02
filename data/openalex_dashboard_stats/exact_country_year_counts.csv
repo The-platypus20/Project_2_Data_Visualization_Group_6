@@ -1,0 +1,4267 @@
+﻿country_code,country_name,paper_count,publication_year,region
+US,United States,4369,2000,North America
+GB,United Kingdom,1497,2000,Europe
+DE,Germany,1281,2000,Europe
+JP,Japan,1118,2000,Asia
+FR,France,819,2000,Europe
+IT,Italy,650,2000,Europe
+CA,Canada,630,2000,North America
+CN,China,561,2000,Asia
+AU,Australia,501,2000,Oceania
+ES,Spain,478,2000,Europe
+NL,Netherlands,446,2000,Europe
+TW,Taiwan,251,2000,Asia
+BR,Brazil,237,2000,South America
+CH,Switzerland,202,2000,Europe
+IL,Israel,202,2000,Asia
+BE,Belgium,197,2000,Europe
+RU,Russia,197,2000,Europe
+IN,India,196,2000,Asia
+SE,Sweden,195,2000,Europe
+KR,South Korea,191,2000,Asia
+PL,Poland,175,2000,Europe
+AT,Austria,171,2000,Europe
+DK,Denmark,148,2000,Europe
+HK,Hong Kong,143,2000,Asia
+CZ,Czechia,137,2000,Europe
+GR,Greece,132,2000,Europe
+FI,Finland,126,2000,Europe
+SG,Singapore,121,2000,Asia
+PT,Portugal,88,2000,Europe
+MX,Mexico,80,2000,North America
+HU,Hungary,71,2000,Europe
+TR,Turkey,70,2000,Asia
+NO,Norway,66,2000,Europe
+NZ,New Zealand,66,2000,Oceania
+SK,Slovakia,57,2000,Europe
+ZA,South Africa,56,2000,Africa
+IE,Ireland,49,2000,Europe
+CL,Chile,42,2000,South America
+UA,Ukraine,42,2000,Europe
+BG,Bulgaria,41,2000,Europe
+SI,Slovenia,41,2000,Europe
+RO,Romania,39,2000,Europe
+AR,Argentina,34,2000,South America
+EG,Egypt,33,2000,Africa
+RS,Serbia,29,2000,Europe
+LT,Lithuania,28,2000,Europe
+MY,Malaysia,24,2000,Asia
+CY,Cyprus,22,2000,Europe
+SA,Saudi Arabia,21,2000,Asia
+BY,Belarus,16,2000,Europe
+HR,Croatia,16,2000,Europe
+VE,Venezuela,16,2000,South America
+CO,Colombia,14,2000,South America
+IR,Iran,14,2000,Asia
+MA,Morocco,14,2000,Africa
+PK,Pakistan,13,2000,Asia
+TH,Thailand,13,2000,Asia
+SS,South Sudan,11,2000,Africa
+EE,Estonia,10,2000,Europe
+KW,Kuwait,10,2000,Asia
+BI,Burundi,9,2000,Africa
+LV,Latvia,9,2000,Europe
+CR,Costa Rica,8,2000,North America
+ID,Indonesia,8,2000,Asia
+NG,Nigeria,8,2000,Africa
+PR,Puerto Rico,8,2000,North America
+AM,Armenia,7,2000,Asia
+DZ,Algeria,7,2000,Africa
+JO,Jordan,7,2000,Asia
+BD,Bangladesh,6,2000,Asia
+BO,Bolivia,6,2000,South America
+PH,Philippines,6,2000,Asia
+TN,Tunisia,6,2000,Africa
+AE,United Arab Emirates,5,2000,Asia
+CU,Cuba,5,2000,North America
+EC,Ecuador,5,2000,South America
+GH,Ghana,5,2000,Africa
+TJ,Tajikistan,4,2000,Asia
+UY,Uruguay,4,2000,South America
+ZW,Zimbabwe,4,2000,Africa
+AZ,Azerbaijan,3,2000,Asia
+JM,Jamaica,3,2000,North America
+KE,Kenya,3,2000,Africa
+LB,Lebanon,3,2000,Asia
+OM,Oman,3,2000,Asia
+PE,Peru,3,2000,South America
+VN,Vietnam,3,2000,Asia
+BN,Brunei,2,2000,Asia
+GE,Georgia,2,2000,Asia
+GP,GP,2,2000,Other
+IS,Iceland,2,2000,Europe
+MD,Moldova,2,2000,Europe
+MK,North Macedonia,2,2000,Europe
+MU,Mauritius,2,2000,Africa
+MZ,MZ,2,2000,Other
+PS,Palestine,2,2000,Asia
+RE,Reunion,2,2000,Africa
+SD,Sudan,2,2000,Africa
+TG,TG,2,2000,Other
+TZ,Tanzania,2,2000,Africa
+UG,Uganda,2,2000,Africa
+AL,Albania,1,2000,Europe
+BA,Bosnia and Herzegovina,1,2000,Europe
+BB,Barbados,1,2000,North America
+BH,Bahrain,1,2000,Asia
+BJ,Benin,1,2000,Africa
+BM,Bermuda,1,2000,North America
+CM,Cameroon,1,2000,Africa
+DO,Dominican Republic,1,2000,North America
+ER,ER,1,2000,Other
+ET,Ethiopia,1,2000,Africa
+KH,Cambodia,1,2000,Asia
+KZ,Kazakhstan,1,2000,Asia
+LK,Sri Lanka,1,2000,Asia
+LU,Luxembourg,1,2000,Europe
+LY,Libya,1,2000,Africa
+MM,Myanmar,1,2000,Asia
+MN,Mongolia,1,2000,Asia
+MT,Malta,1,2000,Europe
+NA,Namibia,1,2000,Africa
+NE,NE,1,2000,Other
+NP,Nepal,1,2000,Asia
+QA,Qatar,1,2000,Asia
+SY,Syria,1,2000,Asia
+TM,TM,1,2000,Other
+UZ,Uzbekistan,1,2000,Asia
+VG,VG,1,2000,Other
+ZM,Zambia,1,2000,Africa
+US,United States,4308,2001,North America
+GB,United Kingdom,1517,2001,Europe
+DE,Germany,1335,2001,Europe
+JP,Japan,1203,2001,Asia
+FR,France,822,2001,Europe
+IT,Italy,703,2001,Europe
+CA,Canada,672,2001,North America
+AU,Australia,604,2001,Oceania
+ES,Spain,587,2001,Europe
+CN,China,539,2001,Asia
+NL,Netherlands,461,2001,Europe
+IL,Israel,266,2001,Asia
+RU,Russia,253,2001,Europe
+BR,Brazil,247,2001,South America
+CH,Switzerland,220,2001,Europe
+TW,Taiwan,211,2001,Asia
+SE,Sweden,204,2001,Europe
+IN,India,201,2001,Asia
+BE,Belgium,186,2001,Europe
+KR,South Korea,184,2001,Asia
+DK,Denmark,176,2001,Europe
+AT,Austria,175,2001,Europe
+PL,Poland,173,2001,Europe
+FI,Finland,160,2001,Europe
+HK,Hong Kong,146,2001,Asia
+SG,Singapore,142,2001,Asia
+CZ,Czechia,141,2001,Europe
+GR,Greece,126,2001,Europe
+PT,Portugal,108,2001,Europe
+NO,Norway,106,2001,Europe
+NZ,New Zealand,81,2001,Oceania
+MX,Mexico,79,2001,North America
+HU,Hungary,62,2001,Europe
+IE,Ireland,62,2001,Europe
+TR,Turkey,51,2001,Asia
+UA,Ukraine,49,2001,Europe
+SI,Slovenia,48,2001,Europe
+SK,Slovakia,45,2001,Europe
+BG,Bulgaria,42,2001,Europe
+RO,Romania,38,2001,Europe
+AR,Argentina,33,2001,South America
+ZA,South Africa,33,2001,Africa
+EG,Egypt,30,2001,Africa
+TH,Thailand,30,2001,Asia
+CL,Chile,28,2001,South America
+RS,Serbia,28,2001,Europe
+LV,Latvia,21,2001,Europe
+LT,Lithuania,20,2001,Europe
+IR,Iran,18,2001,Asia
+VE,Venezuela,15,2001,South America
+ID,Indonesia,13,2001,Asia
+MY,Malaysia,13,2001,Asia
+SA,Saudi Arabia,13,2001,Asia
+PK,Pakistan,12,2001,Asia
+TN,Tunisia,12,2001,Africa
+BI,Burundi,11,2001,Africa
+CY,Cyprus,11,2001,Europe
+HR,Croatia,11,2001,Europe
+JO,Jordan,11,2001,Asia
+MA,Morocco,11,2001,Africa
+CO,Colombia,10,2001,South America
+EE,Estonia,10,2001,Europe
+DZ,Algeria,8,2001,Africa
+NG,Nigeria,8,2001,Africa
+AE,United Arab Emirates,7,2001,Asia
+BY,Belarus,7,2001,Europe
+KW,Kuwait,7,2001,Asia
+PE,Peru,7,2001,South America
+MK,North Macedonia,6,2001,Europe
+UY,Uruguay,6,2001,South America
+KZ,Kazakhstan,5,2001,Asia
+AM,Armenia,4,2001,Asia
+LU,Luxembourg,4,2001,Europe
+MD,Moldova,4,2001,Europe
+MT,Malta,4,2001,Europe
+SS,South Sudan,4,2001,Africa
+TJ,Tajikistan,4,2001,Asia
+VN,Vietnam,4,2001,Asia
+BA,Bosnia and Herzegovina,3,2001,Europe
+BD,Bangladesh,3,2001,Asia
+BO,Bolivia,3,2001,South America
+EC,Ecuador,3,2001,South America
+ET,Ethiopia,3,2001,Africa
+GE,Georgia,3,2001,Asia
+GP,GP,3,2001,Other
+LK,Sri Lanka,3,2001,Asia
+OM,Oman,3,2001,Asia
+PH,Philippines,3,2001,Asia
+PR,Puerto Rico,3,2001,North America
+AL,Albania,2,2001,Europe
+AZ,Azerbaijan,2,2001,Asia
+CD,CD,2,2001,Other
+CR,Costa Rica,2,2001,North America
+GH,Ghana,2,2001,Africa
+GU,GU,2,2001,Other
+KE,Kenya,2,2001,Africa
+LB,Lebanon,2,2001,Asia
+MM,Myanmar,2,2001,Asia
+MU,Mauritius,2,2001,Africa
+MW,Malawi,2,2001,Africa
+MZ,MZ,2,2001,Other
+NP,Nepal,2,2001,Asia
+UG,Uganda,2,2001,Africa
+VG,VG,2,2001,Other
+BF,Burkina Faso,1,2001,Africa
+BH,Bahrain,1,2001,Asia
+BM,Bermuda,1,2001,North America
+BN,Brunei,1,2001,Asia
+CI,Cote d'Ivoire,1,2001,Africa
+CU,Cuba,1,2001,North America
+ER,ER,1,2001,Other
+FJ,Fiji,1,2001,Oceania
+GT,Guatemala,1,2001,North America
+IS,Iceland,1,2001,Europe
+JM,Jamaica,1,2001,North America
+KH,Cambodia,1,2001,Asia
+MG,Madagascar,1,2001,Africa
+MN,Mongolia,1,2001,Asia
+MO,Macao,1,2001,Asia
+NE,NE,1,2001,Other
+NI,Nicaragua,1,2001,North America
+QA,Qatar,1,2001,Asia
+RE,Reunion,1,2001,Africa
+SY,Syria,1,2001,Asia
+TT,Trinidad and Tobago,1,2001,North America
+TZ,Tanzania,1,2001,Africa
+ZW,Zimbabwe,1,2001,Africa
+US,United States,12806,2002,North America
+JP,Japan,3900,2002,Asia
+GB,United Kingdom,2912,2002,Europe
+DE,Germany,2520,2002,Europe
+CN,China,2020,2002,Asia
+CA,Canada,1875,2002,North America
+FR,France,1825,2002,Europe
+AU,Australia,1586,2002,Oceania
+IT,Italy,1486,2002,Europe
+ES,Spain,1118,2002,Europe
+TW,Taiwan,929,2002,Asia
+KR,South Korea,821,2002,Asia
+NL,Netherlands,768,2002,Europe
+BR,Brazil,698,2002,South America
+IL,Israel,490,2002,Asia
+IN,India,457,2002,Asia
+HK,Hong Kong,436,2002,Asia
+CH,Switzerland,421,2002,Europe
+SG,Singapore,420,2002,Asia
+BE,Belgium,413,2002,Europe
+PL,Poland,413,2002,Europe
+SE,Sweden,410,2002,Europe
+RU,Russia,385,2002,Europe
+FI,Finland,324,2002,Europe
+GR,Greece,315,2002,Europe
+AT,Austria,285,2002,Europe
+DK,Denmark,275,2002,Europe
+PT,Portugal,257,2002,Europe
+NZ,New Zealand,224,2002,Oceania
+MX,Mexico,216,2002,North America
+HU,Hungary,210,2002,Europe
+TR,Turkey,195,2002,Asia
+CZ,Czechia,194,2002,Europe
+NO,Norway,173,2002,Europe
+EG,Egypt,151,2002,Africa
+RO,Romania,145,2002,Europe
+ZA,South Africa,143,2002,Africa
+IE,Ireland,104,2002,Europe
+IR,Iran,99,2002,Asia
+SI,Slovenia,81,2002,Europe
+TH,Thailand,80,2002,Asia
+RS,Serbia,79,2002,Europe
+MY,Malaysia,74,2002,Asia
+AR,Argentina,72,2002,South America
+CL,Chile,71,2002,South America
+UA,Ukraine,71,2002,Europe
+BG,Bulgaria,64,2002,Europe
+SK,Slovakia,52,2002,Europe
+HR,Croatia,49,2002,Europe
+SA,Saudi Arabia,44,2002,Asia
+DZ,Algeria,42,2002,Africa
+CY,Cyprus,36,2002,Europe
+VE,Venezuela,32,2002,South America
+LT,Lithuania,28,2002,Europe
+BY,Belarus,26,2002,Europe
+PR,Puerto Rico,26,2002,North America
+PK,Pakistan,25,2002,Asia
+TN,Tunisia,25,2002,Africa
+MA,Morocco,24,2002,Africa
+AE,United Arab Emirates,23,2002,Asia
+CO,Colombia,23,2002,South America
+EE,Estonia,19,2002,Europe
+ID,Indonesia,15,2002,Asia
+KW,Kuwait,14,2002,Asia
+PH,Philippines,14,2002,Asia
+CU,Cuba,13,2002,North America
+IS,Iceland,13,2002,Europe
+LV,Latvia,13,2002,Europe
+BI,Burundi,12,2002,Africa
+JO,Jordan,10,2002,Asia
+LB,Lebanon,10,2002,Asia
+MT,Malta,10,2002,Europe
+NG,Nigeria,10,2002,Africa
+SS,South Sudan,10,2002,Africa
+VN,Vietnam,10,2002,Asia
+MK,North Macedonia,9,2002,Europe
+AZ,Azerbaijan,8,2002,Asia
+BD,Bangladesh,8,2002,Asia
+PE,Peru,8,2002,South America
+AM,Armenia,7,2002,Asia
+JM,Jamaica,7,2002,North America
+MO,Macao,7,2002,Asia
+BA,Bosnia and Herzegovina,6,2002,Europe
+BN,Brunei,6,2002,Asia
+OM,Oman,6,2002,Asia
+TZ,Tanzania,6,2002,Africa
+LK,Sri Lanka,5,2002,Asia
+LU,Luxembourg,5,2002,Europe
+MU,Mauritius,5,2002,Africa
+RE,Reunion,5,2002,Africa
+BM,Bermuda,4,2002,North America
+KE,Kenya,4,2002,Africa
+SY,Syria,4,2002,Asia
+BH,Bahrain,3,2002,Asia
+BO,Bolivia,3,2002,South America
+GE,Georgia,3,2002,Asia
+GH,Ghana,3,2002,Africa
+KZ,Kazakhstan,3,2002,Asia
+MG,Madagascar,3,2002,Africa
+NP,Nepal,3,2002,Asia
+PS,Palestine,3,2002,Asia
+TG,TG,3,2002,Other
+CD,CD,2,2002,Other
+CR,Costa Rica,2,2002,North America
+ET,Ethiopia,2,2002,Africa
+GP,GP,2,2002,Other
+IQ,Iraq,2,2002,Asia
+ME,Montenegro,2,2002,Europe
+MN,Mongolia,2,2002,Asia
+QA,Qatar,2,2002,Asia
+TJ,Tajikistan,2,2002,Asia
+TT,Trinidad and Tobago,2,2002,North America
+UY,Uruguay,2,2002,South America
+VG,VG,2,2002,Other
+ZW,Zimbabwe,2,2002,Africa
+BB,Barbados,1,2002,North America
+BF,Burkina Faso,1,2002,Africa
+BJ,Benin,1,2002,Africa
+BW,Botswana,1,2002,Africa
+BZ,BZ,1,2002,Other
+EC,Ecuador,1,2002,South America
+GF,French Guiana,1,2002,South America
+GL,Greenland,1,2002,North America
+NC,New Caledonia,1,2002,Oceania
+PA,Panama,1,2002,North America
+SD,Sudan,1,2002,Africa
+SJ,SJ,1,2002,Other
+SN,Senegal,1,2002,Africa
+UZ,Uzbekistan,1,2002,Asia
+VA,VA,1,2002,Other
+VU,VU,1,2002,Other
+YE,Yemen,1,2002,Asia
+ZM,Zambia,1,2002,Africa
+US,United States,8756,2003,North America
+JP,Japan,2505,2003,Asia
+GB,United Kingdom,2339,2003,Europe
+DE,Germany,1855,2003,Europe
+CN,China,1573,2003,Asia
+FR,France,1361,2003,Europe
+CA,Canada,1297,2003,North America
+IT,Italy,1141,2003,Europe
+AU,Australia,1064,2003,Oceania
+ES,Spain,904,2003,Europe
+NL,Netherlands,662,2003,Europe
+TW,Taiwan,554,2003,Asia
+KR,South Korea,545,2003,Asia
+BR,Brazil,536,2003,South America
+CH,Switzerland,374,2003,Europe
+IN,India,362,2003,Asia
+RU,Russia,340,2003,Europe
+PL,Poland,328,2003,Europe
+SE,Sweden,326,2003,Europe
+IL,Israel,317,2003,Asia
+BE,Belgium,299,2003,Europe
+HK,Hong Kong,291,2003,Asia
+SG,Singapore,282,2003,Asia
+GR,Greece,265,2003,Europe
+FI,Finland,264,2003,Europe
+AT,Austria,250,2003,Europe
+DK,Denmark,210,2003,Europe
+MX,Mexico,201,2003,North America
+PT,Portugal,191,2003,Europe
+CZ,Czechia,188,2003,Europe
+TR,Turkey,156,2003,Asia
+NZ,New Zealand,140,2003,Oceania
+IE,Ireland,133,2003,Europe
+NO,Norway,125,2003,Europe
+HU,Hungary,104,2003,Europe
+SI,Slovenia,102,2003,Europe
+ZA,South Africa,95,2003,Africa
+EG,Egypt,84,2003,Africa
+BG,Bulgaria,82,2003,Europe
+RO,Romania,79,2003,Europe
+AR,Argentina,69,2003,South America
+RS,Serbia,67,2003,Europe
+CL,Chile,66,2003,South America
+TH,Thailand,66,2003,Asia
+IR,Iran,60,2003,Asia
+UA,Ukraine,60,2003,Europe
+MY,Malaysia,57,2003,Asia
+SK,Slovakia,46,2003,Europe
+SA,Saudi Arabia,32,2003,Asia
+TN,Tunisia,32,2003,Africa
+VE,Venezuela,27,2003,South America
+CO,Colombia,25,2003,South America
+LT,Lithuania,25,2003,Europe
+CY,Cyprus,24,2003,Europe
+ID,Indonesia,23,2003,Asia
+AE,United Arab Emirates,22,2003,Asia
+HR,Croatia,22,2003,Europe
+DZ,Algeria,19,2003,Africa
+PK,Pakistan,19,2003,Asia
+BY,Belarus,18,2003,Europe
+EE,Estonia,17,2003,Europe
+BI,Burundi,16,2003,Africa
+CU,Cuba,16,2003,North America
+MA,Morocco,16,2003,Africa
+PH,Philippines,16,2003,Asia
+PR,Puerto Rico,15,2003,North America
+LV,Latvia,14,2003,Europe
+NG,Nigeria,14,2003,Africa
+BD,Bangladesh,13,2003,Asia
+KW,Kuwait,12,2003,Asia
+JO,Jordan,10,2003,Asia
+LB,Lebanon,10,2003,Asia
+IS,Iceland,8,2003,Europe
+RE,Reunion,8,2003,Africa
+VN,Vietnam,8,2003,Asia
+BM,Bermuda,7,2003,North America
+MK,North Macedonia,7,2003,Europe
+PE,Peru,7,2003,South America
+MD,Moldova,6,2003,Europe
+MU,Mauritius,6,2003,Africa
+AM,Armenia,5,2003,Asia
+BH,Bahrain,5,2003,Asia
+BA,Bosnia and Herzegovina,4,2003,Europe
+ET,Ethiopia,4,2003,Africa
+LK,Sri Lanka,4,2003,Asia
+MO,Macao,4,2003,Asia
+UY,Uruguay,4,2003,South America
+BN,Brunei,3,2003,Asia
+BW,Botswana,3,2003,Africa
+CM,Cameroon,3,2003,Africa
+CR,Costa Rica,3,2003,North America
+GE,Georgia,3,2003,Asia
+MT,Malta,3,2003,Europe
+OM,Oman,3,2003,Asia
+PF,PF,3,2003,Other
+PS,Palestine,3,2003,Asia
+QA,Qatar,3,2003,Asia
+TJ,Tajikistan,3,2003,Asia
+AZ,Azerbaijan,2,2003,Asia
+GA,Gabon,2,2003,Africa
+JM,Jamaica,2,2003,North America
+KE,Kenya,2,2003,Africa
+KZ,Kazakhstan,2,2003,Asia
+LU,Luxembourg,2,2003,Europe
+MN,Mongolia,2,2003,Asia
+NP,Nepal,2,2003,Asia
+PY,Paraguay,2,2003,South America
+VG,VG,2,2003,Other
+YE,Yemen,2,2003,Asia
+BS,Bahamas,1,2003,North America
+CG,Congo,1,2003,Africa
+CI,Cote d'Ivoire,1,2003,Africa
+DO,Dominican Republic,1,2003,North America
+GH,Ghana,1,2003,Africa
+GP,GP,1,2003,Other
+KG,Kyrgyzstan,1,2003,Asia
+KH,Cambodia,1,2003,Asia
+LA,LA,1,2003,Other
+LY,Libya,1,2003,Africa
+ME,Montenegro,1,2003,Europe
+MS,MS,1,2003,Other
+MZ,MZ,1,2003,Other
+PA,Panama,1,2003,North America
+SS,South Sudan,1,2003,Africa
+ST,ST,1,2003,Other
+SY,Syria,1,2003,Asia
+TT,Trinidad and Tobago,1,2003,North America
+TZ,Tanzania,1,2003,Africa
+UG,Uganda,1,2003,Africa
+UZ,Uzbekistan,1,2003,Asia
+XK,Kosovo,1,2003,Europe
+US,United States,7032,2004,North America
+GB,United Kingdom,2188,2004,Europe
+CN,China,1953,2004,Asia
+JP,Japan,1902,2004,Asia
+DE,Germany,1756,2004,Europe
+FR,France,1250,2004,Europe
+CA,Canada,1195,2004,North America
+IT,Italy,1090,2004,Europe
+ES,Spain,1001,2004,Europe
+AU,Australia,961,2004,Oceania
+NL,Netherlands,667,2004,Europe
+KR,South Korea,567,2004,Asia
+BR,Brazil,550,2004,South America
+TW,Taiwan,522,2004,Asia
+IN,India,421,2004,Asia
+SG,Singapore,385,2004,Asia
+PL,Poland,360,2004,Europe
+CH,Switzerland,351,2004,Europe
+IL,Israel,330,2004,Asia
+BE,Belgium,316,2004,Europe
+HK,Hong Kong,298,2004,Asia
+GR,Greece,284,2004,Europe
+MX,Mexico,255,2004,North America
+RU,Russia,253,2004,Europe
+AT,Austria,248,2004,Europe
+SE,Sweden,238,2004,Europe
+FI,Finland,218,2004,Europe
+CZ,Czechia,200,2004,Europe
+DK,Denmark,196,2004,Europe
+PT,Portugal,193,2004,Europe
+TR,Turkey,188,2004,Asia
+NO,Norway,150,2004,Europe
+IE,Ireland,143,2004,Europe
+NZ,New Zealand,132,2004,Oceania
+IR,Iran,101,2004,Asia
+HU,Hungary,99,2004,Europe
+BG,Bulgaria,90,2004,Europe
+EG,Egypt,87,2004,Africa
+CL,Chile,79,2004,South America
+SI,Slovenia,69,2004,Europe
+RO,Romania,64,2004,Europe
+UA,Ukraine,64,2004,Europe
+AR,Argentina,63,2004,South America
+MY,Malaysia,61,2004,Asia
+ZA,South Africa,58,2004,Africa
+TH,Thailand,57,2004,Asia
+SK,Slovakia,56,2004,Europe
+ID,Indonesia,46,2004,Asia
+LT,Lithuania,40,2004,Europe
+RS,Serbia,40,2004,Europe
+CO,Colombia,38,2004,South America
+DZ,Algeria,36,2004,Africa
+VE,Venezuela,33,2004,South America
+CY,Cyprus,31,2004,Europe
+SA,Saudi Arabia,29,2004,Asia
+PK,Pakistan,27,2004,Asia
+AE,United Arab Emirates,25,2004,Asia
+HR,Croatia,25,2004,Europe
+TN,Tunisia,23,2004,Africa
+JO,Jordan,22,2004,Asia
+EE,Estonia,21,2004,Europe
+CU,Cuba,18,2004,North America
+LV,Latvia,18,2004,Europe
+NG,Nigeria,18,2004,Africa
+BD,Bangladesh,16,2004,Asia
+KW,Kuwait,15,2004,Asia
+LB,Lebanon,14,2004,Asia
+JM,Jamaica,12,2004,North America
+MA,Morocco,11,2004,Africa
+PH,Philippines,11,2004,Asia
+SY,Syria,11,2004,Asia
+UY,Uruguay,9,2004,South America
+AZ,Azerbaijan,8,2004,Asia
+BI,Burundi,8,2004,Africa
+MK,North Macedonia,8,2004,Europe
+MO,Macao,8,2004,Asia
+PR,Puerto Rico,8,2004,North America
+TJ,Tajikistan,8,2004,Asia
+BH,Bahrain,7,2004,Asia
+BY,Belarus,7,2004,Europe
+LU,Luxembourg,7,2004,Europe
+OM,Oman,7,2004,Asia
+BM,Bermuda,6,2004,North America
+MD,Moldova,6,2004,Europe
+CM,Cameroon,5,2004,Africa
+EC,Ecuador,5,2004,South America
+ET,Ethiopia,5,2004,Africa
+IQ,Iraq,5,2004,Asia
+PE,Peru,5,2004,South America
+QA,Qatar,5,2004,Asia
+SS,South Sudan,5,2004,Africa
+TZ,Tanzania,5,2004,Africa
+KH,Cambodia,4,2004,Asia
+KZ,Kazakhstan,4,2004,Asia
+LK,Sri Lanka,4,2004,Asia
+LY,Libya,4,2004,Africa
+AM,Armenia,3,2004,Asia
+BN,Brunei,3,2004,Asia
+CR,Costa Rica,3,2004,North America
+GP,GP,3,2004,Other
+IS,Iceland,3,2004,Europe
+MW,Malawi,3,2004,Africa
+MZ,MZ,3,2004,Other
+RE,Reunion,3,2004,Africa
+TT,Trinidad and Tobago,3,2004,North America
+VN,Vietnam,3,2004,Asia
+BA,Bosnia and Herzegovina,2,2004,Europe
+BB,Barbados,2,2004,North America
+BO,Bolivia,2,2004,South America
+FJ,Fiji,2,2004,Oceania
+GH,Ghana,2,2004,Africa
+NA,Namibia,2,2004,Africa
+PF,PF,2,2004,Other
+PY,Paraguay,2,2004,South America
+UG,Uganda,2,2004,Africa
+AO,AO,1,2004,Other
+BF,Burkina Faso,1,2004,Africa
+BW,Botswana,1,2004,Africa
+DO,Dominican Republic,1,2004,North America
+GE,Georgia,1,2004,Asia
+GF,French Guiana,1,2004,South America
+GT,Guatemala,1,2004,North America
+KE,Kenya,1,2004,Africa
+KG,Kyrgyzstan,1,2004,Asia
+MN,Mongolia,1,2004,Asia
+MQ,MQ,1,2004,Other
+MT,Malta,1,2004,Europe
+MU,Mauritius,1,2004,Africa
+NE,NE,1,2004,Other
+NP,Nepal,1,2004,Asia
+SD,Sudan,1,2004,Africa
+SR,Suriname,1,2004,South America
+SV,SV,1,2004,Other
+UZ,Uzbekistan,1,2004,Asia
+VG,VG,1,2004,Other
+YE,Yemen,1,2004,Asia
+ZM,Zambia,1,2004,Africa
+US,United States,8714,2005,North America
+CN,China,3111,2005,Asia
+GB,United Kingdom,2611,2005,Europe
+JP,Japan,2428,2005,Asia
+DE,Germany,2246,2005,Europe
+FR,France,1687,2005,Europe
+CA,Canada,1556,2005,North America
+IT,Italy,1308,2005,Europe
+AU,Australia,1167,2005,Oceania
+ES,Spain,1065,2005,Europe
+KR,South Korea,754,2005,Asia
+NL,Netherlands,739,2005,Europe
+TW,Taiwan,701,2005,Asia
+BR,Brazil,571,2005,South America
+IN,India,491,2005,Asia
+SG,Singapore,416,2005,Asia
+IL,Israel,397,2005,Asia
+CH,Switzerland,385,2005,Europe
+BE,Belgium,380,2005,Europe
+PL,Poland,367,2005,Europe
+SE,Sweden,364,2005,Europe
+RU,Russia,359,2005,Europe
+GR,Greece,344,2005,Europe
+HK,Hong Kong,343,2005,Asia
+AT,Austria,327,2005,Europe
+FI,Finland,253,2005,Europe
+MX,Mexico,248,2005,North America
+PT,Portugal,237,2005,Europe
+CZ,Czechia,230,2005,Europe
+DK,Denmark,205,2005,Europe
+IE,Ireland,185,2005,Europe
+TR,Turkey,180,2005,Asia
+NO,Norway,159,2005,Europe
+NZ,New Zealand,147,2005,Oceania
+HU,Hungary,132,2005,Europe
+ZA,South Africa,130,2005,Africa
+IR,Iran,123,2005,Asia
+EG,Egypt,111,2005,Africa
+RO,Romania,105,2005,Europe
+AR,Argentina,83,2005,South America
+CL,Chile,80,2005,South America
+MY,Malaysia,77,2005,Asia
+SK,Slovakia,76,2005,Europe
+TH,Thailand,76,2005,Asia
+PK,Pakistan,72,2005,Asia
+SI,Slovenia,66,2005,Europe
+UA,Ukraine,64,2005,Europe
+BG,Bulgaria,61,2005,Europe
+RS,Serbia,57,2005,Europe
+DZ,Algeria,51,2005,Africa
+LT,Lithuania,50,2005,Europe
+CO,Colombia,40,2005,South America
+TN,Tunisia,40,2005,Africa
+CY,Cyprus,35,2005,Europe
+JO,Jordan,34,2005,Asia
+SA,Saudi Arabia,30,2005,Asia
+ID,Indonesia,29,2005,Asia
+EE,Estonia,28,2005,Europe
+HR,Croatia,28,2005,Europe
+AE,United Arab Emirates,24,2005,Asia
+VE,Venezuela,21,2005,South America
+BY,Belarus,17,2005,Europe
+CU,Cuba,17,2005,North America
+IQ,Iraq,17,2005,Asia
+LB,Lebanon,16,2005,Asia
+NG,Nigeria,15,2005,Africa
+LV,Latvia,14,2005,Europe
+MK,North Macedonia,14,2005,Europe
+SS,South Sudan,14,2005,Africa
+KW,Kuwait,12,2005,Asia
+LU,Luxembourg,12,2005,Europe
+VN,Vietnam,12,2005,Asia
+MA,Morocco,11,2005,Africa
+BD,Bangladesh,10,2005,Asia
+BI,Burundi,10,2005,Africa
+MO,Macao,10,2005,Asia
+PR,Puerto Rico,10,2005,North America
+IS,Iceland,9,2005,Europe
+MT,Malta,9,2005,Europe
+OM,Oman,9,2005,Asia
+UY,Uruguay,9,2005,South America
+JM,Jamaica,7,2005,North America
+PE,Peru,7,2005,South America
+BH,Bahrain,6,2005,Asia
+LK,Sri Lanka,6,2005,Asia
+PH,Philippines,6,2005,Asia
+UG,Uganda,6,2005,Africa
+BN,Brunei,5,2005,Asia
+CM,Cameroon,5,2005,Africa
+CR,Costa Rica,5,2005,North America
+KE,Kenya,5,2005,Africa
+KZ,Kazakhstan,5,2005,Asia
+ME,Montenegro,5,2005,Europe
+YE,Yemen,5,2005,Asia
+AM,Armenia,4,2005,Asia
+BA,Bosnia and Herzegovina,4,2005,Europe
+MW,Malawi,4,2005,Africa
+RE,Reunion,4,2005,Africa
+UZ,Uzbekistan,4,2005,Asia
+ET,Ethiopia,3,2005,Africa
+GE,Georgia,3,2005,Asia
+GH,Ghana,3,2005,Africa
+MM,Myanmar,3,2005,Asia
+MZ,MZ,3,2005,Other
+TT,Trinidad and Tobago,3,2005,North America
+AZ,Azerbaijan,2,2005,Asia
+BW,Botswana,2,2005,Africa
+CV,CV,2,2005,Other
+DO,Dominican Republic,2,2005,North America
+EC,Ecuador,2,2005,South America
+FJ,Fiji,2,2005,Oceania
+KH,Cambodia,2,2005,Asia
+KP,KP,2,2005,Other
+LA,LA,2,2005,Other
+LY,Libya,2,2005,Africa
+MD,Moldova,2,2005,Europe
+MN,Mongolia,2,2005,Asia
+MQ,MQ,2,2005,Other
+NP,Nepal,2,2005,Asia
+PS,Palestine,2,2005,Asia
+SN,Senegal,2,2005,Africa
+TJ,Tajikistan,2,2005,Asia
+TZ,Tanzania,2,2005,Africa
+VG,VG,2,2005,Other
+VI,VI,2,2005,Other
+BB,Barbados,1,2005,North America
+BF,Burkina Faso,1,2005,Africa
+BO,Bolivia,1,2005,South America
+BZ,BZ,1,2005,Other
+CI,Cote d'Ivoire,1,2005,Africa
+DM,DM,1,2005,Other
+GL,Greenland,1,2005,North America
+GW,GW,1,2005,Other
+KG,Kyrgyzstan,1,2005,Asia
+LR,LR,1,2005,Other
+ML,Mali,1,2005,Africa
+NA,Namibia,1,2005,Africa
+NE,NE,1,2005,Other
+NI,Nicaragua,1,2005,North America
+PF,PF,1,2005,Other
+PY,Paraguay,1,2005,South America
+SY,Syria,1,2005,Asia
+US,United States,8467,2006,North America
+CN,China,4333,2006,Asia
+GB,United Kingdom,2877,2006,Europe
+JP,Japan,2418,2006,Asia
+DE,Germany,2356,2006,Europe
+FR,France,1853,2006,Europe
+CA,Canada,1677,2006,North America
+IT,Italy,1434,2006,Europe
+ES,Spain,1304,2006,Europe
+AU,Australia,1247,2006,Oceania
+KR,South Korea,858,2006,Asia
+NL,Netherlands,806,2006,Europe
+BR,Brazil,757,2006,South America
+TW,Taiwan,751,2006,Asia
+IN,India,664,2006,Asia
+PL,Poland,515,2006,Europe
+SG,Singapore,470,2006,Asia
+IL,Israel,448,2006,Asia
+RU,Russia,435,2006,Europe
+GR,Greece,417,2006,Europe
+BE,Belgium,400,2006,Europe
+MX,Mexico,377,2006,North America
+CH,Switzerland,363,2006,Europe
+HK,Hong Kong,353,2006,Asia
+AT,Austria,342,2006,Europe
+SE,Sweden,315,2006,Europe
+PT,Portugal,293,2006,Europe
+TR,Turkey,280,2006,Asia
+FI,Finland,270,2006,Europe
+CZ,Czechia,268,2006,Europe
+IR,Iran,252,2006,Asia
+DK,Denmark,207,2006,Europe
+NO,Norway,197,2006,Europe
+IE,Ireland,194,2006,Europe
+NZ,New Zealand,185,2006,Oceania
+HU,Hungary,155,2006,Europe
+EG,Egypt,136,2006,Africa
+RO,Romania,130,2006,Europe
+ZA,South Africa,117,2006,Africa
+CL,Chile,112,2006,South America
+MY,Malaysia,106,2006,Asia
+AR,Argentina,87,2006,South America
+TH,Thailand,83,2006,Asia
+BG,Bulgaria,77,2006,Europe
+SI,Slovenia,77,2006,Europe
+UA,Ukraine,74,2006,Europe
+PK,Pakistan,73,2006,Asia
+SK,Slovakia,67,2006,Europe
+DZ,Algeria,66,2006,Africa
+TN,Tunisia,55,2006,Africa
+RS,Serbia,53,2006,Europe
+ID,Indonesia,43,2006,Asia
+CO,Colombia,42,2006,South America
+JO,Jordan,42,2006,Asia
+LT,Lithuania,42,2006,Europe
+AE,United Arab Emirates,33,2006,Asia
+EE,Estonia,33,2006,Europe
+SA,Saudi Arabia,33,2006,Asia
+CY,Cyprus,32,2006,Europe
+HR,Croatia,30,2006,Europe
+CU,Cuba,29,2006,North America
+LU,Luxembourg,28,2006,Europe
+LB,Lebanon,27,2006,Asia
+VN,Vietnam,27,2006,Asia
+BY,Belarus,24,2006,Europe
+IQ,Iraq,20,2006,Asia
+LV,Latvia,20,2006,Europe
+NG,Nigeria,20,2006,Africa
+BD,Bangladesh,19,2006,Asia
+MA,Morocco,19,2006,Africa
+KW,Kuwait,16,2006,Asia
+MO,Macao,16,2006,Asia
+SS,South Sudan,16,2006,Africa
+UY,Uruguay,16,2006,South America
+UG,Uganda,15,2006,Africa
+VE,Venezuela,15,2006,South America
+BH,Bahrain,14,2006,Asia
+LK,Sri Lanka,14,2006,Asia
+MK,North Macedonia,14,2006,Europe
+PE,Peru,13,2006,South America
+PR,Puerto Rico,12,2006,North America
+BI,Burundi,11,2006,Africa
+IS,Iceland,11,2006,Europe
+PH,Philippines,11,2006,Asia
+SY,Syria,11,2006,Asia
+TJ,Tajikistan,11,2006,Asia
+CM,Cameroon,9,2006,Africa
+CR,Costa Rica,9,2006,North America
+AM,Armenia,8,2006,Asia
+OM,Oman,8,2006,Asia
+ET,Ethiopia,7,2006,Africa
+BW,Botswana,6,2006,Africa
+EC,Ecuador,6,2006,South America
+GH,Ghana,6,2006,Africa
+KE,Kenya,6,2006,Africa
+QA,Qatar,6,2006,Asia
+AZ,Azerbaijan,5,2006,Asia
+KH,Cambodia,5,2006,Asia
+MN,Mongolia,5,2006,Asia
+NI,Nicaragua,5,2006,North America
+NP,Nepal,5,2006,Asia
+SD,Sudan,5,2006,Africa
+BM,Bermuda,4,2006,North America
+BO,Bolivia,4,2006,South America
+MD,Moldova,4,2006,Europe
+MU,Mauritius,4,2006,Africa
+PS,Palestine,4,2006,Asia
+RE,Reunion,4,2006,Africa
+BA,Bosnia and Herzegovina,3,2006,Europe
+BN,Brunei,3,2006,Asia
+GE,Georgia,3,2006,Asia
+JM,Jamaica,3,2006,North America
+TZ,Tanzania,3,2006,Africa
+UZ,Uzbekistan,3,2006,Asia
+VG,VG,3,2006,Other
+BJ,Benin,2,2006,Africa
+BT,BT,2,2006,Other
+CD,CD,2,2006,Other
+CV,CV,2,2006,Other
+MM,Myanmar,2,2006,Asia
+MQ,MQ,2,2006,Other
+MS,MS,2,2006,Other
+MW,Malawi,2,2006,Africa
+SV,SV,2,2006,Other
+YE,Yemen,2,2006,Asia
+ZW,Zimbabwe,2,2006,Africa
+AL,Albania,1,2006,Europe
+CF,CF,1,2006,Other
+CG,Congo,1,2006,Africa
+CI,Cote d'Ivoire,1,2006,Africa
+DO,Dominican Republic,1,2006,North America
+GI,GI,1,2006,Other
+GP,GP,1,2006,Other
+KG,Kyrgyzstan,1,2006,Asia
+KP,KP,1,2006,Other
+LS,Lesotho,1,2006,Africa
+LY,Libya,1,2006,Africa
+ME,Montenegro,1,2006,Europe
+MT,Malta,1,2006,Europe
+MZ,MZ,1,2006,Other
+NE,NE,1,2006,Other
+PY,Paraguay,1,2006,South America
+TD,TD,1,2006,Other
+TM,TM,1,2006,Other
+TT,Trinidad and Tobago,1,2006,North America
+VI,VI,1,2006,Other
+US,United States,8399,2007,North America
+CN,China,4339,2007,Asia
+GB,United Kingdom,2988,2007,Europe
+JP,Japan,2227,2007,Asia
+DE,Germany,2172,2007,Europe
+FR,France,1953,2007,Europe
+CA,Canada,1618,2007,North America
+IT,Italy,1524,2007,Europe
+ES,Spain,1433,2007,Europe
+AU,Australia,1197,2007,Oceania
+BR,Brazil,824,2007,South America
+NL,Netherlands,807,2007,Europe
+KR,South Korea,761,2007,Asia
+TW,Taiwan,726,2007,Asia
+IN,India,700,2007,Asia
+PL,Poland,496,2007,Europe
+CH,Switzerland,479,2007,Europe
+RU,Russia,443,2007,Europe
+BE,Belgium,434,2007,Europe
+IL,Israel,433,2007,Asia
+SG,Singapore,404,2007,Asia
+GR,Greece,403,2007,Europe
+AT,Austria,397,2007,Europe
+MX,Mexico,389,2007,North America
+SE,Sweden,340,2007,Europe
+IR,Iran,328,2007,Asia
+PT,Portugal,317,2007,Europe
+HK,Hong Kong,300,2007,Asia
+TR,Turkey,291,2007,Asia
+CZ,Czechia,283,2007,Europe
+IE,Ireland,254,2007,Europe
+FI,Finland,242,2007,Europe
+DK,Denmark,224,2007,Europe
+NO,Norway,222,2007,Europe
+RO,Romania,194,2007,Europe
+HU,Hungary,162,2007,Europe
+NZ,New Zealand,152,2007,Oceania
+EG,Egypt,129,2007,Africa
+MY,Malaysia,121,2007,Asia
+ZA,South Africa,120,2007,Africa
+CL,Chile,105,2007,South America
+TH,Thailand,95,2007,Asia
+AR,Argentina,85,2007,South America
+UA,Ukraine,82,2007,Europe
+PK,Pakistan,75,2007,Asia
+BG,Bulgaria,69,2007,Europe
+SK,Slovakia,69,2007,Europe
+SI,Slovenia,65,2007,Europe
+ID,Indonesia,64,2007,Asia
+SA,Saudi Arabia,58,2007,Asia
+RS,Serbia,55,2007,Europe
+DZ,Algeria,54,2007,Africa
+HR,Croatia,54,2007,Europe
+LT,Lithuania,53,2007,Europe
+LU,Luxembourg,49,2007,Europe
+CO,Colombia,48,2007,South America
+AE,United Arab Emirates,42,2007,Asia
+TN,Tunisia,40,2007,Africa
+BD,Bangladesh,38,2007,Asia
+CU,Cuba,38,2007,North America
+PE,Peru,34,2007,South America
+JO,Jordan,32,2007,Asia
+CY,Cyprus,31,2007,Europe
+VN,Vietnam,30,2007,Asia
+EE,Estonia,27,2007,Europe
+BY,Belarus,26,2007,Europe
+LV,Latvia,24,2007,Europe
+IQ,Iraq,23,2007,Asia
+BI,Burundi,22,2007,Africa
+KW,Kuwait,22,2007,Asia
+NG,Nigeria,22,2007,Africa
+SS,South Sudan,22,2007,Africa
+VE,Venezuela,22,2007,South America
+MA,Morocco,21,2007,Africa
+AZ,Azerbaijan,20,2007,Asia
+PR,Puerto Rico,20,2007,North America
+MO,Macao,19,2007,Asia
+PH,Philippines,18,2007,Asia
+UY,Uruguay,17,2007,South America
+BH,Bahrain,14,2007,Asia
+IS,Iceland,13,2007,Europe
+MK,North Macedonia,13,2007,Europe
+LK,Sri Lanka,12,2007,Asia
+QA,Qatar,11,2007,Asia
+LB,Lebanon,9,2007,Asia
+AM,Armenia,8,2007,Asia
+ET,Ethiopia,8,2007,Africa
+OM,Oman,8,2007,Asia
+BO,Bolivia,6,2007,South America
+CR,Costa Rica,6,2007,North America
+EC,Ecuador,6,2007,South America
+NP,Nepal,6,2007,Asia
+BA,Bosnia and Herzegovina,5,2007,Europe
+MD,Moldova,5,2007,Europe
+MN,Mongolia,5,2007,Asia
+RE,Reunion,5,2007,Africa
+BJ,Benin,4,2007,Africa
+BW,Botswana,4,2007,Africa
+GP,GP,4,2007,Other
+ME,Montenegro,4,2007,Europe
+MM,Myanmar,4,2007,Asia
+MT,Malta,4,2007,Europe
+NE,NE,4,2007,Other
+TZ,Tanzania,4,2007,Africa
+UG,Uganda,4,2007,Africa
+UZ,Uzbekistan,4,2007,Asia
+BM,Bermuda,3,2007,North America
+CM,Cameroon,3,2007,Africa
+DJ,DJ,3,2007,Other
+FJ,Fiji,3,2007,Oceania
+GH,Ghana,3,2007,Africa
+KE,Kenya,3,2007,Africa
+MZ,MZ,3,2007,Other
+PY,Paraguay,3,2007,South America
+TJ,Tajikistan,3,2007,Asia
+ZW,Zimbabwe,3,2007,Africa
+AL,Albania,2,2007,Europe
+BN,Brunei,2,2007,Asia
+GE,Georgia,2,2007,Asia
+GQ,GQ,2,2007,Other
+JM,Jamaica,2,2007,North America
+KH,Cambodia,2,2007,Asia
+KZ,Kazakhstan,2,2007,Asia
+LY,Libya,2,2007,Africa
+MU,Mauritius,2,2007,Africa
+MW,Malawi,2,2007,Africa
+SN,Senegal,2,2007,Africa
+SV,SV,2,2007,Other
+TT,Trinidad and Tobago,2,2007,North America
+VG,VG,2,2007,Other
+YE,Yemen,2,2007,Asia
+AD,AD,1,2007,Other
+BT,BT,1,2007,Other
+CI,Cote d'Ivoire,1,2007,Africa
+GT,Guatemala,1,2007,North America
+HN,HN,1,2007,Other
+IM,Isle of Man,1,2007,Europe
+KG,Kyrgyzstan,1,2007,Asia
+LI,Liechtenstein,1,2007,Europe
+LR,LR,1,2007,Other
+NA,Namibia,1,2007,Africa
+NI,Nicaragua,1,2007,North America
+PA,Panama,1,2007,North America
+PF,PF,1,2007,Other
+PS,Palestine,1,2007,Asia
+RW,Rwanda,1,2007,Africa
+SY,Syria,1,2007,Asia
+TG,TG,1,2007,Other
+TM,TM,1,2007,Other
+US,United States,8349,2008,North America
+CN,China,6221,2008,Asia
+GB,United Kingdom,2900,2008,Europe
+JP,Japan,2619,2008,Asia
+DE,Germany,2433,2008,Europe
+FR,France,2021,2008,Europe
+CA,Canada,1676,2008,North America
+IT,Italy,1564,2008,Europe
+ES,Spain,1489,2008,Europe
+AU,Australia,1145,2008,Oceania
+BR,Brazil,892,2008,South America
+NL,Netherlands,832,2008,Europe
+IN,India,764,2008,Asia
+KR,South Korea,759,2008,Asia
+TW,Taiwan,754,2008,Asia
+PL,Poland,569,2008,Europe
+GR,Greece,503,2008,Europe
+SG,Singapore,450,2008,Asia
+BE,Belgium,443,2008,Europe
+IL,Israel,437,2008,Asia
+RU,Russia,433,2008,Europe
+CH,Switzerland,425,2008,Europe
+AT,Austria,421,2008,Europe
+IR,Iran,413,2008,Asia
+HK,Hong Kong,366,2008,Asia
+MX,Mexico,349,2008,North America
+SE,Sweden,348,2008,Europe
+PT,Portugal,344,2008,Europe
+CZ,Czechia,318,2008,Europe
+TR,Turkey,286,2008,Asia
+IE,Ireland,260,2008,Europe
+FI,Finland,249,2008,Europe
+MY,Malaysia,243,2008,Asia
+NO,Norway,242,2008,Europe
+DK,Denmark,241,2008,Europe
+RO,Romania,209,2008,Europe
+NZ,New Zealand,173,2008,Oceania
+EG,Egypt,156,2008,Africa
+TH,Thailand,144,2008,Asia
+HU,Hungary,136,2008,Europe
+SK,Slovakia,125,2008,Europe
+PK,Pakistan,124,2008,Asia
+AR,Argentina,114,2008,South America
+ZA,South Africa,108,2008,Africa
+CL,Chile,106,2008,South America
+BG,Bulgaria,103,2008,Europe
+SI,Slovenia,98,2008,Europe
+ID,Indonesia,87,2008,Asia
+BD,Bangladesh,80,2008,Asia
+TN,Tunisia,79,2008,Africa
+UA,Ukraine,79,2008,Europe
+DZ,Algeria,72,2008,Africa
+CO,Colombia,67,2008,South America
+JO,Jordan,52,2008,Asia
+SA,Saudi Arabia,52,2008,Asia
+LU,Luxembourg,49,2008,Europe
+EE,Estonia,48,2008,Europe
+RS,Serbia,48,2008,Europe
+HR,Croatia,44,2008,Europe
+AE,United Arab Emirates,43,2008,Asia
+VN,Vietnam,43,2008,Asia
+CY,Cyprus,39,2008,Europe
+LT,Lithuania,37,2008,Europe
+CU,Cuba,36,2008,North America
+MA,Morocco,25,2008,Africa
+VE,Venezuela,24,2008,South America
+LK,Sri Lanka,23,2008,Asia
+IQ,Iraq,22,2008,Asia
+LV,Latvia,22,2008,Europe
+TJ,Tajikistan,22,2008,Asia
+KW,Kuwait,21,2008,Asia
+SS,South Sudan,21,2008,Africa
+QA,Qatar,19,2008,Asia
+NG,Nigeria,18,2008,Africa
+BY,Belarus,17,2008,Europe
+BI,Burundi,16,2008,Africa
+IS,Iceland,16,2008,Europe
+MK,North Macedonia,14,2008,Europe
+MO,Macao,13,2008,Asia
+SY,Syria,13,2008,Asia
+AM,Armenia,12,2008,Asia
+NP,Nepal,11,2008,Asia
+PE,Peru,11,2008,South America
+PR,Puerto Rico,11,2008,North America
+LB,Lebanon,10,2008,Asia
+MD,Moldova,10,2008,Europe
+UY,Uruguay,10,2008,South America
+BH,Bahrain,9,2008,Asia
+OM,Oman,9,2008,Asia
+PH,Philippines,9,2008,Asia
+ZW,Zimbabwe,9,2008,Africa
+GH,Ghana,8,2008,Africa
+MT,Malta,8,2008,Europe
+AZ,Azerbaijan,7,2008,Asia
+ET,Ethiopia,7,2008,Africa
+GE,Georgia,7,2008,Asia
+MN,Mongolia,7,2008,Asia
+UG,Uganda,7,2008,Africa
+CM,Cameroon,6,2008,Africa
+MM,Myanmar,6,2008,Asia
+BA,Bosnia and Herzegovina,5,2008,Europe
+KE,Kenya,5,2008,Africa
+KZ,Kazakhstan,5,2008,Asia
+VG,VG,5,2008,Other
+YE,Yemen,5,2008,Asia
+AL,Albania,4,2008,Europe
+BO,Bolivia,4,2008,South America
+JM,Jamaica,4,2008,North America
+KH,Cambodia,4,2008,Asia
+LY,Libya,4,2008,Africa
+PS,Palestine,4,2008,Asia
+RE,Reunion,4,2008,Africa
+SD,Sudan,4,2008,Africa
+BN,Brunei,3,2008,Asia
+BW,Botswana,3,2008,Africa
+EC,Ecuador,3,2008,South America
+ME,Montenegro,3,2008,Europe
+PF,PF,3,2008,Other
+PY,Paraguay,3,2008,South America
+UZ,Uzbekistan,3,2008,Asia
+BJ,Benin,2,2008,Africa
+CR,Costa Rica,2,2008,North America
+GP,GP,2,2008,Other
+KG,Kyrgyzstan,2,2008,Asia
+MG,Madagascar,2,2008,Africa
+MZ,MZ,2,2008,Other
+PA,Panama,2,2008,North America
+TZ,Tanzania,2,2008,Africa
+ZM,Zambia,2,2008,Africa
+BM,Bermuda,1,2008,North America
+BZ,BZ,1,2008,Other
+CI,Cote d'Ivoire,1,2008,Africa
+CV,CV,1,2008,Other
+ER,ER,1,2008,Other
+FJ,Fiji,1,2008,Oceania
+GF,French Guiana,1,2008,South America
+GT,Guatemala,1,2008,North America
+MQ,MQ,1,2008,Other
+MU,Mauritius,1,2008,Africa
+MV,Maldives,1,2008,Asia
+NA,Namibia,1,2008,Africa
+NE,NE,1,2008,Other
+NI,Nicaragua,1,2008,North America
+RW,Rwanda,1,2008,Africa
+SN,Senegal,1,2008,Africa
+US,United States,8654,2009,North America
+CN,China,7542,2009,Asia
+GB,United Kingdom,3009,2009,Europe
+DE,Germany,2714,2009,Europe
+JP,Japan,2481,2009,Asia
+FR,France,2171,2009,Europe
+CA,Canada,1881,2009,North America
+IT,Italy,1752,2009,Europe
+ES,Spain,1705,2009,Europe
+AU,Australia,1162,2009,Oceania
+IN,India,984,2009,Asia
+NL,Netherlands,910,2009,Europe
+BR,Brazil,860,2009,South America
+TW,Taiwan,735,2009,Asia
+KR,South Korea,702,2009,Asia
+CH,Switzerland,556,2009,Europe
+PL,Poland,553,2009,Europe
+SG,Singapore,505,2009,Asia
+AT,Austria,501,2009,Europe
+IR,Iran,475,2009,Asia
+RU,Russia,475,2009,Europe
+BE,Belgium,472,2009,Europe
+GR,Greece,450,2009,Europe
+MX,Mexico,388,2009,North America
+SE,Sweden,383,2009,Europe
+CZ,Czechia,374,2009,Europe
+IL,Israel,373,2009,Asia
+HK,Hong Kong,370,2009,Asia
+TR,Turkey,352,2009,Asia
+PT,Portugal,336,2009,Europe
+FI,Finland,299,2009,Europe
+IE,Ireland,297,2009,Europe
+DK,Denmark,290,2009,Europe
+MY,Malaysia,258,2009,Asia
+RO,Romania,242,2009,Europe
+NO,Norway,223,2009,Europe
+NZ,New Zealand,166,2009,Oceania
+EG,Egypt,158,2009,Africa
+TH,Thailand,158,2009,Asia
+HU,Hungary,151,2009,Europe
+ZA,South Africa,144,2009,Africa
+PK,Pakistan,138,2009,Asia
+CL,Chile,123,2009,South America
+ID,Indonesia,104,2009,Asia
+AR,Argentina,99,2009,South America
+LU,Luxembourg,97,2009,Europe
+SK,Slovakia,90,2009,Europe
+SI,Slovenia,87,2009,Europe
+TN,Tunisia,86,2009,Africa
+RS,Serbia,77,2009,Europe
+SA,Saudi Arabia,77,2009,Asia
+DZ,Algeria,65,2009,Africa
+UA,Ukraine,65,2009,Europe
+CO,Colombia,62,2009,South America
+BG,Bulgaria,60,2009,Europe
+VN,Vietnam,60,2009,Asia
+BD,Bangladesh,59,2009,Asia
+JO,Jordan,59,2009,Asia
+LT,Lithuania,53,2009,Europe
+EE,Estonia,52,2009,Europe
+HR,Croatia,44,2009,Europe
+CY,Cyprus,43,2009,Europe
+AE,United Arab Emirates,41,2009,Asia
+IQ,Iraq,34,2009,Asia
+IS,Iceland,28,2009,Europe
+CU,Cuba,26,2009,North America
+MA,Morocco,25,2009,Africa
+NG,Nigeria,24,2009,Africa
+TJ,Tajikistan,24,2009,Asia
+LK,Sri Lanka,22,2009,Asia
+LV,Latvia,21,2009,Europe
+AZ,Azerbaijan,19,2009,Asia
+QA,Qatar,19,2009,Asia
+VE,Venezuela,19,2009,South America
+UY,Uruguay,18,2009,South America
+KW,Kuwait,17,2009,Asia
+LB,Lebanon,17,2009,Asia
+MO,Macao,17,2009,Asia
+PH,Philippines,17,2009,Asia
+BY,Belarus,15,2009,Europe
+GH,Ghana,13,2009,Africa
+MM,Myanmar,13,2009,Asia
+OM,Oman,13,2009,Asia
+PR,Puerto Rico,13,2009,North America
+MK,North Macedonia,12,2009,Europe
+BH,Bahrain,11,2009,Asia
+BI,Burundi,11,2009,Africa
+EC,Ecuador,10,2009,South America
+BA,Bosnia and Herzegovina,8,2009,Europe
+ET,Ethiopia,8,2009,Africa
+SS,South Sudan,8,2009,Africa
+AM,Armenia,7,2009,Asia
+MN,Mongolia,6,2009,Asia
+PE,Peru,6,2009,South America
+RE,Reunion,6,2009,Africa
+JM,Jamaica,5,2009,North America
+KE,Kenya,5,2009,Africa
+MD,Moldova,5,2009,Europe
+MT,Malta,5,2009,Europe
+SN,Senegal,5,2009,Africa
+ZW,Zimbabwe,5,2009,Africa
+BJ,Benin,4,2009,Africa
+CM,Cameroon,4,2009,Africa
+GT,Guatemala,4,2009,North America
+KH,Cambodia,4,2009,Asia
+KZ,Kazakhstan,4,2009,Asia
+LY,Libya,4,2009,Africa
+MZ,MZ,4,2009,Other
+PY,Paraguay,4,2009,South America
+UZ,Uzbekistan,4,2009,Asia
+BN,Brunei,3,2009,Asia
+CR,Costa Rica,3,2009,North America
+FJ,Fiji,3,2009,Oceania
+GE,Georgia,3,2009,Asia
+ME,Montenegro,3,2009,Europe
+NI,Nicaragua,3,2009,North America
+PA,Panama,3,2009,North America
+SY,Syria,3,2009,Asia
+TT,Trinidad and Tobago,3,2009,North America
+UG,Uganda,3,2009,Africa
+AL,Albania,2,2009,Europe
+AO,AO,2,2009,Other
+BW,Botswana,2,2009,Africa
+CI,Cote d'Ivoire,2,2009,Africa
+CV,CV,2,2009,Other
+ER,ER,2,2009,Other
+LI,Liechtenstein,2,2009,Europe
+MU,Mauritius,2,2009,Africa
+MW,Malawi,2,2009,Africa
+NP,Nepal,2,2009,Asia
+PS,Palestine,2,2009,Asia
+SD,Sudan,2,2009,Africa
+VG,VG,2,2009,Other
+YE,Yemen,2,2009,Asia
+ZM,Zambia,2,2009,Africa
+GD,GD,1,2009,Other
+GP,GP,1,2009,Other
+MG,Madagascar,1,2009,Africa
+NA,Namibia,1,2009,Africa
+NC,New Caledonia,1,2009,Oceania
+NE,NE,1,2009,Other
+PF,PF,1,2009,Other
+TZ,Tanzania,1,2009,Africa
+CN,China,8772,2010,Asia
+US,United States,8510,2010,North America
+GB,United Kingdom,3020,2010,Europe
+DE,Germany,2859,2010,Europe
+JP,Japan,2453,2010,Asia
+FR,France,2253,2010,Europe
+ES,Spain,1797,2010,Europe
+IT,Italy,1744,2010,Europe
+CA,Canada,1734,2010,North America
+AU,Australia,1394,2010,Oceania
+IN,India,1380,2010,Asia
+NL,Netherlands,912,2010,Europe
+BR,Brazil,862,2010,South America
+TW,Taiwan,822,2010,Asia
+KR,South Korea,741,2010,Asia
+PL,Poland,635,2010,Europe
+CH,Switzerland,590,2010,Europe
+IR,Iran,567,2010,Asia
+BE,Belgium,558,2010,Europe
+SG,Singapore,538,2010,Asia
+AT,Austria,503,2010,Europe
+IL,Israel,454,2010,Asia
+RU,Russia,438,2010,Europe
+GR,Greece,427,2010,Europe
+PT,Portugal,412,2010,Europe
+MY,Malaysia,404,2010,Asia
+TR,Turkey,393,2010,Asia
+HK,Hong Kong,371,2010,Asia
+SE,Sweden,365,2010,Europe
+CZ,Czechia,360,2010,Europe
+MX,Mexico,351,2010,North America
+FI,Finland,346,2010,Europe
+IE,Ireland,319,2010,Europe
+DK,Denmark,301,2010,Europe
+RO,Romania,244,2010,Europe
+NO,Norway,235,2010,Europe
+EG,Egypt,194,2010,Africa
+PK,Pakistan,179,2010,Asia
+HU,Hungary,162,2010,Europe
+NZ,New Zealand,154,2010,Oceania
+TH,Thailand,143,2010,Asia
+SA,Saudi Arabia,138,2010,Asia
+ID,Indonesia,136,2010,Asia
+AR,Argentina,132,2010,South America
+CL,Chile,127,2010,South America
+ZA,South Africa,114,2010,Africa
+DZ,Algeria,104,2010,Africa
+LU,Luxembourg,101,2010,Europe
+TN,Tunisia,97,2010,Africa
+BG,Bulgaria,96,2010,Europe
+SK,Slovakia,89,2010,Europe
+SI,Slovenia,88,2010,Europe
+BD,Bangladesh,85,2010,Asia
+CO,Colombia,84,2010,South America
+VN,Vietnam,79,2010,Asia
+UA,Ukraine,76,2010,Europe
+RS,Serbia,65,2010,Europe
+JO,Jordan,63,2010,Asia
+EE,Estonia,62,2010,Europe
+LT,Lithuania,52,2010,Europe
+IQ,Iraq,50,2010,Asia
+CU,Cuba,44,2010,North America
+HR,Croatia,41,2010,Europe
+NG,Nigeria,40,2010,Africa
+LV,Latvia,38,2010,Europe
+MA,Morocco,37,2010,Africa
+CY,Cyprus,36,2010,Europe
+AE,United Arab Emirates,34,2010,Asia
+IS,Iceland,32,2010,Europe
+LB,Lebanon,30,2010,Asia
+TJ,Tajikistan,30,2010,Asia
+BY,Belarus,26,2010,Europe
+VE,Venezuela,22,2010,South America
+KW,Kuwait,21,2010,Asia
+QA,Qatar,20,2010,Asia
+BI,Burundi,19,2010,Africa
+UY,Uruguay,19,2010,South America
+LK,Sri Lanka,18,2010,Asia
+MK,North Macedonia,18,2010,Europe
+PH,Philippines,18,2010,Asia
+BH,Bahrain,17,2010,Asia
+SY,Syria,17,2010,Asia
+MO,Macao,16,2010,Asia
+AM,Armenia,14,2010,Asia
+EC,Ecuador,13,2010,South America
+SS,South Sudan,13,2010,Africa
+GH,Ghana,12,2010,Africa
+MD,Moldova,11,2010,Europe
+MM,Myanmar,11,2010,Asia
+MN,Mongolia,11,2010,Asia
+OM,Oman,11,2010,Asia
+AL,Albania,9,2010,Europe
+AZ,Azerbaijan,9,2010,Asia
+MT,Malta,9,2010,Europe
+NP,Nepal,9,2010,Asia
+YE,Yemen,9,2010,Asia
+KZ,Kazakhstan,8,2010,Asia
+LY,Libya,8,2010,Africa
+MZ,MZ,8,2010,Other
+PS,Palestine,8,2010,Asia
+ET,Ethiopia,7,2010,Africa
+KE,Kenya,7,2010,Africa
+PE,Peru,7,2010,South America
+PR,Puerto Rico,7,2010,North America
+UZ,Uzbekistan,7,2010,Asia
+SD,Sudan,6,2010,Africa
+TT,Trinidad and Tobago,6,2010,North America
+TZ,Tanzania,6,2010,Africa
+UG,Uganda,6,2010,Africa
+VG,VG,5,2010,Other
+BJ,Benin,4,2010,Africa
+CM,Cameroon,4,2010,Africa
+CR,Costa Rica,4,2010,North America
+GP,GP,4,2010,Other
+GT,Guatemala,4,2010,North America
+RE,Reunion,4,2010,Africa
+BA,Bosnia and Herzegovina,3,2010,Europe
+BO,Bolivia,3,2010,South America
+FJ,Fiji,3,2010,Oceania
+GE,Georgia,3,2010,Asia
+JM,Jamaica,3,2010,North America
+MW,Malawi,3,2010,Africa
+KH,Cambodia,2,2010,Asia
+ME,Montenegro,2,2010,Europe
+MU,Mauritius,2,2010,Africa
+SN,Senegal,2,2010,Africa
+AO,AO,1,2010,Other
+BB,Barbados,1,2010,North America
+CI,Cote d'Ivoire,1,2010,Africa
+CV,CV,1,2010,Other
+DO,Dominican Republic,1,2010,North America
+GA,Gabon,1,2010,Africa
+GY,Guyana,1,2010,South America
+LS,Lesotho,1,2010,Africa
+MG,Madagascar,1,2010,Africa
+NA,Namibia,1,2010,Africa
+NE,NE,1,2010,Other
+NI,Nicaragua,1,2010,North America
+PA,Panama,1,2010,North America
+PG,PG,1,2010,Other
+RW,Rwanda,1,2010,Africa
+XK,Kosovo,1,2010,Europe
+ZM,Zambia,1,2010,Africa
+ZW,Zimbabwe,1,2010,Africa
+US,United States,8944,2011,North America
+CN,China,7818,2011,Asia
+GB,United Kingdom,2985,2011,Europe
+DE,Germany,2893,2011,Europe
+JP,Japan,2436,2011,Asia
+FR,France,2379,2011,Europe
+ES,Spain,1895,2011,Europe
+CA,Canada,1851,2011,North America
+IT,Italy,1829,2011,Europe
+IN,India,1630,2011,Asia
+AU,Australia,1363,2011,Oceania
+BR,Brazil,964,2011,South America
+NL,Netherlands,933,2011,Europe
+KR,South Korea,812,2011,Asia
+TW,Taiwan,757,2011,Asia
+PL,Poland,672,2011,Europe
+IR,Iran,668,2011,Asia
+CH,Switzerland,601,2011,Europe
+SG,Singapore,595,2011,Asia
+BE,Belgium,579,2011,Europe
+RU,Russia,546,2011,Europe
+AT,Austria,541,2011,Europe
+PT,Portugal,479,2011,Europe
+GR,Greece,477,2011,Europe
+IL,Israel,472,2011,Asia
+MY,Malaysia,445,2011,Asia
+SE,Sweden,418,2011,Europe
+MX,Mexico,403,2011,North America
+CZ,Czechia,397,2011,Europe
+TR,Turkey,385,2011,Asia
+DK,Denmark,341,2011,Europe
+HK,Hong Kong,332,2011,Asia
+IE,Ireland,320,2011,Europe
+FI,Finland,307,2011,Europe
+NO,Norway,251,2011,Europe
+RO,Romania,239,2011,Europe
+ID,Indonesia,237,2011,Asia
+NZ,New Zealand,206,2011,Oceania
+EG,Egypt,197,2011,Africa
+SA,Saudi Arabia,185,2011,Asia
+ZA,South Africa,158,2011,Africa
+AR,Argentina,153,2011,South America
+PK,Pakistan,153,2011,Asia
+CL,Chile,151,2011,South America
+HU,Hungary,150,2011,Europe
+TH,Thailand,139,2011,Asia
+DZ,Algeria,135,2011,Africa
+SI,Slovenia,125,2011,Europe
+SK,Slovakia,113,2011,Europe
+TN,Tunisia,112,2011,Africa
+LU,Luxembourg,105,2011,Europe
+RS,Serbia,95,2011,Europe
+CO,Colombia,93,2011,South America
+UA,Ukraine,84,2011,Europe
+JO,Jordan,82,2011,Asia
+BD,Bangladesh,78,2011,Asia
+BG,Bulgaria,78,2011,Europe
+VN,Vietnam,62,2011,Asia
+MA,Morocco,61,2011,Africa
+LT,Lithuania,55,2011,Europe
+NG,Nigeria,55,2011,Africa
+AE,United Arab Emirates,45,2011,Asia
+HR,Croatia,45,2011,Europe
+EE,Estonia,44,2011,Europe
+IQ,Iraq,42,2011,Asia
+LB,Lebanon,42,2011,Asia
+QA,Qatar,41,2011,Asia
+CU,Cuba,37,2011,North America
+CY,Cyprus,35,2011,Europe
+LV,Latvia,35,2011,Europe
+LK,Sri Lanka,32,2011,Asia
+MO,Macao,29,2011,Asia
+TJ,Tajikistan,26,2011,Asia
+IS,Iceland,25,2011,Europe
+BY,Belarus,22,2011,Europe
+MK,North Macedonia,22,2011,Europe
+VE,Venezuela,22,2011,South America
+BH,Bahrain,19,2011,Asia
+PS,Palestine,19,2011,Asia
+OM,Oman,18,2011,Asia
+KW,Kuwait,17,2011,Asia
+MN,Mongolia,17,2011,Asia
+UY,Uruguay,17,2011,South America
+AZ,Azerbaijan,16,2011,Asia
+PR,Puerto Rico,16,2011,North America
+KE,Kenya,15,2011,Africa
+BI,Burundi,13,2011,Africa
+PH,Philippines,13,2011,Asia
+AM,Armenia,12,2011,Asia
+CR,Costa Rica,12,2011,North America
+CM,Cameroon,11,2011,Africa
+AL,Albania,10,2011,Europe
+EC,Ecuador,10,2011,South America
+MT,Malta,10,2011,Europe
+MM,Myanmar,9,2011,Asia
+PE,Peru,9,2011,South America
+YE,Yemen,9,2011,Asia
+ET,Ethiopia,8,2011,Africa
+MD,Moldova,8,2011,Europe
+SD,Sudan,8,2011,Africa
+SS,South Sudan,8,2011,Africa
+UG,Uganda,8,2011,Africa
+NP,Nepal,7,2011,Asia
+ZW,Zimbabwe,7,2011,Africa
+BO,Bolivia,6,2011,South America
+GE,Georgia,6,2011,Asia
+GH,Ghana,6,2011,Africa
+PY,Paraguay,6,2011,South America
+SY,Syria,6,2011,Asia
+BA,Bosnia and Herzegovina,5,2011,Europe
+JM,Jamaica,5,2011,North America
+LY,Libya,5,2011,Africa
+MZ,MZ,5,2011,Other
+SN,Senegal,5,2011,Africa
+TZ,Tanzania,5,2011,Africa
+UZ,Uzbekistan,5,2011,Asia
+GA,Gabon,4,2011,Africa
+KH,Cambodia,4,2011,Asia
+KZ,Kazakhstan,4,2011,Asia
+ME,Montenegro,4,2011,Europe
+BJ,Benin,3,2011,Africa
+GP,GP,3,2011,Other
+LI,Liechtenstein,3,2011,Europe
+MW,Malawi,3,2011,Africa
+TT,Trinidad and Tobago,3,2011,North America
+AO,AO,2,2011,Other
+BW,Botswana,2,2011,Africa
+BZ,BZ,2,2011,Other
+CG,Congo,2,2011,Africa
+CI,Cote d'Ivoire,2,2011,Africa
+FJ,Fiji,2,2011,Oceania
+GU,GU,2,2011,Other
+NA,Namibia,2,2011,Africa
+VG,VG,2,2011,Other
+AD,AD,1,2011,Other
+AG,Antigua and Barbuda,1,2011,North America
+BB,Barbados,1,2011,North America
+BF,Burkina Faso,1,2011,Africa
+BN,Brunei,1,2011,Asia
+DO,Dominican Republic,1,2011,North America
+GT,Guatemala,1,2011,North America
+MG,Madagascar,1,2011,Africa
+MU,Mauritius,1,2011,Africa
+NI,Nicaragua,1,2011,North America
+PA,Panama,1,2011,North America
+RE,Reunion,1,2011,Africa
+VU,VU,1,2011,Other
+US,United States,8960,2012,North America
+CN,China,7943,2012,Asia
+DE,Germany,3251,2012,Europe
+GB,United Kingdom,3135,2012,Europe
+JP,Japan,2555,2012,Asia
+FR,France,2520,2012,Europe
+IN,India,2331,2012,Asia
+IT,Italy,1937,2012,Europe
+CA,Canada,1834,2012,North America
+ES,Spain,1809,2012,Europe
+AU,Australia,1382,2012,Oceania
+BR,Brazil,1099,2012,South America
+NL,Netherlands,941,2012,Europe
+KR,South Korea,911,2012,Asia
+PL,Poland,785,2012,Europe
+TW,Taiwan,763,2012,Asia
+IR,Iran,721,2012,Asia
+CH,Switzerland,638,2012,Europe
+BE,Belgium,637,2012,Europe
+SG,Singapore,601,2012,Asia
+IL,Israel,538,2012,Asia
+AT,Austria,529,2012,Europe
+RU,Russia,523,2012,Europe
+SE,Sweden,519,2012,Europe
+CZ,Czechia,504,2012,Europe
+GR,Greece,487,2012,Europe
+PT,Portugal,486,2012,Europe
+TR,Turkey,451,2012,Asia
+MY,Malaysia,450,2012,Asia
+ID,Indonesia,403,2012,Asia
+DK,Denmark,381,2012,Europe
+MX,Mexico,370,2012,North America
+HK,Hong Kong,362,2012,Asia
+FI,Finland,344,2012,Europe
+IE,Ireland,328,2012,Europe
+RO,Romania,280,2012,Europe
+NO,Norway,272,2012,Europe
+EG,Egypt,235,2012,Africa
+NZ,New Zealand,234,2012,Oceania
+SA,Saudi Arabia,222,2012,Asia
+HU,Hungary,197,2012,Europe
+PK,Pakistan,188,2012,Asia
+CL,Chile,168,2012,South America
+ZA,South Africa,160,2012,Africa
+TN,Tunisia,157,2012,Africa
+TH,Thailand,149,2012,Asia
+DZ,Algeria,143,2012,Africa
+VN,Vietnam,128,2012,Asia
+SI,Slovenia,127,2012,Europe
+RS,Serbia,124,2012,Europe
+LU,Luxembourg,123,2012,Europe
+SK,Slovakia,120,2012,Europe
+UA,Ukraine,120,2012,Europe
+CO,Colombia,115,2012,South America
+AR,Argentina,114,2012,South America
+BD,Bangladesh,103,2012,Asia
+MA,Morocco,99,2012,Africa
+BG,Bulgaria,97,2012,Europe
+AE,United Arab Emirates,75,2012,Asia
+JO,Jordan,72,2012,Asia
+IQ,Iraq,71,2012,Asia
+LT,Lithuania,65,2012,Europe
+HR,Croatia,64,2012,Europe
+EE,Estonia,60,2012,Europe
+LV,Latvia,58,2012,Europe
+NG,Nigeria,57,2012,Africa
+QA,Qatar,55,2012,Asia
+MO,Macao,49,2012,Asia
+CY,Cyprus,44,2012,Europe
+CU,Cuba,38,2012,North America
+PH,Philippines,35,2012,Asia
+LB,Lebanon,34,2012,Asia
+UY,Uruguay,31,2012,South America
+IS,Iceland,30,2012,Europe
+AZ,Azerbaijan,28,2012,Asia
+BA,Bosnia and Herzegovina,26,2012,Europe
+TJ,Tajikistan,26,2012,Asia
+MK,North Macedonia,25,2012,Europe
+LK,Sri Lanka,24,2012,Asia
+OM,Oman,24,2012,Asia
+MT,Malta,21,2012,Europe
+NP,Nepal,21,2012,Asia
+BI,Burundi,19,2012,Africa
+BY,Belarus,19,2012,Europe
+PR,Puerto Rico,19,2012,North America
+MN,Mongolia,17,2012,Asia
+PE,Peru,17,2012,South America
+KW,Kuwait,16,2012,Asia
+GH,Ghana,15,2012,Africa
+VE,Venezuela,15,2012,South America
+BH,Bahrain,14,2012,Asia
+ET,Ethiopia,14,2012,Africa
+KZ,Kazakhstan,14,2012,Asia
+PS,Palestine,14,2012,Asia
+CR,Costa Rica,13,2012,North America
+SD,Sudan,11,2012,Africa
+CM,Cameroon,10,2012,Africa
+KE,Kenya,10,2012,Africa
+SN,Senegal,10,2012,Africa
+YE,Yemen,10,2012,Asia
+EC,Ecuador,9,2012,South America
+GE,Georgia,9,2012,Asia
+AM,Armenia,8,2012,Asia
+BO,Bolivia,8,2012,South America
+SS,South Sudan,8,2012,Africa
+ZW,Zimbabwe,8,2012,Africa
+KH,Cambodia,7,2012,Asia
+MD,Moldova,7,2012,Europe
+MU,Mauritius,7,2012,Africa
+BN,Brunei,6,2012,Asia
+GP,GP,6,2012,Other
+MM,Myanmar,6,2012,Asia
+SY,Syria,6,2012,Asia
+AL,Albania,5,2012,Europe
+BJ,Benin,4,2012,Africa
+BW,Botswana,4,2012,Africa
+JM,Jamaica,4,2012,North America
+MZ,MZ,4,2012,Other
+PA,Panama,4,2012,North America
+TT,Trinidad and Tobago,4,2012,North America
+TZ,Tanzania,4,2012,Africa
+UZ,Uzbekistan,4,2012,Asia
+CD,CD,3,2012,Other
+DO,Dominican Republic,3,2012,North America
+LY,Libya,3,2012,Africa
+RE,Reunion,3,2012,Africa
+FJ,Fiji,2,2012,Oceania
+FO,FO,2,2012,Other
+MW,Malawi,2,2012,Africa
+NA,Namibia,2,2012,Africa
+PY,Paraguay,2,2012,South America
+UG,Uganda,2,2012,Africa
+VG,VG,2,2012,Other
+ZM,Zambia,2,2012,Africa
+AO,AO,1,2012,Other
+BF,Burkina Faso,1,2012,Africa
+BS,Bahamas,1,2012,North America
+CI,Cote d'Ivoire,1,2012,Africa
+GA,Gabon,1,2012,Africa
+KN,KN,1,2012,Other
+LI,Liechtenstein,1,2012,Europe
+ME,Montenegro,1,2012,Europe
+MG,Madagascar,1,2012,Africa
+MQ,MQ,1,2012,Other
+SM,SM,1,2012,Other
+XK,Kosovo,1,2012,Europe
+US,United States,9689,2013,North America
+CN,China,8161,2013,Asia
+GB,United Kingdom,3429,2013,Europe
+DE,Germany,3129,2013,Europe
+FR,France,2559,2013,Europe
+JP,Japan,2467,2013,Asia
+IN,India,2265,2013,Asia
+IT,Italy,2141,2013,Europe
+CA,Canada,1896,2013,North America
+ES,Spain,1733,2013,Europe
+AU,Australia,1443,2013,Oceania
+BR,Brazil,1151,2013,South America
+KR,South Korea,924,2013,Asia
+NL,Netherlands,881,2013,Europe
+PL,Poland,829,2013,Europe
+TW,Taiwan,805,2013,Asia
+SG,Singapore,674,2013,Asia
+RU,Russia,638,2013,Europe
+IR,Iran,635,2013,Asia
+CH,Switzerland,617,2013,Europe
+AT,Austria,571,2013,Europe
+BE,Belgium,562,2013,Europe
+IL,Israel,544,2013,Asia
+MY,Malaysia,525,2013,Asia
+CZ,Czechia,524,2013,Europe
+TR,Turkey,521,2013,Asia
+ID,Indonesia,502,2013,Asia
+PT,Portugal,495,2013,Europe
+SE,Sweden,483,2013,Europe
+GR,Greece,446,2013,Europe
+MX,Mexico,424,2013,North America
+DK,Denmark,392,2013,Europe
+FI,Finland,379,2013,Europe
+HK,Hong Kong,342,2013,Asia
+RO,Romania,318,2013,Europe
+EG,Egypt,304,2013,Africa
+SA,Saudi Arabia,293,2013,Asia
+IE,Ireland,288,2013,Europe
+NO,Norway,222,2013,Europe
+NZ,New Zealand,222,2013,Oceania
+TN,Tunisia,219,2013,Africa
+HU,Hungary,197,2013,Europe
+PK,Pakistan,195,2013,Asia
+DZ,Algeria,194,2013,Africa
+ZA,South Africa,186,2013,Africa
+SK,Slovakia,161,2013,Europe
+TH,Thailand,155,2013,Asia
+CO,Colombia,152,2013,South America
+VN,Vietnam,152,2013,Asia
+CL,Chile,138,2013,South America
+UA,Ukraine,134,2013,Europe
+AR,Argentina,129,2013,South America
+BD,Bangladesh,125,2013,Asia
+SI,Slovenia,111,2013,Europe
+LU,Luxembourg,109,2013,Europe
+MA,Morocco,105,2013,Africa
+RS,Serbia,101,2013,Europe
+JO,Jordan,99,2013,Asia
+NG,Nigeria,87,2013,Africa
+IQ,Iraq,79,2013,Asia
+QA,Qatar,73,2013,Asia
+AE,United Arab Emirates,71,2013,Asia
+BG,Bulgaria,68,2013,Europe
+HR,Croatia,67,2013,Europe
+EE,Estonia,66,2013,Europe
+MO,Macao,56,2013,Asia
+CU,Cuba,54,2013,North America
+CY,Cyprus,48,2013,Europe
+LT,Lithuania,45,2013,Europe
+LV,Latvia,40,2013,Europe
+LB,Lebanon,39,2013,Asia
+VE,Venezuela,35,2013,South America
+LK,Sri Lanka,34,2013,Asia
+MK,North Macedonia,34,2013,Europe
+PH,Philippines,32,2013,Asia
+OM,Oman,31,2013,Asia
+TJ,Tajikistan,31,2013,Asia
+KW,Kuwait,27,2013,Asia
+MT,Malta,26,2013,Europe
+UY,Uruguay,25,2013,South America
+BY,Belarus,23,2013,Europe
+NP,Nepal,23,2013,Asia
+SD,Sudan,23,2013,Africa
+IS,Iceland,22,2013,Europe
+BA,Bosnia and Herzegovina,20,2013,Europe
+GH,Ghana,20,2013,Africa
+KZ,Kazakhstan,20,2013,Asia
+PE,Peru,20,2013,South America
+YE,Yemen,19,2013,Asia
+AL,Albania,18,2013,Europe
+BI,Burundi,18,2013,Africa
+BH,Bahrain,17,2013,Asia
+MN,Mongolia,17,2013,Asia
+AZ,Azerbaijan,16,2013,Asia
+CM,Cameroon,16,2013,Africa
+AM,Armenia,15,2013,Asia
+ET,Ethiopia,14,2013,Africa
+PS,Palestine,14,2013,Asia
+ZW,Zimbabwe,14,2013,Africa
+EC,Ecuador,12,2013,South America
+PR,Puerto Rico,11,2013,North America
+MM,Myanmar,10,2013,Asia
+MU,Mauritius,10,2013,Africa
+SN,Senegal,9,2013,Africa
+GE,Georgia,8,2013,Asia
+KE,Kenya,8,2013,Africa
+LY,Libya,8,2013,Africa
+SS,South Sudan,8,2013,Africa
+TZ,Tanzania,8,2013,Africa
+CR,Costa Rica,7,2013,North America
+MD,Moldova,7,2013,Europe
+UG,Uganda,7,2013,Africa
+BJ,Benin,6,2013,Africa
+ME,Montenegro,6,2013,Europe
+CG,Congo,5,2013,Africa
+FJ,Fiji,5,2013,Oceania
+SY,Syria,5,2013,Asia
+UZ,Uzbekistan,5,2013,Asia
+BO,Bolivia,4,2013,South America
+CI,Cote d'Ivoire,4,2013,Africa
+JM,Jamaica,4,2013,North America
+MZ,MZ,4,2013,Other
+RW,Rwanda,4,2013,Africa
+TT,Trinidad and Tobago,4,2013,North America
+BN,Brunei,3,2013,Asia
+BW,Botswana,3,2013,Africa
+DJ,DJ,3,2013,Other
+GA,Gabon,3,2013,Africa
+GT,Guatemala,3,2013,North America
+HN,HN,3,2013,Other
+KH,Cambodia,3,2013,Asia
+NA,Namibia,3,2013,Africa
+NI,Nicaragua,3,2013,North America
+PF,PF,3,2013,Other
+VG,VG,3,2013,Other
+AF,AF,2,2013,Other
+BT,BT,2,2013,Other
+GP,GP,2,2013,Other
+KP,KP,2,2013,Other
+MW,Malawi,2,2013,Africa
+NC,New Caledonia,2,2013,Oceania
+XK,Kosovo,2,2013,Europe
+BF,Burkina Faso,1,2013,Africa
+BM,Bermuda,1,2013,North America
+CD,CD,1,2013,Other
+CW,CW,1,2013,Other
+ER,ER,1,2013,Other
+FO,FO,1,2013,Other
+GY,Guyana,1,2013,South America
+KG,Kyrgyzstan,1,2013,Asia
+LA,LA,1,2013,Other
+MV,Maldives,1,2013,Asia
+PG,PG,1,2013,Other
+RE,Reunion,1,2013,Africa
+TG,TG,1,2013,Other
+ZM,Zambia,1,2013,Africa
+US,United States,9914,2014,North America
+CN,China,9297,2014,Asia
+GB,United Kingdom,3657,2014,Europe
+DE,Germany,3308,2014,Europe
+IN,India,2839,2014,Asia
+FR,France,2815,2014,Europe
+JP,Japan,2623,2014,Asia
+IT,Italy,2060,2014,Europe
+CA,Canada,2031,2014,North America
+ES,Spain,1792,2014,Europe
+AU,Australia,1686,2014,Oceania
+BR,Brazil,1224,2014,South America
+NL,Netherlands,965,2014,Europe
+KR,South Korea,954,2014,Asia
+PL,Poland,918,2014,Europe
+IR,Iran,866,2014,Asia
+RU,Russia,811,2014,Europe
+SG,Singapore,788,2014,Asia
+CH,Switzerland,725,2014,Europe
+TW,Taiwan,700,2014,Asia
+ID,Indonesia,695,2014,Asia
+MY,Malaysia,636,2014,Asia
+IL,Israel,625,2014,Asia
+CZ,Czechia,597,2014,Europe
+SE,Sweden,585,2014,Europe
+AT,Austria,582,2014,Europe
+BE,Belgium,568,2014,Europe
+PT,Portugal,537,2014,Europe
+TR,Turkey,508,2014,Asia
+GR,Greece,495,2014,Europe
+MX,Mexico,483,2014,North America
+HK,Hong Kong,407,2014,Asia
+FI,Finland,392,2014,Europe
+DK,Denmark,383,2014,Europe
+EG,Egypt,354,2014,Africa
+SA,Saudi Arabia,336,2014,Asia
+IE,Ireland,307,2014,Europe
+RO,Romania,301,2014,Europe
+NO,Norway,260,2014,Europe
+PK,Pakistan,237,2014,Asia
+TN,Tunisia,230,2014,Africa
+HU,Hungary,223,2014,Europe
+TH,Thailand,222,2014,Asia
+NZ,New Zealand,220,2014,Oceania
+ZA,South Africa,202,2014,Africa
+DZ,Algeria,200,2014,Africa
+CL,Chile,190,2014,South America
+AR,Argentina,176,2014,South America
+SK,Slovakia,169,2014,Europe
+CO,Colombia,167,2014,South America
+BD,Bangladesh,164,2014,Asia
+VN,Vietnam,164,2014,Asia
+MA,Morocco,149,2014,Africa
+UA,Ukraine,145,2014,Europe
+RS,Serbia,136,2014,Europe
+SI,Slovenia,131,2014,Europe
+LU,Luxembourg,124,2014,Europe
+QA,Qatar,122,2014,Asia
+JO,Jordan,118,2014,Asia
+NG,Nigeria,114,2014,Africa
+BG,Bulgaria,110,2014,Europe
+HR,Croatia,103,2014,Europe
+MO,Macao,79,2014,Asia
+EE,Estonia,76,2014,Europe
+AE,United Arab Emirates,72,2014,Asia
+IQ,Iraq,72,2014,Asia
+CY,Cyprus,61,2014,Europe
+LV,Latvia,57,2014,Europe
+PH,Philippines,57,2014,Asia
+CU,Cuba,52,2014,North America
+MK,North Macedonia,50,2014,Europe
+LT,Lithuania,49,2014,Europe
+LK,Sri Lanka,46,2014,Asia
+LB,Lebanon,41,2014,Asia
+TJ,Tajikistan,34,2014,Asia
+KZ,Kazakhstan,33,2014,Asia
+NP,Nepal,33,2014,Asia
+IS,Iceland,31,2014,Europe
+UY,Uruguay,29,2014,South America
+BI,Burundi,28,2014,Africa
+BY,Belarus,28,2014,Europe
+EC,Ecuador,28,2014,South America
+PS,Palestine,27,2014,Asia
+VE,Venezuela,27,2014,South America
+AL,Albania,25,2014,Europe
+BA,Bosnia and Herzegovina,24,2014,Europe
+MT,Malta,24,2014,Europe
+KW,Kuwait,23,2014,Asia
+MN,Mongolia,23,2014,Asia
+OM,Oman,23,2014,Asia
+SD,Sudan,23,2014,Africa
+AZ,Azerbaijan,21,2014,Asia
+GH,Ghana,19,2014,Africa
+MD,Moldova,17,2014,Europe
+PE,Peru,17,2014,South America
+YE,Yemen,17,2014,Asia
+SS,South Sudan,15,2014,Africa
+MM,Myanmar,14,2014,Asia
+SY,Syria,14,2014,Asia
+GE,Georgia,13,2014,Asia
+BH,Bahrain,12,2014,Asia
+CM,Cameroon,12,2014,Africa
+ET,Ethiopia,12,2014,Africa
+KE,Kenya,12,2014,Africa
+CR,Costa Rica,11,2014,North America
+FJ,Fiji,10,2014,Oceania
+GA,Gabon,10,2014,Africa
+PR,Puerto Rico,10,2014,North America
+TZ,Tanzania,9,2014,Africa
+AM,Armenia,8,2014,Asia
+BO,Bolivia,8,2014,South America
+LY,Libya,8,2014,Africa
+RE,Reunion,8,2014,Africa
+SN,Senegal,8,2014,Africa
+BJ,Benin,7,2014,Africa
+MU,Mauritius,7,2014,Africa
+ZW,Zimbabwe,7,2014,Africa
+DO,Dominican Republic,6,2014,North America
+MW,Malawi,6,2014,Africa
+UG,Uganda,5,2014,Africa
+VG,VG,5,2014,Other
+GP,GP,4,2014,Other
+ME,Montenegro,4,2014,Europe
+PF,PF,4,2014,Other
+BW,Botswana,3,2014,Africa
+GT,Guatemala,3,2014,North America
+JM,Jamaica,3,2014,North America
+MZ,MZ,3,2014,Other
+NI,Nicaragua,3,2014,North America
+PY,Paraguay,3,2014,South America
+AO,AO,2,2014,Other
+BB,Barbados,2,2014,North America
+BN,Brunei,2,2014,Asia
+CI,Cote d'Ivoire,2,2014,Africa
+GD,GD,2,2014,Other
+KH,Cambodia,2,2014,Asia
+KP,KP,2,2014,Other
+ML,Mali,2,2014,Africa
+PA,Panama,2,2014,North America
+RW,Rwanda,2,2014,Africa
+TT,Trinidad and Tobago,2,2014,North America
+UZ,Uzbekistan,2,2014,Asia
+DJ,DJ,1,2014,Other
+FO,FO,1,2014,Other
+GM,Gambia,1,2014,Africa
+HN,HN,1,2014,Other
+LI,Liechtenstein,1,2014,Europe
+LR,LR,1,2014,Other
+PG,PG,1,2014,Other
+TG,TG,1,2014,Other
+XK,Kosovo,1,2014,Europe
+US,United States,10169,2015,North America
+CN,China,8533,2015,Asia
+GB,United Kingdom,3466,2015,Europe
+DE,Germany,3331,2015,Europe
+IN,India,3301,2015,Asia
+FR,France,2740,2015,Europe
+JP,Japan,2596,2015,Asia
+IT,Italy,2008,2015,Europe
+CA,Canada,1889,2015,North America
+AU,Australia,1719,2015,Oceania
+ES,Spain,1712,2015,Europe
+BR,Brazil,1313,2015,South America
+RU,Russia,1056,2015,Europe
+KR,South Korea,960,2015,Asia
+IR,Iran,952,2015,Asia
+NL,Netherlands,951,2015,Europe
+ID,Indonesia,941,2015,Asia
+PL,Poland,900,2015,Europe
+SG,Singapore,692,2015,Asia
+CH,Switzerland,686,2015,Europe
+TW,Taiwan,637,2015,Asia
+TR,Turkey,604,2015,Asia
+AT,Austria,601,2015,Europe
+MY,Malaysia,587,2015,Asia
+CZ,Czechia,580,2015,Europe
+SE,Sweden,578,2015,Europe
+IL,Israel,545,2015,Asia
+BE,Belgium,534,2015,Europe
+PT,Portugal,530,2015,Europe
+MX,Mexico,479,2015,North America
+GR,Greece,465,2015,Europe
+FI,Finland,437,2015,Europe
+HK,Hong Kong,412,2015,Asia
+DK,Denmark,406,2015,Europe
+SA,Saudi Arabia,395,2015,Asia
+EG,Egypt,364,2015,Africa
+IE,Ireland,353,2015,Europe
+RO,Romania,321,2015,Europe
+DZ,Algeria,281,2015,Africa
+NO,Norway,261,2015,Europe
+TN,Tunisia,243,2015,Africa
+PK,Pakistan,234,2015,Asia
+NZ,New Zealand,213,2015,Oceania
+HU,Hungary,199,2015,Europe
+TH,Thailand,191,2015,Asia
+ZA,South Africa,188,2015,Africa
+CL,Chile,184,2015,South America
+VN,Vietnam,183,2015,Asia
+MA,Morocco,171,2015,Africa
+CO,Colombia,167,2015,South America
+SK,Slovakia,156,2015,Europe
+UA,Ukraine,156,2015,Europe
+AR,Argentina,150,2015,South America
+JO,Jordan,140,2015,Asia
+RS,Serbia,132,2015,Europe
+SI,Slovenia,129,2015,Europe
+BD,Bangladesh,126,2015,Asia
+BG,Bulgaria,125,2015,Europe
+AE,United Arab Emirates,116,2015,Asia
+LU,Luxembourg,114,2015,Europe
+QA,Qatar,113,2015,Asia
+NG,Nigeria,111,2015,Africa
+IQ,Iraq,99,2015,Asia
+HR,Croatia,90,2015,Europe
+EE,Estonia,67,2015,Europe
+LV,Latvia,60,2015,Europe
+LB,Lebanon,59,2015,Asia
+MO,Macao,59,2015,Asia
+LK,Sri Lanka,58,2015,Asia
+LT,Lithuania,54,2015,Europe
+CY,Cyprus,52,2015,Europe
+CU,Cuba,47,2015,North America
+MK,North Macedonia,41,2015,Europe
+EC,Ecuador,39,2015,South America
+PE,Peru,37,2015,South America
+PH,Philippines,35,2015,Asia
+UY,Uruguay,34,2015,South America
+KZ,Kazakhstan,33,2015,Asia
+KW,Kuwait,30,2015,Asia
+OM,Oman,29,2015,Asia
+TJ,Tajikistan,29,2015,Asia
+NP,Nepal,28,2015,Asia
+PS,Palestine,28,2015,Asia
+IS,Iceland,26,2015,Europe
+MM,Myanmar,26,2015,Asia
+BI,Burundi,25,2015,Africa
+GH,Ghana,25,2015,Africa
+MT,Malta,25,2015,Europe
+AZ,Azerbaijan,24,2015,Asia
+VE,Venezuela,23,2015,South America
+KE,Kenya,22,2015,Africa
+SD,Sudan,21,2015,Africa
+SS,South Sudan,20,2015,Africa
+BH,Bahrain,19,2015,Asia
+CM,Cameroon,19,2015,Africa
+ET,Ethiopia,19,2015,Africa
+BY,Belarus,18,2015,Europe
+FJ,Fiji,18,2015,Oceania
+BA,Bosnia and Herzegovina,17,2015,Europe
+AM,Armenia,16,2015,Asia
+GE,Georgia,15,2015,Asia
+MN,Mongolia,15,2015,Asia
+AL,Albania,14,2015,Europe
+SN,Senegal,13,2015,Africa
+CR,Costa Rica,11,2015,North America
+PR,Puerto Rico,10,2015,North America
+SY,Syria,10,2015,Asia
+YE,Yemen,10,2015,Asia
+LY,Libya,9,2015,Africa
+MD,Moldova,9,2015,Europe
+UG,Uganda,9,2015,Africa
+BW,Botswana,8,2015,Africa
+MZ,MZ,8,2015,Other
+UZ,Uzbekistan,8,2015,Asia
+BN,Brunei,6,2015,Asia
+BO,Bolivia,6,2015,South America
+JM,Jamaica,6,2015,North America
+ME,Montenegro,6,2015,Europe
+MU,Mauritius,6,2015,Africa
+CD,CD,5,2015,Other
+TZ,Tanzania,5,2015,Africa
+XK,Kosovo,5,2015,Europe
+CI,Cote d'Ivoire,4,2015,Africa
+GF,French Guiana,4,2015,South America
+KP,KP,4,2015,Other
+NA,Namibia,4,2015,Africa
+VG,VG,4,2015,Other
+BF,Burkina Faso,3,2015,Africa
+DO,Dominican Republic,3,2015,North America
+GP,GP,3,2015,Other
+GT,Guatemala,3,2015,North America
+HN,HN,3,2015,Other
+LR,LR,3,2015,Other
+PY,Paraguay,3,2015,South America
+BB,Barbados,2,2015,North America
+BT,BT,2,2015,Other
+GL,Greenland,2,2015,North America
+KG,Kyrgyzstan,2,2015,Asia
+KH,Cambodia,2,2015,Asia
+MW,Malawi,2,2015,Africa
+PF,PF,2,2015,Other
+RE,Reunion,2,2015,Africa
+RW,Rwanda,2,2015,Africa
+SV,SV,2,2015,Other
+TT,Trinidad and Tobago,2,2015,North America
+ZM,Zambia,2,2015,Africa
+ZW,Zimbabwe,2,2015,Africa
+AF,AF,1,2015,Other
+AO,AO,1,2015,Other
+BJ,Benin,1,2015,Africa
+CF,CF,1,2015,Other
+FO,FO,1,2015,Other
+GA,Gabon,1,2015,Africa
+GI,GI,1,2015,Other
+GU,GU,1,2015,Other
+HT,HT,1,2015,Other
+LA,LA,1,2015,Other
+LI,Liechtenstein,1,2015,Europe
+MG,Madagascar,1,2015,Africa
+ML,Mali,1,2015,Africa
+MV,Maldives,1,2015,Asia
+NC,New Caledonia,1,2015,Oceania
+NE,NE,1,2015,Other
+NI,Nicaragua,1,2015,North America
+PA,Panama,1,2015,North America
+PG,PG,1,2015,Other
+SO,Somalia,1,2015,Africa
+TC,TC,1,2015,Other
+TG,TG,1,2015,Other
+US,United States,10552,2016,North America
+CN,China,9448,2016,Asia
+GB,United Kingdom,3790,2016,Europe
+IN,India,3686,2016,Asia
+DE,Germany,3435,2016,Europe
+FR,France,2768,2016,Europe
+JP,Japan,2698,2016,Asia
+IT,Italy,2168,2016,Europe
+CA,Canada,1842,2016,North America
+AU,Australia,1774,2016,Oceania
+ID,Indonesia,1709,2016,Asia
+ES,Spain,1646,2016,Europe
+BR,Brazil,1410,2016,South America
+RU,Russia,1212,2016,Europe
+PL,Poland,1039,2016,Europe
+NL,Netherlands,1017,2016,Europe
+KR,South Korea,931,2016,Asia
+IR,Iran,910,2016,Asia
+SG,Singapore,795,2016,Asia
+CH,Switzerland,703,2016,Europe
+CZ,Czechia,642,2016,Europe
+TW,Taiwan,635,2016,Asia
+BE,Belgium,633,2016,Europe
+TR,Turkey,633,2016,Asia
+AT,Austria,631,2016,Europe
+IL,Israel,630,2016,Asia
+MY,Malaysia,591,2016,Asia
+SE,Sweden,548,2016,Europe
+PT,Portugal,522,2016,Europe
+MX,Mexico,512,2016,North America
+GR,Greece,485,2016,Europe
+FI,Finland,432,2016,Europe
+DK,Denmark,407,2016,Europe
+SA,Saudi Arabia,388,2016,Asia
+HK,Hong Kong,371,2016,Asia
+EG,Egypt,363,2016,Africa
+IE,Ireland,331,2016,Europe
+RO,Romania,289,2016,Europe
+PK,Pakistan,276,2016,Asia
+NO,Norway,269,2016,Europe
+TN,Tunisia,255,2016,Africa
+NZ,New Zealand,254,2016,Oceania
+DZ,Algeria,253,2016,Africa
+TH,Thailand,251,2016,Asia
+ZA,South Africa,244,2016,Africa
+VN,Vietnam,241,2016,Asia
+UA,Ukraine,228,2016,Europe
+MA,Morocco,225,2016,Africa
+CL,Chile,212,2016,South America
+JO,Jordan,206,2016,Asia
+HU,Hungary,192,2016,Europe
+SK,Slovakia,168,2016,Europe
+BD,Bangladesh,150,2016,Asia
+AR,Argentina,145,2016,South America
+SI,Slovenia,142,2016,Europe
+QA,Qatar,141,2016,Asia
+CO,Colombia,140,2016,South America
+NG,Nigeria,137,2016,Africa
+RS,Serbia,137,2016,Europe
+BG,Bulgaria,136,2016,Europe
+AE,United Arab Emirates,124,2016,Asia
+IQ,Iraq,109,2016,Asia
+LU,Luxembourg,104,2016,Europe
+MO,Macao,95,2016,Asia
+HR,Croatia,93,2016,Europe
+EE,Estonia,77,2016,Europe
+CY,Cyprus,66,2016,Europe
+EC,Ecuador,62,2016,South America
+LV,Latvia,61,2016,Europe
+LB,Lebanon,56,2016,Asia
+LK,Sri Lanka,52,2016,Asia
+KZ,Kazakhstan,43,2016,Asia
+OM,Oman,42,2016,Asia
+LT,Lithuania,41,2016,Europe
+KW,Kuwait,40,2016,Asia
+BY,Belarus,38,2016,Europe
+CU,Cuba,35,2016,North America
+UY,Uruguay,34,2016,South America
+BI,Burundi,33,2016,Africa
+MK,North Macedonia,33,2016,Europe
+MT,Malta,33,2016,Europe
+ET,Ethiopia,32,2016,Africa
+PH,Philippines,31,2016,Asia
+YE,Yemen,31,2016,Asia
+NP,Nepal,30,2016,Asia
+PE,Peru,30,2016,South America
+SD,Sudan,25,2016,Africa
+GH,Ghana,24,2016,Africa
+PS,Palestine,24,2016,Asia
+AZ,Azerbaijan,23,2016,Asia
+VE,Venezuela,23,2016,South America
+SS,South Sudan,22,2016,Africa
+KE,Kenya,21,2016,Africa
+CM,Cameroon,20,2016,Africa
+IS,Iceland,20,2016,Europe
+CR,Costa Rica,17,2016,North America
+FJ,Fiji,16,2016,Oceania
+SN,Senegal,16,2016,Africa
+BA,Bosnia and Herzegovina,15,2016,Europe
+GE,Georgia,15,2016,Asia
+MM,Myanmar,15,2016,Asia
+PR,Puerto Rico,15,2016,North America
+SY,Syria,15,2016,Asia
+AL,Albania,12,2016,Europe
+BH,Bahrain,11,2016,Asia
+MN,Mongolia,11,2016,Asia
+AM,Armenia,10,2016,Asia
+BW,Botswana,10,2016,Africa
+UZ,Uzbekistan,10,2016,Asia
+LY,Libya,9,2016,Africa
+TJ,Tajikistan,9,2016,Asia
+CI,Cote d'Ivoire,8,2016,Africa
+ME,Montenegro,8,2016,Europe
+UG,Uganda,8,2016,Africa
+BO,Bolivia,7,2016,South America
+MU,Mauritius,7,2016,Africa
+XK,Kosovo,7,2016,Europe
+BJ,Benin,6,2016,Africa
+MG,Madagascar,6,2016,Africa
+BF,Burkina Faso,5,2016,Africa
+BN,Brunei,5,2016,Asia
+NE,NE,5,2016,Other
+PY,Paraguay,5,2016,South America
+TT,Trinidad and Tobago,5,2016,North America
+VG,VG,5,2016,Other
+MD,Moldova,4,2016,Europe
+MZ,MZ,4,2016,Other
+NA,Namibia,4,2016,Africa
+RE,Reunion,4,2016,Africa
+TZ,Tanzania,4,2016,Africa
+AO,AO,3,2016,Other
+DO,Dominican Republic,3,2016,North America
+GP,GP,3,2016,Other
+JM,Jamaica,3,2016,North America
+KH,Cambodia,3,2016,Asia
+KP,KP,3,2016,Other
+MW,Malawi,3,2016,Africa
+BS,Bahamas,2,2016,North America
+ER,ER,2,2016,Other
+GF,French Guiana,2,2016,South America
+KG,Kyrgyzstan,2,2016,Asia
+ML,Mali,2,2016,Africa
+NI,Nicaragua,2,2016,North America
+PG,PG,2,2016,Other
+SV,SV,2,2016,Other
+ZW,Zimbabwe,2,2016,Africa
+CD,CD,1,2016,Other
+CG,Congo,1,2016,Africa
+CW,CW,1,2016,Other
+GA,Gabon,1,2016,Africa
+GD,GD,1,2016,Other
+HN,HN,1,2016,Other
+LI,Liechtenstein,1,2016,Europe
+LS,Lesotho,1,2016,Africa
+MR,MR,1,2016,Other
+MV,Maldives,1,2016,Asia
+NC,New Caledonia,1,2016,Oceania
+PF,PF,1,2016,Other
+RW,Rwanda,1,2016,Africa
+SO,Somalia,1,2016,Africa
+SZ,Eswatini,1,2016,Africa
+VA,VA,1,2016,Other
+ZM,Zambia,1,2016,Africa
+US,United States,11860,2017,North America
+CN,China,10740,2017,Asia
+IN,India,4268,2017,Asia
+GB,United Kingdom,4018,2017,Europe
+DE,Germany,3680,2017,Europe
+JP,Japan,2842,2017,Asia
+FR,France,2735,2017,Europe
+ID,Indonesia,2284,2017,Asia
+IT,Italy,2203,2017,Europe
+AU,Australia,2025,2017,Oceania
+CA,Canada,2009,2017,North America
+ES,Spain,1752,2017,Europe
+BR,Brazil,1474,2017,South America
+RU,Russia,1363,2017,Europe
+NL,Netherlands,1094,2017,Europe
+PL,Poland,1094,2017,Europe
+KR,South Korea,1021,2017,Asia
+IR,Iran,1001,2017,Asia
+TR,Turkey,840,2017,Asia
+CH,Switzerland,796,2017,Europe
+SG,Singapore,770,2017,Asia
+AT,Austria,682,2017,Europe
+CZ,Czechia,656,2017,Europe
+IL,Israel,650,2017,Asia
+MY,Malaysia,648,2017,Asia
+TW,Taiwan,593,2017,Asia
+BE,Belgium,581,2017,Europe
+SE,Sweden,573,2017,Europe
+PT,Portugal,516,2017,Europe
+HK,Hong Kong,512,2017,Asia
+MX,Mexico,505,2017,North America
+SA,Saudi Arabia,481,2017,Asia
+GR,Greece,475,2017,Europe
+EG,Egypt,468,2017,Africa
+DK,Denmark,462,2017,Europe
+FI,Finland,414,2017,Europe
+NO,Norway,349,2017,Europe
+PK,Pakistan,348,2017,Asia
+TN,Tunisia,346,2017,Africa
+IE,Ireland,338,2017,Europe
+RO,Romania,314,2017,Europe
+MA,Morocco,293,2017,Africa
+DZ,Algeria,290,2017,Africa
+UA,Ukraine,280,2017,Europe
+TH,Thailand,271,2017,Asia
+NZ,New Zealand,252,2017,Oceania
+ZA,South Africa,236,2017,Africa
+VN,Vietnam,215,2017,Asia
+JO,Jordan,213,2017,Asia
+CL,Chile,200,2017,South America
+BD,Bangladesh,196,2017,Asia
+NG,Nigeria,180,2017,Africa
+HU,Hungary,169,2017,Europe
+AE,United Arab Emirates,168,2017,Asia
+BG,Bulgaria,160,2017,Europe
+IQ,Iraq,154,2017,Asia
+CO,Colombia,152,2017,South America
+AR,Argentina,140,2017,South America
+SK,Slovakia,139,2017,Europe
+SI,Slovenia,137,2017,Europe
+QA,Qatar,130,2017,Asia
+RS,Serbia,130,2017,Europe
+LU,Luxembourg,122,2017,Europe
+HR,Croatia,104,2017,Europe
+EE,Estonia,98,2017,Europe
+CY,Cyprus,85,2017,Europe
+MO,Macao,83,2017,Asia
+PH,Philippines,80,2017,Asia
+EC,Ecuador,74,2017,South America
+LK,Sri Lanka,67,2017,Asia
+NP,Nepal,56,2017,Asia
+LB,Lebanon,55,2017,Asia
+OM,Oman,55,2017,Asia
+LT,Lithuania,53,2017,Europe
+LV,Latvia,52,2017,Europe
+MK,North Macedonia,52,2017,Europe
+KZ,Kazakhstan,50,2017,Asia
+PS,Palestine,43,2017,Asia
+CM,Cameroon,38,2017,Africa
+PE,Peru,38,2017,South America
+BY,Belarus,37,2017,Europe
+MT,Malta,37,2017,Europe
+KW,Kuwait,33,2017,Asia
+CU,Cuba,31,2017,North America
+VE,Venezuela,30,2017,South America
+AZ,Azerbaijan,29,2017,Asia
+KE,Kenya,27,2017,Africa
+BA,Bosnia and Herzegovina,26,2017,Europe
+BH,Bahrain,24,2017,Asia
+GH,Ghana,24,2017,Africa
+SD,Sudan,24,2017,Africa
+ET,Ethiopia,23,2017,Africa
+PR,Puerto Rico,23,2017,North America
+IS,Iceland,21,2017,Europe
+YE,Yemen,21,2017,Asia
+UY,Uruguay,20,2017,South America
+SS,South Sudan,19,2017,Africa
+SY,Syria,19,2017,Asia
+GE,Georgia,18,2017,Asia
+LY,Libya,18,2017,Africa
+MM,Myanmar,18,2017,Asia
+MN,Mongolia,18,2017,Asia
+UZ,Uzbekistan,18,2017,Asia
+AM,Armenia,17,2017,Asia
+MD,Moldova,17,2017,Europe
+BI,Burundi,16,2017,Africa
+SN,Senegal,15,2017,Africa
+BW,Botswana,14,2017,Africa
+CR,Costa Rica,14,2017,North America
+AL,Albania,13,2017,Europe
+BN,Brunei,12,2017,Asia
+ME,Montenegro,11,2017,Europe
+TJ,Tajikistan,11,2017,Asia
+XK,Kosovo,11,2017,Europe
+FJ,Fiji,9,2017,Oceania
+UG,Uganda,9,2017,Africa
+BJ,Benin,8,2017,Africa
+JM,Jamaica,7,2017,North America
+KH,Cambodia,7,2017,Asia
+ML,Mali,7,2017,Africa
+PY,Paraguay,7,2017,South America
+TZ,Tanzania,7,2017,Africa
+MZ,MZ,6,2017,Other
+BO,Bolivia,5,2017,South America
+LI,Liechtenstein,5,2017,Europe
+MG,Madagascar,5,2017,Africa
+MU,Mauritius,5,2017,Africa
+NI,Nicaragua,5,2017,North America
+RE,Reunion,5,2017,Africa
+ZW,Zimbabwe,5,2017,Africa
+DO,Dominican Republic,4,2017,North America
+NE,NE,4,2017,Other
+AF,AF,3,2017,Other
+BF,Burkina Faso,3,2017,Africa
+CI,Cote d'Ivoire,3,2017,Africa
+GU,GU,3,2017,Other
+RW,Rwanda,3,2017,Africa
+TG,TG,3,2017,Other
+TT,Trinidad and Tobago,3,2017,North America
+VG,VG,3,2017,Other
+AO,AO,2,2017,Other
+BT,BT,2,2017,Other
+GT,Guatemala,2,2017,North America
+GY,Guyana,2,2017,South America
+MV,Maldives,2,2017,Asia
+NA,Namibia,2,2017,Africa
+PF,PF,2,2017,Other
+BM,Bermuda,1,2017,North America
+CV,CV,1,2017,Other
+GF,French Guiana,1,2017,South America
+GW,GW,1,2017,Other
+KG,Kyrgyzstan,1,2017,Asia
+LA,LA,1,2017,Other
+LS,Lesotho,1,2017,Africa
+MR,MR,1,2017,Other
+MW,Malawi,1,2017,Africa
+NC,New Caledonia,1,2017,Oceania
+PG,PG,1,2017,Other
+SV,SV,1,2017,Other
+TC,TC,1,2017,Other
+US,United States,15008,2018,North America
+CN,China,13791,2018,Asia
+IN,India,5182,2018,Asia
+GB,United Kingdom,4420,2018,Europe
+DE,Germany,4058,2018,Europe
+ID,Indonesia,3280,2018,Asia
+JP,Japan,3184,2018,Asia
+FR,France,3049,2018,Europe
+CA,Canada,2441,2018,North America
+IT,Italy,2398,2018,Europe
+AU,Australia,2138,2018,Oceania
+ES,Spain,1846,2018,Europe
+RU,Russia,1736,2018,Europe
+BR,Brazil,1734,2018,South America
+NL,Netherlands,1285,2018,Europe
+KR,South Korea,1260,2018,Asia
+PL,Poland,1124,2018,Europe
+IR,Iran,1045,2018,Asia
+CH,Switzerland,1009,2018,Europe
+TR,Turkey,921,2018,Asia
+SG,Singapore,890,2018,Asia
+MY,Malaysia,756,2018,Asia
+AT,Austria,748,2018,Europe
+TW,Taiwan,717,2018,Asia
+IL,Israel,695,2018,Asia
+SE,Sweden,674,2018,Europe
+BE,Belgium,647,2018,Europe
+CZ,Czechia,646,2018,Europe
+PT,Portugal,618,2018,Europe
+MX,Mexico,616,2018,North America
+HK,Hong Kong,603,2018,Asia
+SA,Saudi Arabia,582,2018,Asia
+EG,Egypt,510,2018,Africa
+GR,Greece,503,2018,Europe
+FI,Finland,475,2018,Europe
+DK,Denmark,459,2018,Europe
+PK,Pakistan,441,2018,Asia
+UA,Ukraine,388,2018,Europe
+IE,Ireland,381,2018,Europe
+NO,Norway,380,2018,Europe
+MA,Morocco,372,2018,Africa
+DZ,Algeria,365,2018,Africa
+TH,Thailand,341,2018,Asia
+RO,Romania,332,2018,Europe
+TN,Tunisia,299,2018,Africa
+JO,Jordan,296,2018,Asia
+VN,Vietnam,294,2018,Asia
+HU,Hungary,277,2018,Europe
+NZ,New Zealand,269,2018,Oceania
+ZA,South Africa,249,2018,Africa
+CL,Chile,246,2018,South America
+BD,Bangladesh,242,2018,Asia
+CO,Colombia,231,2018,South America
+NG,Nigeria,213,2018,Africa
+AE,United Arab Emirates,210,2018,Asia
+BG,Bulgaria,189,2018,Europe
+IQ,Iraq,186,2018,Asia
+AR,Argentina,161,2018,South America
+SI,Slovenia,142,2018,Europe
+SK,Slovakia,140,2018,Europe
+RS,Serbia,131,2018,Europe
+QA,Qatar,130,2018,Asia
+HR,Croatia,121,2018,Europe
+LU,Luxembourg,114,2018,Europe
+EC,Ecuador,112,2018,South America
+PH,Philippines,107,2018,Asia
+MO,Macao,101,2018,Asia
+LK,Sri Lanka,89,2018,Asia
+KZ,Kazakhstan,74,2018,Asia
+EE,Estonia,73,2018,Europe
+LB,Lebanon,73,2018,Asia
+CY,Cyprus,72,2018,Europe
+LV,Latvia,67,2018,Europe
+PE,Peru,62,2018,South America
+MK,North Macedonia,50,2018,Europe
+LT,Lithuania,49,2018,Europe
+AZ,Azerbaijan,47,2018,Asia
+MT,Malta,45,2018,Europe
+MM,Myanmar,44,2018,Asia
+CM,Cameroon,41,2018,Africa
+YE,Yemen,40,2018,Asia
+KW,Kuwait,38,2018,Asia
+PS,Palestine,38,2018,Asia
+NP,Nepal,37,2018,Asia
+CU,Cuba,36,2018,North America
+BA,Bosnia and Herzegovina,35,2018,Europe
+BY,Belarus,32,2018,Europe
+VE,Venezuela,32,2018,South America
+KE,Kenya,31,2018,Africa
+OM,Oman,31,2018,Asia
+SD,Sudan,30,2018,Africa
+BH,Bahrain,29,2018,Asia
+SS,South Sudan,27,2018,Africa
+GH,Ghana,26,2018,Africa
+UY,Uruguay,26,2018,South America
+BI,Burundi,25,2018,Africa
+ET,Ethiopia,25,2018,Africa
+SN,Senegal,25,2018,Africa
+AM,Armenia,19,2018,Asia
+IS,Iceland,18,2018,Europe
+BW,Botswana,17,2018,Africa
+AL,Albania,16,2018,Europe
+SY,Syria,16,2018,Asia
+TJ,Tajikistan,16,2018,Asia
+PR,Puerto Rico,15,2018,North America
+CR,Costa Rica,12,2018,North America
+MU,Mauritius,12,2018,Africa
+GE,Georgia,11,2018,Asia
+MD,Moldova,11,2018,Europe
+MN,Mongolia,11,2018,Asia
+KH,Cambodia,10,2018,Asia
+LY,Libya,10,2018,Africa
+RE,Reunion,10,2018,Africa
+BN,Brunei,9,2018,Asia
+UZ,Uzbekistan,9,2018,Asia
+XK,Kosovo,9,2018,Europe
+BO,Bolivia,8,2018,South America
+CI,Cote d'Ivoire,8,2018,Africa
+FJ,Fiji,8,2018,Oceania
+ME,Montenegro,8,2018,Europe
+MZ,MZ,8,2018,Other
+TZ,Tanzania,8,2018,Africa
+UG,Uganda,8,2018,Africa
+RW,Rwanda,7,2018,Africa
+MG,Madagascar,6,2018,Africa
+JM,Jamaica,5,2018,North America
+PA,Panama,5,2018,North America
+PF,PF,5,2018,Other
+PY,Paraguay,5,2018,South America
+VG,VG,5,2018,Other
+BJ,Benin,4,2018,Africa
+DO,Dominican Republic,4,2018,North America
+GT,Guatemala,4,2018,North America
+LI,Liechtenstein,4,2018,Europe
+MW,Malawi,4,2018,Africa
+SV,SV,4,2018,Other
+TT,Trinidad and Tobago,4,2018,North America
+ZM,Zambia,4,2018,Africa
+AF,AF,3,2018,Other
+BF,Burkina Faso,3,2018,Africa
+CG,Congo,3,2018,Africa
+FO,FO,3,2018,Other
+GP,GP,3,2018,Other
+HN,HN,3,2018,Other
+NA,Namibia,3,2018,Africa
+TL,TL,3,2018,Other
+ZW,Zimbabwe,3,2018,Africa
+BB,Barbados,2,2018,North America
+BT,BT,2,2018,Other
+GF,French Guiana,2,2018,South America
+KG,Kyrgyzstan,2,2018,Asia
+KY,Cayman Islands,2,2018,North America
+ML,Mali,2,2018,Africa
+AO,AO,1,2018,Other
+CD,CD,1,2018,Other
+ER,ER,1,2018,Other
+KP,KP,1,2018,Other
+LS,Lesotho,1,2018,Africa
+MQ,MQ,1,2018,Other
+MS,MS,1,2018,Other
+NE,NE,1,2018,Other
+NI,Nicaragua,1,2018,North America
+PG,PG,1,2018,Other
+SM,SM,1,2018,Other
+SO,Somalia,1,2018,Africa
+ST,ST,1,2018,Other
+TD,TD,1,2018,Other
+TG,TG,1,2018,Other
+VI,VI,1,2018,Other
+US,United States,18122,2019,North America
+CN,China,17668,2019,Asia
+GB,United Kingdom,5440,2019,Europe
+IN,India,5303,2019,Asia
+DE,Germany,4873,2019,Europe
+ID,Indonesia,4029,2019,Asia
+JP,Japan,3446,2019,Asia
+FR,France,3381,2019,Europe
+CA,Canada,2844,2019,North America
+IT,Italy,2703,2019,Europe
+AU,Australia,2564,2019,Oceania
+RU,Russia,2215,2019,Europe
+ES,Spain,1982,2019,Europe
+BR,Brazil,1788,2019,South America
+KR,South Korea,1576,2019,Asia
+NL,Netherlands,1535,2019,Europe
+CH,Switzerland,1202,2019,Europe
+IR,Iran,1127,2019,Asia
+SG,Singapore,1087,2019,Asia
+PL,Poland,1077,2019,Europe
+TR,Turkey,1054,2019,Asia
+IL,Israel,997,2019,Asia
+TW,Taiwan,840,2019,Asia
+MY,Malaysia,823,2019,Asia
+AT,Austria,810,2019,Europe
+HK,Hong Kong,780,2019,Asia
+SA,Saudi Arabia,761,2019,Asia
+SE,Sweden,761,2019,Europe
+BE,Belgium,755,2019,Europe
+CZ,Czechia,685,2019,Europe
+MX,Mexico,675,2019,North America
+EG,Egypt,630,2019,Africa
+PT,Portugal,594,2019,Europe
+PK,Pakistan,577,2019,Asia
+DK,Denmark,555,2019,Europe
+FI,Finland,550,2019,Europe
+GR,Greece,519,2019,Europe
+UA,Ukraine,446,2019,Europe
+NO,Norway,439,2019,Europe
+IE,Ireland,408,2019,Europe
+BD,Bangladesh,392,2019,Asia
+VN,Vietnam,385,2019,Asia
+MA,Morocco,369,2019,Africa
+JO,Jordan,362,2019,Asia
+DZ,Algeria,357,2019,Africa
+ZA,South Africa,352,2019,Africa
+NG,Nigeria,349,2019,Africa
+RO,Romania,339,2019,Europe
+NZ,New Zealand,330,2019,Oceania
+IQ,Iraq,317,2019,Asia
+TH,Thailand,310,2019,Asia
+HU,Hungary,302,2019,Europe
+TN,Tunisia,300,2019,Africa
+AE,United Arab Emirates,296,2019,Asia
+CL,Chile,238,2019,South America
+BG,Bulgaria,230,2019,Europe
+CO,Colombia,225,2019,South America
+AR,Argentina,174,2019,South America
+SI,Slovenia,168,2019,Europe
+QA,Qatar,165,2019,Asia
+PH,Philippines,163,2019,Asia
+EE,Estonia,161,2019,Europe
+RS,Serbia,155,2019,Europe
+SK,Slovakia,154,2019,Europe
+LU,Luxembourg,130,2019,Europe
+EC,Ecuador,124,2019,South America
+LK,Sri Lanka,122,2019,Asia
+MO,Macao,122,2019,Asia
+HR,Croatia,108,2019,Europe
+KZ,Kazakhstan,103,2019,Asia
+CY,Cyprus,74,2019,Europe
+LB,Lebanon,72,2019,Asia
+PS,Palestine,68,2019,Asia
+LT,Lithuania,67,2019,Europe
+PE,Peru,67,2019,South America
+KE,Kenya,64,2019,Africa
+GH,Ghana,63,2019,Africa
+NP,Nepal,60,2019,Asia
+LV,Latvia,58,2019,Europe
+MM,Myanmar,56,2019,Asia
+KW,Kuwait,55,2019,Asia
+YE,Yemen,55,2019,Asia
+AZ,Azerbaijan,54,2019,Asia
+ET,Ethiopia,51,2019,Africa
+BY,Belarus,50,2019,Europe
+BH,Bahrain,49,2019,Asia
+CU,Cuba,47,2019,North America
+OM,Oman,43,2019,Asia
+MT,Malta,41,2019,Europe
+MK,North Macedonia,37,2019,Europe
+VE,Venezuela,35,2019,South America
+SN,Senegal,34,2019,Africa
+BA,Bosnia and Herzegovina,33,2019,Europe
+CM,Cameroon,33,2019,Africa
+SD,Sudan,33,2019,Africa
+TJ,Tajikistan,32,2019,Asia
+UZ,Uzbekistan,31,2019,Asia
+MN,Mongolia,28,2019,Asia
+UY,Uruguay,27,2019,South America
+CR,Costa Rica,25,2019,North America
+SS,South Sudan,25,2019,Africa
+SY,Syria,25,2019,Asia
+BI,Burundi,24,2019,Africa
+IS,Iceland,23,2019,Europe
+AL,Albania,19,2019,Europe
+AM,Armenia,19,2019,Asia
+PR,Puerto Rico,19,2019,North America
+UG,Uganda,17,2019,Africa
+GE,Georgia,14,2019,Asia
+KH,Cambodia,14,2019,Asia
+LY,Libya,14,2019,Africa
+MD,Moldova,14,2019,Europe
+MU,Mauritius,13,2019,Africa
+DO,Dominican Republic,12,2019,North America
+JM,Jamaica,12,2019,North America
+BF,Burkina Faso,11,2019,Africa
+BN,Brunei,11,2019,Asia
+KY,Cayman Islands,11,2019,North America
+ZW,Zimbabwe,10,2019,Africa
+BJ,Benin,9,2019,Africa
+BO,Bolivia,9,2019,South America
+PA,Panama,9,2019,North America
+BW,Botswana,8,2019,Africa
+CI,Cote d'Ivoire,8,2019,Africa
+TT,Trinidad and Tobago,8,2019,North America
+AF,AF,7,2019,Other
+GT,Guatemala,7,2019,North America
+MG,Madagascar,7,2019,Africa
+PY,Paraguay,7,2019,South America
+RW,Rwanda,7,2019,Africa
+ZM,Zambia,7,2019,Africa
+HN,HN,6,2019,Other
+ME,Montenegro,6,2019,Europe
+MW,Malawi,6,2019,Africa
+NE,NE,6,2019,Other
+RE,Reunion,6,2019,Africa
+AO,AO,5,2019,Other
+FJ,Fiji,5,2019,Oceania
+MZ,MZ,5,2019,Other
+TZ,Tanzania,5,2019,Africa
+XK,Kosovo,5,2019,Europe
+NA,Namibia,4,2019,Africa
+VG,VG,4,2019,Other
+CD,CD,3,2019,Other
+GF,French Guiana,3,2019,South America
+GP,GP,3,2019,Other
+KG,Kyrgyzstan,3,2019,Asia
+ML,Mali,3,2019,Africa
+NI,Nicaragua,3,2019,North America
+SV,SV,3,2019,Other
+TG,TG,3,2019,Other
+BT,BT,2,2019,Other
+GD,GD,2,2019,Other
+HT,HT,2,2019,Other
+KN,KN,2,2019,Other
+KP,KP,2,2019,Other
+LA,LA,2,2019,Other
+LI,Liechtenstein,2,2019,Europe
+MV,Maldives,2,2019,Asia
+PG,PG,2,2019,Other
+TD,TD,2,2019,Other
+BB,Barbados,1,2019,North America
+BM,Bermuda,1,2019,North America
+BS,Bahamas,1,2019,North America
+ER,ER,1,2019,Other
+GA,Gabon,1,2019,Africa
+GL,Greenland,1,2019,North America
+GM,Gambia,1,2019,Africa
+IM,Isle of Man,1,2019,Europe
+LS,Lesotho,1,2019,Africa
+MR,MR,1,2019,Other
+NC,New Caledonia,1,2019,Oceania
+PF,PF,1,2019,Other
+SL,Sierra Leone,1,2019,Africa
+SM,SM,1,2019,Other
+SZ,Eswatini,1,2019,Africa
+VA,VA,1,2019,Other
+VI,VI,1,2019,Other
+CN,China,20900,2020,Asia
+US,United States,20812,2020,North America
+IN,India,6804,2020,Asia
+GB,United Kingdom,6114,2020,Europe
+DE,Germany,5462,2020,Europe
+ID,Indonesia,4694,2020,Asia
+FR,France,3700,2020,Europe
+JP,Japan,3660,2020,Asia
+CA,Canada,3312,2020,North America
+IT,Italy,3020,2020,Europe
+AU,Australia,2907,2020,Oceania
+RU,Russia,2408,2020,Europe
+ES,Spain,2154,2020,Europe
+BR,Brazil,2037,2020,South America
+KR,South Korea,1944,2020,Asia
+NL,Netherlands,1760,2020,Europe
+CH,Switzerland,1528,2020,Europe
+IR,Iran,1343,2020,Asia
+SG,Singapore,1309,2020,Asia
+TR,Turkey,1148,2020,Asia
+IL,Israel,1111,2020,Asia
+PL,Poland,1102,2020,Europe
+HK,Hong Kong,1000,2020,Asia
+TW,Taiwan,996,2020,Asia
+SA,Saudi Arabia,985,2020,Asia
+AT,Austria,937,2020,Europe
+SE,Sweden,925,2020,Europe
+MY,Malaysia,861,2020,Asia
+BE,Belgium,785,2020,Europe
+MX,Mexico,748,2020,North America
+PK,Pakistan,705,2020,Asia
+CZ,Czechia,703,2020,Europe
+EG,Egypt,684,2020,Africa
+PT,Portugal,662,2020,Europe
+GR,Greece,652,2020,Europe
+FI,Finland,640,2020,Europe
+DK,Denmark,629,2020,Europe
+NO,Norway,552,2020,Europe
+VN,Vietnam,544,2020,Asia
+IE,Ireland,492,2020,Europe
+NZ,New Zealand,489,2020,Oceania
+UA,Ukraine,479,2020,Europe
+IQ,Iraq,461,2020,Asia
+MA,Morocco,416,2020,Africa
+AE,United Arab Emirates,411,2020,Asia
+ZA,South Africa,408,2020,Africa
+JO,Jordan,406,2020,Asia
+NG,Nigeria,392,2020,Africa
+RO,Romania,388,2020,Europe
+BD,Bangladesh,379,2020,Asia
+DZ,Algeria,325,2020,Africa
+TH,Thailand,305,2020,Asia
+HU,Hungary,295,2020,Europe
+CL,Chile,294,2020,South America
+TN,Tunisia,278,2020,Africa
+BG,Bulgaria,264,2020,Europe
+CO,Colombia,246,2020,South America
+AR,Argentina,196,2020,South America
+SI,Slovenia,194,2020,Europe
+SK,Slovakia,174,2020,Europe
+RS,Serbia,167,2020,Europe
+MO,Macao,153,2020,Asia
+HR,Croatia,151,2020,Europe
+LU,Luxembourg,149,2020,Europe
+EC,Ecuador,143,2020,South America
+LK,Sri Lanka,140,2020,Asia
+QA,Qatar,136,2020,Asia
+PH,Philippines,128,2020,Asia
+EE,Estonia,120,2020,Europe
+CY,Cyprus,114,2020,Europe
+KZ,Kazakhstan,99,2020,Asia
+LV,Latvia,86,2020,Europe
+PE,Peru,83,2020,South America
+LT,Lithuania,81,2020,Europe
+MM,Myanmar,80,2020,Asia
+NP,Nepal,78,2020,Asia
+LB,Lebanon,77,2020,Asia
+MK,North Macedonia,71,2020,Europe
+ET,Ethiopia,70,2020,Africa
+OM,Oman,70,2020,Asia
+PS,Palestine,66,2020,Asia
+GH,Ghana,61,2020,Africa
+KW,Kuwait,60,2020,Asia
+BY,Belarus,54,2020,Europe
+CM,Cameroon,54,2020,Africa
+YE,Yemen,54,2020,Asia
+KE,Kenya,53,2020,Africa
+UZ,Uzbekistan,51,2020,Asia
+TJ,Tajikistan,49,2020,Asia
+BI,Burundi,48,2020,Africa
+MT,Malta,45,2020,Europe
+BH,Bahrain,42,2020,Asia
+KY,Cayman Islands,39,2020,North America
+AZ,Azerbaijan,38,2020,Asia
+BA,Bosnia and Herzegovina,36,2020,Europe
+CU,Cuba,36,2020,North America
+IS,Iceland,35,2020,Europe
+SD,Sudan,33,2020,Africa
+UY,Uruguay,33,2020,South America
+SN,Senegal,32,2020,Africa
+LY,Libya,28,2020,Africa
+SS,South Sudan,28,2020,Africa
+MN,Mongolia,25,2020,Asia
+AM,Armenia,24,2020,Asia
+VE,Venezuela,24,2020,South America
+SY,Syria,23,2020,Asia
+CR,Costa Rica,22,2020,North America
+GE,Georgia,22,2020,Asia
+PR,Puerto Rico,19,2020,North America
+HN,HN,17,2020,Other
+ME,Montenegro,15,2020,Europe
+UG,Uganda,15,2020,Africa
+CI,Cote d'Ivoire,14,2020,Africa
+FJ,Fiji,14,2020,Oceania
+MU,Mauritius,14,2020,Africa
+AL,Albania,13,2020,Europe
+BW,Botswana,12,2020,Africa
+MD,Moldova,11,2020,Europe
+AF,AF,10,2020,Other
+BF,Burkina Faso,10,2020,Africa
+BO,Bolivia,10,2020,South America
+KH,Cambodia,10,2020,Asia
+TZ,Tanzania,10,2020,Africa
+BJ,Benin,9,2020,Africa
+DO,Dominican Republic,9,2020,North America
+JM,Jamaica,9,2020,North America
+TT,Trinidad and Tobago,9,2020,North America
+ZM,Zambia,9,2020,Africa
+MZ,MZ,8,2020,Other
+NA,Namibia,8,2020,Africa
+RW,Rwanda,8,2020,Africa
+BN,Brunei,7,2020,Asia
+KG,Kyrgyzstan,7,2020,Asia
+VG,VG,7,2020,Other
+GT,Guatemala,6,2020,North America
+LI,Liechtenstein,6,2020,Europe
+MG,Madagascar,6,2020,Africa
+ML,Mali,6,2020,Africa
+RE,Reunion,6,2020,Africa
+ZW,Zimbabwe,6,2020,Africa
+SV,SV,5,2020,Other
+GP,GP,4,2020,Other
+KP,KP,4,2020,Other
+NE,NE,4,2020,Other
+NI,Nicaragua,4,2020,North America
+PY,Paraguay,4,2020,South America
+XK,Kosovo,4,2020,Europe
+CD,CD,3,2020,Other
+GM,Gambia,3,2020,Africa
+LS,Lesotho,3,2020,Africa
+MV,Maldives,3,2020,Asia
+MW,Malawi,3,2020,Africa
+PA,Panama,3,2020,North America
+SZ,Eswatini,3,2020,Africa
+BM,Bermuda,2,2020,North America
+CF,CF,2,2020,Other
+FO,FO,2,2020,Other
+MR,MR,2,2020,Other
+TC,TC,2,2020,Other
+TG,TG,2,2020,Other
+TL,TL,2,2020,Other
+AO,AO,1,2020,Other
+BT,BT,1,2020,Other
+GA,Gabon,1,2020,Africa
+GF,French Guiana,1,2020,South America
+GU,GU,1,2020,Other
+HT,HT,1,2020,Other
+KI,KI,1,2020,Other
+KN,KN,1,2020,Other
+LR,LR,1,2020,Other
+MC,Monaco,1,2020,Europe
+NC,New Caledonia,1,2020,Oceania
+PF,PF,1,2020,Other
+PG,PG,1,2020,Other
+SM,SM,1,2020,Other
+SO,Somalia,1,2020,Africa
+TD,TD,1,2020,Other
+WS,WS,1,2020,Other
+CN,China,26061,2021,Asia
+US,United States,22188,2021,North America
+IN,India,7839,2021,Asia
+GB,United Kingdom,6711,2021,Europe
+DE,Germany,6268,2021,Europe
+ID,Indonesia,5665,2021,Asia
+FR,France,3932,2021,Europe
+CA,Canada,3832,2021,North America
+JP,Japan,3763,2021,Asia
+IT,Italy,3371,2021,Europe
+AU,Australia,3187,2021,Oceania
+RU,Russia,2706,2021,Europe
+KR,South Korea,2358,2021,Asia
+ES,Spain,2331,2021,Europe
+NL,Netherlands,1969,2021,Europe
+BR,Brazil,1903,2021,South America
+CH,Switzerland,1647,2021,Europe
+SG,Singapore,1500,2021,Asia
+IR,Iran,1477,2021,Asia
+TR,Turkey,1386,2021,Asia
+IL,Israel,1305,2021,Asia
+PL,Poland,1171,2021,Europe
+SA,Saudi Arabia,1156,2021,Asia
+HK,Hong Kong,1144,2021,Asia
+MY,Malaysia,1079,2021,Asia
+AT,Austria,1071,2021,Europe
+SE,Sweden,1069,2021,Europe
+TW,Taiwan,1065,2021,Asia
+EG,Egypt,866,2021,Africa
+PK,Pakistan,862,2021,Asia
+BE,Belgium,849,2021,Europe
+DK,Denmark,813,2021,Europe
+CZ,Czechia,757,2021,Europe
+PT,Portugal,742,2021,Europe
+GR,Greece,718,2021,Europe
+MX,Mexico,695,2021,North America
+FI,Finland,649,2021,Europe
+NO,Norway,634,2021,Europe
+BD,Bangladesh,588,2021,Asia
+VN,Vietnam,582,2021,Asia
+IQ,Iraq,558,2021,Asia
+IE,Ireland,551,2021,Europe
+AE,United Arab Emirates,526,2021,Asia
+UA,Ukraine,480,2021,Europe
+MA,Morocco,476,2021,Africa
+NG,Nigeria,457,2021,Africa
+RO,Romania,439,2021,Europe
+JO,Jordan,414,2021,Asia
+ZA,South Africa,396,2021,Africa
+NZ,New Zealand,388,2021,Oceania
+TH,Thailand,367,2021,Asia
+DZ,Algeria,347,2021,Africa
+HU,Hungary,343,2021,Europe
+TN,Tunisia,305,2021,Africa
+CL,Chile,302,2021,South America
+BG,Bulgaria,261,2021,Europe
+SI,Slovenia,237,2021,Europe
+CO,Colombia,218,2021,South America
+MO,Macao,214,2021,Asia
+SK,Slovakia,209,2021,Europe
+RS,Serbia,201,2021,Europe
+AR,Argentina,193,2021,South America
+QA,Qatar,185,2021,Asia
+LK,Sri Lanka,158,2021,Asia
+PH,Philippines,158,2021,Asia
+HR,Croatia,151,2021,Europe
+KZ,Kazakhstan,138,2021,Asia
+LU,Luxembourg,134,2021,Europe
+ET,Ethiopia,128,2021,Africa
+EE,Estonia,121,2021,Europe
+CY,Cyprus,117,2021,Europe
+PE,Peru,117,2021,South America
+EC,Ecuador,107,2021,South America
+NP,Nepal,89,2021,Asia
+KE,Kenya,88,2021,Africa
+GH,Ghana,87,2021,Africa
+YE,Yemen,86,2021,Asia
+LT,Lithuania,85,2021,Europe
+OM,Oman,79,2021,Asia
+LB,Lebanon,77,2021,Asia
+LV,Latvia,77,2021,Europe
+PS,Palestine,72,2021,Asia
+CM,Cameroon,67,2021,Africa
+MK,North Macedonia,67,2021,Europe
+UZ,Uzbekistan,67,2021,Asia
+BH,Bahrain,65,2021,Asia
+UY,Uruguay,60,2021,South America
+AZ,Azerbaijan,58,2021,Asia
+KW,Kuwait,57,2021,Asia
+BY,Belarus,55,2021,Europe
+KY,Cayman Islands,53,2021,North America
+CU,Cuba,49,2021,North America
+SS,South Sudan,46,2021,Africa
+MT,Malta,44,2021,Europe
+SD,Sudan,41,2021,Africa
+BI,Burundi,40,2021,Africa
+IS,Iceland,40,2021,Europe
+LY,Libya,40,2021,Africa
+MN,Mongolia,38,2021,Asia
+SY,Syria,35,2021,Asia
+GE,Georgia,32,2021,Asia
+TJ,Tajikistan,30,2021,Asia
+AM,Armenia,29,2021,Asia
+CR,Costa Rica,29,2021,North America
+MM,Myanmar,29,2021,Asia
+PR,Puerto Rico,27,2021,North America
+UG,Uganda,27,2021,Africa
+VE,Venezuela,27,2021,South America
+AL,Albania,24,2021,Europe
+BA,Bosnia and Herzegovina,24,2021,Europe
+BW,Botswana,21,2021,Africa
+JM,Jamaica,21,2021,North America
+KG,Kyrgyzstan,21,2021,Asia
+SN,Senegal,20,2021,Africa
+MD,Moldova,19,2021,Europe
+AF,AF,18,2021,Other
+CI,Cote d'Ivoire,18,2021,Africa
+ME,Montenegro,17,2021,Europe
+KH,Cambodia,16,2021,Asia
+BO,Bolivia,15,2021,South America
+TZ,Tanzania,15,2021,Africa
+BN,Brunei,14,2021,Asia
+ZW,Zimbabwe,14,2021,Africa
+GT,Guatemala,13,2021,North America
+RW,Rwanda,13,2021,Africa
+MZ,MZ,11,2021,Other
+RE,Reunion,11,2021,Africa
+ZM,Zambia,11,2021,Africa
+BF,Burkina Faso,10,2021,Africa
+BJ,Benin,10,2021,Africa
+NA,Namibia,10,2021,Africa
+TT,Trinidad and Tobago,10,2021,North America
+CD,CD,9,2021,Other
+DO,Dominican Republic,9,2021,North America
+MG,Madagascar,9,2021,Africa
+MU,Mauritius,9,2021,Africa
+PY,Paraguay,9,2021,South America
+FJ,Fiji,7,2021,Oceania
+HN,HN,7,2021,Other
+XK,Kosovo,7,2021,Europe
+ML,Mali,6,2021,Africa
+FO,FO,5,2021,Other
+KP,KP,5,2021,Other
+LI,Liechtenstein,5,2021,Europe
+MR,MR,5,2021,Other
+NE,NE,5,2021,Other
+PA,Panama,5,2021,North America
+PG,PG,5,2021,Other
+TG,TG,5,2021,Other
+BT,BT,4,2021,Other
+VG,VG,4,2021,Other
+BS,Bahamas,3,2021,North America
+GY,Guyana,3,2021,South America
+MW,Malawi,3,2021,Africa
+NI,Nicaragua,3,2021,North America
+SZ,Eswatini,3,2021,Africa
+GM,Gambia,2,2021,Africa
+SV,SV,2,2021,Other
+TD,TD,2,2021,Other
+AD,AD,1,2021,Other
+AG,Antigua and Barbuda,1,2021,North America
+AO,AO,1,2021,Other
+BB,Barbados,1,2021,North America
+BM,Bermuda,1,2021,North America
+CG,Congo,1,2021,Africa
+CV,CV,1,2021,Other
+GD,GD,1,2021,Other
+GP,GP,1,2021,Other
+KN,KN,1,2021,Other
+LR,LR,1,2021,Other
+LS,Lesotho,1,2021,Africa
+MC,Monaco,1,2021,Europe
+NC,New Caledonia,1,2021,Oceania
+PF,PF,1,2021,Other
+PW,PW,1,2021,Other
+SC,SC,1,2021,Other
+SL,Sierra Leone,1,2021,Africa
+TL,TL,1,2021,Other
+VI,VI,1,2021,Other
+CN,China,29905,2022,Asia
+US,United States,19378,2022,North America
+IN,India,9408,2022,Asia
+ID,Indonesia,6281,2022,Asia
+GB,United Kingdom,5718,2022,Europe
+DE,Germany,5550,2022,Europe
+JP,Japan,3839,2022,Asia
+FR,France,3706,2022,Europe
+IT,Italy,3488,2022,Europe
+CA,Canada,3335,2022,North America
+AU,Australia,3000,2022,Oceania
+KR,South Korea,2525,2022,Asia
+ES,Spain,2442,2022,Europe
+RU,Russia,2242,2022,Europe
+NL,Netherlands,1864,2022,Europe
+BR,Brazil,1830,2022,South America
+SA,Saudi Arabia,1543,2022,Asia
+TR,Turkey,1483,2022,Asia
+SG,Singapore,1459,2022,Asia
+CH,Switzerland,1406,2022,Europe
+IR,Iran,1361,2022,Asia
+MY,Malaysia,1308,2022,Asia
+HK,Hong Kong,1236,2022,Asia
+PL,Poland,1155,2022,Europe
+TW,Taiwan,1150,2022,Asia
+AT,Austria,1076,2022,Europe
+SE,Sweden,1040,2022,Europe
+EG,Egypt,989,2022,Africa
+PK,Pakistan,977,2022,Asia
+IL,Israel,858,2022,Asia
+BE,Belgium,793,2022,Europe
+DK,Denmark,760,2022,Europe
+AE,United Arab Emirates,750,2022,Asia
+PT,Portugal,749,2022,Europe
+IQ,Iraq,732,2022,Asia
+CZ,Czechia,698,2022,Europe
+NO,Norway,688,2022,Europe
+FI,Finland,670,2022,Europe
+GR,Greece,663,2022,Europe
+MX,Mexico,652,2022,North America
+VN,Vietnam,649,2022,Asia
+JO,Jordan,590,2022,Asia
+BD,Bangladesh,580,2022,Asia
+NG,Nigeria,564,2022,Africa
+MA,Morocco,531,2022,Africa
+IE,Ireland,494,2022,Europe
+ZA,South Africa,479,2022,Africa
+RO,Romania,447,2022,Europe
+TH,Thailand,432,2022,Asia
+UA,Ukraine,427,2022,Europe
+DZ,Algeria,417,2022,Africa
+HU,Hungary,358,2022,Europe
+NZ,New Zealand,349,2022,Oceania
+TN,Tunisia,328,2022,Africa
+MO,Macao,277,2022,Asia
+CL,Chile,262,2022,South America
+PH,Philippines,250,2022,Asia
+BG,Bulgaria,246,2022,Europe
+SK,Slovakia,225,2022,Europe
+CO,Colombia,208,2022,South America
+QA,Qatar,203,2022,Asia
+SI,Slovenia,188,2022,Europe
+RS,Serbia,187,2022,Europe
+ET,Ethiopia,174,2022,Africa
+HR,Croatia,163,2022,Europe
+AR,Argentina,162,2022,South America
+EE,Estonia,160,2022,Europe
+LU,Luxembourg,159,2022,Europe
+LK,Sri Lanka,158,2022,Asia
+KZ,Kazakhstan,139,2022,Asia
+CY,Cyprus,126,2022,Europe
+GH,Ghana,120,2022,Africa
+LB,Lebanon,119,2022,Asia
+PE,Peru,117,2022,South America
+NP,Nepal,109,2022,Asia
+EC,Ecuador,105,2022,South America
+KE,Kenya,104,2022,Africa
+YE,Yemen,93,2022,Asia
+BH,Bahrain,84,2022,Asia
+LV,Latvia,80,2022,Europe
+OM,Oman,80,2022,Asia
+LT,Lithuania,79,2022,Europe
+CM,Cameroon,78,2022,Africa
+UZ,Uzbekistan,74,2022,Asia
+KW,Kuwait,72,2022,Asia
+PS,Palestine,72,2022,Asia
+MK,North Macedonia,66,2022,Europe
+AZ,Azerbaijan,65,2022,Asia
+BY,Belarus,65,2022,Europe
+MT,Malta,54,2022,Europe
+SS,South Sudan,52,2022,Africa
+IS,Iceland,48,2022,Europe
+TJ,Tajikistan,46,2022,Asia
+BA,Bosnia and Herzegovina,44,2022,Europe
+KY,Cayman Islands,43,2022,North America
+UY,Uruguay,40,2022,South America
+LY,Libya,39,2022,Africa
+SD,Sudan,39,2022,Africa
+AM,Armenia,38,2022,Asia
+MN,Mongolia,37,2022,Asia
+TZ,Tanzania,36,2022,Africa
+BN,Brunei,35,2022,Asia
+CR,Costa Rica,32,2022,North America
+SY,Syria,31,2022,Asia
+MD,Moldova,30,2022,Europe
+BI,Burundi,29,2022,Africa
+CU,Cuba,29,2022,North America
+UG,Uganda,29,2022,Africa
+VE,Venezuela,28,2022,South America
+PR,Puerto Rico,27,2022,North America
+SN,Senegal,27,2022,Africa
+AL,Albania,23,2022,Europe
+GE,Georgia,21,2022,Asia
+BW,Botswana,20,2022,Africa
+MU,Mauritius,20,2022,Africa
+AF,AF,19,2022,Other
+FJ,Fiji,19,2022,Oceania
+RW,Rwanda,19,2022,Africa
+KH,Cambodia,18,2022,Asia
+MM,Myanmar,18,2022,Asia
+ZW,Zimbabwe,18,2022,Africa
+BJ,Benin,17,2022,Africa
+MW,Malawi,15,2022,Africa
+CI,Cote d'Ivoire,14,2022,Africa
+KG,Kyrgyzstan,14,2022,Asia
+ME,Montenegro,14,2022,Europe
+JM,Jamaica,13,2022,North America
+PY,Paraguay,12,2022,South America
+XK,Kosovo,11,2022,Europe
+ZM,Zambia,11,2022,Africa
+BF,Burkina Faso,10,2022,Africa
+TT,Trinidad and Tobago,10,2022,North America
+BO,Bolivia,9,2022,South America
+KP,KP,9,2022,Other
+MG,Madagascar,9,2022,Africa
+PA,Panama,9,2022,North America
+GT,Guatemala,8,2022,North America
+LI,Liechtenstein,8,2022,Europe
+CD,CD,7,2022,Other
+RE,Reunion,6,2022,Africa
+TD,TD,6,2022,Other
+CG,Congo,5,2022,Africa
+MZ,MZ,5,2022,Other
+NA,Namibia,5,2022,Africa
+NE,NE,5,2022,Other
+DO,Dominican Republic,4,2022,North America
+LR,LR,4,2022,Other
+ML,Mali,4,2022,Africa
+MR,MR,4,2022,Other
+PG,PG,4,2022,Other
+SO,Somalia,4,2022,Africa
+TG,TG,4,2022,Other
+VG,VG,4,2022,Other
+BB,Barbados,3,2022,North America
+GA,Gabon,3,2022,Africa
+GF,French Guiana,3,2022,South America
+HN,HN,3,2022,Other
+MC,Monaco,3,2022,Europe
+SV,SV,3,2022,Other
+TL,TL,3,2022,Other
+AO,AO,2,2022,Other
+BT,BT,2,2022,Other
+CF,CF,2,2022,Other
+FO,FO,2,2022,Other
+GY,Guyana,2,2022,South America
+HT,HT,2,2022,Other
+KN,KN,2,2022,Other
+LA,LA,2,2022,Other
+SM,SM,2,2022,Other
+VU,VU,2,2022,Other
+AD,AD,1,2022,Other
+AG,Antigua and Barbuda,1,2022,North America
+BS,Bahamas,1,2022,North America
+GP,GP,1,2022,Other
+GU,GU,1,2022,Other
+KI,KI,1,2022,Other
+LC,LC,1,2022,Other
+LS,Lesotho,1,2022,Africa
+MV,Maldives,1,2022,Asia
+NI,Nicaragua,1,2022,North America
+PF,PF,1,2022,Other
+SL,Sierra Leone,1,2022,Africa
+SR,Suriname,1,2022,South America
+CN,China,36478,2023,Asia
+US,United States,22178,2023,North America
+IN,India,11602,2023,Asia
+ID,Indonesia,8200,2023,Asia
+GB,United Kingdom,6889,2023,Europe
+DE,Germany,6500,2023,Europe
+JP,Japan,4347,2023,Asia
+IT,Italy,4224,2023,Europe
+FR,France,4185,2023,Europe
+CA,Canada,4069,2023,North America
+AU,Australia,3290,2023,Oceania
+KR,South Korea,2968,2023,Asia
+ES,Spain,2721,2023,Europe
+NL,Netherlands,2193,2023,Europe
+RU,Russia,2174,2023,Europe
+BR,Brazil,1867,2023,South America
+SG,Singapore,1839,2023,Asia
+HK,Hong Kong,1756,2023,Asia
+SA,Saudi Arabia,1749,2023,Asia
+TR,Turkey,1716,2023,Asia
+CH,Switzerland,1603,2023,Europe
+MY,Malaysia,1422,2023,Asia
+IR,Iran,1352,2023,Asia
+PL,Poland,1308,2023,Europe
+SE,Sweden,1262,2023,Europe
+TW,Taiwan,1261,2023,Asia
+AT,Austria,1156,2023,Europe
+PK,Pakistan,1141,2023,Asia
+AE,United Arab Emirates,1127,2023,Asia
+EG,Egypt,1017,2023,Africa
+PT,Portugal,926,2023,Europe
+IL,Israel,923,2023,Asia
+BE,Belgium,888,2023,Europe
+JO,Jordan,870,2023,Asia
+IQ,Iraq,864,2023,Asia
+GR,Greece,859,2023,Europe
+DK,Denmark,848,2023,Europe
+CZ,Czechia,798,2023,Europe
+FI,Finland,778,2023,Europe
+BD,Bangladesh,754,2023,Asia
+NO,Norway,741,2023,Europe
+MX,Mexico,722,2023,North America
+VN,Vietnam,703,2023,Asia
+IE,Ireland,657,2023,Europe
+MA,Morocco,604,2023,Africa
+NG,Nigeria,604,2023,Africa
+UA,Ukraine,557,2023,Europe
+RO,Romania,508,2023,Europe
+TH,Thailand,493,2023,Asia
+ZA,South Africa,476,2023,Africa
+HU,Hungary,432,2023,Europe
+DZ,Algeria,428,2023,Africa
+MO,Macao,380,2023,Asia
+NZ,New Zealand,352,2023,Oceania
+PH,Philippines,344,2023,Asia
+TN,Tunisia,338,2023,Africa
+BG,Bulgaria,329,2023,Europe
+CL,Chile,275,2023,South America
+LB,Lebanon,266,2023,Asia
+QA,Qatar,248,2023,Asia
+CO,Colombia,233,2023,South America
+SK,Slovakia,233,2023,Europe
+SI,Slovenia,219,2023,Europe
+RS,Serbia,209,2023,Europe
+KZ,Kazakhstan,206,2023,Asia
+HR,Croatia,204,2023,Europe
+AR,Argentina,193,2023,South America
+NP,Nepal,178,2023,Asia
+LU,Luxembourg,176,2023,Europe
+CY,Cyprus,166,2023,Europe
+ET,Ethiopia,163,2023,Africa
+UZ,Uzbekistan,155,2023,Asia
+LK,Sri Lanka,143,2023,Asia
+EE,Estonia,140,2023,Europe
+YE,Yemen,139,2023,Asia
+EC,Ecuador,134,2023,South America
+PE,Peru,132,2023,South America
+LV,Latvia,130,2023,Europe
+GH,Ghana,114,2023,Africa
+OM,Oman,114,2023,Asia
+LT,Lithuania,112,2023,Europe
+KE,Kenya,105,2023,Africa
+KW,Kuwait,105,2023,Asia
+MK,North Macedonia,96,2023,Europe
+AZ,Azerbaijan,90,2023,Asia
+BH,Bahrain,88,2023,Asia
+PS,Palestine,82,2023,Asia
+CM,Cameroon,75,2023,Africa
+SS,South Sudan,69,2023,Africa
+AM,Armenia,56,2023,Asia
+KY,Cayman Islands,56,2023,North America
+MN,Mongolia,56,2023,Asia
+BA,Bosnia and Herzegovina,54,2023,Europe
+UY,Uruguay,52,2023,South America
+LY,Libya,51,2023,Africa
+NA,Namibia,49,2023,Africa
+BY,Belarus,48,2023,Europe
+MT,Malta,47,2023,Europe
+TJ,Tajikistan,45,2023,Asia
+SD,Sudan,42,2023,Africa
+IS,Iceland,41,2023,Europe
+ZW,Zimbabwe,39,2023,Africa
+CR,Costa Rica,38,2023,North America
+UG,Uganda,38,2023,Africa
+BI,Burundi,36,2023,Africa
+CU,Cuba,36,2023,North America
+PR,Puerto Rico,36,2023,North America
+TZ,Tanzania,36,2023,Africa
+BN,Brunei,35,2023,Asia
+KH,Cambodia,35,2023,Asia
+SN,Senegal,34,2023,Africa
+SY,Syria,34,2023,Asia
+ZM,Zambia,34,2023,Africa
+GE,Georgia,33,2023,Asia
+MM,Myanmar,33,2023,Asia
+AL,Albania,32,2023,Europe
+RW,Rwanda,28,2023,Africa
+ME,Montenegro,26,2023,Europe
+MD,Moldova,25,2023,Europe
+MU,Mauritius,24,2023,Africa
+VE,Venezuela,24,2023,South America
+BW,Botswana,23,2023,Africa
+BF,Burkina Faso,20,2023,Africa
+AF,AF,19,2023,Other
+BO,Bolivia,18,2023,South America
+XK,Kosovo,18,2023,Europe
+MZ,MZ,16,2023,Other
+MW,Malawi,15,2023,Africa
+CD,CD,13,2023,Other
+CI,Cote d'Ivoire,13,2023,Africa
+JM,Jamaica,12,2023,North America
+KP,KP,12,2023,Other
+RE,Reunion,12,2023,Africa
+GT,Guatemala,11,2023,North America
+SO,Somalia,11,2023,Africa
+TT,Trinidad and Tobago,10,2023,North America
+KG,Kyrgyzstan,9,2023,Asia
+LI,Liechtenstein,9,2023,Europe
+NI,Nicaragua,9,2023,North America
+PA,Panama,9,2023,North America
+SV,SV,9,2023,Other
+BJ,Benin,8,2023,Africa
+FJ,Fiji,8,2023,Oceania
+MR,MR,8,2023,Other
+NE,NE,7,2023,Other
+AO,AO,6,2023,Other
+BT,BT,6,2023,Other
+HN,HN,6,2023,Other
+PY,Paraguay,6,2023,South America
+LR,LR,5,2023,Other
+MV,Maldives,5,2023,Asia
+PF,PF,5,2023,Other
+CG,Congo,4,2023,Africa
+GM,Gambia,4,2023,Africa
+MG,Madagascar,4,2023,Africa
+NC,New Caledonia,4,2023,Oceania
+PG,PG,4,2023,Other
+SL,Sierra Leone,4,2023,Africa
+BB,Barbados,3,2023,North America
+BS,Bahamas,3,2023,North America
+GA,Gabon,3,2023,Africa
+GN,GN,3,2023,Other
+TL,TL,3,2023,Other
+TM,TM,3,2023,Other
+DJ,DJ,2,2023,Other
+DO,Dominican Republic,2,2023,North America
+GY,Guyana,2,2023,South America
+HT,HT,2,2023,Other
+ML,Mali,2,2023,Africa
+VG,VG,2,2023,Other
+AD,AD,1,2023,Other
+AG,Antigua and Barbuda,1,2023,North America
+CF,CF,1,2023,Other
+FO,FO,1,2023,Other
+GD,GD,1,2023,Other
+GF,French Guiana,1,2023,South America
+GU,GU,1,2023,Other
+GW,GW,1,2023,Other
+KI,KI,1,2023,Other
+KN,KN,1,2023,Other
+LA,LA,1,2023,Other
+LS,Lesotho,1,2023,Africa
+MS,MS,1,2023,Other
+PW,PW,1,2023,Other
+ST,ST,1,2023,Other
+SZ,Eswatini,1,2023,Africa
+TD,TD,1,2023,Other
+TG,TG,1,2023,Other
+TO,TO,1,2023,Other
+VA,VA,1,2023,Other
+VU,VU,1,2023,Other
+CN,China,40891,2024,Asia
+US,United States,23282,2024,North America
+IN,India,13669,2024,Asia
+ID,Indonesia,9009,2024,Asia
+GB,United Kingdom,7006,2024,Europe
+DE,Germany,6521,2024,Europe
+JP,Japan,4448,2024,Asia
+IT,Italy,4368,2024,Europe
+FR,France,4198,2024,Europe
+CA,Canada,3949,2024,North America
+AU,Australia,3524,2024,Oceania
+KR,South Korea,3150,2024,Asia
+ES,Spain,2808,2024,Europe
+RU,Russia,2322,2024,Europe
+NL,Netherlands,2084,2024,Europe
+HK,Hong Kong,2082,2024,Asia
+BR,Brazil,2005,2024,South America
+SA,Saudi Arabia,2002,2024,Asia
+SG,Singapore,1904,2024,Asia
+TR,Turkey,1891,2024,Asia
+MY,Malaysia,1671,2024,Asia
+CH,Switzerland,1496,2024,Europe
+IR,Iran,1421,2024,Asia
+TW,Taiwan,1385,2024,Asia
+PL,Poland,1301,2024,Europe
+AE,United Arab Emirates,1278,2024,Asia
+SE,Sweden,1228,2024,Europe
+PK,Pakistan,1216,2024,Asia
+EG,Egypt,1086,2024,Africa
+AT,Austria,1049,2024,Europe
+BE,Belgium,924,2024,Europe
+IQ,Iraq,915,2024,Asia
+BD,Bangladesh,909,2024,Asia
+IL,Israel,902,2024,Asia
+GR,Greece,887,2024,Europe
+JO,Jordan,842,2024,Asia
+PT,Portugal,839,2024,Europe
+MX,Mexico,824,2024,North America
+DK,Denmark,809,2024,Europe
+NO,Norway,807,2024,Europe
+FI,Finland,752,2024,Europe
+VN,Vietnam,752,2024,Asia
+MA,Morocco,746,2024,Africa
+NG,Nigeria,668,2024,Africa
+CZ,Czechia,661,2024,Europe
+IE,Ireland,636,2024,Europe
+ZA,South Africa,597,2024,Africa
+UA,Ukraine,580,2024,Europe
+MO,Macao,560,2024,Asia
+TH,Thailand,544,2024,Asia
+DZ,Algeria,509,2024,Africa
+HU,Hungary,489,2024,Europe
+RO,Romania,465,2024,Europe
+NZ,New Zealand,443,2024,Oceania
+PH,Philippines,360,2024,Asia
+TN,Tunisia,354,2024,Africa
+CL,Chile,318,2024,South America
+CO,Colombia,285,2024,South America
+KZ,Kazakhstan,284,2024,Asia
+BG,Bulgaria,272,2024,Europe
+SI,Slovenia,256,2024,Europe
+RS,Serbia,255,2024,Europe
+SK,Slovakia,235,2024,Europe
+LB,Lebanon,222,2024,Asia
+AR,Argentina,220,2024,South America
+NP,Nepal,218,2024,Asia
+QA,Qatar,213,2024,Asia
+UZ,Uzbekistan,208,2024,Asia
+HR,Croatia,195,2024,Europe
+LU,Luxembourg,195,2024,Europe
+OM,Oman,187,2024,Asia
+EC,Ecuador,185,2024,South America
+PE,Peru,181,2024,South America
+CY,Cyprus,179,2024,Europe
+LK,Sri Lanka,177,2024,Asia
+GH,Ghana,163,2024,Africa
+EE,Estonia,158,2024,Europe
+ET,Ethiopia,154,2024,Africa
+BH,Bahrain,138,2024,Asia
+KW,Kuwait,123,2024,Asia
+CM,Cameroon,122,2024,Africa
+YE,Yemen,122,2024,Asia
+LT,Lithuania,121,2024,Europe
+AZ,Azerbaijan,110,2024,Asia
+PS,Palestine,109,2024,Asia
+KE,Kenya,104,2024,Africa
+LV,Latvia,103,2024,Europe
+MK,North Macedonia,88,2024,Europe
+BY,Belarus,86,2024,Europe
+SS,South Sudan,79,2024,Africa
+BA,Bosnia and Herzegovina,71,2024,Europe
+TJ,Tajikistan,64,2024,Asia
+MN,Mongolia,61,2024,Asia
+TZ,Tanzania,61,2024,Africa
+IS,Iceland,55,2024,Europe
+KH,Cambodia,55,2024,Asia
+UG,Uganda,53,2024,Africa
+AM,Armenia,52,2024,Asia
+LY,Libya,51,2024,Africa
+BN,Brunei,50,2024,Asia
+MM,Myanmar,49,2024,Asia
+SD,Sudan,49,2024,Africa
+ZW,Zimbabwe,49,2024,Africa
+MT,Malta,47,2024,Europe
+GE,Georgia,42,2024,Asia
+ME,Montenegro,42,2024,Europe
+PR,Puerto Rico,41,2024,North America
+BW,Botswana,38,2024,Africa
+CR,Costa Rica,37,2024,North America
+RW,Rwanda,37,2024,Africa
+AL,Albania,36,2024,Europe
+BI,Burundi,35,2024,Africa
+UY,Uruguay,35,2024,South America
+SY,Syria,34,2024,Asia
+VE,Venezuela,34,2024,South America
+CU,Cuba,33,2024,North America
+CD,CD,29,2024,Other
+MU,Mauritius,29,2024,Africa
+MD,Moldova,28,2024,Europe
+ZM,Zambia,28,2024,Africa
+AF,AF,27,2024,Other
+SN,Senegal,27,2024,Africa
+KG,Kyrgyzstan,22,2024,Asia
+MW,Malawi,21,2024,Africa
+XK,Kosovo,21,2024,Europe
+BO,Bolivia,20,2024,South America
+BF,Burkina Faso,18,2024,Africa
+PY,Paraguay,17,2024,South America
+KP,KP,15,2024,Other
+KY,Cayman Islands,15,2024,North America
+TT,Trinidad and Tobago,14,2024,North America
+BJ,Benin,13,2024,Africa
+JM,Jamaica,13,2024,North America
+MR,MR,13,2024,Other
+MG,Madagascar,12,2024,Africa
+NA,Namibia,12,2024,Africa
+GT,Guatemala,11,2024,North America
+LI,Liechtenstein,11,2024,Europe
+MZ,MZ,11,2024,Other
+FJ,Fiji,10,2024,Oceania
+RE,Reunion,10,2024,Africa
+SZ,Eswatini,10,2024,Africa
+CI,Cote d'Ivoire,8,2024,Africa
+NE,NE,8,2024,Other
+NI,Nicaragua,8,2024,North America
+SO,Somalia,8,2024,Africa
+DO,Dominican Republic,7,2024,North America
+PA,Panama,7,2024,North America
+SV,SV,7,2024,Other
+KN,KN,6,2024,Other
+ML,Mali,6,2024,Africa
+ER,ER,5,2024,Other
+LA,LA,5,2024,Other
+BS,Bahamas,4,2024,North America
+BT,BT,4,2024,Other
+GY,Guyana,4,2024,South America
+HN,HN,4,2024,Other
+LS,Lesotho,4,2024,Africa
+MV,Maldives,4,2024,Asia
+PG,PG,4,2024,Other
+SL,Sierra Leone,4,2024,Africa
+AD,AD,3,2024,Other
+BB,Barbados,3,2024,North America
+CV,CV,3,2024,Other
+GF,French Guiana,3,2024,South America
+GM,Gambia,3,2024,Africa
+GU,GU,3,2024,Other
+TD,TD,3,2024,Other
+TG,TG,3,2024,Other
+AG,Antigua and Barbuda,2,2024,North America
+AO,AO,2,2024,Other
+CF,CF,2,2024,Other
+CG,Congo,2,2024,Africa
+CW,CW,2,2024,Other
+GN,GN,2,2024,Other
+GP,GP,2,2024,Other
+LR,LR,2,2024,Other
+MC,Monaco,2,2024,Europe
+TC,TC,2,2024,Other
+TL,TL,2,2024,Other
+TM,TM,2,2024,Other
+BM,Bermuda,1,2024,North America
+DJ,DJ,1,2024,Other
+DM,DM,1,2024,Other
+FM,FM,1,2024,Other
+GA,Gabon,1,2024,Africa
+GD,GD,1,2024,Other
+NC,New Caledonia,1,2024,Oceania
+NU,NU,1,2024,Other
+PF,PF,1,2024,Other
+ST,ST,1,2024,Other
+SX,SX,1,2024,Other
+TO,TO,1,2024,Other
+VG,VG,1,2024,Other
+VI,VI,1,2024,Other
+CN,China,48889,2025,Asia
+US,United States,29279,2025,North America
+IN,India,18903,2025,Asia
+ID,Indonesia,8957,2025,Asia
+GB,United Kingdom,8380,2025,Europe
+DE,Germany,7463,2025,Europe
+IT,Italy,5460,2025,Europe
+JP,Japan,4921,2025,Asia
+CA,Canada,4614,2025,North America
+FR,France,4336,2025,Europe
+AU,Australia,4114,2025,Oceania
+KR,South Korea,3693,2025,Asia
+ES,Spain,3197,2025,Europe
+HK,Hong Kong,2670,2025,Asia
+SA,Saudi Arabia,2615,2025,Asia
+TR,Turkey,2373,2025,Asia
+RU,Russia,2333,2025,Europe
+NL,Netherlands,2284,2025,Europe
+BR,Brazil,2258,2025,South America
+SG,Singapore,2257,2025,Asia
+MY,Malaysia,2069,2025,Asia
+CH,Switzerland,1827,2025,Europe
+TW,Taiwan,1670,2025,Asia
+BD,Bangladesh,1606,2025,Asia
+PK,Pakistan,1597,2025,Asia
+AE,United Arab Emirates,1540,2025,Asia
+IR,Iran,1521,2025,Asia
+PL,Poland,1475,2025,Europe
+SE,Sweden,1413,2025,Europe
+IQ,Iraq,1236,2025,Asia
+EG,Egypt,1228,2025,Africa
+AT,Austria,1202,2025,Europe
+VN,Vietnam,1179,2025,Asia
+PT,Portugal,1109,2025,Europe
+JO,Jordan,1096,2025,Asia
+GR,Greece,1063,2025,Europe
+BE,Belgium,1043,2025,Europe
+MX,Mexico,982,2025,North America
+MA,Morocco,967,2025,Africa
+FI,Finland,932,2025,Europe
+CZ,Czechia,927,2025,Europe
+IL,Israel,907,2025,Asia
+NO,Norway,882,2025,Europe
+NG,Nigeria,881,2025,Africa
+DK,Denmark,844,2025,Europe
+TH,Thailand,765,2025,Asia
+MO,Macao,749,2025,Asia
+UA,Ukraine,731,2025,Europe
+IE,Ireland,681,2025,Europe
+RO,Romania,650,2025,Europe
+ZA,South Africa,629,2025,Africa
+HU,Hungary,591,2025,Europe
+NZ,New Zealand,532,2025,Oceania
+DZ,Algeria,531,2025,Africa
+UZ,Uzbekistan,491,2025,Asia
+BG,Bulgaria,479,2025,Europe
+CL,Chile,457,2025,South America
+PH,Philippines,455,2025,Asia
+TN,Tunisia,430,2025,Africa
+KZ,Kazakhstan,416,2025,Asia
+RS,Serbia,372,2025,Europe
+SK,Slovakia,362,2025,Europe
+QA,Qatar,322,2025,Asia
+OM,Oman,319,2025,Asia
+NP,Nepal,313,2025,Asia
+SI,Slovenia,313,2025,Europe
+CO,Colombia,299,2025,South America
+AR,Argentina,260,2025,South America
+CY,Cyprus,256,2025,Europe
+LK,Sri Lanka,244,2025,Asia
+EC,Ecuador,231,2025,South America
+ET,Ethiopia,225,2025,Africa
+PE,Peru,225,2025,South America
+LU,Luxembourg,215,2025,Europe
+AZ,Azerbaijan,205,2025,Asia
+HR,Croatia,198,2025,Europe
+EE,Estonia,195,2025,Europe
+LB,Lebanon,188,2025,Asia
+GH,Ghana,187,2025,Africa
+KW,Kuwait,165,2025,Asia
+YE,Yemen,165,2025,Asia
+BH,Bahrain,158,2025,Asia
+KE,Kenya,142,2025,Africa
+MK,North Macedonia,141,2025,Europe
+PS,Palestine,133,2025,Asia
+LT,Lithuania,131,2025,Europe
+LV,Latvia,121,2025,Europe
+BY,Belarus,115,2025,Europe
+KH,Cambodia,85,2025,Asia
+CM,Cameroon,83,2025,Africa
+ME,Montenegro,82,2025,Europe
+AM,Armenia,80,2025,Asia
+MM,Myanmar,79,2025,Asia
+KG,Kyrgyzstan,77,2025,Asia
+BA,Bosnia and Herzegovina,75,2025,Europe
+MD,Moldova,75,2025,Europe
+RW,Rwanda,75,2025,Africa
+TJ,Tajikistan,73,2025,Asia
+LY,Libya,69,2025,Africa
+SS,South Sudan,65,2025,Africa
+TZ,Tanzania,65,2025,Africa
+MN,Mongolia,64,2025,Asia
+BI,Burundi,63,2025,Africa
+UG,Uganda,63,2025,Africa
+SD,Sudan,61,2025,Africa
+MT,Malta,60,2025,Europe
+AL,Albania,58,2025,Europe
+CR,Costa Rica,57,2025,North America
+SY,Syria,55,2025,Asia
+IS,Iceland,51,2025,Europe
+GE,Georgia,47,2025,Asia
+PR,Puerto Rico,47,2025,North America
+ZM,Zambia,47,2025,Africa
+AF,AF,46,2025,Other
+UY,Uruguay,46,2025,South America
+VE,Venezuela,44,2025,South America
+ZW,Zimbabwe,41,2025,Africa
+BN,Brunei,39,2025,Asia
+SN,Senegal,39,2025,Africa
+CU,Cuba,35,2025,North America
+XK,Kosovo,35,2025,Europe
+BW,Botswana,33,2025,Africa
+KP,KP,32,2025,Other
+CD,CD,31,2025,Other
+MU,Mauritius,30,2025,Africa
+MZ,MZ,30,2025,Other
+MW,Malawi,29,2025,Africa
+BF,Burkina Faso,28,2025,Africa
+KY,Cayman Islands,26,2025,North America
+SV,SV,26,2025,Other
+PY,Paraguay,23,2025,South America
+MG,Madagascar,21,2025,Africa
+BJ,Benin,20,2025,Africa
+BO,Bolivia,20,2025,South America
+GT,Guatemala,20,2025,North America
+PA,Panama,20,2025,North America
+NI,Nicaragua,18,2025,North America
+SO,Somalia,17,2025,Africa
+TT,Trinidad and Tobago,17,2025,North America
+NA,Namibia,16,2025,Africa
+CI,Cote d'Ivoire,15,2025,Africa
+FJ,Fiji,13,2025,Oceania
+DO,Dominican Republic,12,2025,North America
+MV,Maldives,12,2025,Asia
+JM,Jamaica,11,2025,North America
+LI,Liechtenstein,11,2025,Europe
+PG,PG,11,2025,Other
+LA,LA,8,2025,Other
+MR,MR,8,2025,Other
+RE,Reunion,8,2025,Africa
+TG,TG,8,2025,Other
+GA,Gabon,7,2025,Africa
+LR,LR,7,2025,Other
+NE,NE,7,2025,Other
+KN,KN,6,2025,Other
+BT,BT,5,2025,Other
+CG,Congo,5,2025,Africa
+GM,Gambia,5,2025,Africa
+GY,Guyana,5,2025,South America
+HN,HN,5,2025,Other
+TD,TD,5,2025,Other
+AG,Antigua and Barbuda,4,2025,North America
+AO,AO,4,2025,Other
+BB,Barbados,4,2025,North America
+CF,CF,4,2025,Other
+ML,Mali,4,2025,Africa
+NC,New Caledonia,4,2025,Oceania
+PF,PF,4,2025,Other
+BS,Bahamas,3,2025,North America
+SC,SC,3,2025,Other
+SL,Sierra Leone,3,2025,Africa
+TC,TC,3,2025,Other
+ER,ER,2,2025,Other
+LC,LC,2,2025,Other
+LS,Lesotho,2,2025,Africa
+SM,SM,2,2025,Other
+SR,Suriname,2,2025,South America
+SX,SX,2,2025,Other
+TL,TL,2,2025,Other
+AW,AW,1,2025,Other
+BM,Bermuda,1,2025,North America
+CV,CV,1,2025,Other
+DJ,DJ,1,2025,Other
+DM,DM,1,2025,Other
+GF,French Guiana,1,2025,South America
+GL,Greenland,1,2025,North America
+GN,GN,1,2025,Other
+GP,GP,1,2025,Other
+GU,GU,1,2025,Other
+GW,GW,1,2025,Other
+HT,HT,1,2025,Other
+MC,Monaco,1,2025,Europe
+SZ,Eswatini,1,2025,Africa
+VC,VC,1,2025,Other
+VG,VG,1,2025,Other
+CN,China,19114,2026,Asia
+US,United States,14210,2026,North America
+IN,India,9183,2026,Asia
+GB,United Kingdom,3764,2026,Europe
+DE,Germany,2952,2026,Europe
+ID,Indonesia,2185,2026,Asia
+IT,Italy,1945,2026,Europe
+JP,Japan,1905,2026,Asia
+CA,Canada,1794,2026,North America
+FR,France,1776,2026,Europe
+AU,Australia,1729,2026,Oceania
+KR,South Korea,1571,2026,Asia
+ES,Spain,1426,2026,Europe
+HK,Hong Kong,1154,2026,Asia
+SA,Saudi Arabia,1151,2026,Asia
+SG,Singapore,967,2026,Asia
+NL,Netherlands,952,2026,Europe
+RU,Russia,916,2026,Europe
+TR,Turkey,905,2026,Asia
+BR,Brazil,870,2026,South America
+CH,Switzerland,838,2026,Europe
+MY,Malaysia,822,2026,Asia
+TW,Taiwan,676,2026,Asia
+PK,Pakistan,662,2026,Asia
+AE,United Arab Emirates,659,2026,Asia
+IR,Iran,613,2026,Asia
+AT,Austria,603,2026,Europe
+SE,Sweden,599,2026,Europe
+BD,Bangladesh,582,2026,Asia
+PL,Poland,575,2026,Europe
+UA,Ukraine,524,2026,Europe
+VN,Vietnam,519,2026,Asia
+NG,Nigeria,504,2026,Africa
+UZ,Uzbekistan,467,2026,Asia
+EG,Egypt,457,2026,Africa
+FI,Finland,450,2026,Europe
+CZ,Czechia,449,2026,Europe
+PT,Portugal,446,2026,Europe
+JO,Jordan,443,2026,Asia
+MA,Morocco,433,2026,Africa
+GR,Greece,430,2026,Europe
+MX,Mexico,413,2026,North America
+BE,Belgium,412,2026,Europe
+IQ,Iraq,412,2026,Asia
+IL,Israel,400,2026,Asia
+DK,Denmark,388,2026,Europe
+NO,Norway,372,2026,Europe
+IE,Ireland,350,2026,Europe
+TH,Thailand,337,2026,Asia
+MO,Macao,326,2026,Asia
+HU,Hungary,256,2026,Europe
+ZA,South Africa,248,2026,Africa
+RO,Romania,246,2026,Europe
+PH,Philippines,237,2026,Asia
+NZ,New Zealand,235,2026,Oceania
+TN,Tunisia,220,2026,Africa
+BG,Bulgaria,210,2026,Europe
+NP,Nepal,198,2026,Asia
+KZ,Kazakhstan,183,2026,Asia
+SI,Slovenia,178,2026,Europe
+OM,Oman,167,2026,Asia
+DZ,Algeria,160,2026,Africa
+CL,Chile,154,2026,South America
+LK,Sri Lanka,146,2026,Asia
+AR,Argentina,142,2026,South America
+RS,Serbia,138,2026,Europe
+SK,Slovakia,129,2026,Europe
+CO,Colombia,127,2026,South America
+QA,Qatar,121,2026,Asia
+CY,Cyprus,120,2026,Europe
+EC,Ecuador,116,2026,South America
+GH,Ghana,104,2026,Africa
+LB,Lebanon,101,2026,Asia
+AZ,Azerbaijan,100,2026,Asia
+ET,Ethiopia,99,2026,Africa
+HR,Croatia,94,2026,Europe
+LU,Luxembourg,94,2026,Europe
+YE,Yemen,92,2026,Asia
+BH,Bahrain,87,2026,Asia
+SY,Syria,86,2026,Asia
+EE,Estonia,85,2026,Europe
+PE,Peru,83,2026,South America
+KE,Kenya,73,2026,Africa
+LV,Latvia,73,2026,Europe
+KW,Kuwait,72,2026,Asia
+LT,Lithuania,67,2026,Europe
+LY,Libya,62,2026,Africa
+MK,North Macedonia,53,2026,Europe
+PS,Palestine,52,2026,Asia
+BY,Belarus,49,2026,Europe
+KH,Cambodia,46,2026,Asia
+BA,Bosnia and Herzegovina,42,2026,Europe
+CM,Cameroon,42,2026,Africa
+ME,Montenegro,41,2026,Europe
+RW,Rwanda,40,2026,Africa
+MN,Mongolia,38,2026,Asia
+UG,Uganda,36,2026,Africa
+PR,Puerto Rico,33,2026,North America
+AM,Armenia,31,2026,Asia
+AL,Albania,30,2026,Europe
+MM,Myanmar,30,2026,Asia
+KG,Kyrgyzstan,29,2026,Asia
+ZW,Zimbabwe,29,2026,Africa
+SS,South Sudan,28,2026,Africa
+SD,Sudan,27,2026,Africa
+ZM,Zambia,27,2026,Africa
+CD,CD,26,2026,Other
+BI,Burundi,25,2026,Africa
+CR,Costa Rica,25,2026,North America
+IS,Iceland,25,2026,Europe
+TJ,Tajikistan,25,2026,Asia
+GE,Georgia,24,2026,Asia
+CU,Cuba,23,2026,North America
+TZ,Tanzania,23,2026,Africa
+AF,AF,22,2026,Other
+MT,Malta,21,2026,Europe
+PA,Panama,20,2026,North America
+VE,Venezuela,19,2026,South America
+BN,Brunei,18,2026,Asia
+MZ,MZ,18,2026,Other
+SN,Senegal,17,2026,Africa
+UY,Uruguay,17,2026,South America
+MD,Moldova,16,2026,Europe
+SO,Somalia,16,2026,Africa
+MU,Mauritius,15,2026,Africa
+KP,KP,14,2026,Other
+HN,HN,13,2026,Other
+XK,Kosovo,12,2026,Europe
+MV,Maldives,11,2026,Asia
+BW,Botswana,10,2026,Africa
+CI,Cote d'Ivoire,10,2026,Africa
+KY,Cayman Islands,10,2026,North America
+TT,Trinidad and Tobago,10,2026,North America
+DO,Dominican Republic,9,2026,North America
+SV,SV,9,2026,Other
+TO,TO,9,2026,Other
+AG,Antigua and Barbuda,7,2026,North America
+BO,Bolivia,7,2026,South America
+GT,Guatemala,7,2026,North America
+JM,Jamaica,6,2026,North America
+PY,Paraguay,6,2026,South America
+TG,TG,6,2026,Other
+MG,Madagascar,5,2026,Africa
+MW,Malawi,5,2026,Africa
+RE,Reunion,5,2026,Africa
+SL,Sierra Leone,5,2026,Africa
+BF,Burkina Faso,4,2026,Africa
+CG,Congo,4,2026,Africa
+GA,Gabon,4,2026,Africa
+NI,Nicaragua,4,2026,North America
+TD,TD,4,2026,Other
+BJ,Benin,3,2026,Africa
+ER,ER,3,2026,Other
+FJ,Fiji,3,2026,Oceania
+GM,Gambia,3,2026,Africa
+LI,Liechtenstein,3,2026,Europe
+NE,NE,3,2026,Other
+PG,PG,3,2026,Other
+TL,TL,3,2026,Other
+AO,AO,2,2026,Other
+BS,Bahamas,2,2026,North America
+GD,GD,2,2026,Other
+HT,HT,2,2026,Other
+LC,LC,2,2026,Other
+NU,NU,2,2026,Other
+SX,SX,2,2026,Other
+SZ,Eswatini,2,2026,Africa
+VI,VI,2,2026,Other
+BB,Barbados,1,2026,North America
+BM,Bermuda,1,2026,North America
+GL,Greenland,1,2026,North America
+GN,GN,1,2026,Other
+GY,Guyana,1,2026,South America
+KN,KN,1,2026,Other
+LR,LR,1,2026,Other
+LS,Lesotho,1,2026,Africa
+MR,MR,1,2026,Other
+NA,Namibia,1,2026,Africa
+PW,PW,1,2026,Other
+SB,SB,1,2026,Other
+SM,SM,1,2026,Other

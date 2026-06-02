@@ -1,41 +1,26 @@
-"""OpenAlex-backed data loading and enrichment for the dashboard.
+"""Load precomputed OpenAlex snapshot tables for the dashboard.
 
-The app now queries OpenAlex live instead of reading local CSV files. The
-resulting dataframe preserves the shape expected by the dashboard modules:
-
-* ``year``              - integer publication year
-* ``topic_bucket``      - canonical topic bucket derived from OpenAlex topics
-* ``venue_group``       - friendly grouping of the OpenAlex work type
-* ``regions``           - list of continents for the paper's countries
-* ``country_list``      - list of ISO-2 codes
-* ``institution_list``  - list of institution names
-* ``sector``            - academia / industry collaboration heuristic
-* ``novelty_proxy``     - structural proxy in [0, 1]
-
-The live query intentionally fetches a capped, citation-sorted sample rather
-than attempting a full snapshot download through the API.
+The dashboard no longer queries OpenAlex live. Instead, a one-shot precompute
+job writes exact aggregate tables and a stratified paper sample to
+`data/openalex_dashboard_stats/`, and this module loads that snapshot into
+memory for the UI.
 """
 from __future__ import annotations
 
-from datetime import date
+import functools
+import json
 import os
+from pathlib import Path
 
-import numpy as np
 import pandas as pd
-import requests
 
 from . import geo
-from . import sector as sectormod
 
-OPENALEX_WORKS_URL = "https://api.openalex.org/works"
-DEFAULT_YEAR_MIN = 2000
-DEFAULT_YEAR_MAX = date.today().year
-DEFAULT_QUERY = os.environ.get("OPENALEX_DEFAULT_QUERY", "artificial intelligence")
-DEFAULT_MAX_WORKS = int(os.environ.get("OPENALEX_DEFAULT_MAX_WORKS", "2000"))
-PER_PAGE = 100
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_DEFAULT_STATS_DIR = _PROJECT_ROOT / "data" / "openalex_dashboard_stats"
+_STATS_DIR = Path(os.environ.get("OPENALEX_DASHBOARD_STATS_DIR", _DEFAULT_STATS_DIR)).expanduser()
+EXCLUDED_YEARS = {2026}
 
-# Canonical AI topic buckets used by the Topic filter, stacked-area chart and
-# topic heatmap. Order matters: classification picks the first match.
 TOPIC_RULES = [
     ("Computer Vision", ["vision", "image", "face", "expression recognition",
                           "pattern recognition", "object detection", "segmentation",
@@ -61,253 +46,172 @@ TOPIC_RULES = [
 ]
 
 TOPIC_BUCKETS = [name for name, _ in TOPIC_RULES] + ["Other"]
+VENUE_GROUPS = ["Article / Journal", "Preprint", "Book chapter", "Other"]
+OA_GROUPS = ["gold", "green", "hybrid", "bronze", "diamond", "closed", "unknown"]
 
-_VENUE_MAP = {
-    "article": "Article / Journal",
-    "preprint": "Preprint",
-    "book-chapter": "Book chapter",
+_SNAPSHOT_FILES = {
+    "year_counts": "exact_year_counts.csv",
+    "country_counts": "exact_country_counts.csv",
+    "country_year_counts": "exact_country_year_counts.csv",
+    "type_counts": "exact_type_counts.csv",
+    "type_year_counts": "exact_type_year_counts.csv",
+    "oa_counts": "exact_oa_status_counts.csv",
+    "oa_year_counts": "exact_oa_status_year_counts.csv",
+    "subfield_counts": "exact_subfield_counts.csv",
+    "subfield_year_counts": "exact_subfield_year_counts.csv",
+    "primary_topic_year_counts": "exact_primary_topic_year_counts.csv",
+    "topic_bucket_year_counts": "exact_topic_bucket_year_counts.csv",
+    "top_institutions_by_country": "exact_top_institutions_by_country.csv",
+    "sample_plan": "sample_plan.csv",
+    "sampled_papers": "sampled_papers.csv",
+    "manifest": "manifest.json",
 }
-VENUE_GROUPS = ["Article / Journal", "Preprint", "Book chapter"]
-
-_EMPTY_COLUMNS = [
-    "paper_id", "title", "publication_year", "publication_date", "publication_type",
-    "citation_count", "citations_per_year", "referenced_works_count", "query_term",
-    "primary_topic", "primary_domain", "primary_field", "primary_subfield", "topics",
-    "authors", "institutions", "countries", "year", "topic_bucket", "venue_group",
-    "country_list", "regions", "institution_list", "sector", "author_count",
-    "institution_count", "country_count", "paper_age", "venue_source", "is_oa",
-    "oa_status", "doi", "novelty_proxy",
-]
 
 
-def _classify_topic(text: str) -> str:
-    t = text.lower()
-    for bucket, keywords in TOPIC_RULES:
-        if any(k in t for k in keywords):
-            return bucket
-    return "Other"
+def stats_dir() -> Path:
+    return _STATS_DIR
 
 
-def _unique_preserve(items: list[str]) -> list[str]:
-    seen: set[str] = set()
-    out: list[str] = []
-    for item in items:
-        if not item or item in seen:
-            continue
-        seen.add(item)
-        out.append(item)
-    return out
-
-
-def _join(items: list[str]) -> str:
-    return "; ".join(_unique_preserve(items))
-
-
-def _topic_name(obj: dict | None, key: str) -> str:
-    if not isinstance(obj, dict):
-        return ""
-    value = obj.get(key)
-    if isinstance(value, dict):
-        return str(value.get("display_name") or "")
-    return str(value or "")
-
-
-def empty_frame() -> pd.DataFrame:
-    return pd.DataFrame(columns=_EMPTY_COLUMNS)
-
-
-def _api_key() -> str:
-    key = os.environ.get("OPENALEX_API_KEY", "").strip()
-    if not key:
-        raise RuntimeError(
-            "Set OPENALEX_API_KEY before running the dashboard. "
-            "Get a free key from https://openalex.org/settings/api."
+def _required_path(name: str) -> Path:
+    path = _STATS_DIR / _SNAPSHOT_FILES[name]
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Missing snapshot file: {path}. "
+            "Run Scripts/precompute_openalex_dashboard_stats.py first."
         )
-    return key
+    return path
 
 
-def _fetch_page(session: requests.Session, params: dict) -> dict:
-    resp = session.get(OPENALEX_WORKS_URL, params=params, timeout=60)
-    if resp.status_code == 401:
-        raise RuntimeError("OpenAlex rejected OPENALEX_API_KEY (401 Unauthorized).")
-    if resp.status_code == 429:
-        raise RuntimeError("OpenAlex rate limit reached (429). Reduce max works or retry later.")
-    resp.raise_for_status()
-    return resp.json()
+def _optional_csv(name: str) -> pd.DataFrame:
+    path = _STATS_DIR / _SNAPSHOT_FILES[name]
+    if not path.exists():
+        return pd.DataFrame()
+    return pd.read_csv(path, encoding="utf-8-sig")
 
 
-def _work_to_row(work: dict, query: str) -> dict:
-    primary_topic = work.get("primary_topic") or {}
-    topics = work.get("topics") or []
-    primary_location = work.get("primary_location") or {}
-    source = primary_location.get("source") or {}
-    open_access = work.get("open_access") or {}
-    authorships = work.get("authorships") or []
-
-    author_names: list[str] = []
-    institution_names: list[str] = []
-    country_codes: list[str] = []
-
-    for authorship in authorships:
-        author = authorship.get("author") or {}
-        if author.get("display_name"):
-            author_names.append(str(author["display_name"]))
-        for inst in authorship.get("institutions") or []:
-            name = str(inst.get("display_name") or "")
-            code = str(inst.get("country_code") or "")
-            if name:
-                institution_names.append(name)
-            if code:
-                country_codes.append(code)
-
-    topic_names = [str(topic.get("display_name") or "") for topic in topics]
-    countries = _unique_preserve(country_codes)
-    institutions = _unique_preserve(institution_names)
-    authors = _unique_preserve(author_names)
-
-    publication_year = pd.to_numeric(work.get("publication_year"), errors="coerce")
-    if pd.isna(publication_year):
-        publication_year = DEFAULT_YEAR_MAX
-    publication_year = int(publication_year)
-    citation_count = float(pd.to_numeric(work.get("cited_by_count"), errors="coerce") or 0)
-    referenced_count = float(
-        pd.to_numeric(work.get("referenced_works_count"), errors="coerce") or 0
-    )
-    paper_age = max(0, date.today().year - publication_year)
-    citations_per_year = citation_count / float(paper_age + 1)
-
-    row = {
-        "paper_id": str(work.get("id") or ""),
-        "title": str(work.get("display_name") or ""),
-        "publication_year": publication_year,
-        "publication_date": str(work.get("publication_date") or ""),
-        "publication_type": str(work.get("type") or ""),
-        "citation_count": citation_count,
-        "citations_per_year": citations_per_year,
-        "referenced_works_count": referenced_count,
-        "query_term": query,
-        "primary_topic": str(primary_topic.get("display_name") or ""),
-        "primary_domain": _topic_name(primary_topic, "domain"),
-        "primary_field": _topic_name(primary_topic, "field"),
-        "primary_subfield": _topic_name(primary_topic, "subfield"),
-        "topics": _join(topic_names),
-        "authors": _join(authors),
-        "institutions": _join(institutions),
-        "countries": _join(countries),
-        "year": publication_year,
-        "country_list": countries,
-        "regions": sorted({geo.region(code) for code in countries}),
-        "institution_list": institutions,
-        "sector": sectormod.paper_sector(institutions),
-        "author_count": len(authors),
-        "institution_count": len(institutions),
-        "country_count": len(countries),
-        "paper_age": paper_age,
-        "venue_source": str(source.get("display_name") or ""),
-        "is_oa": bool(open_access.get("is_oa", False)),
-        "oa_status": str(open_access.get("oa_status") or ""),
-        "doi": str(work.get("doi") or ""),
-    }
-
-    topic_text = " ; ".join([
-        row["primary_subfield"],
-        row["primary_topic"],
-        row["topics"],
-    ])
-    row["topic_bucket"] = _classify_topic(topic_text)
-    row["venue_group"] = _VENUE_MAP.get(row["publication_type"], "Other")
-    return row
+def _split_semicolon(value) -> list[str]:
+    if not isinstance(value, str):
+        return []
+    return [part.strip() for part in value.split(";") if part.strip()]
 
 
-def load_data(
-    query: str,
-    year_min: int = DEFAULT_YEAR_MIN,
-    year_max: int = DEFAULT_YEAR_MAX,
-    max_records: int = DEFAULT_MAX_WORKS,
-) -> pd.DataFrame:
-    """Fetch a citation-sorted sample of works from OpenAlex and enrich it."""
-    query = (query or "").strip()
-    if not query:
-        raise RuntimeError("Enter an OpenAlex search query before loading data.")
-
-    max_records = max(1, int(max_records))
-    session = requests.Session()
-    session.headers.update({"User-Agent": "raw_dashboard-openalex/1.0"})
-
-    params = {
-        "api_key": _api_key(),
-        "search": query,
-        "filter": f"publication_year:{year_min}-{year_max}",
-        "sort": "cited_by_count:desc",
-        "select": ",".join([
-            "id",
-            "display_name",
-            "doi",
-            "publication_year",
-            "publication_date",
-            "type",
-            "cited_by_count",
-            "referenced_works_count",
-            "topics",
-            "primary_topic",
-            "authorships",
-            "primary_location",
-            "open_access",
-        ]),
-        "per_page": min(PER_PAGE, max_records),
-        "cursor": "*",
-    }
-
-    rows: list[dict] = []
-    while len(rows) < max_records:
-        payload = _fetch_page(session, params)
-        results = payload.get("results") or []
-        if not results:
-            break
-        for work in results:
-            rows.append(_work_to_row(work, query))
-            if len(rows) >= max_records:
-                break
-        next_cursor = ((payload.get("meta") or {}).get("next_cursor"))
-        if not next_cursor:
-            break
-        params["cursor"] = next_cursor
-
-    if not rows:
-        return empty_frame()
-
-    df = pd.DataFrame(rows)
-    ref_pct = df["referenced_works_count"].rank(pct=True)
-    df["novelty_proxy"] = (1.0 - ref_pct).round(3)
-
-    for col in _EMPTY_COLUMNS:
-        if col not in df.columns:
-            df[col] = np.nan
-
-    return df[_EMPTY_COLUMNS].reset_index(drop=True)
+def _normalize_country_code(value) -> str:
+    if not isinstance(value, str):
+        return ""
+    text = value.strip()
+    if not text:
+        return ""
+    if "/" in text:
+        text = text.rstrip("/").split("/")[-1]
+    return text.upper()
 
 
-# ---------------------------------------------------------------------------
-# Aggregation helpers (operate on an already-filtered DataFrame)
-# ---------------------------------------------------------------------------
-def papers_per_year(df: pd.DataFrame) -> pd.Series:
-    return df.groupby("year").size().sort_index()
-
-
-def explode_countries(df: pd.DataFrame) -> pd.DataFrame:
-    """One row per (paper, country)."""
-    out = df.explode("country_list").rename(columns={"country_list": "iso2"})
-    out = out[out["iso2"].notna() & (out["iso2"] != "")].copy()
-    out["country"] = out["iso2"].map(geo.name)
-    out["iso3"] = out["iso2"].map(geo.iso3)
-    out["region"] = out["iso2"].map(geo.region)
-    out["pop_m"] = out["iso2"].map(geo.population_m)
+def _normalize_country_frame(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty or "country_code" not in df.columns:
+        return df
+    out = df.copy()
+    out["country_code"] = out["country_code"].map(_normalize_country_code)
+    out["country_name"] = out["country_code"].map(geo.name)
+    out["region"] = out["country_code"].map(geo.region)
     return out
 
 
-def explode_institutions(df: pd.DataFrame) -> pd.DataFrame:
-    """One row per (paper, institution), tagged with inferred sector."""
-    out = df.assign(institution=df["institution_list"]).explode("institution")
-    out = out[out["institution"].notna() & (out["institution"] != "")].copy()
-    out["inst_sector"] = out["institution"].map(sectormod.classify_institution)
+def _normalize_institutions_frame(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return df
+    out = df.copy()
+    if "country_code" in out.columns:
+        out["country_code"] = out["country_code"].map(_normalize_country_code)
+        out["country_name"] = out["country_code"].map(geo.name)
     return out
+
+
+def _prepare_sampled_papers(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return df
+    out = df.copy()
+    for col in [
+        "publication_year", "citation_count", "citations_per_year",
+        "referenced_works_count", "sample_weight", "paper_age",
+        "author_count", "institution_count", "country_count", "novelty_proxy",
+    ]:
+        if col in out.columns:
+            out[col] = pd.to_numeric(out[col], errors="coerce")
+    out["year"] = out["publication_year"].astype("Int64")
+    out = out[out["year"].notna()].copy()
+    out["year"] = out["year"].astype(int)
+    out = out[~out["year"].isin(EXCLUDED_YEARS)].copy()
+    out["country_list"] = out.get("countries", pd.Series(dtype=str)).map(_split_semicolon)
+    out["institution_list"] = out.get("institutions", pd.Series(dtype=str)).map(_split_semicolon)
+    out["regions"] = out["country_list"].map(lambda xs: sorted({geo.region(x) for x in xs}))
+    out["oa_status"] = out.get("oa_status", pd.Series(dtype=str)).fillna("unknown").replace("", "unknown")
+    out["venue_group"] = out.get("venue_group", pd.Series(dtype=str)).fillna("Other").replace("", "Other")
+    return out.reset_index(drop=True)
+
+
+def _filter_excluded_years(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty or "publication_year" not in df.columns:
+        return df
+    out = df.copy()
+    out["publication_year"] = pd.to_numeric(out["publication_year"], errors="coerce")
+    return out[~out["publication_year"].isin(EXCLUDED_YEARS)].copy()
+
+
+@functools.lru_cache(maxsize=1)
+def load_snapshot() -> dict[str, object]:
+    _required_path("year_counts")
+    manifest_path = _STATS_DIR / _SNAPSHOT_FILES["manifest"]
+    manifest: dict[str, object] = {}
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+    snapshot = {
+        "stats_dir": _STATS_DIR,
+        "manifest": manifest,
+        "year_counts": _filter_excluded_years(pd.read_csv(_required_path("year_counts"), encoding="utf-8-sig")),
+        "country_counts": _normalize_country_frame(_optional_csv("country_counts")),
+        "country_year_counts": _filter_excluded_years(_normalize_country_frame(_optional_csv("country_year_counts"))),
+        "type_counts": _optional_csv("type_counts"),
+        "type_year_counts": _filter_excluded_years(_optional_csv("type_year_counts")),
+        "oa_counts": _optional_csv("oa_counts"),
+        "oa_year_counts": _filter_excluded_years(_optional_csv("oa_year_counts")),
+        "subfield_counts": _optional_csv("subfield_counts"),
+        "subfield_year_counts": _filter_excluded_years(_optional_csv("subfield_year_counts")),
+        "primary_topic_year_counts": _filter_excluded_years(_optional_csv("primary_topic_year_counts")),
+        "topic_bucket_year_counts": _filter_excluded_years(_optional_csv("topic_bucket_year_counts")),
+        "top_institutions_by_country": _normalize_institutions_frame(
+            _optional_csv("top_institutions_by_country")
+        ),
+        "sample_plan": _optional_csv("sample_plan"),
+        "sampled_papers": _prepare_sampled_papers(_optional_csv("sampled_papers")),
+    }
+    return snapshot
+
+
+def year_bounds(snapshot: dict[str, object] | None = None) -> tuple[int, int]:
+    snap = snapshot or load_snapshot()
+    years = snap["year_counts"]["publication_year"]
+    return int(years.min()), int(years.max())
+
+
+def snapshot_summary(snapshot: dict[str, object] | None = None) -> dict[str, object]:
+    snap = snapshot or load_snapshot()
+    manifest = dict(snap.get("manifest") or {})
+    manifest.setdefault("sample_size_materialized", len(snap["sampled_papers"]))
+    manifest.setdefault("stats_dir", str(snap["stats_dir"]))
+    return manifest
+
+
+def filter_years(df: pd.DataFrame, year_min: int, year_max: int) -> pd.DataFrame:
+    if df.empty or "publication_year" not in df.columns:
+        return df.copy()
+    out = df.copy()
+    out["publication_year"] = pd.to_numeric(out["publication_year"], errors="coerce")
+    return out[(out["publication_year"] >= year_min) & (out["publication_year"] <= year_max)].copy()
+
+
+def filter_sampled_papers(snapshot: dict[str, object], year_min: int, year_max: int) -> pd.DataFrame:
+    df = snapshot["sampled_papers"]
+    if df.empty:
+        return df.copy()
+    return df[(df["year"] >= year_min) & (df["year"] <= year_max)].copy()

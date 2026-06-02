@@ -1,0 +1,2077 @@
+﻿primary_topic_id,primary_topic_name,paper_count,publication_year,topic_bucket
+https://openalex.org/T10320,Neural Networks and Applications,2353,2000,Core ML / Deep Learning
+https://openalex.org/T10181,Natural Language Processing Techniques,1775,2000,NLP
+https://openalex.org/T10126,"Logic, programming, and type systems",1207,2000,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1125,2000,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,940,2000,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,834,2000,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,808,2000,Robotics
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",779,2000,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,683,2000,Robotics
+https://openalex.org/T10201,Speech Recognition and Synthesis,638,2000,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,625,2000,Other
+https://openalex.org/T12031,Speech and dialogue systems,564,2000,NLP
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,539,2000,Other
+https://openalex.org/T11130,Coding theory and cryptography,502,2000,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,481,2000,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,457,2000,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,445,2000,NLP
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,438,2000,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,425,2000,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,418,2000,ML Theory & Optimization
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,373,2000,ML Theory & Optimization
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,325,2000,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,324,2000,Other
+https://openalex.org/T10237,Cryptography and Data Security,320,2000,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,283,2000,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,268,2000,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,246,2000,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,241,2000,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,240,2000,ML Theory & Optimization
+https://openalex.org/T10862,AI in cancer detection,227,2000,Healthcare AI
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,220,2000,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,208,2000,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,189,2000,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,163,2000,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,139,2000,NLP
+https://openalex.org/T10028,Topic Modeling,125,2000,Other
+https://openalex.org/T11424,Security and Verification in Computing,125,2000,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,123,2000,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",120,2000,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,113,2000,Reinforcement Learning
+https://openalex.org/T13398,Data Analysis with R,110,2000,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,97,2000,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,96,2000,Robotics
+https://openalex.org/T12535,Machine Learning and Data Classification,83,2000,Core ML / Deep Learning
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,82,2000,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,80,2000,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,73,2000,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,68,2000,NLP
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",55,2000,Healthcare AI
+https://openalex.org/T13629,Text Readability and Simplification,49,2000,NLP
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,48,2000,ML Theory & Optimization
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,46,2000,Core ML / Deep Learning
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,45,2000,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,44,2000,Healthcare AI
+https://openalex.org/T13062,Cognitive Computing and Networks,42,2000,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,39,2000,Other
+https://openalex.org/T12128,AI in Service Interactions,34,2000,Other
+https://openalex.org/T14064,Organizational and Employee Performance,25,2000,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,23,2000,AI Ethics & Fairness
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),21,2000,AI Ethics & Fairness
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,18,2000,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,18,2000,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,18,2000,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,17,2000,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,13,2000,ML Theory & Optimization
+https://openalex.org/T12676,Machine Learning and ELM,10,2000,Core ML / Deep Learning
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,9,2000,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,8,2000,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,5,2000,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,5,2000,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,4,2000,NLP
+https://openalex.org/T11273,Advanced Graph Neural Networks,4,2000,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,4,2000,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,3,2000,Other
+https://openalex.org/T13674,Computer Science and Engineering,3,2000,Other
+https://openalex.org/T10320,Neural Networks and Applications,2028,2001,Core ML / Deep Learning
+https://openalex.org/T10181,Natural Language Processing Techniques,1339,2001,NLP
+https://openalex.org/T10126,"Logic, programming, and type systems",1250,2001,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,988,2001,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,919,2001,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,909,2001,Robotics
+https://openalex.org/T10215,Semantic Web and Ontologies,903,2001,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",848,2001,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,687,2001,Other
+https://openalex.org/T11130,Coding theory and cryptography,674,2001,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,630,2001,Robotics
+https://openalex.org/T11269,Algorithms and Data Compression,589,2001,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,502,2001,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,462,2001,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,445,2001,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,432,2001,NLP
+https://openalex.org/T12031,Speech and dialogue systems,425,2001,NLP
+https://openalex.org/T10201,Speech Recognition and Synthesis,416,2001,NLP
+https://openalex.org/T10906,AI-based Problem Solving and Planning,387,2001,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,387,2001,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,384,2001,ML Theory & Optimization
+https://openalex.org/T10237,Cryptography and Data Security,364,2001,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,319,2001,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,288,2001,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,275,2001,Core ML / Deep Learning
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,264,2001,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,262,2001,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,241,2001,ML Theory & Optimization
+https://openalex.org/T10862,AI in cancer detection,209,2001,Healthcare AI
+https://openalex.org/T13018,Seismology and Earthquake Studies,194,2001,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,170,2001,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,168,2001,Core ML / Deep Learning
+https://openalex.org/T10462,Reinforcement Learning in Robotics,160,2001,Reinforcement Learning
+https://openalex.org/T10951,Cryptographic Implementations and Security,155,2001,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,150,2001,NLP
+https://openalex.org/T10028,Topic Modeling,138,2001,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,137,2001,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,129,2001,Core ML / Deep Learning
+https://openalex.org/T11424,Security and Verification in Computing,125,2001,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,116,2001,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",112,2001,Healthcare AI
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,98,2001,Robotics
+https://openalex.org/T14351,Statistical and Computational Modeling,95,2001,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",93,2001,Other
+https://openalex.org/T13398,Data Analysis with R,90,2001,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,85,2001,NLP
+https://openalex.org/T12535,Machine Learning and Data Classification,75,2001,Core ML / Deep Learning
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,66,2001,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,62,2001,NLP
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,49,2001,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,46,2001,ML Theory & Optimization
+https://openalex.org/T13062,Cognitive Computing and Networks,43,2001,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,41,2001,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,37,2001,Other
+https://openalex.org/T13629,Text Readability and Simplification,35,2001,NLP
+https://openalex.org/T13702,Machine Learning in Healthcare,30,2001,Healthcare AI
+https://openalex.org/T12128,AI in Service Interactions,29,2001,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,28,2001,AI Ethics & Fairness
+https://openalex.org/T13904,Artificial Intelligence Applications,22,2001,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,21,2001,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,18,2001,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,15,2001,Other
+https://openalex.org/T13559,Edcuational Technology Systems,13,2001,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),12,2001,AI Ethics & Fairness
+https://openalex.org/T13674,Computer Science and Engineering,12,2001,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,11,2001,ML Theory & Optimization
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,10,2001,Other
+https://openalex.org/T14064,Organizational and Employee Performance,10,2001,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,8,2001,Core ML / Deep Learning
+https://openalex.org/T12131,Wireless Signal Modulation Classification,8,2001,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,8,2001,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,8,2001,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,4,2001,NLP
+https://openalex.org/T12260,Educational Technology and Pedagogy,4,2001,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,4,2001,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,3,2001,Core ML / Deep Learning
+https://openalex.org/T10320,Neural Networks and Applications,8165,2002,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,3167,2002,Robotics
+https://openalex.org/T10201,Speech Recognition and Synthesis,2200,2002,NLP
+https://openalex.org/T10181,Natural Language Processing Techniques,2192,2002,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1922,2002,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1896,2002,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1797,2002,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,1707,2002,Other
+https://openalex.org/T11130,Coding theory and cryptography,1499,2002,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1330,2002,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,1300,2002,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1241,2002,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,1234,2002,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1216,2002,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1188,2002,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,1014,2002,Robotics
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,981,2002,Other
+https://openalex.org/T12031,Speech and dialogue systems,934,2002,NLP
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,803,2002,ML Theory & Optimization
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,730,2002,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,713,2002,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,658,2002,ML Theory & Optimization
+https://openalex.org/T10237,Cryptography and Data Security,639,2002,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,576,2002,ML Theory & Optimization
+https://openalex.org/T12072,Machine Learning and Algorithms,575,2002,Core ML / Deep Learning
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,541,2002,NLP
+https://openalex.org/T11424,Security and Verification in Computing,489,2002,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,379,2002,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,374,2002,Reinforcement Learning
+https://openalex.org/T10862,AI in cancer detection,370,2002,Healthcare AI
+https://openalex.org/T13650,Computational Physics and Python Applications,368,2002,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,348,2002,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,282,2002,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,269,2002,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,267,2002,NLP
+https://openalex.org/T10028,Topic Modeling,256,2002,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,256,2002,Core ML / Deep Learning
+https://openalex.org/T11550,Text and Document Classification Technologies,244,2002,NLP
+https://openalex.org/T13018,Seismology and Earthquake Studies,240,2002,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,217,2002,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,183,2002,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,148,2002,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,148,2002,Core ML / Deep Learning
+https://openalex.org/T14351,Statistical and Computational Modeling,137,2002,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",106,2002,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,103,2002,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,103,2002,Robotics
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,94,2002,Core ML / Deep Learning
+https://openalex.org/T12131,Wireless Signal Modulation Classification,90,2002,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,83,2002,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,80,2002,NLP
+https://openalex.org/T13062,Cognitive Computing and Networks,71,2002,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,66,2002,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",64,2002,Healthcare AI
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,61,2002,ML Theory & Optimization
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,58,2002,AI Ethics & Fairness
+https://openalex.org/T12761,Data Stream Mining Techniques,55,2002,Other
+https://openalex.org/T13629,Text Readability and Simplification,46,2002,NLP
+https://openalex.org/T13904,Artificial Intelligence Applications,33,2002,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,32,2002,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,28,2002,ML Theory & Optimization
+https://openalex.org/T13702,Machine Learning in Healthcare,28,2002,Healthcare AI
+https://openalex.org/T12676,Machine Learning and ELM,22,2002,Core ML / Deep Learning
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,20,2002,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,16,2002,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,16,2002,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,13,2002,Other
+https://openalex.org/T13559,Edcuational Technology Systems,11,2002,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,10,2002,NLP
+https://openalex.org/T13674,Computer Science and Engineering,10,2002,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,9,2002,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,8,2002,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,7,2002,Other
+https://openalex.org/T14064,Organizational and Employee Performance,7,2002,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),5,2002,AI Ethics & Fairness
+https://openalex.org/T14413,Advanced Technologies in Various Fields,5,2002,Other
+https://openalex.org/T13567,AI and Multimedia in Education,2,2002,Other
+https://openalex.org/T10320,Neural Networks and Applications,4438,2003,Core ML / Deep Learning
+https://openalex.org/T10181,Natural Language Processing Techniques,1851,2003,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,1665,2003,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,1588,2003,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1519,2003,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1320,2003,Robotics
+https://openalex.org/T14335,Educational Robotics and Engineering,1214,2003,Robotics
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1182,2003,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1178,2003,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1125,2003,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1086,2003,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1030,2003,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1003,2003,Other
+https://openalex.org/T11130,Coding theory and cryptography,999,2003,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",975,2003,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,818,2003,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,752,2003,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,705,2003,Other
+https://openalex.org/T12031,Speech and dialogue systems,679,2003,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,631,2003,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,624,2003,NLP
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,602,2003,ML Theory & Optimization
+https://openalex.org/T10237,Cryptography and Data Security,602,2003,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,597,2003,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,495,2003,ML Theory & Optimization
+https://openalex.org/T12072,Machine Learning and Algorithms,401,2003,Core ML / Deep Learning
+https://openalex.org/T11424,Security and Verification in Computing,365,2003,Other
+https://openalex.org/T10862,AI in cancer detection,361,2003,Healthcare AI
+https://openalex.org/T10951,Cryptographic Implementations and Security,347,2003,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,321,2003,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,299,2003,Reinforcement Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,298,2003,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,290,2003,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,285,2003,Other
+https://openalex.org/T10028,Topic Modeling,269,2003,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,265,2003,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,263,2003,NLP
+https://openalex.org/T11550,Text and Document Classification Technologies,254,2003,NLP
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,246,2003,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,236,2003,Core ML / Deep Learning
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,171,2003,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,157,2003,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,147,2003,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",116,2003,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,115,2003,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,113,2003,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,106,2003,Robotics
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",95,2003,Healthcare AI
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,79,2003,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,73,2003,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,67,2003,Other
+https://openalex.org/T13629,Text Readability and Simplification,67,2003,NLP
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,66,2003,Core ML / Deep Learning
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,61,2003,AI Ethics & Fairness
+https://openalex.org/T12761,Data Stream Mining Techniques,60,2003,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,57,2003,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,49,2003,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,47,2003,ML Theory & Optimization
+https://openalex.org/T12128,AI in Service Interactions,43,2003,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,42,2003,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,25,2003,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,22,2003,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,19,2003,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,19,2003,Other
+https://openalex.org/T13674,Computer Science and Engineering,17,2003,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,17,2003,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,16,2003,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,14,2003,ML Theory & Optimization
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,9,2003,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,8,2003,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,8,2003,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,7,2003,Core ML / Deep Learning
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),6,2003,AI Ethics & Fairness
+https://openalex.org/T12260,Educational Technology and Pedagogy,6,2003,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,5,2003,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,5,2003,Other
+https://openalex.org/T13567,AI and Multimedia in Education,2,2003,Other
+https://openalex.org/T10320,Neural Networks and Applications,2659,2004,Core ML / Deep Learning
+https://openalex.org/T10181,Natural Language Processing Techniques,2264,2004,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,2033,2004,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,1746,2004,Robotics
+https://openalex.org/T10020,Quantum Information and Cryptography,1689,2004,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1361,2004,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1233,2004,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1130,2004,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1034,2004,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,981,2004,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,976,2004,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,930,2004,Robotics
+https://openalex.org/T10201,Speech Recognition and Synthesis,909,2004,NLP
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",835,2004,Other
+https://openalex.org/T10237,Cryptography and Data Security,814,2004,Other
+https://openalex.org/T11130,Coding theory and cryptography,804,2004,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,776,2004,Other
+https://openalex.org/T12031,Speech and dialogue systems,737,2004,NLP
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,710,2004,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,684,2004,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,682,2004,NLP
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,564,2004,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,559,2004,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,507,2004,ML Theory & Optimization
+https://openalex.org/T10906,AI-based Problem Solving and Planning,421,2004,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,402,2004,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,360,2004,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,345,2004,Core ML / Deep Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,342,2004,Other
+https://openalex.org/T11424,Security and Verification in Computing,319,2004,Other
+https://openalex.org/T10862,AI in cancer detection,318,2004,Healthcare AI
+https://openalex.org/T11550,Text and Document Classification Technologies,318,2004,NLP
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,304,2004,Core ML / Deep Learning
+https://openalex.org/T10028,Topic Modeling,301,2004,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,297,2004,Reinforcement Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,297,2004,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,294,2004,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,263,2004,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,253,2004,NLP
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,220,2004,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,220,2004,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,192,2004,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,135,2004,Core ML / Deep Learning
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",130,2004,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,118,2004,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,114,2004,AI Ethics & Fairness
+https://openalex.org/T14351,Statistical and Computational Modeling,114,2004,Other
+https://openalex.org/T13398,Data Analysis with R,111,2004,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,95,2004,Robotics
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,93,2004,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,84,2004,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",82,2004,Healthcare AI
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,78,2004,NLP
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,65,2004,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,63,2004,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,53,2004,ML Theory & Optimization
+https://openalex.org/T13629,Text Readability and Simplification,51,2004,NLP
+https://openalex.org/T12128,AI in Service Interactions,46,2004,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,43,2004,Core ML / Deep Learning
+https://openalex.org/T13674,Computer Science and Engineering,39,2004,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,39,2004,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,32,2004,Healthcare AI
+https://openalex.org/T13904,Artificial Intelligence Applications,29,2004,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,27,2004,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,21,2004,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,19,2004,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,15,2004,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,14,2004,Core ML / Deep Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,13,2004,Other
+https://openalex.org/T12676,Machine Learning and ELM,13,2004,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,10,2004,ML Theory & Optimization
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),8,2004,AI Ethics & Fairness
+https://openalex.org/T12260,Educational Technology and Pedagogy,5,2004,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,4,2004,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,4,2004,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,3,2004,Other
+https://openalex.org/T13567,AI and Multimedia in Education,2,2004,Other
+https://openalex.org/T10320,Neural Networks and Applications,3679,2005,Core ML / Deep Learning
+https://openalex.org/T10215,Semantic Web and Ontologies,2341,2005,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,2159,2005,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,2158,2005,NLP
+https://openalex.org/T14335,Educational Robotics and Engineering,2043,2005,Robotics
+https://openalex.org/T10126,"Logic, programming, and type systems",1846,2005,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1558,2005,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1331,2005,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1265,2005,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1252,2005,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1225,2005,Robotics
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1173,2005,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1137,2005,Other
+https://openalex.org/T11130,Coding theory and cryptography,1117,2005,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1077,2005,Other
+https://openalex.org/T10237,Cryptography and Data Security,1026,2005,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1026,2005,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,843,2005,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,834,2005,ML Theory & Optimization
+https://openalex.org/T12031,Speech and dialogue systems,772,2005,NLP
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,752,2005,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,711,2005,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,666,2005,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,636,2005,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,633,2005,NLP
+https://openalex.org/T10862,AI in cancer detection,487,2005,Healthcare AI
+https://openalex.org/T10951,Cryptographic Implementations and Security,475,2005,Other
+https://openalex.org/T11424,Security and Verification in Computing,444,2005,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,423,2005,Core ML / Deep Learning
+https://openalex.org/T11550,Text and Document Classification Technologies,368,2005,NLP
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,350,2005,Core ML / Deep Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,342,2005,Other
+https://openalex.org/T10028,Topic Modeling,339,2005,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,336,2005,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,331,2005,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,313,2005,NLP
+https://openalex.org/T12805,Cognitive Science and Mapping,310,2005,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,307,2005,Reinforcement Learning
+https://openalex.org/T11574,Artificial Intelligence in Games,300,2005,Core ML / Deep Learning
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,272,2005,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,272,2005,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,198,2005,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,198,2005,Core ML / Deep Learning
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,152,2005,AI Ethics & Fairness
+https://openalex.org/T14351,Statistical and Computational Modeling,135,2005,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,126,2005,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,124,2005,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,119,2005,Robotics
+https://openalex.org/T13062,Cognitive Computing and Networks,116,2005,Other
+https://openalex.org/T13398,Data Analysis with R,110,2005,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",103,2005,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",89,2005,Healthcare AI
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,86,2005,ML Theory & Optimization
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,85,2005,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,71,2005,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,69,2005,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,64,2005,NLP
+https://openalex.org/T13702,Machine Learning in Healthcare,54,2005,Healthcare AI
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,39,2005,NLP
+https://openalex.org/T13629,Text Readability and Simplification,38,2005,NLP
+https://openalex.org/T13904,Artificial Intelligence Applications,32,2005,Core ML / Deep Learning
+https://openalex.org/T13674,Computer Science and Engineering,30,2005,Other
+https://openalex.org/T12128,AI in Service Interactions,28,2005,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,28,2005,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,26,2005,ML Theory & Optimization
+https://openalex.org/T12676,Machine Learning and ELM,24,2005,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,24,2005,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,18,2005,Core ML / Deep Learning
+https://openalex.org/T14064,Organizational and Employee Performance,18,2005,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),15,2005,AI Ethics & Fairness
+https://openalex.org/T13559,Edcuational Technology Systems,15,2005,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,14,2005,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,10,2005,Core ML / Deep Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,9,2005,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,8,2005,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,5,2005,Other
+https://openalex.org/T13567,AI and Multimedia in Education,1,2005,Other
+https://openalex.org/T10320,Neural Networks and Applications,3564,2006,Core ML / Deep Learning
+https://openalex.org/T10181,Natural Language Processing Techniques,2840,2006,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,2835,2006,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,2346,2006,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,1930,2006,Robotics
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1669,2006,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1548,2006,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1375,2006,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1308,2006,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1291,2006,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1249,2006,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1216,2006,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1211,2006,Robotics
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1202,2006,Other
+https://openalex.org/T10237,Cryptography and Data Security,1128,2006,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1086,2006,ML Theory & Optimization
+https://openalex.org/T11130,Coding theory and cryptography,1083,2006,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1033,2006,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,969,2006,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,905,2006,Other
+https://openalex.org/T12031,Speech and dialogue systems,902,2006,NLP
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,802,2006,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,719,2006,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,718,2006,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,593,2006,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,557,2006,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,510,2006,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,497,2006,Core ML / Deep Learning
+https://openalex.org/T10862,AI in cancer detection,490,2006,Healthcare AI
+https://openalex.org/T10028,Topic Modeling,479,2006,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,463,2006,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,460,2006,NLP
+https://openalex.org/T11424,Security and Verification in Computing,459,2006,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,451,2006,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,430,2006,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,415,2006,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,380,2006,Reinforcement Learning
+https://openalex.org/T11574,Artificial Intelligence in Games,370,2006,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,367,2006,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,338,2006,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,293,2006,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,271,2006,AI Ethics & Fairness
+https://openalex.org/T12535,Machine Learning and Data Classification,222,2006,Core ML / Deep Learning
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,182,2006,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,178,2006,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,168,2006,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,160,2006,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,156,2006,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",139,2006,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,120,2006,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,113,2006,ML Theory & Optimization
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,108,2006,Robotics
+https://openalex.org/T12131,Wireless Signal Modulation Classification,101,2006,Core ML / Deep Learning
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",96,2006,Healthcare AI
+https://openalex.org/T12380,Authorship Attribution and Profiling,95,2006,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,94,2006,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,82,2006,NLP
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,66,2006,NLP
+https://openalex.org/T13629,Text Readability and Simplification,53,2006,NLP
+https://openalex.org/T13674,Computer Science and Engineering,51,2006,Other
+https://openalex.org/T12676,Machine Learning and ELM,48,2006,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,46,2006,Healthcare AI
+https://openalex.org/T13904,Artificial Intelligence Applications,40,2006,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,37,2006,Other
+https://openalex.org/T13559,Edcuational Technology Systems,35,2006,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,35,2006,Other
+https://openalex.org/T14064,Organizational and Employee Performance,27,2006,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,24,2006,ML Theory & Optimization
+https://openalex.org/T12260,Educational Technology and Pedagogy,24,2006,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,21,2006,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),20,2006,AI Ethics & Fairness
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,15,2006,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,13,2006,Core ML / Deep Learning
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,12,2006,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,8,2006,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,3,2006,Other
+https://openalex.org/T13567,AI and Multimedia in Education,1,2006,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3048,2007,Other
+https://openalex.org/T10320,Neural Networks and Applications,2751,2007,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,2627,2007,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,2516,2007,NLP
+https://openalex.org/T14335,Educational Robotics and Engineering,1991,2007,Robotics
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1566,2007,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1552,2007,Other
+https://openalex.org/T10237,Cryptography and Data Security,1462,2007,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1228,2007,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1215,2007,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1207,2007,Robotics
+https://openalex.org/T11269,Algorithms and Data Compression,1204,2007,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1190,2007,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1187,2007,NLP
+https://openalex.org/T11130,Coding theory and cryptography,1185,2007,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1103,2007,ML Theory & Optimization
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1081,2007,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1062,2007,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,986,2007,Other
+https://openalex.org/T12031,Speech and dialogue systems,902,2007,NLP
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,897,2007,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,784,2007,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,743,2007,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,713,2007,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,647,2007,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,627,2007,Other
+https://openalex.org/T11424,Security and Verification in Computing,526,2007,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,518,2007,Core ML / Deep Learning
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,514,2007,Other
+https://openalex.org/T10028,Topic Modeling,483,2007,Other
+https://openalex.org/T10862,AI in cancer detection,476,2007,Healthcare AI
+https://openalex.org/T11574,Artificial Intelligence in Games,455,2007,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,441,2007,Core ML / Deep Learning
+https://openalex.org/T11550,Text and Document Classification Technologies,436,2007,NLP
+https://openalex.org/T13650,Computational Physics and Python Applications,436,2007,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,434,2007,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,409,2007,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,402,2007,Reinforcement Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,386,2007,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,336,2007,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,328,2007,AI Ethics & Fairness
+https://openalex.org/T13018,Seismology and Earthquake Studies,296,2007,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,220,2007,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,197,2007,Other
+https://openalex.org/T13398,Data Analysis with R,195,2007,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,193,2007,Core ML / Deep Learning
+https://openalex.org/T12535,Machine Learning and Data Classification,192,2007,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,156,2007,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,149,2007,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",139,2007,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,132,2007,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",125,2007,Healthcare AI
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,121,2007,ML Theory & Optimization
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,114,2007,Robotics
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,99,2007,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,96,2007,NLP
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,94,2007,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,88,2007,Core ML / Deep Learning
+https://openalex.org/T13629,Text Readability and Simplification,66,2007,NLP
+https://openalex.org/T13702,Machine Learning in Healthcare,59,2007,Healthcare AI
+https://openalex.org/T13674,Computer Science and Engineering,51,2007,Other
+https://openalex.org/T12128,AI in Service Interactions,46,2007,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,45,2007,Other
+https://openalex.org/T12676,Machine Learning and ELM,42,2007,Core ML / Deep Learning
+https://openalex.org/T13904,Artificial Intelligence Applications,42,2007,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,37,2007,Other
+https://openalex.org/T14064,Organizational and Employee Performance,30,2007,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,27,2007,ML Theory & Optimization
+https://openalex.org/T12260,Educational Technology and Pedagogy,26,2007,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,23,2007,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,20,2007,Core ML / Deep Learning
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,17,2007,Core ML / Deep Learning
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,16,2007,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),15,2007,AI Ethics & Fairness
+https://openalex.org/T13514,Experience-Based Knowledge Management,9,2007,Other
+https://openalex.org/T13567,AI and Multimedia in Education,1,2007,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,1,2007,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3502,2008,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,3010,2008,NLP
+https://openalex.org/T10320,Neural Networks and Applications,2889,2008,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,2668,2008,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,1876,2008,Robotics
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1621,2008,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1418,2008,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1319,2008,ML Theory & Optimization
+https://openalex.org/T10237,Cryptography and Data Security,1315,2008,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1284,2008,NLP
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1228,2008,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1211,2008,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1169,2008,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1154,2008,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1150,2008,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1146,2008,Other
+https://openalex.org/T11130,Coding theory and cryptography,1129,2008,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1120,2008,Robotics
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1118,2008,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1035,2008,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,858,2008,NLP
+https://openalex.org/T12031,Speech and dialogue systems,817,2008,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,795,2008,ML Theory & Optimization
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,755,2008,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,649,2008,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,578,2008,Core ML / Deep Learning
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,575,2008,Other
+https://openalex.org/T10028,Topic Modeling,573,2008,Other
+https://openalex.org/T10862,AI in cancer detection,556,2008,Healthcare AI
+https://openalex.org/T11424,Security and Verification in Computing,547,2008,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,538,2008,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,513,2008,NLP
+https://openalex.org/T13083,Advanced Text Analysis Techniques,472,2008,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,470,2008,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,468,2008,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,467,2008,Core ML / Deep Learning
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,453,2008,AI Ethics & Fairness
+https://openalex.org/T10462,Reinforcement Learning in Robotics,435,2008,Reinforcement Learning
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,424,2008,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,416,2008,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,415,2008,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,331,2008,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,325,2008,Other
+https://openalex.org/T13398,Data Analysis with R,262,2008,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,239,2008,Core ML / Deep Learning
+https://openalex.org/T12535,Machine Learning and Data Classification,221,2008,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,212,2008,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,186,2008,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,164,2008,NLP
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",159,2008,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,154,2008,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",147,2008,Healthcare AI
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,141,2008,ML Theory & Optimization
+https://openalex.org/T12380,Authorship Attribution and Profiling,119,2008,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,112,2008,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,107,2008,NLP
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,104,2008,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,89,2008,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,84,2008,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,70,2008,Other
+https://openalex.org/T12676,Machine Learning and ELM,64,2008,Core ML / Deep Learning
+https://openalex.org/T13674,Computer Science and Engineering,58,2008,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,51,2008,Healthcare AI
+https://openalex.org/T12128,AI in Service Interactions,48,2008,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,48,2008,Core ML / Deep Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,40,2008,Other
+https://openalex.org/T14064,Organizational and Employee Performance,39,2008,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,30,2008,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,28,2008,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,25,2008,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,17,2008,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,17,2008,ML Theory & Optimization
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,15,2008,Core ML / Deep Learning
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),14,2008,AI Ethics & Fairness
+https://openalex.org/T13514,Experience-Based Knowledge Management,12,2008,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,5,2008,Other
+https://openalex.org/T13567,AI and Multimedia in Education,4,2008,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3510,2009,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,3335,2009,NLP
+https://openalex.org/T10320,Neural Networks and Applications,3074,2009,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,2750,2009,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,1930,2009,Robotics
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1731,2009,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1657,2009,ML Theory & Optimization
+https://openalex.org/T10126,"Logic, programming, and type systems",1549,2009,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1548,2009,Other
+https://openalex.org/T10237,Cryptography and Data Security,1501,2009,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1370,2009,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1359,2009,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1348,2009,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1266,2009,Other
+https://openalex.org/T11130,Coding theory and cryptography,1171,2009,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1140,2009,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1138,2009,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1098,2009,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1066,2009,Robotics
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,984,2009,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,944,2009,NLP
+https://openalex.org/T12031,Speech and dialogue systems,889,2009,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,821,2009,ML Theory & Optimization
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,820,2009,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,746,2009,Other
+https://openalex.org/T10028,Topic Modeling,725,2009,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,692,2009,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,658,2009,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,644,2009,NLP
+https://openalex.org/T11424,Security and Verification in Computing,624,2009,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,592,2009,AI Ethics & Fairness
+https://openalex.org/T10906,AI-based Problem Solving and Planning,577,2009,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,559,2009,NLP
+https://openalex.org/T11574,Artificial Intelligence in Games,552,2009,Core ML / Deep Learning
+https://openalex.org/T10862,AI in cancer detection,540,2009,Healthcare AI
+https://openalex.org/T13650,Computational Physics and Python Applications,518,2009,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,506,2009,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,500,2009,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,495,2009,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,494,2009,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,449,2009,Reinforcement Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,358,2009,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,297,2009,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,281,2009,NLP
+https://openalex.org/T13398,Data Analysis with R,274,2009,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,250,2009,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,249,2009,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,244,2009,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,243,2009,Core ML / Deep Learning
+https://openalex.org/T14351,Statistical and Computational Modeling,193,2009,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,172,2009,ML Theory & Optimization
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",152,2009,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",151,2009,Healthcare AI
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,134,2009,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,129,2009,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,122,2009,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,116,2009,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,102,2009,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,94,2009,NLP
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,85,2009,Other
+https://openalex.org/T13559,Edcuational Technology Systems,82,2009,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,78,2009,Healthcare AI
+https://openalex.org/T13674,Computer Science and Engineering,77,2009,Other
+https://openalex.org/T12676,Machine Learning and ELM,74,2009,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,58,2009,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,55,2009,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,42,2009,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,35,2009,Other
+https://openalex.org/T14064,Organizational and Employee Performance,34,2009,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,33,2009,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,32,2009,ML Theory & Optimization
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,22,2009,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),18,2009,AI Ethics & Fairness
+https://openalex.org/T13514,Experience-Based Knowledge Management,14,2009,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,13,2009,Core ML / Deep Learning
+https://openalex.org/T14413,Advanced Technologies in Various Fields,11,2009,Other
+https://openalex.org/T13567,AI and Multimedia in Education,1,2009,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3537,2010,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,2972,2010,NLP
+https://openalex.org/T10320,Neural Networks and Applications,2935,2010,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,2792,2010,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,2136,2010,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2071,2010,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1902,2010,ML Theory & Optimization
+https://openalex.org/T10237,Cryptography and Data Security,1628,2010,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1606,2010,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1561,2010,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1486,2010,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1383,2010,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1376,2010,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1291,2010,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1213,2010,Robotics
+https://openalex.org/T11130,Coding theory and cryptography,1199,2010,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1198,2010,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1162,2010,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1135,2010,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1006,2010,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,948,2010,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,899,2010,NLP
+https://openalex.org/T12031,Speech and dialogue systems,863,2010,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,854,2010,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,827,2010,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,768,2010,AI Ethics & Fairness
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,767,2010,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,709,2010,Core ML / Deep Learning
+https://openalex.org/T11424,Security and Verification in Computing,701,2010,Other
+https://openalex.org/T10862,AI in cancer detection,673,2010,Healthcare AI
+https://openalex.org/T11574,Artificial Intelligence in Games,662,2010,Core ML / Deep Learning
+https://openalex.org/T10028,Topic Modeling,650,2010,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,622,2010,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,612,2010,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,605,2010,NLP
+https://openalex.org/T13083,Advanced Text Analysis Techniques,579,2010,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,568,2010,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,533,2010,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,521,2010,Core ML / Deep Learning
+https://openalex.org/T13650,Computational Physics and Python Applications,505,2010,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,452,2010,Reinforcement Learning
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,436,2010,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,374,2010,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,348,2010,NLP
+https://openalex.org/T13398,Data Analysis with R,307,2010,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,304,2010,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,278,2010,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,263,2010,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,250,2010,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,201,2010,ML Theory & Optimization
+https://openalex.org/T14351,Statistical and Computational Modeling,180,2010,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",159,2010,Healthcare AI
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,154,2010,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,153,2010,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,151,2010,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,149,2010,NLP
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",149,2010,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,135,2010,Robotics
+https://openalex.org/T13559,Edcuational Technology Systems,120,2010,Other
+https://openalex.org/T13674,Computer Science and Engineering,110,2010,Other
+https://openalex.org/T13629,Text Readability and Simplification,89,2010,NLP
+https://openalex.org/T12676,Machine Learning and ELM,83,2010,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,76,2010,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,73,2010,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,70,2010,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,70,2010,Healthcare AI
+https://openalex.org/T13904,Artificial Intelligence Applications,62,2010,Core ML / Deep Learning
+https://openalex.org/T14064,Organizational and Employee Performance,58,2010,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,53,2010,ML Theory & Optimization
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,50,2010,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,35,2010,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,30,2010,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,25,2010,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,23,2010,Core ML / Deep Learning
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),18,2010,AI Ethics & Fairness
+https://openalex.org/T14413,Advanced Technologies in Various Fields,15,2010,Other
+https://openalex.org/T13567,AI and Multimedia in Education,7,2010,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,4034,2011,Other
+https://openalex.org/T10320,Neural Networks and Applications,2990,2011,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,2929,2011,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,2600,2011,NLP
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,2099,2011,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2040,2011,Robotics
+https://openalex.org/T10237,Cryptography and Data Security,1840,2011,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1714,2011,ML Theory & Optimization
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1617,2011,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1449,2011,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1414,2011,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1408,2011,NLP
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1379,2011,Other
+https://openalex.org/T11130,Coding theory and cryptography,1365,2011,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1337,2011,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1327,2011,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1322,2011,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1212,2011,Robotics
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1089,2011,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1051,2011,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,946,2011,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,937,2011,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,935,2011,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,917,2011,ML Theory & Optimization
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,763,2011,Other
+https://openalex.org/T12031,Speech and dialogue systems,752,2011,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,745,2011,AI Ethics & Fairness
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,706,2011,Other
+https://openalex.org/T11424,Security and Verification in Computing,705,2011,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,702,2011,Core ML / Deep Learning
+https://openalex.org/T11574,Artificial Intelligence in Games,697,2011,Core ML / Deep Learning
+https://openalex.org/T10028,Topic Modeling,682,2011,Other
+https://openalex.org/T10862,AI in cancer detection,675,2011,Healthcare AI
+https://openalex.org/T13083,Advanced Text Analysis Techniques,659,2011,NLP
+https://openalex.org/T10906,AI-based Problem Solving and Planning,633,2011,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,627,2011,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,622,2011,NLP
+https://openalex.org/T12805,Cognitive Science and Mapping,597,2011,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,546,2011,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,530,2011,Core ML / Deep Learning
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,506,2011,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,457,2011,Reinforcement Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,434,2011,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,382,2011,NLP
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,355,2011,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,336,2011,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,295,2011,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,287,2011,Other
+https://openalex.org/T13398,Data Analysis with R,278,2011,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,206,2011,ML Theory & Optimization
+https://openalex.org/T14351,Statistical and Computational Modeling,206,2011,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",184,2011,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",182,2011,Healthcare AI
+https://openalex.org/T12260,Educational Technology and Pedagogy,171,2011,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,167,2011,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,162,2011,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,158,2011,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,148,2011,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,145,2011,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,140,2011,Robotics
+https://openalex.org/T12676,Machine Learning and ELM,132,2011,Core ML / Deep Learning
+https://openalex.org/T13674,Computer Science and Engineering,125,2011,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,122,2011,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,108,2011,Healthcare AI
+https://openalex.org/T14064,Organizational and Employee Performance,104,2011,Other
+https://openalex.org/T13629,Text Readability and Simplification,103,2011,NLP
+https://openalex.org/T13904,Artificial Intelligence Applications,91,2011,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,68,2011,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,66,2011,ML Theory & Optimization
+https://openalex.org/T11273,Advanced Graph Neural Networks,45,2011,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,45,2011,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,30,2011,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,30,2011,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,29,2011,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),22,2011,AI Ethics & Fairness
+https://openalex.org/T14413,Advanced Technologies in Various Fields,20,2011,Other
+https://openalex.org/T13567,AI and Multimedia in Education,8,2011,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3515,2012,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,3308,2012,NLP
+https://openalex.org/T10020,Quantum Information and Cryptography,2966,2012,Other
+https://openalex.org/T10320,Neural Networks and Applications,2659,2012,Core ML / Deep Learning
+https://openalex.org/T14335,Educational Robotics and Engineering,2145,2012,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2025,2012,ML Theory & Optimization
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,2018,2012,Other
+https://openalex.org/T10237,Cryptography and Data Security,1900,2012,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1644,2012,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1535,2012,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1464,2012,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1430,2012,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1412,2012,Other
+https://openalex.org/T11130,Coding theory and cryptography,1405,2012,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1342,2012,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1276,2012,Robotics
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1225,2012,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1210,2012,ML Theory & Optimization
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1173,2012,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1153,2012,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1096,2012,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1080,2012,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1004,2012,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,991,2012,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,937,2012,AI Ethics & Fairness
+https://openalex.org/T10028,Topic Modeling,868,2012,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,858,2012,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,800,2012,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,799,2012,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,783,2012,NLP
+https://openalex.org/T10862,AI in cancer detection,769,2012,Healthcare AI
+https://openalex.org/T11424,Security and Verification in Computing,730,2012,Other
+https://openalex.org/T12031,Speech and dialogue systems,727,2012,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,702,2012,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,696,2012,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,651,2012,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,644,2012,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,615,2012,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,595,2012,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,587,2012,Reinforcement Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,586,2012,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,585,2012,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,582,2012,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,456,2012,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,380,2012,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,379,2012,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,334,2012,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,322,2012,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,310,2012,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,293,2012,ML Theory & Optimization
+https://openalex.org/T13398,Data Analysis with R,275,2012,Other
+https://openalex.org/T12676,Machine Learning and ELM,248,2012,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,246,2012,Other
+https://openalex.org/T13674,Computer Science and Engineering,245,2012,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",230,2012,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,226,2012,NLP
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,210,2012,Core ML / Deep Learning
+https://openalex.org/T14351,Statistical and Computational Modeling,202,2012,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,194,2012,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,163,2012,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",160,2012,Healthcare AI
+https://openalex.org/T12131,Wireless Signal Modulation Classification,156,2012,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,138,2012,Healthcare AI
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,130,2012,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,124,2012,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,102,2012,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,93,2012,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,92,2012,ML Theory & Optimization
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,83,2012,Other
+https://openalex.org/T12128,AI in Service Interactions,73,2012,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,54,2012,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,41,2012,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,33,2012,Core ML / Deep Learning
+https://openalex.org/T14413,Advanced Technologies in Various Fields,31,2012,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),24,2012,AI Ethics & Fairness
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,23,2012,Other
+https://openalex.org/T13567,AI and Multimedia in Education,12,2012,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3600,2013,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,3227,2013,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,3194,2013,NLP
+https://openalex.org/T10320,Neural Networks and Applications,2665,2013,Core ML / Deep Learning
+https://openalex.org/T14335,Educational Robotics and Engineering,2259,2013,Robotics
+https://openalex.org/T10237,Cryptography and Data Security,2185,2013,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1956,2013,ML Theory & Optimization
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1901,2013,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1690,2013,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1641,2013,ML Theory & Optimization
+https://openalex.org/T10126,"Logic, programming, and type systems",1534,2013,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1504,2013,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1491,2013,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1477,2013,NLP
+https://openalex.org/T11130,Coding theory and cryptography,1459,2013,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1421,2013,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1370,2013,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1343,2013,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1173,2013,Robotics
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1139,2013,ML Theory & Optimization
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1093,2013,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1023,2013,NLP
+https://openalex.org/T10028,Topic Modeling,1012,2013,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,996,2013,AI Ethics & Fairness
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,995,2013,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,935,2013,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,840,2013,NLP
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,831,2013,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,801,2013,Other
+https://openalex.org/T10862,AI in cancer detection,798,2013,Healthcare AI
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,763,2013,Other
+https://openalex.org/T11424,Security and Verification in Computing,763,2013,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,753,2013,Core ML / Deep Learning
+https://openalex.org/T11574,Artificial Intelligence in Games,753,2013,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,723,2013,NLP
+https://openalex.org/T12031,Speech and dialogue systems,697,2013,NLP
+https://openalex.org/T11550,Text and Document Classification Technologies,687,2013,NLP
+https://openalex.org/T12805,Cognitive Science and Mapping,677,2013,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,660,2013,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,647,2013,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,552,2013,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,545,2013,Core ML / Deep Learning
+https://openalex.org/T13650,Computational Physics and Python Applications,544,2013,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,515,2013,Reinforcement Learning
+https://openalex.org/T13559,Edcuational Technology Systems,438,2013,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,429,2013,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,420,2013,Other
+https://openalex.org/T13398,Data Analysis with R,386,2013,Other
+https://openalex.org/T12676,Machine Learning and ELM,336,2013,Core ML / Deep Learning
+https://openalex.org/T12535,Machine Learning and Data Classification,310,2013,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,302,2013,ML Theory & Optimization
+https://openalex.org/T14351,Statistical and Computational Modeling,281,2013,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,265,2013,NLP
+https://openalex.org/T13674,Computer Science and Engineering,260,2013,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,250,2013,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,248,2013,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,242,2013,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,223,2013,Core ML / Deep Learning
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",204,2013,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",192,2013,Healthcare AI
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,183,2013,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,179,2013,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,175,2013,Robotics
+https://openalex.org/T13702,Machine Learning in Healthcare,170,2013,Healthcare AI
+https://openalex.org/T13629,Text Readability and Simplification,161,2013,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,144,2013,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,129,2013,ML Theory & Optimization
+https://openalex.org/T11273,Advanced Graph Neural Networks,104,2013,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,92,2013,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,81,2013,Core ML / Deep Learning
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,71,2013,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,45,2013,Core ML / Deep Learning
+https://openalex.org/T14413,Advanced Technologies in Various Fields,44,2013,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,39,2013,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,37,2013,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),35,2013,AI Ethics & Fairness
+https://openalex.org/T13567,AI and Multimedia in Education,14,2013,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,4745,2014,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,3634,2014,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,3253,2014,Other
+https://openalex.org/T10320,Neural Networks and Applications,2754,2014,Core ML / Deep Learning
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,2686,2014,Other
+https://openalex.org/T10237,Cryptography and Data Security,2298,2014,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2270,2014,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2240,2014,ML Theory & Optimization
+https://openalex.org/T10201,Speech Recognition and Synthesis,1687,2014,NLP
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1633,2014,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1613,2014,Other
+https://openalex.org/T11130,Coding theory and cryptography,1520,2014,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1448,2014,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1437,2014,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1409,2014,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1406,2014,Other
+https://openalex.org/T10028,Topic Modeling,1331,2014,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1265,2014,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1148,2014,ML Theory & Optimization
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,1129,2014,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,1128,2014,AI Ethics & Fairness
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1118,2014,Robotics
+https://openalex.org/T10951,Cryptographic Implementations and Security,1062,2014,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1061,2014,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1053,2014,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1013,2014,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,997,2014,NLP
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,967,2014,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,948,2014,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,920,2014,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,872,2014,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,871,2014,Core ML / Deep Learning
+https://openalex.org/T12031,Speech and dialogue systems,853,2014,NLP
+https://openalex.org/T10862,AI in cancer detection,849,2014,Healthcare AI
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,833,2014,Other
+https://openalex.org/T11424,Security and Verification in Computing,822,2014,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,786,2014,NLP
+https://openalex.org/T14351,Statistical and Computational Modeling,769,2014,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,729,2014,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,713,2014,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,640,2014,Core ML / Deep Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,606,2014,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,575,2014,Other
+https://openalex.org/T13559,Edcuational Technology Systems,557,2014,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,548,2014,Other
+https://openalex.org/T12676,Machine Learning and ELM,523,2014,Core ML / Deep Learning
+https://openalex.org/T10462,Reinforcement Learning in Robotics,476,2014,Reinforcement Learning
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,465,2014,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,462,2014,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,450,2014,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,398,2014,ML Theory & Optimization
+https://openalex.org/T12535,Machine Learning and Data Classification,374,2014,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,345,2014,Other
+https://openalex.org/T13674,Computer Science and Engineering,311,2014,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,301,2014,NLP
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",295,2014,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,270,2014,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,264,2014,Core ML / Deep Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,242,2014,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,236,2014,Other
+https://openalex.org/T13629,Text Readability and Simplification,226,2014,NLP
+https://openalex.org/T13702,Machine Learning in Healthcare,221,2014,Healthcare AI
+https://openalex.org/T14064,Organizational and Employee Performance,204,2014,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,182,2014,ML Theory & Optimization
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",179,2014,Healthcare AI
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,176,2014,Robotics
+https://openalex.org/T12131,Wireless Signal Modulation Classification,174,2014,Core ML / Deep Learning
+https://openalex.org/T11273,Advanced Graph Neural Networks,127,2014,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,104,2014,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,72,2014,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,66,2014,Core ML / Deep Learning
+https://openalex.org/T13514,Experience-Based Knowledge Management,62,2014,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,52,2014,Core ML / Deep Learning
+https://openalex.org/T14413,Advanced Technologies in Various Fields,44,2014,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),39,2014,AI Ethics & Fairness
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,37,2014,Other
+https://openalex.org/T13567,AI and Multimedia in Education,18,2014,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,4079,2015,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,3393,2015,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,3095,2015,Other
+https://openalex.org/T10320,Neural Networks and Applications,2597,2015,Core ML / Deep Learning
+https://openalex.org/T10237,Cryptography and Data Security,2571,2015,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2235,2015,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2042,2015,ML Theory & Optimization
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1996,2015,Other
+https://openalex.org/T10028,Topic Modeling,1825,2015,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1661,2015,NLP
+https://openalex.org/T11130,Coding theory and cryptography,1577,2015,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1535,2015,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1459,2015,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,1384,2015,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1367,2015,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1361,2015,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1304,2015,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1279,2015,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,1254,2015,AI Ethics & Fairness
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1223,2015,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1141,2015,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,1120,2015,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1094,2015,Robotics
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,1081,2015,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1076,2015,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1009,2015,ML Theory & Optimization
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1009,2015,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,969,2015,NLP
+https://openalex.org/T10862,AI in cancer detection,952,2015,Healthcare AI
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,929,2015,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,894,2015,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,842,2015,Other
+https://openalex.org/T11424,Security and Verification in Computing,834,2015,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,815,2015,NLP
+https://openalex.org/T11574,Artificial Intelligence in Games,797,2015,Core ML / Deep Learning
+https://openalex.org/T13559,Edcuational Technology Systems,796,2015,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,781,2015,Core ML / Deep Learning
+https://openalex.org/T13650,Computational Physics and Python Applications,748,2015,Other
+https://openalex.org/T12031,Speech and dialogue systems,711,2015,NLP
+https://openalex.org/T12805,Cognitive Science and Mapping,690,2015,Other
+https://openalex.org/T12676,Machine Learning and ELM,662,2015,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,661,2015,Core ML / Deep Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,597,2015,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,546,2015,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,524,2015,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,511,2015,Core ML / Deep Learning
+https://openalex.org/T12535,Machine Learning and Data Classification,508,2015,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,500,2015,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,477,2015,Reinforcement Learning
+https://openalex.org/T13674,Computer Science and Engineering,451,2015,Other
+https://openalex.org/T13398,Data Analysis with R,431,2015,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,430,2015,ML Theory & Optimization
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,352,2015,NLP
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,345,2015,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,312,2015,Healthcare AI
+https://openalex.org/T12260,Educational Technology and Pedagogy,303,2015,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,301,2015,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",295,2015,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,287,2015,Core ML / Deep Learning
+https://openalex.org/T14351,Statistical and Computational Modeling,284,2015,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,275,2015,ML Theory & Optimization
+https://openalex.org/T14064,Organizational and Employee Performance,274,2015,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,265,2015,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,203,2015,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,200,2015,NLP
+https://openalex.org/T11273,Advanced Graph Neural Networks,190,2015,Core ML / Deep Learning
+https://openalex.org/T12131,Wireless Signal Modulation Classification,171,2015,Core ML / Deep Learning
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",139,2015,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,96,2015,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,82,2015,Core ML / Deep Learning
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,71,2015,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,71,2015,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,50,2015,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),39,2015,AI Ethics & Fairness
+https://openalex.org/T13514,Experience-Based Knowledge Management,34,2015,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,33,2015,Other
+https://openalex.org/T13567,AI and Multimedia in Education,17,2015,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,4949,2016,NLP
+https://openalex.org/T10020,Quantum Information and Cryptography,3308,2016,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3289,2016,Other
+https://openalex.org/T10320,Neural Networks and Applications,2912,2016,Core ML / Deep Learning
+https://openalex.org/T10237,Cryptography and Data Security,2644,2016,Other
+https://openalex.org/T10028,Topic Modeling,2549,2016,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,2397,2016,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2334,2016,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2204,2016,ML Theory & Optimization
+https://openalex.org/T10201,Speech Recognition and Synthesis,1890,2016,NLP
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,1701,2016,NLP
+https://openalex.org/T11130,Coding theory and cryptography,1623,2016,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1496,2016,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1434,2016,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1429,2016,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,1392,2016,AI Ethics & Fairness
+https://openalex.org/T10126,"Logic, programming, and type systems",1383,2016,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1372,2016,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,1365,2016,Other
+https://openalex.org/T13559,Edcuational Technology Systems,1360,2016,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1234,2016,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1233,2016,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1181,2016,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1175,2016,ML Theory & Optimization
+https://openalex.org/T10862,AI in cancer detection,1173,2016,Healthcare AI
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1113,2016,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1096,2016,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1043,2016,Robotics
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1042,2016,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1005,2016,ML Theory & Optimization
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,965,2016,Core ML / Deep Learning
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,960,2016,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,928,2016,Other
+https://openalex.org/T11424,Security and Verification in Computing,890,2016,Other
+https://openalex.org/T13674,Computer Science and Engineering,879,2016,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,859,2016,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,832,2016,NLP
+https://openalex.org/T12031,Speech and dialogue systems,830,2016,NLP
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,824,2016,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,781,2016,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,711,2016,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,688,2016,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,678,2016,Reinforcement Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,656,2016,Core ML / Deep Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,629,2016,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,618,2016,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,602,2016,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,586,2016,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,568,2016,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,568,2016,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,536,2016,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,490,2016,NLP
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,472,2016,ML Theory & Optimization
+https://openalex.org/T14064,Organizational and Employee Performance,470,2016,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,463,2016,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,430,2016,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,418,2016,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,364,2016,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,364,2016,Healthcare AI
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,353,2016,ML Theory & Optimization
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",353,2016,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,323,2016,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,314,2016,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,268,2016,Other
+https://openalex.org/T13629,Text Readability and Simplification,246,2016,NLP
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,228,2016,Robotics
+https://openalex.org/T12131,Wireless Signal Modulation Classification,202,2016,Core ML / Deep Learning
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",201,2016,Healthcare AI
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,172,2016,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,148,2016,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,127,2016,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,111,2016,Core ML / Deep Learning
+https://openalex.org/T14413,Advanced Technologies in Various Fields,83,2016,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),82,2016,AI Ethics & Fairness
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,52,2016,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,44,2016,Other
+https://openalex.org/T13567,AI and Multimedia in Education,31,2016,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,4864,2017,NLP
+https://openalex.org/T10020,Quantum Information and Cryptography,3448,2017,Other
+https://openalex.org/T10028,Topic Modeling,3313,2017,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3183,2017,Other
+https://openalex.org/T10320,Neural Networks and Applications,3127,2017,Core ML / Deep Learning
+https://openalex.org/T10237,Cryptography and Data Security,2804,2017,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,2686,2017,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2440,2017,Robotics
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2302,2017,ML Theory & Optimization
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,2014,2017,NLP
+https://openalex.org/T13559,Edcuational Technology Systems,1861,2017,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,1822,2017,NLP
+https://openalex.org/T11130,Coding theory and cryptography,1779,2017,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1673,2017,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,1649,2017,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,1639,2017,AI Ethics & Fairness
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1632,2017,Other
+https://openalex.org/T10862,AI in cancer detection,1399,2017,Healthcare AI
+https://openalex.org/T11269,Algorithms and Data Compression,1376,2017,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1363,2017,NLP
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1346,2017,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1339,2017,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1231,2017,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,1227,2017,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1225,2017,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1200,2017,NLP
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1109,2017,Robotics
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1076,2017,Other
+https://openalex.org/T13674,Computer Science and Engineering,1053,2017,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1050,2017,ML Theory & Optimization
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1033,2017,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1030,2017,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1004,2017,Core ML / Deep Learning
+https://openalex.org/T11424,Security and Verification in Computing,1003,2017,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,958,2017,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,939,2017,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,931,2017,Reinforcement Learning
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,930,2017,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,894,2017,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,838,2017,Core ML / Deep Learning
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,825,2017,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,783,2017,Other
+https://openalex.org/T12031,Speech and dialogue systems,769,2017,NLP
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,742,2017,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,721,2017,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,705,2017,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,704,2017,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,696,2017,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,679,2017,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,678,2017,Core ML / Deep Learning
+https://openalex.org/T14064,Organizational and Employee Performance,671,2017,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,663,2017,NLP
+https://openalex.org/T13398,Data Analysis with R,635,2017,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,567,2017,ML Theory & Optimization
+https://openalex.org/T10906,AI-based Problem Solving and Planning,565,2017,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,495,2017,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,490,2017,Core ML / Deep Learning
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,471,2017,ML Theory & Optimization
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,466,2017,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,453,2017,Healthcare AI
+https://openalex.org/T12380,Authorship Attribution and Profiling,439,2017,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",432,2017,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,405,2017,Core ML / Deep Learning
+https://openalex.org/T14351,Statistical and Computational Modeling,347,2017,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,308,2017,Robotics
+https://openalex.org/T13062,Cognitive Computing and Networks,300,2017,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,277,2017,Core ML / Deep Learning
+https://openalex.org/T13629,Text Readability and Simplification,273,2017,NLP
+https://openalex.org/T12128,AI in Service Interactions,231,2017,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",207,2017,Healthcare AI
+https://openalex.org/T14413,Advanced Technologies in Various Fields,193,2017,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),182,2017,AI Ethics & Fairness
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,154,2017,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,111,2017,Core ML / Deep Learning
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,50,2017,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,45,2017,Other
+https://openalex.org/T13567,AI and Multimedia in Education,36,2017,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,5781,2018,NLP
+https://openalex.org/T10028,Topic Modeling,5276,2018,Other
+https://openalex.org/T10320,Neural Networks and Applications,3718,2018,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,3393,2018,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,3081,2018,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,2995,2018,Other
+https://openalex.org/T10237,Cryptography and Data Security,2949,2018,Other
+https://openalex.org/T13559,Edcuational Technology Systems,2703,2018,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,2670,2018,NLP
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2471,2018,ML Theory & Optimization
+https://openalex.org/T10201,Speech Recognition and Synthesis,2255,2018,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,2161,2018,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2065,2018,Robotics
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,2051,2018,AI Ethics & Fairness
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,1973,2018,Other
+https://openalex.org/T10862,AI in cancer detection,1876,2018,Healthcare AI
+https://openalex.org/T11130,Coding theory and cryptography,1676,2018,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1663,2018,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1637,2018,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1454,2018,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,1442,2018,Reinforcement Learning
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1402,2018,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1374,2018,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1339,2018,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1330,2018,NLP
+https://openalex.org/T10951,Cryptographic Implementations and Security,1265,2018,Other
+https://openalex.org/T13674,Computer Science and Engineering,1242,2018,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,1213,2018,Core ML / Deep Learning
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1205,2018,ML Theory & Optimization
+https://openalex.org/T11424,Security and Verification in Computing,1178,2018,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,1145,2018,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,1139,2018,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1133,2018,ML Theory & Optimization
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1128,2018,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1081,2018,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1075,2018,Robotics
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1072,2018,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1048,2018,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,1042,2018,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,1040,2018,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1024,2018,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,989,2018,Core ML / Deep Learning
+https://openalex.org/T12031,Speech and dialogue systems,966,2018,NLP
+https://openalex.org/T11273,Advanced Graph Neural Networks,952,2018,Core ML / Deep Learning
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,943,2018,NLP
+https://openalex.org/T12805,Cognitive Science and Mapping,934,2018,Other
+https://openalex.org/T14064,Organizational and Employee Performance,924,2018,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,920,2018,Core ML / Deep Learning
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,915,2018,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,867,2018,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,821,2018,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,803,2018,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,755,2018,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,741,2018,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,708,2018,Healthcare AI
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,701,2018,ML Theory & Optimization
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,693,2018,ML Theory & Optimization
+https://openalex.org/T13398,Data Analysis with R,631,2018,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,618,2018,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,604,2018,Core ML / Deep Learning
+https://openalex.org/T10906,AI-based Problem Solving and Planning,603,2018,Other
+https://openalex.org/T12128,AI in Service Interactions,516,2018,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",511,2018,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,441,2018,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,408,2018,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),406,2018,AI Ethics & Fairness
+https://openalex.org/T12131,Wireless Signal Modulation Classification,369,2018,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,342,2018,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,341,2018,NLP
+https://openalex.org/T13062,Cognitive Computing and Networks,285,2018,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,230,2018,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",220,2018,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,177,2018,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,151,2018,Core ML / Deep Learning
+https://openalex.org/T13567,AI and Multimedia in Education,93,2018,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,80,2018,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,44,2018,Other
+https://openalex.org/T10028,Topic Modeling,7302,2019,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,6071,2019,NLP
+https://openalex.org/T10020,Quantum Information and Cryptography,3916,2019,Other
+https://openalex.org/T10320,Neural Networks and Applications,3798,2019,Core ML / Deep Learning
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,3572,2019,Other
+https://openalex.org/T13559,Edcuational Technology Systems,3500,2019,Other
+https://openalex.org/T10237,Cryptography and Data Security,3116,2019,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,2848,2019,NLP
+https://openalex.org/T10215,Semantic Web and Ontologies,2828,2019,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,2731,2019,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,2565,2019,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2511,2019,ML Theory & Optimization
+https://openalex.org/T10201,Speech Recognition and Synthesis,2481,2019,NLP
+https://openalex.org/T10862,AI in cancer detection,2479,2019,Healthcare AI
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,2413,2019,AI Ethics & Fairness
+https://openalex.org/T10462,Reinforcement Learning in Robotics,2227,2019,Reinforcement Learning
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,2130,2019,Core ML / Deep Learning
+https://openalex.org/T14335,Educational Robotics and Engineering,2120,2019,Robotics
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,1918,2019,Other
+https://openalex.org/T11130,Coding theory and cryptography,1781,2019,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1690,2019,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1588,2019,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,1524,2019,Core ML / Deep Learning
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1466,2019,NLP
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1396,2019,NLP
+https://openalex.org/T10126,"Logic, programming, and type systems",1361,2019,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1358,2019,Other
+https://openalex.org/T13674,Computer Science and Engineering,1358,2019,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1337,2019,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1333,2019,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,1323,2019,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,1296,2019,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,1283,2019,Core ML / Deep Learning
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1267,2019,ML Theory & Optimization
+https://openalex.org/T11424,Security and Verification in Computing,1236,2019,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,1199,2019,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,1198,2019,NLP
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1175,2019,ML Theory & Optimization
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1159,2019,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,1142,2019,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1066,2019,Robotics
+https://openalex.org/T13702,Machine Learning in Healthcare,1064,2019,Healthcare AI
+https://openalex.org/T12676,Machine Learning and ELM,1047,2019,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1044,2019,Core ML / Deep Learning
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1037,2019,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1009,2019,Core ML / Deep Learning
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1003,2019,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,961,2019,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,948,2019,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,933,2019,ML Theory & Optimization
+https://openalex.org/T12031,Speech and dialogue systems,927,2019,NLP
+https://openalex.org/T12072,Machine Learning and Algorithms,897,2019,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,857,2019,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,851,2019,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,818,2019,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,810,2019,ML Theory & Optimization
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),790,2019,AI Ethics & Fairness
+https://openalex.org/T12128,AI in Service Interactions,764,2019,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",721,2019,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,720,2019,Other
+https://openalex.org/T13398,Data Analysis with R,717,2019,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,713,2019,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,704,2019,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,692,2019,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,560,2019,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,491,2019,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,476,2019,Other
+https://openalex.org/T13629,Text Readability and Simplification,383,2019,NLP
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,336,2019,Robotics
+https://openalex.org/T14413,Advanced Technologies in Various Fields,298,2019,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,290,2019,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,196,2019,Core ML / Deep Learning
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",178,2019,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,177,2019,Other
+https://openalex.org/T13567,AI and Multimedia in Education,121,2019,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,82,2019,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,39,2019,Other
+https://openalex.org/T10028,Topic Modeling,8925,2020,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,6258,2020,NLP
+https://openalex.org/T13559,Edcuational Technology Systems,4195,2020,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,3970,2020,Other
+https://openalex.org/T10320,Neural Networks and Applications,3901,2020,Core ML / Deep Learning
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,3629,2020,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,3452,2020,AI Ethics & Fairness
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,3402,2020,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,3325,2020,NLP
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,3325,2020,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,3291,2020,Core ML / Deep Learning
+https://openalex.org/T10237,Cryptography and Data Security,3099,2020,Other
+https://openalex.org/T10862,AI in cancer detection,3088,2020,Healthcare AI
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,2895,2020,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,2861,2020,NLP
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2753,2020,ML Theory & Optimization
+https://openalex.org/T10215,Semantic Web and Ontologies,2642,2020,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,2569,2020,Reinforcement Learning
+https://openalex.org/T14335,Educational Robotics and Engineering,2268,2020,Robotics
+https://openalex.org/T11273,Advanced Graph Neural Networks,2228,2020,Core ML / Deep Learning
+https://openalex.org/T11130,Coding theory and cryptography,1831,2020,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,1815,2020,NLP
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1780,2020,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1599,2020,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,1569,2020,Other
+https://openalex.org/T13674,Computer Science and Engineering,1493,2020,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1488,2020,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,1479,2020,Core ML / Deep Learning
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,1402,2020,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,1392,2020,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1373,2020,NLP
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),1354,2020,AI Ethics & Fairness
+https://openalex.org/T13702,Machine Learning in Healthcare,1353,2020,Healthcare AI
+https://openalex.org/T10126,"Logic, programming, and type systems",1345,2020,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,1325,2020,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1304,2020,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1252,2020,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1245,2020,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1235,2020,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1194,2020,ML Theory & Optimization
+https://openalex.org/T11550,Text and Document Classification Technologies,1182,2020,NLP
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1161,2020,ML Theory & Optimization
+https://openalex.org/T12128,AI in Service Interactions,1156,2020,Other
+https://openalex.org/T11424,Security and Verification in Computing,1150,2020,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,1136,2020,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,1128,2020,ML Theory & Optimization
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1112,2020,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1096,2020,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,1077,2020,Core ML / Deep Learning
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,1039,2020,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1023,2020,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1017,2020,Robotics
+https://openalex.org/T12761,Data Stream Mining Techniques,1010,2020,Other
+https://openalex.org/T12676,Machine Learning and ELM,1006,2020,Core ML / Deep Learning
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,988,2020,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,963,2020,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,955,2020,ML Theory & Optimization
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",946,2020,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,862,2020,Core ML / Deep Learning
+https://openalex.org/T13398,Data Analysis with R,855,2020,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,837,2020,Other
+https://openalex.org/T12031,Speech and dialogue systems,809,2020,NLP
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,740,2020,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,691,2020,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,620,2020,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,552,2020,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,534,2020,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,472,2020,Other
+https://openalex.org/T13629,Text Readability and Simplification,381,2020,NLP
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,358,2020,Robotics
+https://openalex.org/T13062,Cognitive Computing and Networks,315,2020,Other
+https://openalex.org/T13567,AI and Multimedia in Education,266,2020,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,224,2020,Core ML / Deep Learning
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",197,2020,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,181,2020,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,47,2020,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,46,2020,Other
+https://openalex.org/T10028,Topic Modeling,11238,2021,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,6595,2021,NLP
+https://openalex.org/T13559,Edcuational Technology Systems,4867,2021,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,4721,2021,AI Ethics & Fairness
+https://openalex.org/T10020,Quantum Information and Cryptography,4646,2021,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,4597,2021,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,4330,2021,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,4256,2021,Other
+https://openalex.org/T10320,Neural Networks and Applications,4210,2021,Core ML / Deep Learning
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,4187,2021,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,3834,2021,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,3753,2021,Other
+https://openalex.org/T10862,AI in cancer detection,3664,2021,Healthcare AI
+https://openalex.org/T10201,Speech Recognition and Synthesis,3319,2021,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,3188,2021,Reinforcement Learning
+https://openalex.org/T10237,Cryptography and Data Security,3143,2021,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,3010,2021,Core ML / Deep Learning
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2896,2021,ML Theory & Optimization
+https://openalex.org/T10215,Semantic Web and Ontologies,2323,2021,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,2281,2021,NLP
+https://openalex.org/T14335,Educational Robotics and Engineering,2221,2021,Robotics
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,2019,2021,Other
+https://openalex.org/T14064,Organizational and Employee Performance,1971,2021,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),1967,2021,AI Ethics & Fairness
+https://openalex.org/T11130,Coding theory and cryptography,1947,2021,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,1818,2021,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,1789,2021,Core ML / Deep Learning
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,1708,2021,Core ML / Deep Learning
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1705,2021,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,1539,2021,Healthcare AI
+https://openalex.org/T13674,Computer Science and Engineering,1481,2021,Other
+https://openalex.org/T12128,AI in Service Interactions,1471,2021,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,1470,2021,Core ML / Deep Learning
+https://openalex.org/T13650,Computational Physics and Python Applications,1444,2021,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1412,2021,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1393,2021,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1385,2021,ML Theory & Optimization
+https://openalex.org/T10126,"Logic, programming, and type systems",1370,2021,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1355,2021,NLP
+https://openalex.org/T10951,Cryptographic Implementations and Security,1335,2021,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1323,2021,ML Theory & Optimization
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1280,2021,NLP
+https://openalex.org/T11550,Text and Document Classification Technologies,1236,2021,NLP
+https://openalex.org/T11424,Security and Verification in Computing,1234,2021,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,1199,2021,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,1184,2021,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,1164,2021,Core ML / Deep Learning
+https://openalex.org/T11269,Algorithms and Data Compression,1141,2021,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,1125,2021,ML Theory & Optimization
+https://openalex.org/T11574,Artificial Intelligence in Games,1111,2021,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,1103,2021,ML Theory & Optimization
+https://openalex.org/T12761,Data Stream Mining Techniques,1088,2021,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1038,2021,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",1032,2021,Other
+https://openalex.org/T12676,Machine Learning and ELM,997,2021,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,946,2021,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,946,2021,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,879,2021,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,856,2021,Robotics
+https://openalex.org/T14413,Advanced Technologies in Various Fields,854,2021,Other
+https://openalex.org/T12031,Speech and dialogue systems,842,2021,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,761,2021,Other
+https://openalex.org/T13398,Data Analysis with R,704,2021,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,668,2021,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,666,2021,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,644,2021,Other
+https://openalex.org/T13567,AI and Multimedia in Education,556,2021,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,537,2021,Other
+https://openalex.org/T13629,Text Readability and Simplification,499,2021,NLP
+https://openalex.org/T12380,Authorship Attribution and Profiling,484,2021,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,372,2021,Robotics
+https://openalex.org/T13904,Artificial Intelligence Applications,284,2021,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,268,2021,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,158,2021,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",152,2021,Healthcare AI
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,36,2021,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,32,2021,Other
+https://openalex.org/T10028,Topic Modeling,10885,2022,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,6820,2022,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,6114,2022,AI Ethics & Fairness
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,5978,2022,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,5232,2022,Other
+https://openalex.org/T13559,Edcuational Technology Systems,5196,2022,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,4968,2022,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,4963,2022,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,4706,2022,Core ML / Deep Learning
+https://openalex.org/T10862,AI in cancer detection,4678,2022,Healthcare AI
+https://openalex.org/T10320,Neural Networks and Applications,4631,2022,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,4270,2022,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,3799,2022,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,3719,2022,Core ML / Deep Learning
+https://openalex.org/T10201,Speech Recognition and Synthesis,3667,2022,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,3214,2022,Reinforcement Learning
+https://openalex.org/T10237,Cryptography and Data Security,3187,2022,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,3096,2022,ML Theory & Optimization
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,2627,2022,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,2582,2022,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2371,2022,Robotics
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),2345,2022,AI Ethics & Fairness
+https://openalex.org/T10215,Semantic Web and Ontologies,2258,2022,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,2200,2022,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,2075,2022,Core ML / Deep Learning
+https://openalex.org/T12128,AI in Service Interactions,2014,2022,Other
+https://openalex.org/T11130,Coding theory and cryptography,1995,2022,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,1915,2022,Core ML / Deep Learning
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,1883,2022,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,1804,2022,Other
+https://openalex.org/T13674,Computer Science and Engineering,1796,2022,Other
+https://openalex.org/T13702,Machine Learning in Healthcare,1663,2022,Healthcare AI
+https://openalex.org/T13650,Computational Physics and Python Applications,1577,2022,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1537,2022,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1451,2022,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,1391,2022,NLP
+https://openalex.org/T10951,Cryptographic Implementations and Security,1376,2022,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1348,2022,ML Theory & Optimization
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1325,2022,NLP
+https://openalex.org/T12131,Wireless Signal Modulation Classification,1290,2022,Core ML / Deep Learning
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1284,2022,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1242,2022,ML Theory & Optimization
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,1177,2022,ML Theory & Optimization
+https://openalex.org/T14413,Advanced Technologies in Various Fields,1177,2022,Other
+https://openalex.org/T11424,Security and Verification in Computing,1172,2022,Other
+https://openalex.org/T12676,Machine Learning and ELM,1158,2022,Core ML / Deep Learning
+https://openalex.org/T12072,Machine Learning and Algorithms,1156,2022,Core ML / Deep Learning
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1132,2022,NLP
+https://openalex.org/T12761,Data Stream Mining Techniques,1103,2022,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",1101,2022,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1089,2022,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1076,2022,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1073,2022,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,1068,2022,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1033,2022,Core ML / Deep Learning
+https://openalex.org/T12031,Speech and dialogue systems,997,2022,NLP
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,981,2022,Core ML / Deep Learning
+https://openalex.org/T12805,Cognitive Science and Mapping,975,2022,Other
+https://openalex.org/T13398,Data Analysis with R,974,2022,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,878,2022,ML Theory & Optimization
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,872,2022,Other
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,826,2022,Robotics
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,761,2022,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,645,2022,Other
+https://openalex.org/T13567,AI and Multimedia in Education,577,2022,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,568,2022,Other
+https://openalex.org/T13629,Text Readability and Simplification,555,2022,NLP
+https://openalex.org/T10906,AI-based Problem Solving and Planning,504,2022,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,495,2022,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,436,2022,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,353,2022,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,325,2022,Robotics
+https://openalex.org/T13062,Cognitive Computing and Networks,321,2022,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",201,2022,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,174,2022,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,32,2022,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,21,2022,Other
+https://openalex.org/T10028,Topic Modeling,16633,2023,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,8109,2023,NLP
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,7912,2023,AI Ethics & Fairness
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,7405,2023,Other
+https://openalex.org/T13559,Edcuational Technology Systems,6300,2023,Other
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,6131,2023,Other
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,5937,2023,Other
+https://openalex.org/T10862,AI in cancer detection,5777,2023,Healthcare AI
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,5640,2023,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,5575,2023,Other
+https://openalex.org/T10320,Neural Networks and Applications,5288,2023,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,4841,2023,NLP
+https://openalex.org/T11273,Advanced Graph Neural Networks,4497,2023,Core ML / Deep Learning
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,4203,2023,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,4149,2023,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,3567,2023,Reinforcement Learning
+https://openalex.org/T10237,Cryptography and Data Security,3553,2023,Other
+https://openalex.org/T14064,Organizational and Employee Performance,3305,2023,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,3275,2023,NLP
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),3236,2023,AI Ethics & Fairness
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2945,2023,ML Theory & Optimization
+https://openalex.org/T12128,AI in Service Interactions,2876,2023,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,2559,2023,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,2508,2023,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,2392,2023,Core ML / Deep Learning
+https://openalex.org/T13674,Computer Science and Engineering,2380,2023,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,2335,2023,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,2268,2023,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,2243,2023,Core ML / Deep Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,2132,2023,Healthcare AI
+https://openalex.org/T14335,Educational Robotics and Engineering,2103,2023,Robotics
+https://openalex.org/T11130,Coding theory and cryptography,2021,2023,Other
+https://openalex.org/T13650,Computational Physics and Python Applications,1809,2023,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1689,2023,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1681,2023,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,1562,2023,Core ML / Deep Learning
+https://openalex.org/T11550,Text and Document Classification Technologies,1548,2023,NLP
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1530,2023,NLP
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1474,2023,NLP
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1465,2023,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1456,2023,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,1447,2023,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",1444,2023,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,1291,2023,Core ML / Deep Learning
+https://openalex.org/T13018,Seismology and Earthquake Studies,1252,2023,Other
+https://openalex.org/T12676,Machine Learning and ELM,1242,2023,Core ML / Deep Learning
+https://openalex.org/T12761,Data Stream Mining Techniques,1232,2023,Other
+https://openalex.org/T11424,Security and Verification in Computing,1204,2023,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1201,2023,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,1190,2023,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,1184,2023,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1177,2023,ML Theory & Optimization
+https://openalex.org/T11574,Artificial Intelligence in Games,1149,2023,Core ML / Deep Learning
+https://openalex.org/T12031,Speech and dialogue systems,1091,2023,NLP
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1086,2023,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1082,2023,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,1054,2023,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,1009,2023,Other
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,999,2023,Core ML / Deep Learning
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,972,2023,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,943,2023,ML Theory & Optimization
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,895,2023,Robotics
+https://openalex.org/T13629,Text Readability and Simplification,798,2023,NLP
+https://openalex.org/T13398,Data Analysis with R,714,2023,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,683,2023,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,636,2023,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,567,2023,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,509,2023,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,485,2023,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,361,2023,Core ML / Deep Learning
+https://openalex.org/T13062,Cognitive Computing and Networks,316,2023,Other
+https://openalex.org/T13567,AI and Multimedia in Education,315,2023,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,299,2023,Robotics
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",191,2023,Healthcare AI
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,157,2023,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,40,2023,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,20,2023,Other
+https://openalex.org/T10028,Topic Modeling,14125,2024,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,13792,2024,NLP
+https://openalex.org/T10320,Neural Networks and Applications,11871,2024,Core ML / Deep Learning
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,9131,2024,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,8668,2024,AI Ethics & Fairness
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,7631,2024,Other
+https://openalex.org/T10862,AI in cancer detection,6897,2024,Healthcare AI
+https://openalex.org/T13559,Edcuational Technology Systems,5615,2024,Other
+https://openalex.org/T12128,AI in Service Interactions,5272,2024,Other
+https://openalex.org/T10020,Quantum Information and Cryptography,5032,2024,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,4906,2024,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,4893,2024,NLP
+https://openalex.org/T10201,Speech Recognition and Synthesis,4653,2024,NLP
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,4471,2024,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,4366,2024,Other
+https://openalex.org/T11273,Advanced Graph Neural Networks,3982,2024,Core ML / Deep Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,3600,2024,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,3469,2024,NLP
+https://openalex.org/T13674,Computer Science and Engineering,3365,2024,Other
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),3356,2024,AI Ethics & Fairness
+https://openalex.org/T10237,Cryptography and Data Security,3254,2024,Other
+https://openalex.org/T14064,Organizational and Employee Performance,3209,2024,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,3120,2024,Reinforcement Learning
+https://openalex.org/T13702,Machine Learning in Healthcare,3113,2024,Healthcare AI
+https://openalex.org/T12260,Educational Technology and Pedagogy,3031,2024,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,2924,2024,Core ML / Deep Learning
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,2795,2024,Other
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2789,2024,ML Theory & Optimization
+https://openalex.org/T13650,Computational Physics and Python Applications,2515,2024,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,2489,2024,Core ML / Deep Learning
+https://openalex.org/T12535,Machine Learning and Data Classification,2482,2024,Core ML / Deep Learning
+https://openalex.org/T12031,Speech and dialogue systems,2340,2024,NLP
+https://openalex.org/T13083,Advanced Text Analysis Techniques,2327,2024,NLP
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,2323,2024,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",2267,2024,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,2138,2024,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,2088,2024,NLP
+https://openalex.org/T14335,Educational Robotics and Engineering,2004,2024,Robotics
+https://openalex.org/T11130,Coding theory and cryptography,1896,2024,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,1850,2024,Other
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1713,2024,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1647,2024,Other
+https://openalex.org/T11269,Algorithms and Data Compression,1495,2024,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1467,2024,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1464,2024,ML Theory & Optimization
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1410,2024,ML Theory & Optimization
+https://openalex.org/T10951,Cryptographic Implementations and Security,1355,2024,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,1338,2024,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1331,2024,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1326,2024,Robotics
+https://openalex.org/T12805,Cognitive Science and Mapping,1319,2024,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,1305,2024,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1273,2024,Core ML / Deep Learning
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,1250,2024,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,1250,2024,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,1241,2024,Core ML / Deep Learning
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1240,2024,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1239,2024,NLP
+https://openalex.org/T14413,Advanced Technologies in Various Fields,1083,2024,Other
+https://openalex.org/T11424,Security and Verification in Computing,1078,2024,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1052,2024,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,904,2024,Other
+https://openalex.org/T13629,Text Readability and Simplification,878,2024,NLP
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,847,2024,ML Theory & Optimization
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,819,2024,ML Theory & Optimization
+https://openalex.org/T13062,Cognitive Computing and Networks,640,2024,Other
+https://openalex.org/T13398,Data Analysis with R,637,2024,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,599,2024,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,576,2024,Other
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,497,2024,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,454,2024,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,329,2024,Robotics
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",280,2024,Healthcare AI
+https://openalex.org/T13567,AI and Multimedia in Education,259,2024,Other
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,124,2024,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,49,2024,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,16,2024,Other
+https://openalex.org/T10028,Topic Modeling,17082,2025,Other
+https://openalex.org/T10181,Natural Language Processing Techniques,12227,2025,NLP
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,10915,2025,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,10035,2025,AI Ethics & Fairness
+https://openalex.org/T12128,AI in Service Interactions,10007,2025,Other
+https://openalex.org/T10320,Neural Networks and Applications,9545,2025,Core ML / Deep Learning
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,9306,2025,Other
+https://openalex.org/T10862,AI in cancer detection,8685,2025,Healthcare AI
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,7779,2025,Core ML / Deep Learning
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),6897,2025,AI Ethics & Fairness
+https://openalex.org/T11273,Advanced Graph Neural Networks,6459,2025,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,6325,2025,Other
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,6285,2025,NLP
+https://openalex.org/T13702,Machine Learning in Healthcare,5393,2025,Healthcare AI
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,4794,2025,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,4690,2025,NLP
+https://openalex.org/T13559,Edcuational Technology Systems,4687,2025,Other
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,4636,2025,Other
+https://openalex.org/T10462,Reinforcement Learning in Robotics,4584,2025,Reinforcement Learning
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,4375,2025,Other
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,4230,2025,Core ML / Deep Learning
+https://openalex.org/T10237,Cryptography and Data Security,4074,2025,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,4059,2025,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,3939,2025,NLP
+https://openalex.org/T14064,Organizational and Employee Performance,3915,2025,Other
+https://openalex.org/T12260,Educational Technology and Pedagogy,3528,2025,Other
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,3482,2025,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,3431,2025,Core ML / Deep Learning
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",3009,2025,Other
+https://openalex.org/T13674,Computer Science and Engineering,2890,2025,Other
+https://openalex.org/T12535,Machine Learning and Data Classification,2790,2025,Core ML / Deep Learning
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,2780,2025,ML Theory & Optimization
+https://openalex.org/T13650,Computational Physics and Python Applications,2463,2025,Other
+https://openalex.org/T12031,Speech and dialogue systems,2285,2025,NLP
+https://openalex.org/T13018,Seismology and Earthquake Studies,2280,2025,Other
+https://openalex.org/T12131,Wireless Signal Modulation Classification,2201,2025,Core ML / Deep Learning
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,2196,2025,Other
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,2108,2025,Other
+https://openalex.org/T14335,Educational Robotics and Engineering,2043,2025,Robotics
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,2027,2025,ML Theory & Optimization
+https://openalex.org/T14413,Advanced Technologies in Various Fields,2012,2025,Other
+https://openalex.org/T11550,Text and Document Classification Technologies,1955,2025,NLP
+https://openalex.org/T11574,Artificial Intelligence in Games,1889,2025,Core ML / Deep Learning
+https://openalex.org/T13083,Advanced Text Analysis Techniques,1875,2025,NLP
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,1845,2025,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1804,2025,Other
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1776,2025,Other
+https://openalex.org/T11130,Coding theory and cryptography,1758,2025,Other
+https://openalex.org/T11424,Security and Verification in Computing,1718,2025,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,1650,2025,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,1644,2025,ML Theory & Optimization
+https://openalex.org/T12805,Cognitive Science and Mapping,1637,2025,Other
+https://openalex.org/T13398,Data Analysis with R,1591,2025,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",1590,2025,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,1559,2025,Other
+https://openalex.org/T12761,Data Stream Mining Techniques,1497,2025,Other
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,1476,2025,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,1476,2025,NLP
+https://openalex.org/T11269,Algorithms and Data Compression,1439,2025,Other
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,1434,2025,ML Theory & Optimization
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,1378,2025,Core ML / Deep Learning
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,1181,2025,Robotics
+https://openalex.org/T12072,Machine Learning and Algorithms,1156,2025,Core ML / Deep Learning
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,1137,2025,ML Theory & Optimization
+https://openalex.org/T13629,Text Readability and Simplification,1132,2025,NLP
+https://openalex.org/T13904,Artificial Intelligence Applications,1110,2025,Core ML / Deep Learning
+https://openalex.org/T12676,Machine Learning and ELM,1095,2025,Core ML / Deep Learning
+https://openalex.org/T12380,Authorship Attribution and Profiling,1053,2025,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,1041,2025,Other
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",845,2025,Healthcare AI
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,656,2025,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,515,2025,Other
+https://openalex.org/T13567,AI and Multimedia in Education,501,2025,Other
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,401,2025,Robotics
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,348,2025,Other
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,158,2025,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,22,2025,Other
+https://openalex.org/T10028,Topic Modeling,9578,2026,Other
+https://openalex.org/T12128,AI in Service Interactions,8818,2026,Other
+https://openalex.org/T13398,Data Analysis with R,8087,2026,Other
+https://openalex.org/T10682,Quantum Computing Algorithms and Architecture,7698,2026,Other
+https://openalex.org/T11689,Adversarial Robustness in Machine Learning,7204,2026,Core ML / Deep Learning
+https://openalex.org/T12026,Explainable Artificial Intelligence (XAI),7195,2026,AI Ethics & Fairness
+https://openalex.org/T11273,Advanced Graph Neural Networks,5431,2026,Core ML / Deep Learning
+https://openalex.org/T10020,Quantum Information and Cryptography,4381,2026,Other
+https://openalex.org/T10764,Privacy-Preserving Technologies in Data,4316,2026,AI Ethics & Fairness
+https://openalex.org/T10181,Natural Language Processing Techniques,4174,2026,NLP
+https://openalex.org/T10462,Reinforcement Learning in Robotics,3943,2026,Reinforcement Learning
+https://openalex.org/T11902,Intelligent Tutoring Systems and Adaptive Learning,3731,2026,Other
+https://openalex.org/T10862,AI in cancer detection,3695,2026,Healthcare AI
+https://openalex.org/T13702,Machine Learning in Healthcare,3627,2026,Healthcare AI
+https://openalex.org/T11307,Domain Adaptation and Few-Shot Learning,3162,2026,Other
+https://openalex.org/T12611,Neural Networks and Reservoir Computing,2913,2026,Core ML / Deep Learning
+https://openalex.org/T10664,Sentiment Analysis and Opinion Mining,2776,2026,NLP
+https://openalex.org/T11512,Anomaly Detection Techniques and Applications,2591,2026,Other
+https://openalex.org/T11612,Stochastic Gradient Optimization Techniques,2428,2026,ML Theory & Optimization
+https://openalex.org/T10456,Multi-Agent Systems and Negotiation,2397,2026,Other
+https://openalex.org/T11424,Security and Verification in Computing,2388,2026,Other
+https://openalex.org/T10126,"Logic, programming, and type systems",2273,2026,Other
+https://openalex.org/T10237,Cryptography and Data Security,2174,2026,Other
+https://openalex.org/T10201,Speech Recognition and Synthesis,2090,2026,NLP
+https://openalex.org/T11652,Imbalanced Data Classification Techniques,2004,2026,Core ML / Deep Learning
+https://openalex.org/T14064,Organizational and Employee Performance,1735,2026,Other
+https://openalex.org/T12262,Hate Speech and Cyberbullying Detection,1701,2026,NLP
+https://openalex.org/T11276,Solar Radiation and Photovoltaics,1679,2026,Other
+https://openalex.org/T10906,AI-based Problem Solving and Planning,1632,2026,Other
+https://openalex.org/T11574,Artificial Intelligence in Games,1628,2026,Core ML / Deep Learning
+https://openalex.org/T12260,Educational Technology and Pedagogy,1512,2026,Other
+https://openalex.org/T10951,Cryptographic Implementations and Security,1421,2026,Other
+https://openalex.org/T10320,Neural Networks and Applications,1365,2026,Core ML / Deep Learning
+https://openalex.org/T10100,Metaheuristic Optimization Algorithms Research,1354,2026,ML Theory & Optimization
+https://openalex.org/T12535,Machine Learning and Data Classification,1278,2026,Core ML / Deep Learning
+https://openalex.org/T12131,Wireless Signal Modulation Classification,1271,2026,Core ML / Deep Learning
+https://openalex.org/T14335,Educational Robotics and Engineering,1252,2026,Robotics
+https://openalex.org/T13650,Computational Physics and Python Applications,1242,2026,Other
+https://openalex.org/T12380,Authorship Attribution and Profiling,1238,2026,Other
+https://openalex.org/T13851,"Law, AI, and Intellectual Property",1202,2026,Other
+https://openalex.org/T13904,Artificial Intelligence Applications,1200,2026,Core ML / Deep Learning
+https://openalex.org/T11010,"Logic, Reasoning, and Knowledge",1195,2026,Other
+https://openalex.org/T14413,Advanced Technologies in Various Fields,1120,2026,Other
+https://openalex.org/T11598,Internet Traffic Analysis and Secure E-voting,1100,2026,Other
+https://openalex.org/T12157,Geochemistry and Geologic Mapping,1042,2026,Other
+https://openalex.org/T13062,Cognitive Computing and Networks,961,2026,Other
+https://openalex.org/T11303,Bayesian Modeling and Causal Inference,942,2026,ML Theory & Optimization
+https://openalex.org/T12031,Speech and dialogue systems,940,2026,NLP
+https://openalex.org/T11130,Coding theory and cryptography,911,2026,Other
+https://openalex.org/T13559,Edcuational Technology Systems,880,2026,Other
+https://openalex.org/T13018,Seismology and Earthquake Studies,820,2026,Other
+https://openalex.org/T13623,Linguistic Studies and Language Acquisition,819,2026,NLP
+https://openalex.org/T10639,Advanced Software Engineering Methodologies,807,2026,Other
+https://openalex.org/T12814,Gaussian Processes and Bayesian Inference,778,2026,ML Theory & Optimization
+https://openalex.org/T11550,Text and Document Classification Technologies,725,2026,NLP
+https://openalex.org/T10711,Target Tracking and Data Fusion in Sensor Networks,707,2026,Other
+https://openalex.org/T10215,Semantic Web and Ontologies,704,2026,Other
+https://openalex.org/T13674,Computer Science and Engineering,668,2026,Other
+https://openalex.org/T12072,Machine Learning and Algorithms,662,2026,Core ML / Deep Learning
+https://openalex.org/T10637,Advanced Clustering Algorithms Research,643,2026,Core ML / Deep Learning
+https://openalex.org/T11901,Bayesian Methods and Mixture Models,637,2026,ML Theory & Optimization
+https://openalex.org/T14381,"Psychiatry, Mental Health, Neuroscience",636,2026,Healthcare AI
+https://openalex.org/T12761,Data Stream Mining Techniques,633,2026,Other
+https://openalex.org/T13629,Text Readability and Simplification,606,2026,NLP
+https://openalex.org/T11975,Evolutionary Algorithms and Applications,510,2026,Other
+https://openalex.org/T11269,Algorithms and Data Compression,451,2026,Other
+https://openalex.org/T12805,Cognitive Science and Mapping,387,2026,Other
+https://openalex.org/T13083,Advanced Text Analysis Techniques,360,2026,NLP
+https://openalex.org/T10820,Fuzzy Logic and Control Systems,351,2026,Robotics
+https://openalex.org/T14175,Intuitionistic Fuzzy Systems Applications,297,2026,Other
+https://openalex.org/T13567,AI and Multimedia in Education,290,2026,Other
+https://openalex.org/T12676,Machine Learning and ELM,287,2026,Core ML / Deep Learning
+https://openalex.org/T13935,Mathematical Control Systems and Analysis,160,2026,Robotics
+https://openalex.org/T13898,Diverse Interdisciplinary Research Studies,129,2026,Other
+https://openalex.org/T14351,Statistical and Computational Modeling,98,2026,Other
+https://openalex.org/T13514,Experience-Based Knowledge Management,31,2026,Other
+https://openalex.org/T13734,Advanced Computational Techniques and Applications,19,2026,Other

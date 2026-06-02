@@ -1,0 +1,376 @@
+﻿institution_id,institution_name,paper_count,country_code,country_name
+https://openalex.org/I19820366,Chinese Academy of Sciences,17855,CN,China
+https://openalex.org/I99065089,Tsinghua University,14300,CN,China
+https://openalex.org/I4210165038,University of Chinese Academy of Sciences,9340,CN,China
+https://openalex.org/I183067930,Shanghai Jiao Tong University,9279,CN,China
+https://openalex.org/I126520041,University of Science and Technology of China,8758,CN,China
+https://openalex.org/I139759216,Beijing University of Posts and Telecommunications,8394,CN,China
+https://openalex.org/I20231570,Peking University,7965,CN,China
+https://openalex.org/I204983213,Harbin Institute of Technology,7430,CN,China
+https://openalex.org/I149594827,Xidian University,7329,CN,China
+https://openalex.org/I150229711,University of Electronic Science and Technology of China,7322,CN,China
+https://openalex.org/I76130692,Zhejiang University,7296,CN,China
+https://openalex.org/I170215575,National University of Defense Technology,7019,CN,China
+https://openalex.org/I82880672,Beihang University,6492,CN,China
+https://openalex.org/I157773358,Sun Yat-sen University,5774,CN,China
+https://openalex.org/I37461747,Wuhan University,5729,CN,China
+https://openalex.org/I74973139,Carnegie Mellon University,11523,US,United States
+https://openalex.org/I63966007,Massachusetts Institute of Technology,8006,US,United States
+https://openalex.org/I97018004,Stanford University,7760,US,United States
+https://openalex.org/I95457486,"University of California, Berkeley",6872,US,United States
+https://openalex.org/I157725225,University of Illinois Urbana-Champaign,6719,US,United States
+https://openalex.org/I1291425158,Google (United States),6274,US,United States
+https://openalex.org/I130701444,Georgia Institute of Technology,5815,US,United States
+https://openalex.org/I1174212,University of Southern California,5579,US,United States
+https://openalex.org/I66946132,"University of Maryland, College Park",5321,US,United States
+https://openalex.org/I1290206253,Microsoft (United States),5258,US,United States
+https://openalex.org/I201448701,University of Washington,5175,US,United States
+https://openalex.org/I27837315,University of Michigan,5046,US,United States
+https://openalex.org/I86519309,The University of Texas at Austin,4826,US,United States
+https://openalex.org/I78577930,Columbia University,4512,US,United States
+https://openalex.org/I219193219,Purdue University West Lafayette,4407,US,United States
+https://openalex.org/I876193797,Vellore Institute of Technology University,3146,IN,India
+https://openalex.org/I145894827,Indian Institute of Technology Kharagpur,2342,IN,India
+https://openalex.org/I81556334,Amrita Vishwa Vidyapeetham,2222,IN,India
+https://openalex.org/I145286018,SRM Institute of Science and Technology,2203,IN,India
+https://openalex.org/I6498739,Indian Statistical Institute,2043,IN,India
+https://openalex.org/I85461943,Saveetha University,1839,IN,India
+https://openalex.org/I59270414,Indian Institute of Science Bangalore,1830,IN,India
+https://openalex.org/I162827531,Indian Institute of Technology Bombay,1748,IN,India
+https://openalex.org/I68891433,Indian Institute of Technology Delhi,1714,IN,India
+https://openalex.org/I24676775,Indian Institute of Technology Madras,1612,IN,India
+https://openalex.org/I875944469,Koneru Lakshmaiah Education Foundation,1544,IN,India
+https://openalex.org/I170979836,Jadavpur University,1488,IN,India
+https://openalex.org/I33585257,"Anna University, Chennai",1439,IN,India
+https://openalex.org/I101407740,Chandigarh University,1438,IN,India
+https://openalex.org/I154851008,Indian Institute of Technology Roorkee,1336,IN,India
+https://openalex.org/I40120149,University of Oxford,6980,GB,United Kingdom
+https://openalex.org/I241749,University of Cambridge,6486,GB,United Kingdom
+https://openalex.org/I98677209,University of Edinburgh,5928,GB,United Kingdom
+https://openalex.org/I47508984,Imperial College London,5816,GB,United Kingdom
+https://openalex.org/I45129253,University College London,5122,GB,United Kingdom
+https://openalex.org/I28407311,University of Manchester,3199,GB,United Kingdom
+https://openalex.org/I4210164937,Microsoft Research (United Kingdom),3087,GB,United Kingdom
+https://openalex.org/I91136226,University of Sheffield,2979,GB,United Kingdom
+https://openalex.org/I36234482,University of Bristol,2945,GB,United Kingdom
+https://openalex.org/I183935753,King's College London,2856,GB,United Kingdom
+https://openalex.org/I146655781,University of Liverpool,2556,GB,United Kingdom
+https://openalex.org/I79619799,University of Birmingham,2370,GB,United Kingdom
+https://openalex.org/I43439940,University of Southampton,2268,GB,United Kingdom
+https://openalex.org/I142263535,University of Nottingham,2035,GB,United Kingdom
+https://openalex.org/I7882870,University of Glasgow,1985,GB,United Kingdom
+https://openalex.org/I62916508,Technical University of Munich,4651,DE,Germany
+https://openalex.org/I102335020,Karlsruhe Institute of Technology,3630,DE,Germany
+https://openalex.org/I31512782,Technische Universität Darmstadt,3439,DE,Germany
+https://openalex.org/I8204097,Ludwig-Maximilians-Universität München,3206,DE,Germany
+https://openalex.org/I887968799,RWTH Aachen University,3202,DE,Germany
+https://openalex.org/I91712215,Saarland University,2505,DE,Germany
+https://openalex.org/I4577782,Technische Universität Berlin,2217,DE,Germany
+https://openalex.org/I904495901,Ruhr University Bochum,2131,DE,Germany
+https://openalex.org/I100066346,University of Stuttgart,2122,DE,Germany
+https://openalex.org/I78650965,Technische Universität Dresden,2074,DE,Germany
+https://openalex.org/I200332995,TU Dortmund University,2052,DE,Germany
+https://openalex.org/I33256026,German Research Centre for Artificial Intelligence,2032,DE,Germany
+https://openalex.org/I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,1991,DE,Germany
+https://openalex.org/I159176309,Universität Hamburg,1774,DE,Germany
+https://openalex.org/I161046081,University of Freiburg,1687,DE,Germany
+https://openalex.org/I74801974,The University of Tokyo,7490,JP,Japan
+https://openalex.org/I22299242,Kyoto University,3354,JP,Japan
+https://openalex.org/I114531698,Tokyo Institute of Technology,3342,JP,Japan
+https://openalex.org/I98285908,The University of Osaka,2674,JP,Japan
+https://openalex.org/I184597095,National Institute of Informatics,2534,JP,Japan
+https://openalex.org/I201537933,Tohoku University,2513,JP,Japan
+https://openalex.org/I2251713219,NTT (Japan),2442,JP,Japan
+https://openalex.org/I150744194,Waseda University,2437,JP,Japan
+https://openalex.org/I135598925,Kyushu University,2350,JP,Japan
+https://openalex.org/I73613424,National Institute of Advanced Industrial Science and Technology,2212,JP,Japan
+https://openalex.org/I146399215,University of Tsukuba,2207,JP,Japan
+https://openalex.org/I60134161,Nagoya University,2160,JP,Japan
+https://openalex.org/I20529979,University of Electro-Communications,1848,JP,Japan
+https://openalex.org/I90023481,National Institute of Information and Communications Technology,1735,JP,Japan
+https://openalex.org/I205349734,Hokkaido University,1575,JP,Japan
+https://openalex.org/I1294671590,Centre National de la Recherche Scientifique,21163,FR,France
+https://openalex.org/I1326498283,Institut national de recherche en sciences et technologies du numérique,7350,FR,France
+https://openalex.org/I204730241,Université Paris Cité,4095,FR,France
+https://openalex.org/I39804081,Sorbonne Université,4017,FR,France
+https://openalex.org/I134560555,Université Toulouse III - Paul Sabatier,2891,FR,France
+https://openalex.org/I277688954,Université Paris-Saclay,2607,FR,France
+https://openalex.org/I4210119061,Institut de Recherche en Informatique de Toulouse,2505,FR,France
+https://openalex.org/I4210160189,Institut Polytechnique de Bordeaux,2483,FR,France
+https://openalex.org/I899635006,Université Grenoble Alpes,2347,FR,France
+https://openalex.org/I100532134,Université Claude Bernard Lyon 1,1980,FR,France
+https://openalex.org/I29607241,École Normale Supérieure - PSL,1893,FR,France
+https://openalex.org/I4210152422,Université Toulouse - Jean Jaurès,1883,FR,France
+https://openalex.org/I4210121838,Laboratoire Lorrain de Recherche en Informatique et ses Applications,1845,FR,France
+https://openalex.org/I3131550300,Université Toulouse-I-Capitole,1843,FR,France
+https://openalex.org/I12356871,Télécom Paris,1828,FR,France
+https://openalex.org/I861853513,Sapienza University of Rome,3785,IT,Italy
+https://openalex.org/I9360294,University of Bologna,3335,IT,Italy
+https://openalex.org/I189158943,University of Milan,2902,IT,Italy
+https://openalex.org/I93860229,Politecnico di Milano,2819,IT,Italy
+https://openalex.org/I108290504,University of Pisa,2809,IT,Italy
+https://openalex.org/I193223587,University of Trento,2694,IT,Italy
+https://openalex.org/I138689650,University of Padua,2517,IT,Italy
+https://openalex.org/I55143463,University of Turin,2304,IT,Italy
+https://openalex.org/I71267560,University of Naples Federico II,2105,IT,Italy
+https://openalex.org/I177477856,Politecnico di Torino,1792,IT,Italy
+https://openalex.org/I83816512,University of Genoa,1735,IT,Italy
+https://openalex.org/I131729948,University of Salerno,1731,IT,Italy
+https://openalex.org/I45084792,University of Florence,1655,IT,Italy
+https://openalex.org/I45204951,University of Calabria,1547,IT,Italy
+https://openalex.org/I66752286,University of Milano-Bicocca,1475,IT,Italy
+https://openalex.org/I862893732,Telkom University,1660,ID,Indonesia
+https://openalex.org/I134635517,Bandung Institute of Technology,1607,ID,Indonesia
+https://openalex.org/I166073570,Binus University,1562,ID,Indonesia
+https://openalex.org/I166843116,Sepuluh Nopember Institute of Technology,1430,ID,Indonesia
+https://openalex.org/I29617571,University of Indonesia,1371,ID,Indonesia
+https://openalex.org/I165230279,Universitas Gadjah Mada,1179,ID,Indonesia
+https://openalex.org/I11855966,Diponegoro University,1044,ID,Indonesia
+https://openalex.org/I102893293,State University of Malang,948,ID,Indonesia
+https://openalex.org/I4210103525,Universitas Informatika dan Bisnis Indonesia,777,ID,Indonesia
+https://openalex.org/I177055848,University of Brawijaya,760,ID,Indonesia
+https://openalex.org/I126826664,Udayana University,715,ID,Indonesia
+https://openalex.org/I254887060,Universitas Sumatera Utara,691,ID,Indonesia
+https://openalex.org/I245308123,State University of Padang,688,ID,Indonesia
+https://openalex.org/I23758234,Universitas Negeri Surabaya,683,ID,Indonesia
+https://openalex.org/I148158369,State University of Semarang,670,ID,Indonesia
+https://openalex.org/I151746483,University of Waterloo,6667,CA,Canada
+https://openalex.org/I185261750,University of Toronto,5346,CA,Canada
+https://openalex.org/I154425047,University of Alberta,3885,CA,Canada
+https://openalex.org/I141945490,University of British Columbia,3194,CA,Canada
+https://openalex.org/I168635309,University of Calgary,2926,CA,Canada
+https://openalex.org/I5023651,McGill University,2857,CA,Canada
+https://openalex.org/I153718931,University of Ottawa,2261,CA,Canada
+https://openalex.org/I60158472,Concordia University,2229,CA,Canada
+https://openalex.org/I70931966,Université de Montréal,1875,CA,Canada
+https://openalex.org/I18014758,Simon Fraser University,1703,CA,Canada
+https://openalex.org/I67031392,Carleton University,1603,CA,Canada
+https://openalex.org/I98251732,McMaster University,1475,CA,Canada
+https://openalex.org/I192455969,York University,1402,CA,Canada
+https://openalex.org/I204722609,Queen's University,1346,CA,Canada
+https://openalex.org/I125749732,Western University,1326,CA,Canada
+https://openalex.org/I31746571,UNSW Sydney,5107,AU,Australia
+https://openalex.org/I114017466,University of Technology Sydney,4245,AU,Australia
+https://openalex.org/I165779595,The University of Melbourne,3865,AU,Australia
+https://openalex.org/I56590836,Monash University,3637,AU,Australia
+https://openalex.org/I129604602,The University of Sydney,3597,AU,Australia
+https://openalex.org/I165143802,The University of Queensland,3167,AU,Australia
+https://openalex.org/I118347636,Australian National University,3016,AU,Australia
+https://openalex.org/I1292875679,Commonwealth Scientific and Industrial Research Organisation,2692,AU,Australia
+https://openalex.org/I99043593,Macquarie University,2510,AU,Australia
+https://openalex.org/I42894916,Data61,2443,AU,Australia
+https://openalex.org/I82951845,RMIT University,2224,AU,Australia
+https://openalex.org/I160993911,Queensland University of Technology,2111,AU,Australia
+https://openalex.org/I149704539,Deakin University,2090,AU,Australia
+https://openalex.org/I204824540,University of Wollongong,1948,AU,Australia
+https://openalex.org/I5681781,The University of Adelaide,1732,AU,Australia
+https://openalex.org/I9617848,Universitat Politècnica de Catalunya,3131,ES,Spain
+https://openalex.org/I173304897,Universidad de Granada,3063,ES,Spain
+https://openalex.org/I88060688,Universidad Politécnica de Madrid,2882,ES,Spain
+https://openalex.org/I60053951,Universitat Politècnica de València,2405,ES,Spain
+https://openalex.org/I169108374,University of the Basque Country,2214,ES,Spain
+https://openalex.org/I121748325,Universidad Complutense de Madrid,2154,ES,Spain
+https://openalex.org/I50357001,Universidad Carlos III de Madrid,1882,ES,Spain
+https://openalex.org/I82767444,Universidad de Málaga,1681,ES,Spain
+https://openalex.org/I79238269,Universidad de Sevilla,1300,ES,Spain
+https://openalex.org/I123044942,Universitat Autònoma de Barcelona,1252,ES,Spain
+https://openalex.org/I11019714,Universidade da Coruña,1192,ES,Spain
+https://openalex.org/I170486558,Universitat Pompeu Fabra,1187,ES,Spain
+https://openalex.org/I63634437,Universidad Autónoma de Madrid,1141,ES,Spain
+https://openalex.org/I130194489,University of Alicante,1007,ES,Spain
+https://openalex.org/I71999127,Universitat de Barcelona,960,ES,Spain
+https://openalex.org/I157485424,Korea Advanced Institute of Science and Technology,3460,KR,South Korea
+https://openalex.org/I139264467,Seoul National University,3312,KR,South Korea
+https://openalex.org/I197347611,Korea University,2615,KR,South Korea
+https://openalex.org/I193775966,Yonsei University,2215,KR,South Korea
+https://openalex.org/I848706,Sungkyunkwan University,1501,KR,South Korea
+https://openalex.org/I4575257,Hanyang University,1493,KR,South Korea
+https://openalex.org/I142401562,Electronics and Telecommunications Research Institute,1362,KR,South Korea
+https://openalex.org/I123900574,Pohang University of Science and Technology,1238,KR,South Korea
+https://openalex.org/I35928602,Kyung Hee University,1057,KR,South Korea
+https://openalex.org/I2250650973,Samsung (South Korea),898,KR,South Korea
+https://openalex.org/I28777354,Sejong University,869,KR,South Korea
+https://openalex.org/I31419693,Kyungpook National University,868,KR,South Korea
+https://openalex.org/I67900169,Chung-Ang University,692,KR,South Korea
+https://openalex.org/I4921948,Pusan National University,681,KR,South Korea
+https://openalex.org/I191879574,Inha University,668,KR,South Korea
+https://openalex.org/I17974374,Universidade de São Paulo,3720,BR,Brazil
+https://openalex.org/I181391015,Universidade Estadual de Campinas (UNICAMP),2426,BR,Brazil
+https://openalex.org/I110200422,Universidade Federal de Minas Gerais,1822,BR,Brazil
+https://openalex.org/I25112270,Universidade Federal de Pernambuco,1750,BR,Brazil
+https://openalex.org/I122140584,Universidade Federal do Rio de Janeiro,1662,BR,Brazil
+https://openalex.org/I130442723,Universidade Federal do Rio Grande do Sul,1353,BR,Brazil
+https://openalex.org/I2699952,Pontifícia Universidade Católica do Rio de Janeiro,1232,BR,Brazil
+https://openalex.org/I150729083,Universidade de Brasília,1104,BR,Brazil
+https://openalex.org/I177909021,Universidade Federal de São Carlos,1070,BR,Brazil
+https://openalex.org/I879563668,Universidade Estadual Paulista (Unesp),1005,BR,Brazil
+https://openalex.org/I4104125,Universidade Federal de Santa Catarina,961,BR,Brazil
+https://openalex.org/I35046152,Universidade Federal do Rio Grande do Norte,909,BR,Brazil
+https://openalex.org/I161127581,Universidade Federal Fluminense,835,BR,Brazil
+https://openalex.org/I243754102,Universidade Federal do Ceará,818,BR,Brazil
+https://openalex.org/I1283613182,Universidade Tecnológica Federal do Paraná,801,BR,Brazil
+https://openalex.org/I887064364,University of Amsterdam,4522,NL,Netherlands
+https://openalex.org/I98358874,Delft University of Technology,4075,NL,Netherlands
+https://openalex.org/I145872427,Radboud University Nijmegen,3071,NL,Netherlands
+https://openalex.org/I193662353,Utrecht University,2865,NL,Netherlands
+https://openalex.org/I83019370,Eindhoven University of Technology,2709,NL,Netherlands
+https://openalex.org/I865915315,Vrije Universiteit Amsterdam,2494,NL,Netherlands
+https://openalex.org/I169381384,University of Groningen,1937,NL,Netherlands
+https://openalex.org/I1341640284,Centrum Wiskunde & Informatica,1843,NL,Netherlands
+https://openalex.org/I121797337,Leiden University,1818,NL,Netherlands
+https://openalex.org/I94624287,University of Twente,1813,NL,Netherlands
+https://openalex.org/I34352273,Maastricht University,1014,NL,Netherlands
+https://openalex.org/I193700539,Tilburg University,967,NL,Netherlands
+https://openalex.org/I4210096112,Rutgers Sexual and Reproductive Health and Rights,780,NL,Netherlands
+https://openalex.org/I913958620,Erasmus University Rotterdam,558,NL,Netherlands
+https://openalex.org/I99464096,KU Leuven,509,NL,Netherlands
+https://openalex.org/I1313323035,Russian Academy of Sciences,2578,RU,Russia
+https://openalex.org/I19880235,Lomonosov Moscow State University,2301,RU,Russia
+https://openalex.org/I118501908,National Research University Higher School of Economics,1693,RU,Russia
+https://openalex.org/I173089394,ITMO University,1242,RU,Russia
+https://openalex.org/I153845743,Moscow Institute of Physics and Technology,1183,RU,Russia
+https://openalex.org/I172901346,St Petersburg University,1062,RU,Russia
+https://openalex.org/I2801160905,Steklov Mathematical Institute,692,RU,Russia
+https://openalex.org/I188973947,Novosibirsk State University,621,RU,Russia
+https://openalex.org/I4210150146,Moscow State University,582,RU,Russia
+https://openalex.org/I21203515,Kazan Federal University,563,RU,Russia
+https://openalex.org/I4210107660,Institute for Information Transmission Problems,528,RU,Russia
+https://openalex.org/I4210096862,Sobolev Institute of Mathematics,518,RU,Russia
+https://openalex.org/I177537411,Bauman Moscow State Technical University,516,RU,Russia
+https://openalex.org/I887846188,National Research Nuclear University MEPhI,506,RU,Russia
+https://openalex.org/I212220629,Peter the Great St. Petersburg Polytechnic University,473,RU,Russia
+https://openalex.org/I172675005,Nanyang Technological University,9239,SG,Singapore
+https://openalex.org/I165932596,National University of Singapore,8183,SG,Singapore
+https://openalex.org/I3005327000,Institute for Infocomm Research,1786,SG,Singapore
+https://openalex.org/I79891267,Singapore Management University,1711,SG,Singapore
+https://openalex.org/I115228651,"Agency for Science, Technology and Research",1652,SG,Singapore
+https://openalex.org/I115455960,Centre for Quantum Technologies,1478,SG,Singapore
+https://openalex.org/I152815399,Singapore University of Technology and Design,1286,SG,Singapore
+https://openalex.org/I76130692,Zhejiang University,472,SG,Singapore
+https://openalex.org/I99065089,Tsinghua University,467,SG,Singapore
+https://openalex.org/I3004594783,Institute of High Performance Computing,455,SG,Singapore
+https://openalex.org/I19820366,Chinese Academy of Sciences,383,SG,Singapore
+https://openalex.org/I126520041,University of Science and Technology of China,328,SG,Singapore
+https://openalex.org/I150229711,University of Electronic Science and Technology of China,310,SG,Singapore
+https://openalex.org/I149594827,Xidian University,299,SG,Singapore
+https://openalex.org/I183067930,Shanghai Jiao Tong University,299,SG,Singapore
+https://openalex.org/I35440088,ETH Zurich,4955,CH,Switzerland
+https://openalex.org/I5124864,École Polytechnique Fédérale de Lausanne,3859,CH,Switzerland
+https://openalex.org/I202697423,University of Zurich,1773,CH,Switzerland
+https://openalex.org/I114457229,University of Geneva,1563,CH,Switzerland
+https://openalex.org/I4210126328,IBM Research - Zurich,902,CH,Switzerland
+https://openalex.org/I118564535,University of Bern,864,CH,Switzerland
+https://openalex.org/I57201433,Università della Svizzera italiana,754,CH,Switzerland
+https://openalex.org/I7495430,Idiap Research Institute,741,CH,Switzerland
+https://openalex.org/I97565354,University of Lausanne,647,CH,Switzerland
+https://openalex.org/I1850255,University of Basel,640,CH,Switzerland
+https://openalex.org/I2614128279,Dalle Molle Institute for Artificial Intelligence Research,572,CH,Switzerland
+https://openalex.org/I15196421,University of Applied Sciences and Arts of Southern Switzerland,556,CH,Switzerland
+https://openalex.org/I1294671590,Centre National de la Recherche Scientifique,527,CH,Switzerland
+https://openalex.org/I154338468,University of Fribourg,467,CH,Switzerland
+https://openalex.org/I67311998,European Organization for Nuclear Research,375,CH,Switzerland
+https://openalex.org/I16733864,National Taiwan University,2905,TW,Taiwan
+https://openalex.org/I148366613,National Yang Ming Chiao Tung University,2240,TW,Taiwan
+https://openalex.org/I91807558,National Cheng Kung University,1832,TW,Taiwan
+https://openalex.org/I25846049,National Tsing Hua University,1230,TW,Taiwan
+https://openalex.org/I154864474,National Taiwan University of Science and Technology,1003,TW,Taiwan
+https://openalex.org/I22265921,National Central University,928,TW,Taiwan
+https://openalex.org/I142974352,National Sun Yat-sen University,776,TW,Taiwan
+https://openalex.org/I162838928,National Chung Hsing University,774,TW,Taiwan
+https://openalex.org/I4210098366,"Institute of Information Science, Academia Sinica",708,TW,Taiwan
+https://openalex.org/I99908691,Yuan Ze University,654,TW,Taiwan
+https://openalex.org/I84653119,Academia Sinica,640,TW,Taiwan
+https://openalex.org/I148099254,National Chung Cheng University,637,TW,Taiwan
+https://openalex.org/I134161618,National Taiwan Normal University,627,TW,Taiwan
+https://openalex.org/I118292597,National Taipei University of Technology,613,TW,Taiwan
+https://openalex.org/I87354575,National Chengchi University,537,TW,Taiwan
+https://openalex.org/I686019,AGH University of Krakow,2497,PL,Poland
+https://openalex.org/I99542240,Polish Academy of Sciences,2385,PL,Poland
+https://openalex.org/I4654613,University of Warsaw,1895,PL,Poland
+https://openalex.org/I11923345,Wrocław University of Science and Technology,1877,PL,Poland
+https://openalex.org/I108403487,Warsaw University of Technology,1504,PL,Poland
+https://openalex.org/I4210087266,Institute of Computer Science,1419,PL,Poland
+https://openalex.org/I126596746,Jagiellonian University,1037,PL,Poland
+https://openalex.org/I119004910,Silesian University of Technology,972,PL,Poland
+https://openalex.org/I66083562,Systems Research Institute,889,PL,Poland
+https://openalex.org/I59411706,Adam Mickiewicz University in Poznań,804,PL,Poland
+https://openalex.org/I40413290,University of Gdańsk,755,PL,Poland
+https://openalex.org/I46597724,Poznań University of Technology,745,PL,Poland
+https://openalex.org/I3019271933,Nicolaus Copernicus University,657,PL,Poland
+https://openalex.org/I169333911,Gdańsk University of Technology,644,PL,Poland
+https://openalex.org/I219388962,University of Wrocław,612,PL,Poland
+https://openalex.org/I23946033,University of Tehran,2101,IR,Iran
+https://openalex.org/I158248296,Amirkabir University of Technology,1676,IR,Iran
+https://openalex.org/I133529467,Sharif University of Technology,1454,IR,Iran
+https://openalex.org/I67009956,Iran University of Science and Technology,1117,IR,Iran
+https://openalex.org/I110525433,"Islamic Azad University, Tehran",845,IR,Iran
+https://openalex.org/I41832843,University of Tabriz,795,IR,Iran
+https://openalex.org/I48379061,Shahid Beheshti University,756,IR,Iran
+https://openalex.org/I86958956,Ferdowsi University of Mashhad,755,IR,Iran
+https://openalex.org/I155419210,"Islamic Azad University, Science and Research Branch",748,IR,Iran
+https://openalex.org/I166459259,Shiraz University,632,IR,Iran
+https://openalex.org/I39268498,University of Isfahan,625,IR,Iran
+https://openalex.org/I115566878,Shahid Bahonar University of Kerman,567,IR,Iran
+https://openalex.org/I170013655,Isfahan University of Technology,565,IR,Iran
+https://openalex.org/I1516879,Tarbiat Modares University,556,IR,Iran
+https://openalex.org/I80543232,K.N.Toosi University of Technology,525,IR,Iran
+https://openalex.org/I201799495,Middle East Technical University,1246,TR,Turkey
+https://openalex.org/I48912391,Istanbul Technical University,1237,TR,Turkey
+https://openalex.org/I4405392,Boğaziçi University,882,TR,Turkey
+https://openalex.org/I4101805,Yıldız Technical University,694,TR,Turkey
+https://openalex.org/I134235054,Sabancı Üniversitesi,644,TR,Turkey
+https://openalex.org/I143396566,Fırat University,568,TR,Turkey
+https://openalex.org/I168864056,Bilkent University,559,TR,Turkey
+https://openalex.org/I66514158,Hacettepe University,541,TR,Turkey
+https://openalex.org/I149218525,Ankara University,420,TR,Turkey
+https://openalex.org/I95634034,Gazi University,398,TR,Turkey
+https://openalex.org/I41641357,Ege University,378,TR,Turkey
+https://openalex.org/I103703290,Sakarya University,365,TR,Turkey
+https://openalex.org/I67581229,Istanbul University,363,TR,Turkey
+https://openalex.org/I193615760,Dokuz Eylül University,357,TR,Turkey
+https://openalex.org/I137996928,Selçuk University,343,TR,Turkey
+https://openalex.org/I14243506,Hong Kong Polytechnic University,4574,HK,Hong Kong
+https://openalex.org/I889458895,University of Hong Kong,4233,HK,Hong Kong
+https://openalex.org/I200769079,Hong Kong University of Science and Technology,4187,HK,Hong Kong
+https://openalex.org/I168719708,City University of Hong Kong,4020,HK,Hong Kong
+https://openalex.org/I177725633,Chinese University of Hong Kong,2299,HK,Hong Kong
+https://openalex.org/I141568987,Hong Kong Baptist University,1348,HK,Hong Kong
+https://openalex.org/I99065089,Tsinghua University,672,HK,Hong Kong
+https://openalex.org/I204983213,Harbin Institute of Technology,495,HK,Hong Kong
+https://openalex.org/I19820366,Chinese Academy of Sciences,471,HK,Hong Kong
+https://openalex.org/I172675005,Nanyang Technological University,467,HK,Hong Kong
+https://openalex.org/I157773358,Sun Yat-sen University,466,HK,Hong Kong
+https://openalex.org/I90610280,South China University of Technology,430,HK,Hong Kong
+https://openalex.org/I183067930,Shanghai Jiao Tong University,413,HK,Hong Kong
+https://openalex.org/I20231570,Peking University,381,HK,Hong Kong
+https://openalex.org/I4210086892,Education University of Hong Kong,342,HK,Hong Kong
+https://openalex.org/I145847075,TU Wien,3727,AT,Austria
+https://openalex.org/I190249584,Universität Innsbruck,1921,AT,Austria
+https://openalex.org/I129774422,University of Vienna,1785,AT,Austria
+https://openalex.org/I4092182,Graz University of Technology,1770,AT,Austria
+https://openalex.org/I121883995,Johannes Kepler University of Linz,1648,AT,Austria
+https://openalex.org/I138211613,Austrian Academy of Sciences,1077,AT,Austria
+https://openalex.org/I3132079568,Institute for Quantum Optics and Quantum Information Innsbruck,593,AT,Austria
+https://openalex.org/I4210166741,University of Klagenfurt,570,AT,Austria
+https://openalex.org/I132118926,Austrian Institute of Technology,497,AT,Austria
+https://openalex.org/I102248843,Vienna University of Economics and Business,456,AT,Austria
+https://openalex.org/I157556583,Institute of Science and Technology Austria,406,AT,Austria
+https://openalex.org/I4210136249,University of Applied Sciences Upper Austria,369,AT,Austria
+https://openalex.org/I182212641,University of Salzburg,350,AT,Austria
+https://openalex.org/I4210126338,Software Competence Center Hagenberg (Austria),326,AT,Austria
+https://openalex.org/I4210100980,Vienna Center for Quantum Science and Technology,320,AT,Austria
+https://openalex.org/I174306211,Technion – Israel Institute of Technology,2969,IL,Israel
+https://openalex.org/I16391192,Tel Aviv University,2790,IL,Israel
+https://openalex.org/I13955877,Bar-Ilan University,2368,IL,Israel
+https://openalex.org/I124227911,Ben-Gurion University of the Negev,2218,IL,Israel
+https://openalex.org/I197251160,Hebrew University of Jerusalem,1577,IL,Israel
+https://openalex.org/I53964585,Weizmann Institute of Science,1417,IL,Israel
+https://openalex.org/I2252078561,Meta (Israel),1124,IL,Israel
+https://openalex.org/I91203450,University of Haifa,918,IL,Israel
+https://openalex.org/I4210167297,IBM Research - Haifa,430,IL,Israel
+https://openalex.org/I52170813,Ariel University,359,IL,Israel
+https://openalex.org/I97018004,Stanford University,267,IL,Israel
+https://openalex.org/I63966007,Massachusetts Institute of Technology,257,IL,Israel
+https://openalex.org/I192238737,Jerusalem College of Technology,223,IL,Israel
+https://openalex.org/I95457486,"University of California, Berkeley",222,IL,Israel
+https://openalex.org/I4210141777,Academic College of Tel Aviv-Yafo,215,IL,Israel
