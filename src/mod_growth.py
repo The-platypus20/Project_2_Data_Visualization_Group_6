@@ -9,8 +9,8 @@ from shinywidgets import output_widget, render_widget
 
 from . import metrics, theme
 
-_INFO = ("Volume reflects the sample of highly-cited AI works in the dataset, "
-         "not all AI output.")
+_INFO = ("Volume reflects the currently loaded OpenAlex sample, "
+         "not the full literature.")
 
 
 def growth_ui():
