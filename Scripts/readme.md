@@ -14,6 +14,9 @@ Current helper:
   It checkpoints both written chunks and the in-memory buffer, supports
   collaborator handoff via `--resume`, and defaults to a conservative per-run
   call cap so one run stays under the OpenAlex free-tier daily limit.
+- `eda_openalex_export_quality.py`
+  Runs targeted EDA on a completed export shard to inspect missing-country rows
+  and identify suspicious non-AI papers based on title/topic/keyword signals.
 
 ## OpenAlex crawl tutorial
 
