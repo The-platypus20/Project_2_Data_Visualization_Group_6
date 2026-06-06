@@ -1,0 +1,2000 @@
+year,primary_topic,count,topic_bucket
+2000,AI in Service Interactions,34,Other
+2000,AI in cancer detection,227,Healthcare AI
+2000,AI-based Problem Solving and Planning,425,Other
+2000,Advanced Clustering Algorithms Research,97,Core ML / Deep Learning
+2000,Advanced Computational Techniques and Applications,324,Other
+2000,Advanced Graph Neural Networks,4,Core ML / Deep Learning
+2000,Advanced Software Engineering Methodologies,457,Other
+2000,Advanced Text Analysis Techniques,139,NLP
+2000,Adversarial Robustness in Machine Learning,18,Core ML / Deep Learning
+2000,Algorithms and Data Compression,625,Other
+2000,Anomaly Detection Techniques and Applications,73,Other
+2000,Artificial Intelligence Applications,18,Core ML / Deep Learning
+2000,Artificial Intelligence in Games,163,Core ML / Deep Learning
+2000,Authorship Attribution and Profiling,39,Other
+2000,Bayesian Methods and Mixture Models,418,ML Theory & Optimization
+2000,Bayesian Modeling and Causal Inference,373,ML Theory & Optimization
+2000,Coding theory and cryptography,502,Other
+2000,Cognitive Computing and Networks,42,Other
+2000,Cognitive Science and Mapping,241,Other
+2000,Computational Physics and Python Applications,283,Other
+2000,Computer Science and Engineering,3,Other
+2000,Cryptographic Implementations and Security,123,Other
+2000,Cryptography and Data Security,320,Other
+2000,Data Analysis with R,110,Other
+2000,Data Stream Mining Techniques,18,Other
+2000,Diverse Interdisciplinary Research Studies,9,Other
+2000,Domain Adaptation and Few-Shot Learning,8,Other
+2000,Edcuational Technology Systems,5,Other
+2000,Educational Robotics and Engineering,808,Robotics
+2000,Educational Technology and Pedagogy,4,Other
+2000,Evolutionary Algorithms and Applications,481,Other
+2000,Experience-Based Knowledge Management,3,Other
+2000,Explainable Artificial Intelligence (XAI),21,AI Ethics & Fairness
+2000,Fuzzy Logic and Control Systems,683,Robotics
+2000,Gaussian Processes and Bayesian Inference,48,ML Theory & Optimization
+2000,Geochemistry and Geologic Mapping,1125,Other
+2000,Hate Speech and Cyberbullying Detection,68,NLP
+2000,Imbalanced Data Classification Techniques,45,Core ML / Deep Learning
+2000,Intelligent Tutoring Systems and Adaptive Learning,220,Other
+2000,Internet Traffic Analysis and Secure E-voting,81,Other
+2000,Intuitionistic Fuzzy Systems Applications,17,Other
+2000,"Law, AI, and Intellectual Property",120,Other
+2000,Linguistic Studies and Language Acquisition,445,NLP
+2000,"Logic, Reasoning, and Knowledge",779,Other
+2000,"Logic, programming, and type systems",1207,Other
+2000,Machine Learning and Algorithms,246,Core ML / Deep Learning
+2000,Machine Learning and Data Classification,83,Core ML / Deep Learning
+2000,Machine Learning and ELM,10,Core ML / Deep Learning
+2000,Machine Learning in Healthcare,44,Healthcare AI
+2000,Mathematical Control Systems and Analysis,96,Robotics
+2000,Metaheuristic Optimization Algorithms Research,240,ML Theory & Optimization
+2000,Multi-Agent Systems and Negotiation,539,Other
+2000,Natural Language Processing Techniques,1775,NLP
+2000,Neural Networks and Applications,2353,Core ML / Deep Learning
+2000,Neural Networks and Reservoir Computing,46,Core ML / Deep Learning
+2000,Organizational and Employee Performance,25,Other
+2000,Privacy-Preserving Technologies in Data,23,AI Ethics & Fairness
+2000,"Psychiatry, Mental Health, Neuroscience",55,Healthcare AI
+2000,Quantum Computing Algorithms and Architecture,438,Other
+2000,Quantum Information and Cryptography,834,Other
+2000,Reinforcement Learning in Robotics,113,Reinforcement Learning
+2000,Security and Verification in Computing,125,Other
+2000,Seismology and Earthquake Studies,268,Other
+2000,Semantic Web and Ontologies,940,Other
+2000,Sentiment Analysis and Opinion Mining,4,NLP
+2000,Solar Radiation and Photovoltaics,189,Other
+2000,Speech Recognition and Synthesis,638,NLP
+2000,Speech and dialogue systems,564,NLP
+2000,Statistical and Computational Modeling,208,Other
+2000,Stochastic Gradient Optimization Techniques,13,ML Theory & Optimization
+2000,Target Tracking and Data Fusion in Sensor Networks,325,Other
+2000,Text Readability and Simplification,49,NLP
+2000,Text and Document Classification Technologies,80,NLP
+2000,Topic Modeling,125,Other
+2000,Wireless Signal Modulation Classification,5,Core ML / Deep Learning
+2001,AI in Service Interactions,29,Other
+2001,AI in cancer detection,209,Healthcare AI
+2001,AI-based Problem Solving and Planning,387,Other
+2001,Advanced Clustering Algorithms Research,129,Core ML / Deep Learning
+2001,Advanced Computational Techniques and Applications,264,Other
+2001,Advanced Graph Neural Networks,3,Core ML / Deep Learning
+2001,Advanced Software Engineering Methodologies,445,Other
+2001,Advanced Technologies in Various Fields,4,Other
+2001,Advanced Text Analysis Techniques,150,NLP
+2001,Adversarial Robustness in Machine Learning,8,Core ML / Deep Learning
+2001,Algorithms and Data Compression,589,Other
+2001,Anomaly Detection Techniques and Applications,66,Other
+2001,Artificial Intelligence Applications,22,Core ML / Deep Learning
+2001,Artificial Intelligence in Games,168,Core ML / Deep Learning
+2001,Authorship Attribution and Profiling,37,Other
+2001,Bayesian Methods and Mixture Models,384,ML Theory & Optimization
+2001,Bayesian Modeling and Causal Inference,387,ML Theory & Optimization
+2001,Coding theory and cryptography,673,Other
+2001,Cognitive Computing and Networks,43,Other
+2001,Cognitive Science and Mapping,263,Other
+2001,Computational Physics and Python Applications,319,Other
+2001,Computer Science and Engineering,12,Other
+2001,Cryptographic Implementations and Security,155,Other
+2001,Cryptography and Data Security,364,Other
+2001,Data Analysis with R,90,Other
+2001,Data Stream Mining Techniques,18,Other
+2001,Diverse Interdisciplinary Research Studies,15,Other
+2001,Domain Adaptation and Few-Shot Learning,10,Other
+2001,Edcuational Technology Systems,13,Other
+2001,Educational Robotics and Engineering,909,Robotics
+2001,Educational Technology and Pedagogy,4,Other
+2001,Evolutionary Algorithms and Applications,462,Other
+2001,Experience-Based Knowledge Management,8,Other
+2001,Explainable Artificial Intelligence (XAI),12,AI Ethics & Fairness
+2001,Fuzzy Logic and Control Systems,630,Robotics
+2001,Gaussian Processes and Bayesian Inference,46,ML Theory & Optimization
+2001,Geochemistry and Geologic Mapping,919,Other
+2001,Hate Speech and Cyberbullying Detection,62,NLP
+2001,Imbalanced Data Classification Techniques,49,Core ML / Deep Learning
+2001,Intelligent Tutoring Systems and Adaptive Learning,170,Other
+2001,Internet Traffic Analysis and Secure E-voting,116,Other
+2001,Intuitionistic Fuzzy Systems Applications,21,Other
+2001,"Law, AI, and Intellectual Property",93,Other
+2001,Linguistic Studies and Language Acquisition,432,NLP
+2001,"Logic, Reasoning, and Knowledge",848,Other
+2001,"Logic, programming, and type systems",1250,Other
+2001,Machine Learning and Algorithms,275,Core ML / Deep Learning
+2001,Machine Learning and Data Classification,75,Core ML / Deep Learning
+2001,Machine Learning and ELM,8,Core ML / Deep Learning
+2001,Machine Learning in Healthcare,30,Healthcare AI
+2001,Mathematical Control Systems and Analysis,98,Robotics
+2001,Metaheuristic Optimization Algorithms Research,241,ML Theory & Optimization
+2001,Multi-Agent Systems and Negotiation,687,Other
+2001,Natural Language Processing Techniques,1339,NLP
+2001,Neural Networks and Applications,2028,Core ML / Deep Learning
+2001,Neural Networks and Reservoir Computing,41,Core ML / Deep Learning
+2001,Organizational and Employee Performance,10,Other
+2001,Privacy-Preserving Technologies in Data,28,AI Ethics & Fairness
+2001,"Psychiatry, Mental Health, Neuroscience",112,Healthcare AI
+2001,Quantum Computing Algorithms and Architecture,502,Other
+2001,Quantum Information and Cryptography,988,Other
+2001,Reinforcement Learning in Robotics,160,Reinforcement Learning
+2001,Security and Verification in Computing,125,Other
+2001,Seismology and Earthquake Studies,194,Other
+2001,Semantic Web and Ontologies,904,Other
+2001,Sentiment Analysis and Opinion Mining,4,NLP
+2001,Solar Radiation and Photovoltaics,137,Other
+2001,Speech Recognition and Synthesis,416,NLP
+2001,Speech and dialogue systems,425,NLP
+2001,Statistical and Computational Modeling,95,Other
+2001,Stochastic Gradient Optimization Techniques,11,ML Theory & Optimization
+2001,Target Tracking and Data Fusion in Sensor Networks,288,Other
+2001,Text Readability and Simplification,35,NLP
+2001,Text and Document Classification Technologies,85,NLP
+2001,Topic Modeling,138,Other
+2001,Wireless Signal Modulation Classification,8,Core ML / Deep Learning
+2002,AI and Multimedia in Education,2,Other
+2002,AI in Service Interactions,32,Other
+2002,AI in cancer detection,370,Healthcare AI
+2002,AI-based Problem Solving and Planning,1234,Other
+2002,Advanced Clustering Algorithms Research,256,Core ML / Deep Learning
+2002,Advanced Computational Techniques and Applications,730,Other
+2002,Advanced Graph Neural Networks,9,Core ML / Deep Learning
+2002,Advanced Software Engineering Methodologies,1797,Other
+2002,Advanced Technologies in Various Fields,5,Other
+2002,Advanced Text Analysis Techniques,267,NLP
+2002,Adversarial Robustness in Machine Learning,16,Core ML / Deep Learning
+2002,Algorithms and Data Compression,1922,Other
+2002,Anomaly Detection Techniques and Applications,148,Other
+2002,Artificial Intelligence Applications,33,Core ML / Deep Learning
+2002,Artificial Intelligence in Games,269,Core ML / Deep Learning
+2002,Authorship Attribution and Profiling,66,Other
+2002,Bayesian Methods and Mixture Models,576,ML Theory & Optimization
+2002,Bayesian Modeling and Causal Inference,658,ML Theory & Optimization
+2002,Coding theory and cryptography,1499,Other
+2002,Cognitive Computing and Networks,71,Other
+2002,Cognitive Science and Mapping,348,Other
+2002,Computational Physics and Python Applications,367,Other
+2002,Computer Science and Engineering,10,Other
+2002,Cryptographic Implementations and Security,282,Other
+2002,Cryptography and Data Security,639,Other
+2002,Data Analysis with R,83,Other
+2002,Data Stream Mining Techniques,55,Other
+2002,Diverse Interdisciplinary Research Studies,20,Other
+2002,Domain Adaptation and Few-Shot Learning,16,Other
+2002,Edcuational Technology Systems,11,Other
+2002,Educational Robotics and Engineering,1014,Robotics
+2002,Educational Technology and Pedagogy,7,Other
+2002,Evolutionary Algorithms and Applications,1188,Other
+2002,Experience-Based Knowledge Management,8,Other
+2002,Explainable Artificial Intelligence (XAI),5,AI Ethics & Fairness
+2002,Fuzzy Logic and Control Systems,3167,Robotics
+2002,Gaussian Processes and Bayesian Inference,61,ML Theory & Optimization
+2002,Geochemistry and Geologic Mapping,981,Other
+2002,Hate Speech and Cyberbullying Detection,80,NLP
+2002,Imbalanced Data Classification Techniques,94,Core ML / Deep Learning
+2002,Intelligent Tutoring Systems and Adaptive Learning,379,Other
+2002,Internet Traffic Analysis and Secure E-voting,217,Other
+2002,Intuitionistic Fuzzy Systems Applications,13,Other
+2002,"Law, AI, and Intellectual Property",106,Other
+2002,Linguistic Studies and Language Acquisition,541,NLP
+2002,"Logic, Reasoning, and Knowledge",1241,Other
+2002,"Logic, programming, and type systems",1896,Other
+2002,Machine Learning and Algorithms,575,Core ML / Deep Learning
+2002,Machine Learning and Data Classification,148,Core ML / Deep Learning
+2002,Machine Learning and ELM,22,Core ML / Deep Learning
+2002,Machine Learning in Healthcare,28,Healthcare AI
+2002,Mathematical Control Systems and Analysis,103,Robotics
+2002,Metaheuristic Optimization Algorithms Research,803,ML Theory & Optimization
+2002,Multi-Agent Systems and Negotiation,1331,Other
+2002,Natural Language Processing Techniques,2192,NLP
+2002,Neural Networks and Applications,8165,Core ML / Deep Learning
+2002,Neural Networks and Reservoir Computing,103,Core ML / Deep Learning
+2002,Organizational and Employee Performance,7,Other
+2002,Privacy-Preserving Technologies in Data,58,AI Ethics & Fairness
+2002,"Psychiatry, Mental Health, Neuroscience",64,Healthcare AI
+2002,Quantum Computing Algorithms and Architecture,713,Other
+2002,Quantum Information and Cryptography,1300,Other
+2002,Reinforcement Learning in Robotics,374,Reinforcement Learning
+2002,Security and Verification in Computing,489,Other
+2002,Seismology and Earthquake Studies,240,Other
+2002,Semantic Web and Ontologies,1708,Other
+2002,Sentiment Analysis and Opinion Mining,10,NLP
+2002,Solar Radiation and Photovoltaics,183,Other
+2002,Speech Recognition and Synthesis,2200,NLP
+2002,Speech and dialogue systems,934,NLP
+2002,Statistical and Computational Modeling,137,Other
+2002,Stochastic Gradient Optimization Techniques,28,ML Theory & Optimization
+2002,Target Tracking and Data Fusion in Sensor Networks,1216,Other
+2002,Text Readability and Simplification,46,NLP
+2002,Text and Document Classification Technologies,244,NLP
+2002,Topic Modeling,256,Other
+2002,Wireless Signal Modulation Classification,90,Core ML / Deep Learning
+2003,AI and Multimedia in Education,2,Other
+2003,AI in Service Interactions,43,Other
+2003,AI in cancer detection,361,Healthcare AI
+2003,AI-based Problem Solving and Planning,752,Other
+2003,Advanced Clustering Algorithms Research,236,Core ML / Deep Learning
+2003,Advanced Computational Techniques and Applications,597,Other
+2003,Advanced Graph Neural Networks,7,Core ML / Deep Learning
+2003,Advanced Software Engineering Methodologies,1183,Other
+2003,Advanced Technologies in Various Fields,5,Other
+2003,Advanced Text Analysis Techniques,263,NLP
+2003,Adversarial Robustness in Machine Learning,16,Core ML / Deep Learning
+2003,Algorithms and Data Compression,1178,Other
+2003,Anomaly Detection Techniques and Applications,147,Other
+2003,Artificial Intelligence Applications,22,Core ML / Deep Learning
+2003,Artificial Intelligence in Games,265,Core ML / Deep Learning
+2003,Authorship Attribution and Profiling,67,Other
+2003,Bayesian Methods and Mixture Models,495,ML Theory & Optimization
+2003,Bayesian Modeling and Causal Inference,631,ML Theory & Optimization
+2003,Coding theory and cryptography,999,Other
+2003,Cognitive Computing and Networks,73,Other
+2003,Cognitive Science and Mapping,298,Other
+2003,Computational Physics and Python Applications,321,Other
+2003,Computer Science and Engineering,17,Other
+2003,Cryptographic Implementations and Security,347,Other
+2003,Cryptography and Data Security,602,Other
+2003,Data Analysis with R,113,Other
+2003,Data Stream Mining Techniques,60,Other
+2003,Diverse Interdisciplinary Research Studies,17,Other
+2003,Domain Adaptation and Few-Shot Learning,9,Other
+2003,Edcuational Technology Systems,19,Other
+2003,Educational Robotics and Engineering,1214,Robotics
+2003,Educational Technology and Pedagogy,6,Other
+2003,Evolutionary Algorithms and Applications,1086,Other
+2003,Experience-Based Knowledge Management,5,Other
+2003,Explainable Artificial Intelligence (XAI),6,AI Ethics & Fairness
+2003,Fuzzy Logic and Control Systems,1320,Robotics
+2003,Gaussian Processes and Bayesian Inference,47,ML Theory & Optimization
+2003,Geochemistry and Geologic Mapping,1003,Other
+2003,Hate Speech and Cyberbullying Detection,57,NLP
+2003,Imbalanced Data Classification Techniques,66,Core ML / Deep Learning
+2003,Intelligent Tutoring Systems and Adaptive Learning,290,Other
+2003,Internet Traffic Analysis and Secure E-voting,246,Other
+2003,Intuitionistic Fuzzy Systems Applications,25,Other
+2003,"Law, AI, and Intellectual Property",116,Other
+2003,Linguistic Studies and Language Acquisition,624,NLP
+2003,"Logic, Reasoning, and Knowledge",975,Other
+2003,"Logic, programming, and type systems",1519,Other
+2003,Machine Learning and Algorithms,401,Core ML / Deep Learning
+2003,Machine Learning and Data Classification,115,Core ML / Deep Learning
+2003,Machine Learning and ELM,19,Core ML / Deep Learning
+2003,Machine Learning in Healthcare,42,Healthcare AI
+2003,Mathematical Control Systems and Analysis,106,Robotics
+2003,Metaheuristic Optimization Algorithms Research,602,ML Theory & Optimization
+2003,Multi-Agent Systems and Negotiation,1125,Other
+2003,Natural Language Processing Techniques,1851,NLP
+2003,Neural Networks and Applications,4439,Core ML / Deep Learning
+2003,Neural Networks and Reservoir Computing,79,Core ML / Deep Learning
+2003,Organizational and Employee Performance,8,Other
+2003,Privacy-Preserving Technologies in Data,61,AI Ethics & Fairness
+2003,"Psychiatry, Mental Health, Neuroscience",95,Healthcare AI
+2003,Quantum Computing Algorithms and Architecture,705,Other
+2003,Quantum Information and Cryptography,1588,Other
+2003,Reinforcement Learning in Robotics,299,Reinforcement Learning
+2003,Security and Verification in Computing,365,Other
+2003,Seismology and Earthquake Studies,285,Other
+2003,Semantic Web and Ontologies,1665,Other
+2003,Sentiment Analysis and Opinion Mining,8,NLP
+2003,Solar Radiation and Photovoltaics,171,Other
+2003,Speech Recognition and Synthesis,1030,NLP
+2003,Speech and dialogue systems,679,NLP
+2003,Statistical and Computational Modeling,157,Other
+2003,Stochastic Gradient Optimization Techniques,14,ML Theory & Optimization
+2003,Target Tracking and Data Fusion in Sensor Networks,818,Other
+2003,Text Readability and Simplification,67,NLP
+2003,Text and Document Classification Technologies,254,NLP
+2003,Topic Modeling,269,Other
+2003,Wireless Signal Modulation Classification,49,Core ML / Deep Learning
+2004,AI and Multimedia in Education,2,Other
+2004,AI in Service Interactions,46,Other
+2004,AI in cancer detection,320,Healthcare AI
+2004,AI-based Problem Solving and Planning,421,Other
+2004,Advanced Clustering Algorithms Research,304,Core ML / Deep Learning
+2004,Advanced Computational Techniques and Applications,564,Other
+2004,Advanced Graph Neural Networks,4,Core ML / Deep Learning
+2004,Advanced Software Engineering Methodologies,1361,Other
+2004,Advanced Technologies in Various Fields,3,Other
+2004,Advanced Text Analysis Techniques,253,NLP
+2004,Adversarial Robustness in Machine Learning,14,Core ML / Deep Learning
+2004,Algorithms and Data Compression,1034,Other
+2004,Anomaly Detection Techniques and Applications,192,Other
+2004,Artificial Intelligence Applications,29,Core ML / Deep Learning
+2004,Artificial Intelligence in Games,263,Core ML / Deep Learning
+2004,Authorship Attribution and Profiling,63,Other
+2004,Bayesian Methods and Mixture Models,507,ML Theory & Optimization
+2004,Bayesian Modeling and Causal Inference,558,ML Theory & Optimization
+2004,Coding theory and cryptography,804,Other
+2004,Cognitive Computing and Networks,118,Other
+2004,Cognitive Science and Mapping,297,Other
+2004,Computational Physics and Python Applications,403,Other
+2004,Computer Science and Engineering,39,Other
+2004,Cryptographic Implementations and Security,360,Other
+2004,Cryptography and Data Security,812,Other
+2004,Data Analysis with R,111,Other
+2004,Data Stream Mining Techniques,84,Other
+2004,Diverse Interdisciplinary Research Studies,21,Other
+2004,Domain Adaptation and Few-Shot Learning,13,Other
+2004,Edcuational Technology Systems,27,Other
+2004,Educational Robotics and Engineering,1746,Robotics
+2004,Educational Technology and Pedagogy,5,Other
+2004,Evolutionary Algorithms and Applications,976,Other
+2004,Experience-Based Knowledge Management,4,Other
+2004,Explainable Artificial Intelligence (XAI),8,AI Ethics & Fairness
+2004,Fuzzy Logic and Control Systems,930,Robotics
+2004,Gaussian Processes and Bayesian Inference,53,ML Theory & Optimization
+2004,Geochemistry and Geologic Mapping,981,Other
+2004,Hate Speech and Cyberbullying Detection,78,NLP
+2004,Imbalanced Data Classification Techniques,93,Core ML / Deep Learning
+2004,Intelligent Tutoring Systems and Adaptive Learning,342,Other
+2004,Internet Traffic Analysis and Secure E-voting,294,Other
+2004,Intuitionistic Fuzzy Systems Applications,39,Other
+2004,"Law, AI, and Intellectual Property",130,Other
+2004,Linguistic Studies and Language Acquisition,682,NLP
+2004,"Logic, Reasoning, and Knowledge",835,Other
+2004,"Logic, programming, and type systems",1233,Other
+2004,Machine Learning and Algorithms,345,Core ML / Deep Learning
+2004,Machine Learning and Data Classification,135,Core ML / Deep Learning
+2004,Machine Learning and ELM,13,Core ML / Deep Learning
+2004,Machine Learning in Healthcare,32,Healthcare AI
+2004,Mathematical Control Systems and Analysis,95,Robotics
+2004,Metaheuristic Optimization Algorithms Research,684,ML Theory & Optimization
+2004,Multi-Agent Systems and Negotiation,1130,Other
+2004,Natural Language Processing Techniques,2264,NLP
+2004,Neural Networks and Applications,2659,Core ML / Deep Learning
+2004,Neural Networks and Reservoir Computing,65,Core ML / Deep Learning
+2004,Organizational and Employee Performance,15,Other
+2004,Privacy-Preserving Technologies in Data,114,AI Ethics & Fairness
+2004,"Psychiatry, Mental Health, Neuroscience",82,Healthcare AI
+2004,Quantum Computing Algorithms and Architecture,775,Other
+2004,Quantum Information and Cryptography,1689,Other
+2004,Reinforcement Learning in Robotics,297,Reinforcement Learning
+2004,Security and Verification in Computing,319,Other
+2004,Seismology and Earthquake Studies,220,Other
+2004,Semantic Web and Ontologies,2035,Other
+2004,Sentiment Analysis and Opinion Mining,19,NLP
+2004,Solar Radiation and Photovoltaics,220,Other
+2004,Speech Recognition and Synthesis,909,NLP
+2004,Speech and dialogue systems,737,NLP
+2004,Statistical and Computational Modeling,114,Other
+2004,Stochastic Gradient Optimization Techniques,10,ML Theory & Optimization
+2004,Target Tracking and Data Fusion in Sensor Networks,710,Other
+2004,Text Readability and Simplification,51,NLP
+2004,Text and Document Classification Technologies,318,NLP
+2004,Topic Modeling,301,Other
+2004,Wireless Signal Modulation Classification,43,Core ML / Deep Learning
+2005,AI and Multimedia in Education,1,Other
+2005,AI in Service Interactions,28,Other
+2005,AI in cancer detection,487,Healthcare AI
+2005,AI-based Problem Solving and Planning,711,Other
+2005,Advanced Clustering Algorithms Research,350,Core ML / Deep Learning
+2005,Advanced Computational Techniques and Applications,752,Other
+2005,Advanced Graph Neural Networks,10,Core ML / Deep Learning
+2005,Advanced Software Engineering Methodologies,1558,Other
+2005,Advanced Technologies in Various Fields,5,Other
+2005,Advanced Text Analysis Techniques,313,NLP
+2005,Adversarial Robustness in Machine Learning,18,Core ML / Deep Learning
+2005,Algorithms and Data Compression,1252,Other
+2005,Anomaly Detection Techniques and Applications,272,Other
+2005,Artificial Intelligence Applications,32,Core ML / Deep Learning
+2005,Artificial Intelligence in Games,300,Core ML / Deep Learning
+2005,Authorship Attribution and Profiling,71,Other
+2005,Bayesian Methods and Mixture Models,636,ML Theory & Optimization
+2005,Bayesian Modeling and Causal Inference,666,ML Theory & Optimization
+2005,Coding theory and cryptography,1117,Other
+2005,Cognitive Computing and Networks,116,Other
+2005,Cognitive Science and Mapping,310,Other
+2005,Computational Physics and Python Applications,331,Other
+2005,Computer Science and Engineering,30,Other
+2005,Cryptographic Implementations and Security,475,Other
+2005,Cryptography and Data Security,1026,Other
+2005,Data Analysis with R,110,Other
+2005,Data Stream Mining Techniques,126,Other
+2005,Diverse Interdisciplinary Research Studies,28,Other
+2005,Domain Adaptation and Few-Shot Learning,9,Other
+2005,Edcuational Technology Systems,15,Other
+2005,Educational Robotics and Engineering,2043,Robotics
+2005,Educational Technology and Pedagogy,14,Other
+2005,Evolutionary Algorithms and Applications,1026,Other
+2005,Experience-Based Knowledge Management,8,Other
+2005,Explainable Artificial Intelligence (XAI),15,AI Ethics & Fairness
+2005,Fuzzy Logic and Control Systems,1225,Robotics
+2005,Gaussian Processes and Bayesian Inference,86,ML Theory & Optimization
+2005,Geochemistry and Geologic Mapping,1265,Other
+2005,Hate Speech and Cyberbullying Detection,64,NLP
+2005,Imbalanced Data Classification Techniques,124,Core ML / Deep Learning
+2005,Intelligent Tutoring Systems and Adaptive Learning,342,Other
+2005,Internet Traffic Analysis and Secure E-voting,336,Other
+2005,Intuitionistic Fuzzy Systems Applications,24,Other
+2005,"Law, AI, and Intellectual Property",103,Other
+2005,Linguistic Studies and Language Acquisition,633,NLP
+2005,"Logic, Reasoning, and Knowledge",1137,Other
+2005,"Logic, programming, and type systems",1846,Other
+2005,Machine Learning and Algorithms,423,Core ML / Deep Learning
+2005,Machine Learning and Data Classification,198,Core ML / Deep Learning
+2005,Machine Learning and ELM,24,Core ML / Deep Learning
+2005,Machine Learning in Healthcare,54,Healthcare AI
+2005,Mathematical Control Systems and Analysis,119,Robotics
+2005,Metaheuristic Optimization Algorithms Research,834,ML Theory & Optimization
+2005,Multi-Agent Systems and Negotiation,1173,Other
+2005,Natural Language Processing Techniques,2158,NLP
+2005,Neural Networks and Applications,3679,Core ML / Deep Learning
+2005,Neural Networks and Reservoir Computing,85,Core ML / Deep Learning
+2005,Organizational and Employee Performance,18,Other
+2005,Privacy-Preserving Technologies in Data,152,AI Ethics & Fairness
+2005,"Psychiatry, Mental Health, Neuroscience",89,Healthcare AI
+2005,Quantum Computing Algorithms and Architecture,843,Other
+2005,Quantum Information and Cryptography,2159,Other
+2005,Reinforcement Learning in Robotics,307,Reinforcement Learning
+2005,Security and Verification in Computing,444,Other
+2005,Seismology and Earthquake Studies,272,Other
+2005,Semantic Web and Ontologies,2341,Other
+2005,Sentiment Analysis and Opinion Mining,39,NLP
+2005,Solar Radiation and Photovoltaics,197,Other
+2005,Speech Recognition and Synthesis,1331,NLP
+2005,Speech and dialogue systems,772,NLP
+2005,Statistical and Computational Modeling,135,Other
+2005,Stochastic Gradient Optimization Techniques,26,ML Theory & Optimization
+2005,Target Tracking and Data Fusion in Sensor Networks,1077,Other
+2005,Text Readability and Simplification,38,NLP
+2005,Text and Document Classification Technologies,368,NLP
+2005,Topic Modeling,339,Other
+2005,Wireless Signal Modulation Classification,69,Core ML / Deep Learning
+2006,AI and Multimedia in Education,1,Other
+2006,AI in Service Interactions,37,Other
+2006,AI in cancer detection,490,Healthcare AI
+2006,AI-based Problem Solving and Planning,557,Other
+2006,Advanced Clustering Algorithms Research,510,Core ML / Deep Learning
+2006,Advanced Computational Techniques and Applications,905,Other
+2006,Advanced Graph Neural Networks,13,Core ML / Deep Learning
+2006,Advanced Software Engineering Methodologies,1669,Other
+2006,Advanced Technologies in Various Fields,3,Other
+2006,Advanced Text Analysis Techniques,460,NLP
+2006,Adversarial Robustness in Machine Learning,12,Core ML / Deep Learning
+2006,Algorithms and Data Compression,1291,Other
+2006,Anomaly Detection Techniques and Applications,338,Other
+2006,Artificial Intelligence Applications,40,Core ML / Deep Learning
+2006,Artificial Intelligence in Games,370,Core ML / Deep Learning
+2006,Authorship Attribution and Profiling,95,Other
+2006,Bayesian Methods and Mixture Models,718,ML Theory & Optimization
+2006,Bayesian Modeling and Causal Inference,719,ML Theory & Optimization
+2006,Coding theory and cryptography,1083,Other
+2006,Cognitive Computing and Networks,160,Other
+2006,Cognitive Science and Mapping,367,Other
+2006,Computational Physics and Python Applications,415,Other
+2006,Computer Science and Engineering,51,Other
+2006,Cryptographic Implementations and Security,593,Other
+2006,Cryptography and Data Security,1128,Other
+2006,Data Analysis with R,168,Other
+2006,Data Stream Mining Techniques,156,Other
+2006,Diverse Interdisciplinary Research Studies,21,Other
+2006,Domain Adaptation and Few-Shot Learning,15,Other
+2006,Edcuational Technology Systems,35,Other
+2006,Educational Robotics and Engineering,1931,Robotics
+2006,Educational Technology and Pedagogy,24,Other
+2006,Evolutionary Algorithms and Applications,1202,Other
+2006,Experience-Based Knowledge Management,8,Other
+2006,Explainable Artificial Intelligence (XAI),20,AI Ethics & Fairness
+2006,Fuzzy Logic and Control Systems,1211,Robotics
+2006,Gaussian Processes and Bayesian Inference,113,ML Theory & Optimization
+2006,Geochemistry and Geologic Mapping,1249,Other
+2006,Hate Speech and Cyberbullying Detection,82,NLP
+2006,Imbalanced Data Classification Techniques,178,Core ML / Deep Learning
+2006,Intelligent Tutoring Systems and Adaptive Learning,430,Other
+2006,Internet Traffic Analysis and Secure E-voting,463,Other
+2006,Intuitionistic Fuzzy Systems Applications,35,Other
+2006,"Law, AI, and Intellectual Property",139,Other
+2006,Linguistic Studies and Language Acquisition,802,NLP
+2006,"Logic, Reasoning, and Knowledge",1033,Other
+2006,"Logic, programming, and type systems",1547,Other
+2006,Machine Learning and Algorithms,497,Core ML / Deep Learning
+2006,Machine Learning and Data Classification,222,Core ML / Deep Learning
+2006,Machine Learning and ELM,48,Core ML / Deep Learning
+2006,Machine Learning in Healthcare,46,Healthcare AI
+2006,Mathematical Control Systems and Analysis,108,Robotics
+2006,Metaheuristic Optimization Algorithms Research,1086,ML Theory & Optimization
+2006,Multi-Agent Systems and Negotiation,1376,Other
+2006,Natural Language Processing Techniques,2841,NLP
+2006,Neural Networks and Applications,3564,Core ML / Deep Learning
+2006,Neural Networks and Reservoir Computing,94,Core ML / Deep Learning
+2006,Organizational and Employee Performance,27,Other
+2006,Privacy-Preserving Technologies in Data,271,AI Ethics & Fairness
+2006,"Psychiatry, Mental Health, Neuroscience",96,Healthcare AI
+2006,Quantum Computing Algorithms and Architecture,970,Other
+2006,Quantum Information and Cryptography,2346,Other
+2006,Reinforcement Learning in Robotics,380,Reinforcement Learning
+2006,Security and Verification in Computing,459,Other
+2006,Seismology and Earthquake Studies,293,Other
+2006,Semantic Web and Ontologies,2835,Other
+2006,Sentiment Analysis and Opinion Mining,66,NLP
+2006,Solar Radiation and Photovoltaics,183,Other
+2006,Speech Recognition and Synthesis,1308,NLP
+2006,Speech and dialogue systems,902,NLP
+2006,Statistical and Computational Modeling,120,Other
+2006,Stochastic Gradient Optimization Techniques,24,ML Theory & Optimization
+2006,Target Tracking and Data Fusion in Sensor Networks,1216,Other
+2006,Text Readability and Simplification,53,NLP
+2006,Text and Document Classification Technologies,451,NLP
+2006,Topic Modeling,479,Other
+2006,Wireless Signal Modulation Classification,101,Core ML / Deep Learning
+2007,AI and Multimedia in Education,1,Other
+2007,AI in Service Interactions,46,Other
+2007,AI in cancer detection,476,Healthcare AI
+2007,AI-based Problem Solving and Planning,627,Other
+2007,Advanced Clustering Algorithms Research,518,Core ML / Deep Learning
+2007,Advanced Computational Techniques and Applications,897,Other
+2007,Advanced Graph Neural Networks,20,Core ML / Deep Learning
+2007,Advanced Software Engineering Methodologies,1566,Other
+2007,Advanced Technologies in Various Fields,1,Other
+2007,Advanced Text Analysis Techniques,434,NLP
+2007,Adversarial Robustness in Machine Learning,17,Core ML / Deep Learning
+2007,Algorithms and Data Compression,1204,Other
+2007,Anomaly Detection Techniques and Applications,336,Other
+2007,Artificial Intelligence Applications,42,Core ML / Deep Learning
+2007,Artificial Intelligence in Games,455,Core ML / Deep Learning
+2007,Authorship Attribution and Profiling,132,Other
+2007,Bayesian Methods and Mixture Models,713,ML Theory & Optimization
+2007,Bayesian Modeling and Causal Inference,784,ML Theory & Optimization
+2007,Coding theory and cryptography,1185,Other
+2007,Cognitive Computing and Networks,156,Other
+2007,Cognitive Science and Mapping,386,Other
+2007,Computational Physics and Python Applications,436,Other
+2007,Computer Science and Engineering,51,Other
+2007,Cryptographic Implementations and Security,647,Other
+2007,Cryptography and Data Security,1462,Other
+2007,Data Analysis with R,195,Other
+2007,Data Stream Mining Techniques,197,Other
+2007,Diverse Interdisciplinary Research Studies,16,Other
+2007,Domain Adaptation and Few-Shot Learning,45,Other
+2007,Edcuational Technology Systems,37,Other
+2007,Educational Robotics and Engineering,1991,Robotics
+2007,Educational Technology and Pedagogy,26,Other
+2007,Evolutionary Algorithms and Applications,1215,Other
+2007,Experience-Based Knowledge Management,9,Other
+2007,Explainable Artificial Intelligence (XAI),15,AI Ethics & Fairness
+2007,Fuzzy Logic and Control Systems,1207,Robotics
+2007,Gaussian Processes and Bayesian Inference,121,ML Theory & Optimization
+2007,Geochemistry and Geologic Mapping,1190,Other
+2007,Hate Speech and Cyberbullying Detection,96,NLP
+2007,Imbalanced Data Classification Techniques,193,Core ML / Deep Learning
+2007,Intelligent Tutoring Systems and Adaptive Learning,409,Other
+2007,Internet Traffic Analysis and Secure E-voting,514,Other
+2007,Intuitionistic Fuzzy Systems Applications,23,Other
+2007,"Law, AI, and Intellectual Property",139,Other
+2007,Linguistic Studies and Language Acquisition,743,NLP
+2007,"Logic, Reasoning, and Knowledge",1081,Other
+2007,"Logic, programming, and type systems",1552,Other
+2007,Machine Learning and Algorithms,441,Core ML / Deep Learning
+2007,Machine Learning and Data Classification,192,Core ML / Deep Learning
+2007,Machine Learning and ELM,42,Core ML / Deep Learning
+2007,Machine Learning in Healthcare,59,Healthcare AI
+2007,Mathematical Control Systems and Analysis,114,Robotics
+2007,Metaheuristic Optimization Algorithms Research,1103,ML Theory & Optimization
+2007,Multi-Agent Systems and Negotiation,1227,Other
+2007,Natural Language Processing Techniques,2516,NLP
+2007,Neural Networks and Applications,2751,Core ML / Deep Learning
+2007,Neural Networks and Reservoir Computing,99,Core ML / Deep Learning
+2007,Organizational and Employee Performance,30,Other
+2007,Privacy-Preserving Technologies in Data,328,AI Ethics & Fairness
+2007,"Psychiatry, Mental Health, Neuroscience",125,Healthcare AI
+2007,Quantum Computing Algorithms and Architecture,986,Other
+2007,Quantum Information and Cryptography,2627,Other
+2007,Reinforcement Learning in Robotics,402,Reinforcement Learning
+2007,Security and Verification in Computing,526,Other
+2007,Seismology and Earthquake Studies,296,Other
+2007,Semantic Web and Ontologies,3048,Other
+2007,Sentiment Analysis and Opinion Mining,94,NLP
+2007,Solar Radiation and Photovoltaics,220,Other
+2007,Speech Recognition and Synthesis,1187,NLP
+2007,Speech and dialogue systems,902,NLP
+2007,Statistical and Computational Modeling,149,Other
+2007,Stochastic Gradient Optimization Techniques,27,ML Theory & Optimization
+2007,Target Tracking and Data Fusion in Sensor Networks,1062,Other
+2007,Text Readability and Simplification,66,NLP
+2007,Text and Document Classification Technologies,436,NLP
+2007,Topic Modeling,483,Other
+2007,Wireless Signal Modulation Classification,88,Core ML / Deep Learning
+2008,AI and Multimedia in Education,4,Other
+2008,AI in Service Interactions,48,Other
+2008,AI in cancer detection,556,Healthcare AI
+2008,AI-based Problem Solving and Planning,538,Other
+2008,Advanced Clustering Algorithms Research,578,Core ML / Deep Learning
+2008,Advanced Computational Techniques and Applications,1154,Other
+2008,Advanced Graph Neural Networks,17,Core ML / Deep Learning
+2008,Advanced Software Engineering Methodologies,1620,Other
+2008,Advanced Technologies in Various Fields,5,Other
+2008,Advanced Text Analysis Techniques,472,NLP
+2008,Adversarial Robustness in Machine Learning,15,Core ML / Deep Learning
+2008,Algorithms and Data Compression,1211,Other
+2008,Anomaly Detection Techniques and Applications,424,Other
+2008,Artificial Intelligence Applications,48,Core ML / Deep Learning
+2008,Artificial Intelligence in Games,467,Core ML / Deep Learning
+2008,Authorship Attribution and Profiling,119,Other
+2008,Bayesian Methods and Mixture Models,795,ML Theory & Optimization
+2008,Bayesian Modeling and Causal Inference,755,ML Theory & Optimization
+2008,Coding theory and cryptography,1129,Other
+2008,Cognitive Computing and Networks,186,Other
+2008,Cognitive Science and Mapping,415,Other
+2008,Computational Physics and Python Applications,416,Other
+2008,Computer Science and Engineering,58,Other
+2008,Cryptographic Implementations and Security,649,Other
+2008,Cryptography and Data Security,1316,Other
+2008,Data Analysis with R,262,Other
+2008,Data Stream Mining Techniques,212,Other
+2008,Diverse Interdisciplinary Research Studies,30,Other
+2008,Domain Adaptation and Few-Shot Learning,40,Other
+2008,Edcuational Technology Systems,70,Other
+2008,Educational Robotics and Engineering,1877,Robotics
+2008,Educational Technology and Pedagogy,25,Other
+2008,Evolutionary Algorithms and Applications,1146,Other
+2008,Experience-Based Knowledge Management,12,Other
+2008,Explainable Artificial Intelligence (XAI),14,AI Ethics & Fairness
+2008,Fuzzy Logic and Control Systems,1120,Robotics
+2008,Gaussian Processes and Bayesian Inference,141,ML Theory & Optimization
+2008,Geochemistry and Geologic Mapping,1150,Other
+2008,Hate Speech and Cyberbullying Detection,107,NLP
+2008,Imbalanced Data Classification Techniques,239,Core ML / Deep Learning
+2008,Intelligent Tutoring Systems and Adaptive Learning,471,Other
+2008,Internet Traffic Analysis and Secure E-voting,575,Other
+2008,Intuitionistic Fuzzy Systems Applications,28,Other
+2008,"Law, AI, and Intellectual Property",159,Other
+2008,Linguistic Studies and Language Acquisition,858,NLP
+2008,"Logic, Reasoning, and Knowledge",1168,Other
+2008,"Logic, programming, and type systems",1417,Other
+2008,Machine Learning and Algorithms,467,Core ML / Deep Learning
+2008,Machine Learning and Data Classification,221,Core ML / Deep Learning
+2008,Machine Learning and ELM,64,Core ML / Deep Learning
+2008,Machine Learning in Healthcare,51,Healthcare AI
+2008,Mathematical Control Systems and Analysis,104,Robotics
+2008,Metaheuristic Optimization Algorithms Research,1319,ML Theory & Optimization
+2008,Multi-Agent Systems and Negotiation,1228,Other
+2008,Natural Language Processing Techniques,3010,NLP
+2008,Neural Networks and Applications,2890,Core ML / Deep Learning
+2008,Neural Networks and Reservoir Computing,112,Core ML / Deep Learning
+2008,Organizational and Employee Performance,39,Other
+2008,Privacy-Preserving Technologies in Data,453,AI Ethics & Fairness
+2008,"Psychiatry, Mental Health, Neuroscience",147,Healthcare AI
+2008,Quantum Computing Algorithms and Architecture,1035,Other
+2008,Quantum Information and Cryptography,2668,Other
+2008,Reinforcement Learning in Robotics,435,Reinforcement Learning
+2008,Security and Verification in Computing,546,Other
+2008,Seismology and Earthquake Studies,325,Other
+2008,Semantic Web and Ontologies,3502,Other
+2008,Sentiment Analysis and Opinion Mining,164,NLP
+2008,Solar Radiation and Photovoltaics,331,Other
+2008,Speech Recognition and Synthesis,1284,NLP
+2008,Speech and dialogue systems,817,NLP
+2008,Statistical and Computational Modeling,154,Other
+2008,Stochastic Gradient Optimization Techniques,17,ML Theory & Optimization
+2008,Target Tracking and Data Fusion in Sensor Networks,1118,Other
+2008,Text Readability and Simplification,89,NLP
+2008,Text and Document Classification Technologies,513,NLP
+2008,Topic Modeling,573,Other
+2008,Wireless Signal Modulation Classification,84,Core ML / Deep Learning
+2009,AI and Multimedia in Education,1,Other
+2009,AI in Service Interactions,58,Other
+2009,AI in cancer detection,540,Healthcare AI
+2009,AI-based Problem Solving and Planning,576,Other
+2009,Advanced Clustering Algorithms Research,658,Core ML / Deep Learning
+2009,Advanced Computational Techniques and Applications,1731,Other
+2009,Advanced Graph Neural Networks,33,Core ML / Deep Learning
+2009,Advanced Software Engineering Methodologies,1549,Other
+2009,Advanced Technologies in Various Fields,11,Other
+2009,Advanced Text Analysis Techniques,644,NLP
+2009,Adversarial Robustness in Machine Learning,13,Core ML / Deep Learning
+2009,Algorithms and Data Compression,1346,Other
+2009,Anomaly Detection Techniques and Applications,506,Other
+2009,Artificial Intelligence Applications,55,Core ML / Deep Learning
+2009,Artificial Intelligence in Games,552,Core ML / Deep Learning
+2009,Authorship Attribution and Profiling,129,Other
+2009,Bayesian Methods and Mixture Models,821,ML Theory & Optimization
+2009,Bayesian Modeling and Causal Inference,820,ML Theory & Optimization
+2009,Coding theory and cryptography,1171,Other
+2009,Cognitive Computing and Networks,249,Other
+2009,Cognitive Science and Mapping,494,Other
+2009,Computational Physics and Python Applications,519,Other
+2009,Computer Science and Engineering,77,Other
+2009,Cryptographic Implementations and Security,746,Other
+2009,Cryptography and Data Security,1501,Other
+2009,Data Analysis with R,274,Other
+2009,Data Stream Mining Techniques,244,Other
+2009,Diverse Interdisciplinary Research Studies,22,Other
+2009,Domain Adaptation and Few-Shot Learning,85,Other
+2009,Edcuational Technology Systems,82,Other
+2009,Educational Robotics and Engineering,1935,Robotics
+2009,Educational Technology and Pedagogy,42,Other
+2009,Evolutionary Algorithms and Applications,1098,Other
+2009,Experience-Based Knowledge Management,14,Other
+2009,Explainable Artificial Intelligence (XAI),18,AI Ethics & Fairness
+2009,Fuzzy Logic and Control Systems,1066,Robotics
+2009,Gaussian Processes and Bayesian Inference,172,ML Theory & Optimization
+2009,Geochemistry and Geologic Mapping,1370,Other
+2009,Hate Speech and Cyberbullying Detection,122,NLP
+2009,Imbalanced Data Classification Techniques,250,Core ML / Deep Learning
+2009,Intelligent Tutoring Systems and Adaptive Learning,494,Other
+2009,Internet Traffic Analysis and Secure E-voting,692,Other
+2009,Intuitionistic Fuzzy Systems Applications,35,Other
+2009,"Law, AI, and Intellectual Property",152,Other
+2009,Linguistic Studies and Language Acquisition,944,NLP
+2009,"Logic, Reasoning, and Knowledge",1140,Other
+2009,"Logic, programming, and type systems",1549,Other
+2009,Machine Learning and Algorithms,500,Core ML / Deep Learning
+2009,Machine Learning and Data Classification,243,Core ML / Deep Learning
+2009,Machine Learning and ELM,74,Core ML / Deep Learning
+2009,Machine Learning in Healthcare,78,Healthcare AI
+2009,Mathematical Control Systems and Analysis,102,Robotics
+2009,Metaheuristic Optimization Algorithms Research,1657,ML Theory & Optimization
+2009,Multi-Agent Systems and Negotiation,1267,Other
+2009,Natural Language Processing Techniques,3334,NLP
+2009,Neural Networks and Applications,3075,Core ML / Deep Learning
+2009,Neural Networks and Reservoir Computing,134,Core ML / Deep Learning
+2009,Organizational and Employee Performance,34,Other
+2009,Privacy-Preserving Technologies in Data,591,AI Ethics & Fairness
+2009,"Psychiatry, Mental Health, Neuroscience",151,Healthcare AI
+2009,Quantum Computing Algorithms and Architecture,984,Other
+2009,Quantum Information and Cryptography,2750,Other
+2009,Reinforcement Learning in Robotics,449,Reinforcement Learning
+2009,Security and Verification in Computing,624,Other
+2009,Seismology and Earthquake Studies,358,Other
+2009,Semantic Web and Ontologies,3511,Other
+2009,Sentiment Analysis and Opinion Mining,281,NLP
+2009,Solar Radiation and Photovoltaics,297,Other
+2009,Speech Recognition and Synthesis,1359,NLP
+2009,Speech and dialogue systems,889,NLP
+2009,Statistical and Computational Modeling,193,Other
+2009,Stochastic Gradient Optimization Techniques,32,ML Theory & Optimization
+2009,Target Tracking and Data Fusion in Sensor Networks,1138,Other
+2009,Text Readability and Simplification,94,NLP
+2009,Text and Document Classification Technologies,560,NLP
+2009,Topic Modeling,725,Other
+2009,Wireless Signal Modulation Classification,116,Core ML / Deep Learning
+2010,AI and Multimedia in Education,7,Other
+2010,AI in Service Interactions,76,Other
+2010,AI in cancer detection,673,Healthcare AI
+2010,AI-based Problem Solving and Planning,622,Other
+2010,Advanced Clustering Algorithms Research,709,Core ML / Deep Learning
+2010,Advanced Computational Techniques and Applications,2136,Other
+2010,Advanced Graph Neural Networks,35,Core ML / Deep Learning
+2010,Advanced Software Engineering Methodologies,1606,Other
+2010,Advanced Technologies in Various Fields,15,Other
+2010,Advanced Text Analysis Techniques,579,NLP
+2010,Adversarial Robustness in Machine Learning,23,Core ML / Deep Learning
+2010,Algorithms and Data Compression,1291,Other
+2010,Anomaly Detection Techniques and Applications,568,Other
+2010,Artificial Intelligence Applications,62,Core ML / Deep Learning
+2010,Artificial Intelligence in Games,662,Core ML / Deep Learning
+2010,Authorship Attribution and Profiling,153,Other
+2010,Bayesian Methods and Mixture Models,854,ML Theory & Optimization
+2010,Bayesian Modeling and Causal Inference,948,ML Theory & Optimization
+2010,Coding theory and cryptography,1199,Other
+2010,Cognitive Computing and Networks,250,Other
+2010,Cognitive Science and Mapping,533,Other
+2010,Computational Physics and Python Applications,505,Other
+2010,Computer Science and Engineering,110,Other
+2010,Cryptographic Implementations and Security,827,Other
+2010,Cryptography and Data Security,1627,Other
+2010,Data Analysis with R,307,Other
+2010,Data Stream Mining Techniques,278,Other
+2010,Diverse Interdisciplinary Research Studies,25,Other
+2010,Domain Adaptation and Few-Shot Learning,73,Other
+2010,Edcuational Technology Systems,120,Other
+2010,Educational Robotics and Engineering,2072,Robotics
+2010,Educational Technology and Pedagogy,70,Other
+2010,Evolutionary Algorithms and Applications,1135,Other
+2010,Experience-Based Knowledge Management,31,Other
+2010,Explainable Artificial Intelligence (XAI),18,AI Ethics & Fairness
+2010,Fuzzy Logic and Control Systems,1213,Robotics
+2010,Gaussian Processes and Bayesian Inference,201,ML Theory & Optimization
+2010,Geochemistry and Geologic Mapping,1486,Other
+2010,Hate Speech and Cyberbullying Detection,149,NLP
+2010,Imbalanced Data Classification Techniques,304,Core ML / Deep Learning
+2010,Intelligent Tutoring Systems and Adaptive Learning,612,Other
+2010,Internet Traffic Analysis and Secure E-voting,767,Other
+2010,Intuitionistic Fuzzy Systems Applications,50,Other
+2010,"Law, AI, and Intellectual Property",149,Other
+2010,Linguistic Studies and Language Acquisition,899,NLP
+2010,"Logic, Reasoning, and Knowledge",1200,Other
+2010,"Logic, programming, and type systems",1561,Other
+2010,Machine Learning and Algorithms,521,Core ML / Deep Learning
+2010,Machine Learning and Data Classification,263,Core ML / Deep Learning
+2010,Machine Learning and ELM,83,Core ML / Deep Learning
+2010,Machine Learning in Healthcare,70,Healthcare AI
+2010,Mathematical Control Systems and Analysis,135,Robotics
+2010,Metaheuristic Optimization Algorithms Research,1902,ML Theory & Optimization
+2010,Multi-Agent Systems and Negotiation,1162,Other
+2010,Natural Language Processing Techniques,2971,NLP
+2010,Neural Networks and Applications,2935,Core ML / Deep Learning
+2010,Neural Networks and Reservoir Computing,154,Core ML / Deep Learning
+2010,Organizational and Employee Performance,58,Other
+2010,Privacy-Preserving Technologies in Data,767,AI Ethics & Fairness
+2010,"Psychiatry, Mental Health, Neuroscience",159,Healthcare AI
+2010,Quantum Computing Algorithms and Architecture,1006,Other
+2010,Quantum Information and Cryptography,2791,Other
+2010,Reinforcement Learning in Robotics,452,Reinforcement Learning
+2010,Security and Verification in Computing,701,Other
+2010,Seismology and Earthquake Studies,374,Other
+2010,Semantic Web and Ontologies,3537,Other
+2010,Sentiment Analysis and Opinion Mining,348,NLP
+2010,Solar Radiation and Photovoltaics,436,Other
+2010,Speech Recognition and Synthesis,1376,NLP
+2010,Speech and dialogue systems,863,NLP
+2010,Statistical and Computational Modeling,180,Other
+2010,Stochastic Gradient Optimization Techniques,53,ML Theory & Optimization
+2010,Target Tracking and Data Fusion in Sensor Networks,1383,Other
+2010,Text Readability and Simplification,89,NLP
+2010,Text and Document Classification Technologies,605,NLP
+2010,Topic Modeling,650,Other
+2010,Wireless Signal Modulation Classification,151,Core ML / Deep Learning
+2011,AI and Multimedia in Education,8,Other
+2011,AI in Service Interactions,68,Other
+2011,AI in cancer detection,675,Healthcare AI
+2011,AI-based Problem Solving and Planning,633,Other
+2011,Advanced Clustering Algorithms Research,702,Core ML / Deep Learning
+2011,Advanced Computational Techniques and Applications,2099,Other
+2011,Advanced Graph Neural Networks,45,Core ML / Deep Learning
+2011,Advanced Software Engineering Methodologies,1617,Other
+2011,Advanced Technologies in Various Fields,20,Other
+2011,Advanced Text Analysis Techniques,660,NLP
+2011,Adversarial Robustness in Machine Learning,30,Core ML / Deep Learning
+2011,Algorithms and Data Compression,1337,Other
+2011,Anomaly Detection Techniques and Applications,706,Other
+2011,Artificial Intelligence Applications,91,Core ML / Deep Learning
+2011,Artificial Intelligence in Games,697,Core ML / Deep Learning
+2011,Authorship Attribution and Profiling,167,Other
+2011,Bayesian Methods and Mixture Models,917,ML Theory & Optimization
+2011,Bayesian Modeling and Causal Inference,935,ML Theory & Optimization
+2011,Coding theory and cryptography,1366,Other
+2011,Cognitive Computing and Networks,287,Other
+2011,Cognitive Science and Mapping,597,Other
+2011,Computational Physics and Python Applications,546,Other
+2011,Computer Science and Engineering,125,Other
+2011,Cryptographic Implementations and Security,946,Other
+2011,Cryptography and Data Security,1840,Other
+2011,Data Analysis with R,278,Other
+2011,Data Stream Mining Techniques,336,Other
+2011,Diverse Interdisciplinary Research Studies,29,Other
+2011,Domain Adaptation and Few-Shot Learning,122,Other
+2011,Edcuational Technology Systems,158,Other
+2011,Educational Robotics and Engineering,2045,Robotics
+2011,Educational Technology and Pedagogy,171,Other
+2011,Evolutionary Algorithms and Applications,1089,Other
+2011,Experience-Based Knowledge Management,30,Other
+2011,Explainable Artificial Intelligence (XAI),22,AI Ethics & Fairness
+2011,Fuzzy Logic and Control Systems,1212,Robotics
+2011,Gaussian Processes and Bayesian Inference,206,ML Theory & Optimization
+2011,Geochemistry and Geologic Mapping,1449,Other
+2011,Hate Speech and Cyberbullying Detection,148,NLP
+2011,Imbalanced Data Classification Techniques,355,Core ML / Deep Learning
+2011,Intelligent Tutoring Systems and Adaptive Learning,627,Other
+2011,Internet Traffic Analysis and Secure E-voting,763,Other
+2011,Intuitionistic Fuzzy Systems Applications,45,Other
+2011,"Law, AI, and Intellectual Property",184,Other
+2011,Linguistic Studies and Language Acquisition,937,NLP
+2011,"Logic, Reasoning, and Knowledge",1322,Other
+2011,"Logic, programming, and type systems",1414,Other
+2011,Machine Learning and Algorithms,530,Core ML / Deep Learning
+2011,Machine Learning and Data Classification,295,Core ML / Deep Learning
+2011,Machine Learning and ELM,132,Core ML / Deep Learning
+2011,Machine Learning in Healthcare,109,Healthcare AI
+2011,Mathematical Control Systems and Analysis,140,Robotics
+2011,Metaheuristic Optimization Algorithms Research,1714,ML Theory & Optimization
+2011,Multi-Agent Systems and Negotiation,1379,Other
+2011,Natural Language Processing Techniques,2602,NLP
+2011,Neural Networks and Applications,2989,Core ML / Deep Learning
+2011,Neural Networks and Reservoir Computing,162,Core ML / Deep Learning
+2011,Organizational and Employee Performance,104,Other
+2011,Privacy-Preserving Technologies in Data,745,AI Ethics & Fairness
+2011,"Psychiatry, Mental Health, Neuroscience",182,Healthcare AI
+2011,Quantum Computing Algorithms and Architecture,1051,Other
+2011,Quantum Information and Cryptography,2929,Other
+2011,Reinforcement Learning in Robotics,457,Reinforcement Learning
+2011,Security and Verification in Computing,705,Other
+2011,Seismology and Earthquake Studies,434,Other
+2011,Semantic Web and Ontologies,4033,Other
+2011,Sentiment Analysis and Opinion Mining,382,NLP
+2011,Solar Radiation and Photovoltaics,506,Other
+2011,Speech Recognition and Synthesis,1408,NLP
+2011,Speech and dialogue systems,752,NLP
+2011,Statistical and Computational Modeling,205,Other
+2011,Stochastic Gradient Optimization Techniques,66,ML Theory & Optimization
+2011,Target Tracking and Data Fusion in Sensor Networks,1327,Other
+2011,Text Readability and Simplification,103,NLP
+2011,Text and Document Classification Technologies,622,NLP
+2011,Topic Modeling,682,Other
+2011,Wireless Signal Modulation Classification,145,Core ML / Deep Learning
+2012,AI and Multimedia in Education,12,Other
+2012,AI in Service Interactions,73,Other
+2012,AI in cancer detection,769,Healthcare AI
+2012,AI-based Problem Solving and Planning,615,Other
+2012,Advanced Clustering Algorithms Research,799,Core ML / Deep Learning
+2012,Advanced Computational Techniques and Applications,2018,Other
+2012,Advanced Graph Neural Networks,54,Core ML / Deep Learning
+2012,Advanced Software Engineering Methodologies,1644,Other
+2012,Advanced Technologies in Various Fields,31,Other
+2012,Advanced Text Analysis Techniques,783,NLP
+2012,Adversarial Robustness in Machine Learning,33,Core ML / Deep Learning
+2012,Algorithms and Data Compression,1342,Other
+2012,Anomaly Detection Techniques and Applications,702,Other
+2012,Artificial Intelligence Applications,92,Core ML / Deep Learning
+2012,Artificial Intelligence in Games,800,Core ML / Deep Learning
+2012,Authorship Attribution and Profiling,246,Other
+2012,Bayesian Methods and Mixture Models,1003,ML Theory & Optimization
+2012,Bayesian Modeling and Causal Inference,1210,ML Theory & Optimization
+2012,Coding theory and cryptography,1405,Other
+2012,Cognitive Computing and Networks,310,Other
+2012,Cognitive Science and Mapping,586,Other
+2012,Computational Physics and Python Applications,587,Other
+2012,Computer Science and Engineering,245,Other
+2012,Cryptographic Implementations and Security,1097,Other
+2012,Cryptography and Data Security,1900,Other
+2012,Data Analysis with R,275,Other
+2012,Data Stream Mining Techniques,322,Other
+2012,Diverse Interdisciplinary Research Studies,23,Other
+2012,Domain Adaptation and Few-Shot Learning,163,Other
+2012,Edcuational Technology Systems,379,Other
+2012,Educational Robotics and Engineering,2148,Robotics
+2012,Educational Technology and Pedagogy,194,Other
+2012,Evolutionary Algorithms and Applications,1080,Other
+2012,Experience-Based Knowledge Management,41,Other
+2012,Explainable Artificial Intelligence (XAI),24,AI Ethics & Fairness
+2012,Fuzzy Logic and Control Systems,1276,Robotics
+2012,Gaussian Processes and Bayesian Inference,293,ML Theory & Optimization
+2012,Geochemistry and Geologic Mapping,1430,Other
+2012,Hate Speech and Cyberbullying Detection,226,NLP
+2012,Imbalanced Data Classification Techniques,380,Core ML / Deep Learning
+2012,Intelligent Tutoring Systems and Adaptive Learning,651,Other
+2012,Internet Traffic Analysis and Secure E-voting,858,Other
+2012,Intuitionistic Fuzzy Systems Applications,83,Other
+2012,"Law, AI, and Intellectual Property",230,Other
+2012,Linguistic Studies and Language Acquisition,991,NLP
+2012,"Logic, Reasoning, and Knowledge",1225,Other
+2012,"Logic, programming, and type systems",1535,Other
+2012,Machine Learning and Algorithms,582,Core ML / Deep Learning
+2012,Machine Learning and Data Classification,334,Core ML / Deep Learning
+2012,Machine Learning and ELM,248,Core ML / Deep Learning
+2012,Machine Learning in Healthcare,138,Healthcare AI
+2012,Mathematical Control Systems and Analysis,130,Robotics
+2012,Metaheuristic Optimization Algorithms Research,2025,ML Theory & Optimization
+2012,Multi-Agent Systems and Negotiation,1153,Other
+2012,Natural Language Processing Techniques,3308,NLP
+2012,Neural Networks and Applications,2659,Core ML / Deep Learning
+2012,Neural Networks and Reservoir Computing,210,Core ML / Deep Learning
+2012,Organizational and Employee Performance,102,Other
+2012,Privacy-Preserving Technologies in Data,937,AI Ethics & Fairness
+2012,"Psychiatry, Mental Health, Neuroscience",160,Healthcare AI
+2012,Quantum Computing Algorithms and Architecture,1173,Other
+2012,Quantum Information and Cryptography,2965,Other
+2012,Reinforcement Learning in Robotics,587,Reinforcement Learning
+2012,Security and Verification in Computing,730,Other
+2012,Seismology and Earthquake Studies,456,Other
+2012,Semantic Web and Ontologies,3516,Other
+2012,Sentiment Analysis and Opinion Mining,595,NLP
+2012,Solar Radiation and Photovoltaics,644,Other
+2012,Speech Recognition and Synthesis,1464,NLP
+2012,Speech and dialogue systems,727,NLP
+2012,Statistical and Computational Modeling,202,Other
+2012,Stochastic Gradient Optimization Techniques,92,ML Theory & Optimization
+2012,Target Tracking and Data Fusion in Sensor Networks,1412,Other
+2012,Text Readability and Simplification,124,NLP
+2012,Text and Document Classification Technologies,696,NLP
+2012,Topic Modeling,868,Other
+2012,Wireless Signal Modulation Classification,156,Core ML / Deep Learning
+2013,AI and Multimedia in Education,14,Other
+2013,AI in Service Interactions,92,Other
+2013,AI in cancer detection,799,Healthcare AI
+2013,AI-based Problem Solving and Planning,647,Other
+2013,Advanced Clustering Algorithms Research,753,Core ML / Deep Learning
+2013,Advanced Computational Techniques and Applications,1901,Other
+2013,Advanced Graph Neural Networks,104,Core ML / Deep Learning
+2013,Advanced Software Engineering Methodologies,1422,Other
+2013,Advanced Technologies in Various Fields,44,Other
+2013,Advanced Text Analysis Techniques,840,NLP
+2013,Adversarial Robustness in Machine Learning,45,Core ML / Deep Learning
+2013,Algorithms and Data Compression,1504,Other
+2013,Anomaly Detection Techniques and Applications,802,Other
+2013,Artificial Intelligence Applications,81,Core ML / Deep Learning
+2013,Artificial Intelligence in Games,753,Core ML / Deep Learning
+2013,Authorship Attribution and Profiling,248,Other
+2013,Bayesian Methods and Mixture Models,1139,ML Theory & Optimization
+2013,Bayesian Modeling and Causal Inference,1641,ML Theory & Optimization
+2013,Coding theory and cryptography,1459,Other
+2013,Cognitive Computing and Networks,250,Other
+2013,Cognitive Science and Mapping,678,Other
+2013,Computational Physics and Python Applications,543,Other
+2013,Computer Science and Engineering,260,Other
+2013,Cryptographic Implementations and Security,935,Other
+2013,Cryptography and Data Security,2185,Other
+2013,Data Analysis with R,385,Other
+2013,Data Stream Mining Techniques,420,Other
+2013,Diverse Interdisciplinary Research Studies,37,Other
+2013,Domain Adaptation and Few-Shot Learning,183,Other
+2013,Edcuational Technology Systems,438,Other
+2013,Educational Robotics and Engineering,2263,Robotics
+2013,Educational Technology and Pedagogy,242,Other
+2013,Evolutionary Algorithms and Applications,1093,Other
+2013,Experience-Based Knowledge Management,39,Other
+2013,Explainable Artificial Intelligence (XAI),35,AI Ethics & Fairness
+2013,Fuzzy Logic and Control Systems,1173,Robotics
+2013,Gaussian Processes and Bayesian Inference,302,ML Theory & Optimization
+2013,Geochemistry and Geologic Mapping,1691,Other
+2013,Hate Speech and Cyberbullying Detection,265,NLP
+2013,Imbalanced Data Classification Techniques,428,Core ML / Deep Learning
+2013,Intelligent Tutoring Systems and Adaptive Learning,660,Other
+2013,Internet Traffic Analysis and Secure E-voting,831,Other
+2013,Intuitionistic Fuzzy Systems Applications,71,Other
+2013,"Law, AI, and Intellectual Property",204,Other
+2013,Linguistic Studies and Language Acquisition,1023,NLP
+2013,"Logic, Reasoning, and Knowledge",1370,Other
+2013,"Logic, programming, and type systems",1534,Other
+2013,Machine Learning and Algorithms,545,Core ML / Deep Learning
+2013,Machine Learning and Data Classification,310,Core ML / Deep Learning
+2013,Machine Learning and ELM,336,Core ML / Deep Learning
+2013,Machine Learning in Healthcare,170,Healthcare AI
+2013,Mathematical Control Systems and Analysis,175,Robotics
+2013,Metaheuristic Optimization Algorithms Research,1956,ML Theory & Optimization
+2013,Multi-Agent Systems and Negotiation,995,Other
+2013,Natural Language Processing Techniques,3194,NLP
+2013,Neural Networks and Applications,2665,Core ML / Deep Learning
+2013,Neural Networks and Reservoir Computing,223,Core ML / Deep Learning
+2013,Organizational and Employee Performance,145,Other
+2013,Privacy-Preserving Technologies in Data,996,AI Ethics & Fairness
+2013,"Psychiatry, Mental Health, Neuroscience",192,Healthcare AI
+2013,Quantum Computing Algorithms and Architecture,1343,Other
+2013,Quantum Information and Cryptography,3227,Other
+2013,Reinforcement Learning in Robotics,515,Reinforcement Learning
+2013,Security and Verification in Computing,763,Other
+2013,Seismology and Earthquake Studies,552,Other
+2013,Semantic Web and Ontologies,3600,Other
+2013,Sentiment Analysis and Opinion Mining,723,NLP
+2013,Solar Radiation and Photovoltaics,763,Other
+2013,Speech Recognition and Synthesis,1477,NLP
+2013,Speech and dialogue systems,697,NLP
+2013,Statistical and Computational Modeling,281,Other
+2013,Stochastic Gradient Optimization Techniques,129,ML Theory & Optimization
+2013,Target Tracking and Data Fusion in Sensor Networks,1491,Other
+2013,Text Readability and Simplification,161,NLP
+2013,Text and Document Classification Technologies,687,NLP
+2013,Topic Modeling,1012,Other
+2013,Wireless Signal Modulation Classification,179,Core ML / Deep Learning
+2014,AI and Multimedia in Education,18,Other
+2014,AI in Service Interactions,104,Other
+2014,AI in cancer detection,849,Healthcare AI
+2014,AI-based Problem Solving and Planning,575,Other
+2014,Advanced Clustering Algorithms Research,871,Core ML / Deep Learning
+2014,Advanced Computational Techniques and Applications,1633,Other
+2014,Advanced Graph Neural Networks,127,Core ML / Deep Learning
+2014,Advanced Software Engineering Methodologies,1406,Other
+2014,Advanced Technologies in Various Fields,44,Other
+2014,Advanced Text Analysis Techniques,947,NLP
+2014,Adversarial Robustness in Machine Learning,52,Core ML / Deep Learning
+2014,Algorithms and Data Compression,1409,Other
+2014,Anomaly Detection Techniques and Applications,920,Other
+2014,Artificial Intelligence Applications,66,Core ML / Deep Learning
+2014,Artificial Intelligence in Games,872,Core ML / Deep Learning
+2014,Authorship Attribution and Profiling,345,Other
+2014,Bayesian Methods and Mixture Models,1147,ML Theory & Optimization
+2014,Bayesian Modeling and Causal Inference,1013,ML Theory & Optimization
+2014,Coding theory and cryptography,1520,Other
+2014,Cognitive Computing and Networks,270,Other
+2014,Cognitive Science and Mapping,713,Other
+2014,Computational Physics and Python Applications,729,Other
+2014,Computer Science and Engineering,311,Other
+2014,Cryptographic Implementations and Security,1062,Other
+2014,Cryptography and Data Security,2298,Other
+2014,Data Analysis with R,462,Other
+2014,Data Stream Mining Techniques,450,Other
+2014,Diverse Interdisciplinary Research Studies,37,Other
+2014,Domain Adaptation and Few-Shot Learning,242,Other
+2014,Edcuational Technology Systems,557,Other
+2014,Educational Robotics and Engineering,2270,Robotics
+2014,Educational Technology and Pedagogy,236,Other
+2014,Evolutionary Algorithms and Applications,1053,Other
+2014,Experience-Based Knowledge Management,62,Other
+2014,Explainable Artificial Intelligence (XAI),39,AI Ethics & Fairness
+2014,Fuzzy Logic and Control Systems,1118,Robotics
+2014,Gaussian Processes and Bayesian Inference,398,ML Theory & Optimization
+2014,Geochemistry and Geologic Mapping,2686,Other
+2014,Hate Speech and Cyberbullying Detection,302,NLP
+2014,Imbalanced Data Classification Techniques,465,Core ML / Deep Learning
+2014,Intelligent Tutoring Systems and Adaptive Learning,606,Other
+2014,Internet Traffic Analysis and Secure E-voting,833,Other
+2014,Intuitionistic Fuzzy Systems Applications,72,Other
+2014,"Law, AI, and Intellectual Property",295,Other
+2014,Linguistic Studies and Language Acquisition,997,NLP
+2014,"Logic, Reasoning, and Knowledge",1265,Other
+2014,"Logic, programming, and type systems",1613,Other
+2014,Machine Learning and Algorithms,640,Core ML / Deep Learning
+2014,Machine Learning and Data Classification,374,Core ML / Deep Learning
+2014,Machine Learning and ELM,523,Core ML / Deep Learning
+2014,Machine Learning in Healthcare,221,Healthcare AI
+2014,Mathematical Control Systems and Analysis,176,Robotics
+2014,Metaheuristic Optimization Algorithms Research,2240,ML Theory & Optimization
+2014,Multi-Agent Systems and Negotiation,1060,Other
+2014,Natural Language Processing Techniques,4745,NLP
+2014,Neural Networks and Applications,2754,Core ML / Deep Learning
+2014,Neural Networks and Reservoir Computing,264,Core ML / Deep Learning
+2014,Organizational and Employee Performance,204,Other
+2014,Privacy-Preserving Technologies in Data,1128,AI Ethics & Fairness
+2014,"Psychiatry, Mental Health, Neuroscience",179,Healthcare AI
+2014,Quantum Computing Algorithms and Architecture,1438,Other
+2014,Quantum Information and Cryptography,3254,Other
+2014,Reinforcement Learning in Robotics,476,Reinforcement Learning
+2014,Security and Verification in Computing,822,Other
+2014,Seismology and Earthquake Studies,548,Other
+2014,Semantic Web and Ontologies,3634,Other
+2014,Sentiment Analysis and Opinion Mining,1129,NLP
+2014,Solar Radiation and Photovoltaics,967,Other
+2014,Speech Recognition and Synthesis,1687,NLP
+2014,Speech and dialogue systems,853,NLP
+2014,Statistical and Computational Modeling,769,Other
+2014,Stochastic Gradient Optimization Techniques,182,ML Theory & Optimization
+2014,Target Tracking and Data Fusion in Sensor Networks,1448,Other
+2014,Text Readability and Simplification,226,NLP
+2014,Text and Document Classification Technologies,785,NLP
+2014,Topic Modeling,1331,Other
+2014,Wireless Signal Modulation Classification,174,Core ML / Deep Learning
+2015,AI and Multimedia in Education,17,Other
+2015,AI in Service Interactions,71,Other
+2015,AI in cancer detection,952,Healthcare AI
+2015,AI-based Problem Solving and Planning,524,Other
+2015,Advanced Clustering Algorithms Research,781,Core ML / Deep Learning
+2015,Advanced Computational Techniques and Applications,1223,Other
+2015,Advanced Graph Neural Networks,190,Core ML / Deep Learning
+2015,Advanced Software Engineering Methodologies,1304,Other
+2015,Advanced Technologies in Various Fields,50,Other
+2015,Advanced Text Analysis Techniques,969,NLP
+2015,Adversarial Robustness in Machine Learning,71,Core ML / Deep Learning
+2015,Algorithms and Data Compression,1367,Other
+2015,Anomaly Detection Techniques and Applications,1081,Other
+2015,Artificial Intelligence Applications,82,Core ML / Deep Learning
+2015,Artificial Intelligence in Games,797,Core ML / Deep Learning
+2015,Authorship Attribution and Profiling,301,Other
+2015,Bayesian Methods and Mixture Models,1142,ML Theory & Optimization
+2015,Bayesian Modeling and Causal Inference,1009,ML Theory & Optimization
+2015,Coding theory and cryptography,1577,Other
+2015,Cognitive Computing and Networks,265,Other
+2015,Cognitive Science and Mapping,690,Other
+2015,Computational Physics and Python Applications,748,Other
+2015,Computer Science and Engineering,451,Other
+2015,Cryptographic Implementations and Security,1120,Other
+2015,Cryptography and Data Security,2571,Other
+2015,Data Analysis with R,431,Other
+2015,Data Stream Mining Techniques,500,Other
+2015,Diverse Interdisciplinary Research Studies,33,Other
+2015,Domain Adaptation and Few-Shot Learning,345,Other
+2015,Edcuational Technology Systems,796,Other
+2015,Educational Robotics and Engineering,2237,Robotics
+2015,Educational Technology and Pedagogy,303,Other
+2015,Evolutionary Algorithms and Applications,1009,Other
+2015,Experience-Based Knowledge Management,34,Other
+2015,Explainable Artificial Intelligence (XAI),39,AI Ethics & Fairness
+2015,Fuzzy Logic and Control Systems,1094,Robotics
+2015,Gaussian Processes and Bayesian Inference,430,ML Theory & Optimization
+2015,Geochemistry and Geologic Mapping,1996,Other
+2015,Hate Speech and Cyberbullying Detection,352,NLP
+2015,Imbalanced Data Classification Techniques,511,Core ML / Deep Learning
+2015,Intelligent Tutoring Systems and Adaptive Learning,597,Other
+2015,Internet Traffic Analysis and Secure E-voting,842,Other
+2015,Intuitionistic Fuzzy Systems Applications,96,Other
+2015,"Law, AI, and Intellectual Property",295,Other
+2015,Linguistic Studies and Language Acquisition,1076,NLP
+2015,"Logic, Reasoning, and Knowledge",1279,Other
+2015,"Logic, programming, and type systems",1459,Other
+2015,Machine Learning and Algorithms,661,Core ML / Deep Learning
+2015,Machine Learning and Data Classification,508,Core ML / Deep Learning
+2015,Machine Learning and ELM,662,Core ML / Deep Learning
+2015,Machine Learning in Healthcare,312,Healthcare AI
+2015,Mathematical Control Systems and Analysis,203,Robotics
+2015,Metaheuristic Optimization Algorithms Research,2042,ML Theory & Optimization
+2015,Multi-Agent Systems and Negotiation,894,Other
+2015,Natural Language Processing Techniques,4079,NLP
+2015,Neural Networks and Applications,2598,Core ML / Deep Learning
+2015,Neural Networks and Reservoir Computing,287,Core ML / Deep Learning
+2015,Organizational and Employee Performance,274,Other
+2015,Privacy-Preserving Technologies in Data,1254,AI Ethics & Fairness
+2015,"Psychiatry, Mental Health, Neuroscience",139,Healthcare AI
+2015,Quantum Computing Algorithms and Architecture,1362,Other
+2015,Quantum Information and Cryptography,3094,Other
+2015,Reinforcement Learning in Robotics,477,Reinforcement Learning
+2015,Security and Verification in Computing,834,Other
+2015,Seismology and Earthquake Studies,546,Other
+2015,Semantic Web and Ontologies,3392,Other
+2015,Sentiment Analysis and Opinion Mining,1384,NLP
+2015,Solar Radiation and Photovoltaics,929,Other
+2015,Speech Recognition and Synthesis,1661,NLP
+2015,Speech and dialogue systems,711,NLP
+2015,Statistical and Computational Modeling,284,Other
+2015,Stochastic Gradient Optimization Techniques,275,ML Theory & Optimization
+2015,Target Tracking and Data Fusion in Sensor Networks,1535,Other
+2015,Text Readability and Simplification,200,NLP
+2015,Text and Document Classification Technologies,815,NLP
+2015,Topic Modeling,1825,Other
+2015,Wireless Signal Modulation Classification,171,Core ML / Deep Learning
+2016,AI and Multimedia in Education,31,Other
+2016,AI in Service Interactions,148,Other
+2016,AI in cancer detection,1173,Healthcare AI
+2016,AI-based Problem Solving and Planning,536,Other
+2016,Advanced Clustering Algorithms Research,965,Core ML / Deep Learning
+2016,Advanced Computational Techniques and Applications,1096,Other
+2016,Advanced Graph Neural Networks,314,Core ML / Deep Learning
+2016,Advanced Software Engineering Methodologies,1234,Other
+2016,Advanced Technologies in Various Fields,83,Other
+2016,Advanced Text Analysis Techniques,1042,NLP
+2016,Adversarial Robustness in Machine Learning,172,Core ML / Deep Learning
+2016,Algorithms and Data Compression,1372,Other
+2016,Anomaly Detection Techniques and Applications,1365,Other
+2016,Artificial Intelligence Applications,111,Core ML / Deep Learning
+2016,Artificial Intelligence in Games,781,Core ML / Deep Learning
+2016,Authorship Attribution and Profiling,418,Other
+2016,Bayesian Methods and Mixture Models,1175,ML Theory & Optimization
+2016,Bayesian Modeling and Causal Inference,1005,ML Theory & Optimization
+2016,Coding theory and cryptography,1623,Other
+2016,Cognitive Computing and Networks,268,Other
+2016,Cognitive Science and Mapping,688,Other
+2016,Computational Physics and Python Applications,859,Other
+2016,Computer Science and Engineering,879,Other
+2016,Cryptographic Implementations and Security,1181,Other
+2016,Cryptography and Data Security,2644,Other
+2016,Data Analysis with R,568,Other
+2016,Data Stream Mining Techniques,618,Other
+2016,Diverse Interdisciplinary Research Studies,52,Other
+2016,Domain Adaptation and Few-Shot Learning,463,Other
+2016,Edcuational Technology Systems,1360,Other
+2016,Educational Robotics and Engineering,2335,Robotics
+2016,Educational Technology and Pedagogy,430,Other
+2016,Evolutionary Algorithms and Applications,961,Other
+2016,Experience-Based Knowledge Management,44,Other
+2016,Explainable Artificial Intelligence (XAI),82,AI Ethics & Fairness
+2016,Fuzzy Logic and Control Systems,1043,Robotics
+2016,Gaussian Processes and Bayesian Inference,472,ML Theory & Optimization
+2016,Geochemistry and Geologic Mapping,2397,Other
+2016,Hate Speech and Cyberbullying Detection,490,NLP
+2016,Imbalanced Data Classification Techniques,602,Core ML / Deep Learning
+2016,Intelligent Tutoring Systems and Adaptive Learning,629,Other
+2016,Internet Traffic Analysis and Secure E-voting,928,Other
+2016,Intuitionistic Fuzzy Systems Applications,127,Other
+2016,"Law, AI, and Intellectual Property",353,Other
+2016,Linguistic Studies and Language Acquisition,1429,NLP
+2016,"Logic, Reasoning, and Knowledge",1233,Other
+2016,"Logic, programming, and type systems",1383,Other
+2016,Machine Learning and Algorithms,656,Core ML / Deep Learning
+2016,Machine Learning and Data Classification,568,Core ML / Deep Learning
+2016,Machine Learning and ELM,711,Core ML / Deep Learning
+2016,Machine Learning in Healthcare,364,Healthcare AI
+2016,Mathematical Control Systems and Analysis,228,Robotics
+2016,Metaheuristic Optimization Algorithms Research,2204,ML Theory & Optimization
+2016,Multi-Agent Systems and Negotiation,824,Other
+2016,Natural Language Processing Techniques,4949,NLP
+2016,Neural Networks and Applications,2911,Core ML / Deep Learning
+2016,Neural Networks and Reservoir Computing,364,Core ML / Deep Learning
+2016,Organizational and Employee Performance,470,Other
+2016,Privacy-Preserving Technologies in Data,1392,AI Ethics & Fairness
+2016,"Psychiatry, Mental Health, Neuroscience",201,Healthcare AI
+2016,Quantum Computing Algorithms and Architecture,1434,Other
+2016,Quantum Information and Cryptography,3308,Other
+2016,Reinforcement Learning in Robotics,678,Reinforcement Learning
+2016,Security and Verification in Computing,890,Other
+2016,Seismology and Earthquake Studies,586,Other
+2016,Semantic Web and Ontologies,3289,Other
+2016,Sentiment Analysis and Opinion Mining,1701,NLP
+2016,Solar Radiation and Photovoltaics,1113,Other
+2016,Speech Recognition and Synthesis,1890,NLP
+2016,Speech and dialogue systems,830,NLP
+2016,Statistical and Computational Modeling,323,Other
+2016,Stochastic Gradient Optimization Techniques,353,ML Theory & Optimization
+2016,Target Tracking and Data Fusion in Sensor Networks,1496,Other
+2016,Text Readability and Simplification,246,NLP
+2016,Text and Document Classification Technologies,832,NLP
+2016,Topic Modeling,2549,Other
+2016,Wireless Signal Modulation Classification,202,Core ML / Deep Learning
+2017,AI and Multimedia in Education,36,Other
+2017,AI in Service Interactions,231,Other
+2017,AI in cancer detection,1399,Healthcare AI
+2017,AI-based Problem Solving and Planning,565,Other
+2017,Advanced Clustering Algorithms Research,1004,Core ML / Deep Learning
+2017,Advanced Computational Techniques and Applications,1076,Other
+2017,Advanced Graph Neural Networks,490,Core ML / Deep Learning
+2017,Advanced Software Engineering Methodologies,1033,Other
+2017,Advanced Technologies in Various Fields,193,Other
+2017,Advanced Text Analysis Techniques,1200,NLP
+2017,Adversarial Robustness in Machine Learning,405,Core ML / Deep Learning
+2017,Algorithms and Data Compression,1376,Other
+2017,Anomaly Detection Techniques and Applications,1649,Other
+2017,Artificial Intelligence Applications,111,Core ML / Deep Learning
+2017,Artificial Intelligence in Games,894,Core ML / Deep Learning
+2017,Authorship Attribution and Profiling,439,Other
+2017,Bayesian Methods and Mixture Models,1231,ML Theory & Optimization
+2017,Bayesian Modeling and Causal Inference,1050,ML Theory & Optimization
+2017,Coding theory and cryptography,1779,Other
+2017,Cognitive Computing and Networks,300,Other
+2017,Cognitive Science and Mapping,783,Other
+2017,Computational Physics and Python Applications,958,Other
+2017,Computer Science and Engineering,1053,Other
+2017,Cryptographic Implementations and Security,1227,Other
+2017,Cryptography and Data Security,2804,Other
+2017,Data Analysis with R,635,Other
+2017,Data Stream Mining Techniques,721,Other
+2017,Diverse Interdisciplinary Research Studies,50,Other
+2017,Domain Adaptation and Few-Shot Learning,742,Other
+2017,Edcuational Technology Systems,1861,Other
+2017,Educational Robotics and Engineering,2443,Robotics
+2017,Educational Technology and Pedagogy,495,Other
+2017,Evolutionary Algorithms and Applications,1029,Other
+2017,Experience-Based Knowledge Management,45,Other
+2017,Explainable Artificial Intelligence (XAI),182,AI Ethics & Fairness
+2017,Fuzzy Logic and Control Systems,1109,Robotics
+2017,Gaussian Processes and Bayesian Inference,567,ML Theory & Optimization
+2017,Geochemistry and Geologic Mapping,2686,Other
+2017,Hate Speech and Cyberbullying Detection,663,NLP
+2017,Imbalanced Data Classification Techniques,678,Core ML / Deep Learning
+2017,Intelligent Tutoring Systems and Adaptive Learning,705,Other
+2017,Internet Traffic Analysis and Secure E-voting,930,Other
+2017,Intuitionistic Fuzzy Systems Applications,154,Other
+2017,"Law, AI, and Intellectual Property",432,Other
+2017,Linguistic Studies and Language Acquisition,1363,NLP
+2017,"Logic, Reasoning, and Knowledge",1346,Other
+2017,"Logic, programming, and type systems",1339,Other
+2017,Machine Learning and Algorithms,696,Core ML / Deep Learning
+2017,Machine Learning and Data Classification,704,Core ML / Deep Learning
+2017,Machine Learning and ELM,838,Core ML / Deep Learning
+2017,Machine Learning in Healthcare,453,Healthcare AI
+2017,Mathematical Control Systems and Analysis,308,Robotics
+2017,Metaheuristic Optimization Algorithms Research,2302,ML Theory & Optimization
+2017,Multi-Agent Systems and Negotiation,825,Other
+2017,Natural Language Processing Techniques,4864,NLP
+2017,Neural Networks and Applications,3127,Core ML / Deep Learning
+2017,Neural Networks and Reservoir Computing,466,Core ML / Deep Learning
+2017,Organizational and Employee Performance,671,Other
+2017,Privacy-Preserving Technologies in Data,1639,AI Ethics & Fairness
+2017,"Psychiatry, Mental Health, Neuroscience",207,Healthcare AI
+2017,Quantum Computing Algorithms and Architecture,1673,Other
+2017,Quantum Information and Cryptography,3448,Other
+2017,Reinforcement Learning in Robotics,931,Reinforcement Learning
+2017,Security and Verification in Computing,1003,Other
+2017,Seismology and Earthquake Studies,679,Other
+2017,Semantic Web and Ontologies,3183,Other
+2017,Sentiment Analysis and Opinion Mining,2014,NLP
+2017,Solar Radiation and Photovoltaics,1225,Other
+2017,Speech Recognition and Synthesis,1822,NLP
+2017,Speech and dialogue systems,769,NLP
+2017,Statistical and Computational Modeling,347,Other
+2017,Stochastic Gradient Optimization Techniques,471,ML Theory & Optimization
+2017,Target Tracking and Data Fusion in Sensor Networks,1632,Other
+2017,Text Readability and Simplification,273,NLP
+2017,Text and Document Classification Technologies,939,NLP
+2017,Topic Modeling,3313,Other
+2017,Wireless Signal Modulation Classification,277,Core ML / Deep Learning
+2018,AI and Multimedia in Education,93,Other
+2018,AI in Service Interactions,517,Other
+2018,AI in cancer detection,1876,Healthcare AI
+2018,AI-based Problem Solving and Planning,603,Other
+2018,Advanced Clustering Algorithms Research,1081,Core ML / Deep Learning
+2018,Advanced Computational Techniques and Applications,1128,Other
+2018,Advanced Graph Neural Networks,952,Core ML / Deep Learning
+2018,Advanced Software Engineering Methodologies,1040,Other
+2018,Advanced Technologies in Various Fields,230,Other
+2018,Advanced Text Analysis Techniques,1330,NLP
+2018,Adversarial Robustness in Machine Learning,1213,Core ML / Deep Learning
+2018,Algorithms and Data Compression,1374,Other
+2018,Anomaly Detection Techniques and Applications,2161,Other
+2018,Artificial Intelligence Applications,151,Core ML / Deep Learning
+2018,Artificial Intelligence in Games,1024,Core ML / Deep Learning
+2018,Authorship Attribution and Profiling,441,Other
+2018,Bayesian Methods and Mixture Models,1133,ML Theory & Optimization
+2018,Bayesian Modeling and Causal Inference,1205,ML Theory & Optimization
+2018,Coding theory and cryptography,1676,Other
+2018,Cognitive Computing and Networks,285,Other
+2018,Cognitive Science and Mapping,934,Other
+2018,Computational Physics and Python Applications,1042,Other
+2018,Computer Science and Engineering,1243,Other
+2018,Cryptographic Implementations and Security,1265,Other
+2018,Cryptography and Data Security,2949,Other
+2018,Data Analysis with R,631,Other
+2018,Data Stream Mining Techniques,821,Other
+2018,Diverse Interdisciplinary Research Studies,80,Other
+2018,Domain Adaptation and Few-Shot Learning,1145,Other
+2018,Edcuational Technology Systems,2703,Other
+2018,Educational Robotics and Engineering,2065,Robotics
+2018,Educational Technology and Pedagogy,618,Other
+2018,Evolutionary Algorithms and Applications,1048,Other
+2018,Experience-Based Knowledge Management,44,Other
+2018,Explainable Artificial Intelligence (XAI),406,AI Ethics & Fairness
+2018,Fuzzy Logic and Control Systems,1075,Robotics
+2018,Gaussian Processes and Bayesian Inference,693,ML Theory & Optimization
+2018,Geochemistry and Geologic Mapping,2995,Other
+2018,Hate Speech and Cyberbullying Detection,943,NLP
+2018,Imbalanced Data Classification Techniques,915,Core ML / Deep Learning
+2018,Intelligent Tutoring Systems and Adaptive Learning,755,Other
+2018,Internet Traffic Analysis and Secure E-voting,1072,Other
+2018,Intuitionistic Fuzzy Systems Applications,177,Other
+2018,"Law, AI, and Intellectual Property",511,Other
+2018,Linguistic Studies and Language Acquisition,1402,NLP
+2018,"Logic, Reasoning, and Knowledge",1339,Other
+2018,"Logic, programming, and type systems",1663,Other
+2018,Machine Learning and Algorithms,867,Core ML / Deep Learning
+2018,Machine Learning and Data Classification,920,Core ML / Deep Learning
+2018,Machine Learning and ELM,989,Core ML / Deep Learning
+2018,Machine Learning in Healthcare,708,Healthcare AI
+2018,Mathematical Control Systems and Analysis,342,Robotics
+2018,Metaheuristic Optimization Algorithms Research,2471,ML Theory & Optimization
+2018,Multi-Agent Systems and Negotiation,801,Other
+2018,Natural Language Processing Techniques,5781,NLP
+2018,Neural Networks and Applications,3718,Core ML / Deep Learning
+2018,Neural Networks and Reservoir Computing,604,Core ML / Deep Learning
+2018,Organizational and Employee Performance,924,Other
+2018,Privacy-Preserving Technologies in Data,2051,AI Ethics & Fairness
+2018,"Psychiatry, Mental Health, Neuroscience",220,Healthcare AI
+2018,Quantum Computing Algorithms and Architecture,1973,Other
+2018,Quantum Information and Cryptography,3393,Other
+2018,Reinforcement Learning in Robotics,1444,Reinforcement Learning
+2018,Security and Verification in Computing,1178,Other
+2018,Seismology and Earthquake Studies,741,Other
+2018,Semantic Web and Ontologies,3081,Other
+2018,Sentiment Analysis and Opinion Mining,2670,NLP
+2018,Solar Radiation and Photovoltaics,1454,Other
+2018,Speech Recognition and Synthesis,2255,NLP
+2018,Speech and dialogue systems,966,NLP
+2018,Statistical and Computational Modeling,408,Other
+2018,Stochastic Gradient Optimization Techniques,701,ML Theory & Optimization
+2018,Target Tracking and Data Fusion in Sensor Networks,1637,Other
+2018,Text Readability and Simplification,341,NLP
+2018,Text and Document Classification Technologies,1138,NLP
+2018,Topic Modeling,5276,Other
+2018,Wireless Signal Modulation Classification,369,Core ML / Deep Learning
+2019,AI and Multimedia in Education,121,Other
+2019,AI in Service Interactions,764,Other
+2019,AI in cancer detection,2479,Healthcare AI
+2019,AI-based Problem Solving and Planning,560,Other
+2019,Advanced Clustering Algorithms Research,1044,Core ML / Deep Learning
+2019,Advanced Computational Techniques and Applications,1037,Other
+2019,Advanced Graph Neural Networks,1524,Core ML / Deep Learning
+2019,Advanced Software Engineering Methodologies,851,Other
+2019,Advanced Technologies in Various Fields,298,Other
+2019,Advanced Text Analysis Techniques,1396,NLP
+2019,Adversarial Robustness in Machine Learning,2130,Core ML / Deep Learning
+2019,Algorithms and Data Compression,1337,Other
+2019,Anomaly Detection Techniques and Applications,2731,Other
+2019,Artificial Intelligence Applications,196,Core ML / Deep Learning
+2019,Artificial Intelligence in Games,1009,Core ML / Deep Learning
+2019,Authorship Attribution and Profiling,491,Other
+2019,Bayesian Methods and Mixture Models,1267,ML Theory & Optimization
+2019,Bayesian Modeling and Causal Inference,1175,ML Theory & Optimization
+2019,Coding theory and cryptography,1781,Other
+2019,Cognitive Computing and Networks,290,Other
+2019,Cognitive Science and Mapping,961,Other
+2019,Computational Physics and Python Applications,1199,Other
+2019,Computer Science and Engineering,1358,Other
+2019,Cryptographic Implementations and Security,1333,Other
+2019,Cryptography and Data Security,3116,Other
+2019,Data Analysis with R,717,Other
+2019,Data Stream Mining Techniques,948,Other
+2019,Diverse Interdisciplinary Research Studies,82,Other
+2019,Domain Adaptation and Few-Shot Learning,1918,Other
+2019,Edcuational Technology Systems,3500,Other
+2019,Educational Robotics and Engineering,2120,Robotics
+2019,Educational Technology and Pedagogy,704,Other
+2019,Evolutionary Algorithms and Applications,1003,Other
+2019,Experience-Based Knowledge Management,39,Other
+2019,Explainable Artificial Intelligence (XAI),789,AI Ethics & Fairness
+2019,Fuzzy Logic and Control Systems,1066,Robotics
+2019,Gaussian Processes and Bayesian Inference,810,ML Theory & Optimization
+2019,Geochemistry and Geologic Mapping,3573,Other
+2019,Hate Speech and Cyberbullying Detection,1323,NLP
+2019,Imbalanced Data Classification Techniques,1142,Core ML / Deep Learning
+2019,Intelligent Tutoring Systems and Adaptive Learning,720,Other
+2019,Internet Traffic Analysis and Secure E-voting,1159,Other
+2019,Intuitionistic Fuzzy Systems Applications,177,Other
+2019,"Law, AI, and Intellectual Property",721,Other
+2019,Linguistic Studies and Language Acquisition,1466,NLP
+2019,"Logic, Reasoning, and Knowledge",1358,Other
+2019,"Logic, programming, and type systems",1361,Other
+2019,Machine Learning and Algorithms,897,Core ML / Deep Learning
+2019,Machine Learning and Data Classification,1283,Core ML / Deep Learning
+2019,Machine Learning and ELM,1047,Core ML / Deep Learning
+2019,Machine Learning in Healthcare,1064,Healthcare AI
+2019,Mathematical Control Systems and Analysis,336,Robotics
+2019,Metaheuristic Optimization Algorithms Research,2511,ML Theory & Optimization
+2019,Multi-Agent Systems and Negotiation,692,Other
+2019,Natural Language Processing Techniques,6071,NLP
+2019,Neural Networks and Applications,3798,Core ML / Deep Learning
+2019,Neural Networks and Reservoir Computing,818,Core ML / Deep Learning
+2019,Organizational and Employee Performance,1296,Other
+2019,Privacy-Preserving Technologies in Data,2413,AI Ethics & Fairness
+2019,"Psychiatry, Mental Health, Neuroscience",178,Healthcare AI
+2019,Quantum Computing Algorithms and Architecture,2565,Other
+2019,Quantum Information and Cryptography,3916,Other
+2019,Reinforcement Learning in Robotics,2227,Reinforcement Learning
+2019,Security and Verification in Computing,1236,Other
+2019,Seismology and Earthquake Studies,857,Other
+2019,Semantic Web and Ontologies,2828,Other
+2019,Sentiment Analysis and Opinion Mining,2848,NLP
+2019,Solar Radiation and Photovoltaics,1588,Other
+2019,Speech Recognition and Synthesis,2481,NLP
+2019,Speech and dialogue systems,927,NLP
+2019,Statistical and Computational Modeling,476,Other
+2019,Stochastic Gradient Optimization Techniques,933,ML Theory & Optimization
+2019,Target Tracking and Data Fusion in Sensor Networks,1690,Other
+2019,Text Readability and Simplification,383,NLP
+2019,Text and Document Classification Technologies,1198,NLP
+2019,Topic Modeling,7302,Other
+2019,Wireless Signal Modulation Classification,713,Core ML / Deep Learning
+2020,AI and Multimedia in Education,260,Other
+2020,AI in Service Interactions,1129,Other
+2020,AI in cancer detection,3065,Healthcare AI
+2020,AI-based Problem Solving and Planning,549,Other
+2020,Advanced Clustering Algorithms Research,1011,Core ML / Deep Learning
+2020,Advanced Computational Techniques and Applications,986,Other
+2020,Advanced Graph Neural Networks,2205,Core ML / Deep Learning
+2020,Advanced Software Engineering Methodologies,739,Other
+2020,Advanced Technologies in Various Fields,616,Other
+2020,Advanced Text Analysis Techniques,1363,NLP
+2020,Adversarial Robustness in Machine Learning,3284,Core ML / Deep Learning
+2020,Algorithms and Data Compression,1227,Other
+2020,Anomaly Detection Techniques and Applications,3387,Other
+2020,Artificial Intelligence Applications,216,Core ML / Deep Learning
+2020,Artificial Intelligence in Games,1084,Core ML / Deep Learning
+2020,Authorship Attribution and Profiling,521,Other
+2020,Bayesian Methods and Mixture Models,1157,ML Theory & Optimization
+2020,Bayesian Modeling and Causal Inference,1192,ML Theory & Optimization
+2020,Coding theory and cryptography,1828,Other
+2020,Cognitive Computing and Networks,313,Other
+2020,Cognitive Science and Mapping,958,Other
+2020,Computational Physics and Python Applications,1311,Other
+2020,Computer Science and Engineering,1488,Other
+2020,Cryptographic Implementations and Security,1290,Other
+2020,Cryptography and Data Security,3076,Other
+2020,Data Analysis with R,799,Other
+2020,Data Stream Mining Techniques,1003,Other
+2020,Diverse Interdisciplinary Research Studies,43,Other
+2020,Domain Adaptation and Few-Shot Learning,2894,Other
+2020,Edcuational Technology Systems,4189,Other
+2020,Educational Robotics and Engineering,2126,Robotics
+2020,Educational Technology and Pedagogy,1392,Other
+2020,Evolutionary Algorithms and Applications,1109,Other
+2020,Experience-Based Knowledge Management,44,Other
+2020,Explainable Artificial Intelligence (XAI),1339,AI Ethics & Fairness
+2020,Fuzzy Logic and Control Systems,1014,Robotics
+2020,Gaussian Processes and Bayesian Inference,950,ML Theory & Optimization
+2020,Geochemistry and Geologic Mapping,3618,Other
+2020,Hate Speech and Cyberbullying Detection,1803,NLP
+2020,Imbalanced Data Classification Techniques,1389,Core ML / Deep Learning
+2020,Intelligent Tutoring Systems and Adaptive Learning,824,Other
+2020,Internet Traffic Analysis and Secure E-voting,1222,Other
+2020,Intuitionistic Fuzzy Systems Applications,178,Other
+2020,"Law, AI, and Intellectual Property",929,Other
+2020,Linguistic Studies and Language Acquisition,1573,NLP
+2020,"Logic, Reasoning, and Knowledge",1248,Other
+2020,"Logic, programming, and type systems",1339,Other
+2020,Machine Learning and Algorithms,1075,Core ML / Deep Learning
+2020,Machine Learning and Data Classification,1471,Core ML / Deep Learning
+2020,Machine Learning and ELM,1002,Core ML / Deep Learning
+2020,Machine Learning in Healthcare,1339,Healthcare AI
+2020,Mathematical Control Systems and Analysis,354,Robotics
+2020,Metaheuristic Optimization Algorithms Research,2748,ML Theory & Optimization
+2020,Multi-Agent Systems and Negotiation,689,Other
+2020,Natural Language Processing Techniques,6226,NLP
+2020,Neural Networks and Applications,3892,Core ML / Deep Learning
+2020,Neural Networks and Reservoir Computing,1036,Core ML / Deep Learning
+2020,Organizational and Employee Performance,1556,Other
+2020,Privacy-Preserving Technologies in Data,3433,AI Ethics & Fairness
+2020,"Psychiatry, Mental Health, Neuroscience",189,Healthcare AI
+2020,Quantum Computing Algorithms and Architecture,3313,Other
+2020,Quantum Information and Cryptography,3966,Other
+2020,Reinforcement Learning in Robotics,2556,Reinforcement Learning
+2020,Security and Verification in Computing,1138,Other
+2020,Seismology and Earthquake Studies,1128,Other
+2020,Semantic Web and Ontologies,2631,Other
+2020,Sentiment Analysis and Opinion Mining,3303,NLP
+2020,Solar Radiation and Photovoltaics,1778,Other
+2020,Speech Recognition and Synthesis,2853,NLP
+2020,Speech and dialogue systems,808,NLP
+2020,Statistical and Computational Modeling,470,Other
+2020,Stochastic Gradient Optimization Techniques,1127,ML Theory & Optimization
+2020,Target Tracking and Data Fusion in Sensor Networks,1487,Other
+2020,Text Readability and Simplification,379,NLP
+2020,Text and Document Classification Technologies,1173,NLP
+2020,Topic Modeling,8901,Other
+2020,Wireless Signal Modulation Classification,856,Core ML / Deep Learning
+2021,AI and Multimedia in Education,556,Other
+2021,AI in Service Interactions,1452,Other
+2021,AI in cancer detection,3646,Healthcare AI
+2021,AI-based Problem Solving and Planning,637,Other
+2021,Advanced Clustering Algorithms Research,938,Core ML / Deep Learning
+2021,Advanced Computational Techniques and Applications,876,Other
+2021,Advanced Graph Neural Networks,2980,Core ML / Deep Learning
+2021,Advanced Software Engineering Methodologies,660,Other
+2021,Advanced Technologies in Various Fields,854,Other
+2021,Advanced Text Analysis Techniques,1346,NLP
+2021,Adversarial Robustness in Machine Learning,4181,Core ML / Deep Learning
+2021,Algorithms and Data Compression,1138,Other
+2021,Anomaly Detection Techniques and Applications,4328,Other
+2021,Artificial Intelligence Applications,276,Core ML / Deep Learning
+2021,Artificial Intelligence in Games,1095,Core ML / Deep Learning
+2021,Authorship Attribution and Profiling,476,Other
+2021,Bayesian Methods and Mixture Models,1320,ML Theory & Optimization
+2021,Bayesian Modeling and Causal Inference,1372,ML Theory & Optimization
+2021,Coding theory and cryptography,1945,Other
+2021,Cognitive Computing and Networks,268,Other
+2021,Cognitive Science and Mapping,944,Other
+2021,Computational Physics and Python Applications,1430,Other
+2021,Computer Science and Engineering,1464,Other
+2021,Cryptographic Implementations and Security,1323,Other
+2021,Cryptography and Data Security,3131,Other
+2021,Data Analysis with R,649,Other
+2021,Data Stream Mining Techniques,1088,Other
+2021,Diverse Interdisciplinary Research Studies,35,Other
+2021,Domain Adaptation and Few-Shot Learning,4255,Other
+2021,Edcuational Technology Systems,4828,Other
+2021,Educational Robotics and Engineering,1878,Robotics
+2021,Educational Technology and Pedagogy,1816,Other
+2021,Evolutionary Algorithms and Applications,1034,Other
+2021,Experience-Based Knowledge Management,30,Other
+2021,Explainable Artificial Intelligence (XAI),1947,AI Ethics & Fairness
+2021,Fuzzy Logic and Control Systems,855,Robotics
+2021,Gaussian Processes and Bayesian Inference,1101,ML Theory & Optimization
+2021,Geochemistry and Geologic Mapping,3745,Other
+2021,Hate Speech and Cyberbullying Detection,2239,NLP
+2021,Imbalanced Data Classification Techniques,1687,Core ML / Deep Learning
+2021,Intelligent Tutoring Systems and Adaptive Learning,751,Other
+2021,Internet Traffic Analysis and Secure E-voting,1382,Other
+2021,Intuitionistic Fuzzy Systems Applications,153,Other
+2021,"Law, AI, and Intellectual Property",1017,Other
+2021,Linguistic Studies and Language Acquisition,1256,NLP
+2021,"Logic, Reasoning, and Knowledge",1409,Other
+2021,"Logic, programming, and type systems",1363,Other
+2021,Machine Learning and Algorithms,1199,Core ML / Deep Learning
+2021,Machine Learning and Data Classification,1786,Core ML / Deep Learning
+2021,Machine Learning and ELM,995,Core ML / Deep Learning
+2021,Machine Learning in Healthcare,1522,Healthcare AI
+2021,Mathematical Control Systems and Analysis,369,Robotics
+2021,Metaheuristic Optimization Algorithms Research,2891,ML Theory & Optimization
+2021,Multi-Agent Systems and Negotiation,658,Other
+2021,Natural Language Processing Techniques,6566,NLP
+2021,Neural Networks and Applications,4198,Core ML / Deep Learning
+2021,Neural Networks and Reservoir Computing,1468,Core ML / Deep Learning
+2021,Organizational and Employee Performance,1947,Other
+2021,Privacy-Preserving Technologies in Data,4707,AI Ethics & Fairness
+2021,"Psychiatry, Mental Health, Neuroscience",144,Healthcare AI
+2021,Quantum Computing Algorithms and Architecture,4580,Other
+2021,Quantum Information and Cryptography,4636,Other
+2021,Reinforcement Learning in Robotics,3182,Reinforcement Learning
+2021,Security and Verification in Computing,1220,Other
+2021,Seismology and Earthquake Studies,1177,Other
+2021,Semantic Web and Ontologies,2310,Other
+2021,Sentiment Analysis and Opinion Mining,3824,NLP
+2021,Solar Radiation and Photovoltaics,2012,Other
+2021,Speech Recognition and Synthesis,3307,NLP
+2021,Speech and dialogue systems,840,NLP
+2021,Statistical and Computational Modeling,536,Other
+2021,Stochastic Gradient Optimization Techniques,1125,ML Theory & Optimization
+2021,Target Tracking and Data Fusion in Sensor Networks,1704,Other
+2021,Text Readability and Simplification,497,NLP
+2021,Text and Document Classification Technologies,1230,NLP
+2021,Topic Modeling,11233,Other
+2021,Wireless Signal Modulation Classification,1161,Core ML / Deep Learning
+2022,AI and Multimedia in Education,576,Other
+2022,AI in Service Interactions,1970,Other
+2022,AI in cancer detection,4655,Healthcare AI
+2022,AI-based Problem Solving and Planning,490,Other
+2022,Advanced Clustering Algorithms Research,964,Core ML / Deep Learning
+2022,Advanced Computational Techniques and Applications,871,Other
+2022,Advanced Graph Neural Networks,3634,Core ML / Deep Learning
+2022,Advanced Software Engineering Methodologies,637,Other
+2022,Advanced Technologies in Various Fields,1170,Other
+2022,Advanced Text Analysis Techniques,1307,NLP
+2022,Adversarial Robustness in Machine Learning,4626,Core ML / Deep Learning
+2022,Algorithms and Data Compression,1063,Other
+2022,Anomaly Detection Techniques and Applications,4941,Other
+2022,Artificial Intelligence Applications,343,Core ML / Deep Learning
+2022,Artificial Intelligence in Games,1009,Core ML / Deep Learning
+2022,Authorship Attribution and Profiling,468,Other
+2022,Bayesian Methods and Mixture Models,1228,ML Theory & Optimization
+2022,Bayesian Modeling and Causal Inference,1312,ML Theory & Optimization
+2022,Coding theory and cryptography,1991,Other
+2022,Cognitive Computing and Networks,315,Other
+2022,Cognitive Science and Mapping,971,Other
+2022,Computational Physics and Python Applications,1563,Other
+2022,Computer Science and Engineering,1769,Other
+2022,Cryptographic Implementations and Security,1368,Other
+2022,Cryptography and Data Security,3171,Other
+2022,Data Analysis with R,914,Other
+2022,Data Stream Mining Techniques,1092,Other
+2022,Diverse Interdisciplinary Research Studies,32,Other
+2022,Domain Adaptation and Few-Shot Learning,4895,Other
+2022,Edcuational Technology Systems,5156,Other
+2022,Educational Robotics and Engineering,2162,Robotics
+2022,Educational Technology and Pedagogy,1798,Other
+2022,Evolutionary Algorithms and Applications,1065,Other
+2022,Experience-Based Knowledge Management,21,Other
+2022,Explainable Artificial Intelligence (XAI),2296,AI Ethics & Fairness
+2022,Fuzzy Logic and Control Systems,819,Robotics
+2022,Gaussian Processes and Bayesian Inference,859,ML Theory & Optimization
+2022,Geochemistry and Geologic Mapping,3781,Other
+2022,Hate Speech and Cyberbullying Detection,2551,NLP
+2022,Imbalanced Data Classification Techniques,1874,Core ML / Deep Learning
+2022,Intelligent Tutoring Systems and Adaptive Learning,738,Other
+2022,Internet Traffic Analysis and Secure E-voting,1441,Other
+2022,Intuitionistic Fuzzy Systems Applications,169,Other
+2022,"Law, AI, and Intellectual Property",1084,Other
+2022,Linguistic Studies and Language Acquisition,1085,NLP
+2022,"Logic, Reasoning, and Knowledge",1263,Other
+2022,"Logic, programming, and type systems",1072,Other
+2022,Machine Learning and Algorithms,1098,Core ML / Deep Learning
+2022,Machine Learning and Data Classification,2024,Core ML / Deep Learning
+2022,Machine Learning and ELM,1152,Core ML / Deep Learning
+2022,Machine Learning in Healthcare,1631,Healthcare AI
+2022,Mathematical Control Systems and Analysis,317,Robotics
+2022,Metaheuristic Optimization Algorithms Research,3083,ML Theory & Optimization
+2022,Multi-Agent Systems and Negotiation,543,Other
+2022,Natural Language Processing Techniques,6558,NLP
+2022,Neural Networks and Applications,4564,Core ML / Deep Learning
+2022,Neural Networks and Reservoir Computing,1872,Core ML / Deep Learning
+2022,Organizational and Employee Performance,2557,Other
+2022,Privacy-Preserving Technologies in Data,6056,AI Ethics & Fairness
+2022,"Psychiatry, Mental Health, Neuroscience",182,Healthcare AI
+2022,Quantum Computing Algorithms and Architecture,5956,Other
+2022,Quantum Information and Cryptography,5220,Other
+2022,Reinforcement Learning in Robotics,3035,Reinforcement Learning
+2022,Security and Verification in Computing,1160,Other
+2022,Seismology and Earthquake Studies,1062,Other
+2022,Semantic Web and Ontologies,2238,Other
+2022,Sentiment Analysis and Opinion Mining,4211,NLP
+2022,Solar Radiation and Photovoltaics,2195,Other
+2022,Speech Recognition and Synthesis,3637,NLP
+2022,Speech and dialogue systems,950,NLP
+2022,Statistical and Computational Modeling,432,Other
+2022,Stochastic Gradient Optimization Techniques,1082,ML Theory & Optimization
+2022,Target Tracking and Data Fusion in Sensor Networks,1537,Other
+2022,Text Readability and Simplification,537,NLP
+2022,Text and Document Classification Technologies,1368,NLP
+2022,Topic Modeling,10770,Other
+2022,Wireless Signal Modulation Classification,1281,Core ML / Deep Learning
+2023,AI and Multimedia in Education,313,Other
+2023,AI in Service Interactions,2809,Other
+2023,AI in cancer detection,5742,Healthcare AI
+2023,AI-based Problem Solving and Planning,533,Other
+2023,Advanced Clustering Algorithms Research,975,Core ML / Deep Learning
+2023,Advanced Computational Techniques and Applications,969,Other
+2023,Advanced Graph Neural Networks,4401,Core ML / Deep Learning
+2023,Advanced Software Engineering Methodologies,504,Other
+2023,Advanced Technologies in Various Fields,1174,Other
+2023,Advanced Text Analysis Techniques,1514,NLP
+2023,Adversarial Robustness in Machine Learning,5528,Core ML / Deep Learning
+2023,Algorithms and Data Compression,1073,Other
+2023,Anomaly Detection Techniques and Applications,6104,Other
+2023,Artificial Intelligence Applications,333,Core ML / Deep Learning
+2023,Artificial Intelligence in Games,1108,Core ML / Deep Learning
+2023,Authorship Attribution and Profiling,446,Other
+2023,Bayesian Methods and Mixture Models,1149,ML Theory & Optimization
+2023,Bayesian Modeling and Causal Inference,1418,ML Theory & Optimization
+2023,Coding theory and cryptography,2011,Other
+2023,Cognitive Computing and Networks,311,Other
+2023,Cognitive Science and Mapping,1006,Other
+2023,Computational Physics and Python Applications,1778,Other
+2023,Computer Science and Engineering,2300,Other
+2023,Cryptographic Implementations and Security,1440,Other
+2023,Cryptography and Data Security,3520,Other
+2023,Data Analysis with R,647,Other
+2023,Data Stream Mining Techniques,1218,Other
+2023,Diverse Interdisciplinary Research Studies,38,Other
+2023,Domain Adaptation and Few-Shot Learning,5853,Other
+2023,Edcuational Technology Systems,6162,Other
+2023,Educational Robotics and Engineering,1891,Robotics
+2023,Educational Technology and Pedagogy,2226,Other
+2023,Evolutionary Algorithms and Applications,1078,Other
+2023,Experience-Based Knowledge Management,18,Other
+2023,Explainable Artificial Intelligence (XAI),3149,AI Ethics & Fairness
+2023,Fuzzy Logic and Control Systems,889,Robotics
+2023,Gaussian Processes and Bayesian Inference,906,ML Theory & Optimization
+2023,Geochemistry and Geologic Mapping,4182,Other
+2023,Hate Speech and Cyberbullying Detection,3245,NLP
+2023,Imbalanced Data Classification Techniques,2195,Core ML / Deep Learning
+2023,Intelligent Tutoring Systems and Adaptive Learning,1014,Other
+2023,Internet Traffic Analysis and Secure E-voting,1664,Other
+2023,Intuitionistic Fuzzy Systems Applications,151,Other
+2023,"Law, AI, and Intellectual Property",1413,Other
+2023,Linguistic Studies and Language Acquisition,1413,NLP
+2023,"Logic, Reasoning, and Knowledge",1434,Other
+2023,"Logic, programming, and type systems",1187,Other
+2023,Machine Learning and Algorithms,1221,Core ML / Deep Learning
+2023,Machine Learning and Data Classification,2296,Core ML / Deep Learning
+2023,Machine Learning and ELM,1237,Core ML / Deep Learning
+2023,Machine Learning in Healthcare,2106,Healthcare AI
+2023,Mathematical Control Systems and Analysis,287,Robotics
+2023,Metaheuristic Optimization Algorithms Research,2936,ML Theory & Optimization
+2023,Multi-Agent Systems and Negotiation,659,Other
+2023,Natural Language Processing Techniques,7986,NLP
+2023,Neural Networks and Applications,5211,Core ML / Deep Learning
+2023,Neural Networks and Reservoir Computing,2362,Core ML / Deep Learning
+2023,Organizational and Employee Performance,3250,Other
+2023,Privacy-Preserving Technologies in Data,7824,AI Ethics & Fairness
+2023,"Psychiatry, Mental Health, Neuroscience",167,Healthcare AI
+2023,Quantum Computing Algorithms and Architecture,7359,Other
+2023,Quantum Information and Cryptography,5562,Other
+2023,Reinforcement Learning in Robotics,3343,Reinforcement Learning
+2023,Security and Verification in Computing,1187,Other
+2023,Seismology and Earthquake Studies,1238,Other
+2023,Semantic Web and Ontologies,2528,Other
+2023,Sentiment Analysis and Opinion Mining,4795,NLP
+2023,Solar Radiation and Photovoltaics,2494,Other
+2023,Speech Recognition and Synthesis,4118,NLP
+2023,Speech and dialogue systems,1078,NLP
+2023,Statistical and Computational Modeling,633,Other
+2023,Stochastic Gradient Optimization Techniques,1091,ML Theory & Optimization
+2023,Target Tracking and Data Fusion in Sensor Networks,1674,Other
+2023,Text Readability and Simplification,787,NLP
+2023,Text and Document Classification Technologies,1530,NLP
+2023,Topic Modeling,16557,Other
+2023,Wireless Signal Modulation Classification,1553,Core ML / Deep Learning
+2024,AI and Multimedia in Education,250,Other
+2024,AI in Service Interactions,5008,Other
+2024,AI in cancer detection,6779,Healthcare AI
+2024,AI-based Problem Solving and Planning,855,Other
+2024,Advanced Clustering Algorithms Research,1247,Core ML / Deep Learning
+2024,Advanced Computational Techniques and Applications,2118,Other
+2024,Advanced Graph Neural Networks,3816,Core ML / Deep Learning
+2024,Advanced Software Engineering Methodologies,471,Other
+2024,Advanced Technologies in Various Fields,1044,Other
+2024,Advanced Text Analysis Techniques,2294,NLP
+2024,Adversarial Robustness in Machine Learning,4752,Core ML / Deep Learning
+2024,Algorithms and Data Compression,1472,Other
+2024,Anomaly Detection Techniques and Applications,9061,Other
+2024,Artificial Intelligence Applications,410,Core ML / Deep Learning
+2024,Artificial Intelligence in Games,1257,Core ML / Deep Learning
+2024,Authorship Attribution and Profiling,521,Other
+2024,Bayesian Methods and Mixture Models,1373,ML Theory & Optimization
+2024,Bayesian Modeling and Causal Inference,1411,ML Theory & Optimization
+2024,Coding theory and cryptography,1876,Other
+2024,Cognitive Computing and Networks,623,Other
+2024,Cognitive Science and Mapping,1309,Other
+2024,Computational Physics and Python Applications,2465,Other
+2024,Computer Science and Engineering,3165,Other
+2024,Cryptographic Implementations and Security,1316,Other
+2024,Cryptography and Data Security,3201,Other
+2024,Data Analysis with R,559,Other
+2024,Data Stream Mining Techniques,1317,Other
+2024,Diverse Interdisciplinary Research Studies,40,Other
+2024,Domain Adaptation and Few-Shot Learning,3504,Other
+2024,Edcuational Technology Systems,5325,Other
+2024,Educational Robotics and Engineering,1777,Robotics
+2024,Educational Technology and Pedagogy,2989,Other
+2024,Evolutionary Algorithms and Applications,1457,Other
+2024,Experience-Based Knowledge Management,16,Other
+2024,Explainable Artificial Intelligence (XAI),3165,AI Ethics & Fairness
+2024,Fuzzy Logic and Control Systems,1307,Robotics
+2024,Gaussian Processes and Bayesian Inference,815,ML Theory & Optimization
+2024,Geochemistry and Geologic Mapping,4443,Other
+2024,Hate Speech and Cyberbullying Detection,3314,NLP
+2024,Imbalanced Data Classification Techniques,2832,Core ML / Deep Learning
+2024,Intelligent Tutoring Systems and Adaptive Learning,2248,Other
+2024,Internet Traffic Analysis and Secure E-voting,1622,Other
+2024,Intuitionistic Fuzzy Systems Applications,110,Other
+2024,"Law, AI, and Intellectual Property",2169,Other
+2024,Linguistic Studies and Language Acquisition,1142,NLP
+2024,"Logic, Reasoning, and Knowledge",1196,Other
+2024,"Logic, programming, and type systems",1039,Other
+2024,Machine Learning and Algorithms,1179,Core ML / Deep Learning
+2024,Machine Learning and Data Classification,2413,Core ML / Deep Learning
+2024,Machine Learning and ELM,1233,Core ML / Deep Learning
+2024,Machine Learning in Healthcare,3025,Healthcare AI
+2024,Mathematical Control Systems and Analysis,325,Robotics
+2024,Metaheuristic Optimization Algorithms Research,2762,ML Theory & Optimization
+2024,Multi-Agent Systems and Negotiation,1217,Other
+2024,Natural Language Processing Techniques,13234,NLP
+2024,Neural Networks and Applications,11762,Core ML / Deep Learning
+2024,Neural Networks and Reservoir Computing,2453,Core ML / Deep Learning
+2024,Organizational and Employee Performance,3060,Other
+2024,Privacy-Preserving Technologies in Data,8523,AI Ethics & Fairness
+2024,"Psychiatry, Mental Health, Neuroscience",242,Healthcare AI
+2024,Quantum Computing Algorithms and Architecture,7563,Other
+2024,Quantum Information and Cryptography,4996,Other
+2024,Reinforcement Learning in Robotics,2905,Reinforcement Learning
+2024,Security and Verification in Computing,1053,Other
+2024,Seismology and Earthquake Studies,1824,Other
+2024,Semantic Web and Ontologies,4296,Other
+2024,Sentiment Analysis and Opinion Mining,4724,NLP
+2024,Solar Radiation and Photovoltaics,2760,Other
+2024,Speech Recognition and Synthesis,4585,NLP
+2024,Speech and dialogue systems,2234,NLP
+2024,Statistical and Computational Modeling,569,Other
+2024,Stochastic Gradient Optimization Techniques,726,ML Theory & Optimization
+2024,Target Tracking and Data Fusion in Sensor Networks,1694,Other
+2024,Text Readability and Simplification,817,NLP
+2024,Text and Document Classification Technologies,2032,NLP
+2024,Topic Modeling,13757,Other
+2024,Wireless Signal Modulation Classification,1286,Core ML / Deep Learning
+2025,AI and Multimedia in Education,125,Other
+2025,AI in Service Interactions,4509,Other
+2025,AI in cancer detection,4836,Healthcare AI
+2025,AI-based Problem Solving and Planning,500,Other
+2025,Advanced Clustering Algorithms Research,720,Core ML / Deep Learning
+2025,Advanced Computational Techniques and Applications,1111,Other
+2025,Advanced Graph Neural Networks,2322,Core ML / Deep Learning
+2025,Advanced Software Engineering Methodologies,230,Other
+2025,Advanced Technologies in Various Fields,669,Other
+2025,Advanced Text Analysis Techniques,1175,NLP
+2025,Adversarial Robustness in Machine Learning,2519,Core ML / Deep Learning
+2025,Algorithms and Data Compression,788,Other
+2025,Anomaly Detection Techniques and Applications,5650,Other
+2025,Artificial Intelligence Applications,251,Core ML / Deep Learning
+2025,Artificial Intelligence in Games,648,Core ML / Deep Learning
+2025,Authorship Attribution and Profiling,295,Other
+2025,Bayesian Methods and Mixture Models,766,ML Theory & Optimization
+2025,Bayesian Modeling and Causal Inference,762,ML Theory & Optimization
+2025,Coding theory and cryptography,954,Other
+2025,Cognitive Computing and Networks,408,Other
+2025,Cognitive Science and Mapping,1077,Other
+2025,Computational Physics and Python Applications,1328,Other
+2025,Computer Science and Engineering,1599,Other
+2025,Cryptographic Implementations and Security,830,Other
+2025,Cryptography and Data Security,2099,Other
+2025,Data Analysis with R,330,Other
+2025,Data Stream Mining Techniques,784,Other
+2025,Diverse Interdisciplinary Research Studies,18,Other
+2025,Domain Adaptation and Few-Shot Learning,1657,Other
+2025,Edcuational Technology Systems,2466,Other
+2025,Educational Robotics and Engineering,704,Robotics
+2025,Educational Technology and Pedagogy,1506,Other
+2025,Evolutionary Algorithms and Applications,902,Other
+2025,Experience-Based Knowledge Management,3,Other
+2025,Explainable Artificial Intelligence (XAI),2339,AI Ethics & Fairness
+2025,Fuzzy Logic and Control Systems,676,Robotics
+2025,Gaussian Processes and Bayesian Inference,423,ML Theory & Optimization
+2025,Geochemistry and Geologic Mapping,3176,Other
+2025,Hate Speech and Cyberbullying Detection,2093,NLP
+2025,Imbalanced Data Classification Techniques,2113,Core ML / Deep Learning
+2025,Intelligent Tutoring Systems and Adaptive Learning,1857,Other
+2025,Internet Traffic Analysis and Secure E-voting,1007,Other
+2025,Intuitionistic Fuzzy Systems Applications,71,Other
+2025,"Law, AI, and Intellectual Property",1612,Other
+2025,Linguistic Studies and Language Acquisition,504,NLP
+2025,"Logic, Reasoning, and Knowledge",574,Other
+2025,"Logic, programming, and type systems",463,Other
+2025,Machine Learning and Algorithms,540,Core ML / Deep Learning
+2025,Machine Learning and Data Classification,1271,Core ML / Deep Learning
+2025,Machine Learning and ELM,670,Core ML / Deep Learning
+2025,Machine Learning in Healthcare,2409,Healthcare AI
+2025,Mathematical Control Systems and Analysis,143,Robotics
+2025,Metaheuristic Optimization Algorithms Research,1729,ML Theory & Optimization
+2025,Multi-Agent Systems and Negotiation,836,Other
+2025,Natural Language Processing Techniques,6541,NLP
+2025,Neural Networks and Applications,6145,Core ML / Deep Learning
+2025,Neural Networks and Reservoir Computing,1526,Core ML / Deep Learning
+2025,Organizational and Employee Performance,2020,Other
+2025,Privacy-Preserving Technologies in Data,5035,AI Ethics & Fairness
+2025,"Psychiatry, Mental Health, Neuroscience",126,Healthcare AI
+2025,Quantum Computing Algorithms and Architecture,4522,Other
+2025,Quantum Information and Cryptography,3182,Other
+2025,Reinforcement Learning in Robotics,1511,Reinforcement Learning
+2025,Security and Verification in Computing,589,Other
+2025,Seismology and Earthquake Studies,1371,Other
+2025,Semantic Web and Ontologies,2415,Other
+2025,Sentiment Analysis and Opinion Mining,2846,NLP
+2025,Solar Radiation and Photovoltaics,1895,Other
+2025,Speech Recognition and Synthesis,2127,NLP
+2025,Speech and dialogue systems,1220,NLP
+2025,Statistical and Computational Modeling,297,Other
+2025,Stochastic Gradient Optimization Techniques,333,ML Theory & Optimization
+2025,Target Tracking and Data Fusion in Sensor Networks,970,Other
+2025,Text Readability and Simplification,503,NLP
+2025,Text and Document Classification Technologies,1034,NLP
+2025,Topic Modeling,7503,Other
+2025,Wireless Signal Modulation Classification,789,Core ML / Deep Learning

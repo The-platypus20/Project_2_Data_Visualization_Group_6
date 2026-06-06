@@ -1,0 +1,61 @@
+primary_topic,paper_count,mean_fwci,median_fwci,mean_citation_velocity,entropy_family
+Natural Language Processing Techniques,112955,1.4558051480532954,0.0,1.34646197681559,NLP
+Neural Networks and Applications,101529,1.0363033072948615,0.0,1.0622933234425893,Core ML / Deep Learning
+Topic Modeling,97217,2.3189073557079523,0.28,2.852600045954294,NLP
+Quantum Information and Cryptography,78836,2.936520346660409,0.818,2.1232414123870575,Core ML / Deep Learning
+Semantic Web and Ontologies,73000,1.3987292437830137,0.1751,0.7527077649366468,Core ML / Deep Learning
+Geochemistry and Geologic Mapping,56567,0.9977820939867768,0.0,1.0206243463033935,Core ML / Deep Learning
+Quantum Computing Algorithms and Architecture,56262,1.9940531147518752,0.1629,2.068393627114147,Core ML / Deep Learning
+Cryptography and Data Security,51302,2.4305191127371253,0.6789,1.9124229154760275,Core ML / Deep Learning
+Privacy-Preserving Technologies in Data,50979,2.3188465141860375,0.4276,2.558122860018157,AI Ethics & Fairness
+Speech Recognition and Synthesis,49810,1.6308767949734992,0.409,1.3913786757154312,NLP
+Anomaly Detection Techniques and Applications,48658,1.9106393901235152,0.33885,1.9769741634621079,Core ML / Deep Learning
+Educational Robotics and Engineering,48004,0.03919532573848013,0.0,0.025194697965775593,Robotics
+Metaheuristic Optimization Algorithms Research,46085,2.8605584373581427,0.686,2.8952947810178298,ML Theory & Optimization
+AI in cancer detection,44403,2.330223265338153,0.497,2.285893465905198,Healthcare AI
+Edcuational Technology Systems,40312,0.27171593305516967,0.0,0.3739378698369863,Core ML / Deep Learning
+Sentiment Analysis and Opinion Mining,38186,2.1506124338087256,0.5218,2.283058813113712,NLP
+"Logic, programming, and type systems",36341,1.669467759801051,0.4314,0.8355723498647406,Core ML / Deep Learning
+Coding theory and cryptography,36152,0.9186803705056428,0.1379,0.6296075548647,ML Theory & Optimization
+Target Tracking and Data Fusion in Sensor Networks,33085,1.4649700740166238,0.4314,1.1466134314312155,Core ML / Deep Learning
+Algorithms and Data Compression,32122,1.2466694406232488,0.2493,0.8209708833661631,Core ML / Deep Learning
+"Logic, Reasoning, and Knowledge",30298,1.124399401770744,0.27195,0.672919883709147,Core ML / Deep Learning
+Advanced Computational Techniques and Applications,30196,0.29532162068353424,0.0,0.18668404225975785,Core ML / Deep Learning
+Advanced Software Engineering Methodologies,29603,2.048069395732527,0.6623,0.8875412886140533,Core ML / Deep Learning
+Fuzzy Logic and Control Systems,29498,1.3902109427578142,0.37149398,0.8775485067428305,Robotics
+Adversarial Robustness in Machine Learning,29211,1.6249189601910239,0.0,2.5533630923943753,Core ML / Deep Learning
+Domain Adaptation and Few-Shot Learning,28704,2.546127927212932,0.14,4.216269926607374,Core ML / Deep Learning
+Reinforcement Learning in Robotics,27992,1.3765860933909688,0.0,1.9380894847613497,Reinforcement Learning
+Evolutionary Algorithms and Applications,27025,1.4236245419781683,0.3789517,0.9643698367974719,ML Theory & Optimization
+Multi-Agent Systems and Negotiation,25470,1.5258413431146447,0.4263,0.7559396619998713,Core ML / Deep Learning
+Linguistic Studies and Language Acquisition,25260,0.10343388899643706,0.0,0.11974798157078745,NLP
+Bayesian Modeling and Causal Inference,25009,1.3019930392450718,0.0,1.2869064891236894,ML Theory & Optimization
+Solar Radiation and Photovoltaics,24887,2.220525123635633,0.4982,2.1891959064650157,ML Theory & Optimization
+Bayesian Methods and Mixture Models,24064,1.3381015621779422,0.1326,1.1976314822250254,ML Theory & Optimization
+Advanced Graph Neural Networks,23313,2.1728479092257538,0.3118,3.3254512174372306,Core ML / Deep Learning
+Cryptographic Implementations and Security,22937,1.7908543991668484,0.5596,1.3618044838233463,Computer Vision
+Speech and dialogue systems,22846,1.3594844361568765,0.2832,0.8339884189784176,NLP
+Advanced Text Analysis Techniques,22140,1.1672546656074978,0.1657,1.0200356861743212,NLP
+Computational Physics and Python Applications,21401,0.7944938681692444,0.0,1.3771262565857838,Core ML / Deep Learning
+Hate Speech and Cyberbullying Detection,20922,1.2690783330532454,0.1387,1.5540287630281657,NLP
+Internet Traffic Analysis and Secure E-voting,20855,1.6546852037497002,0.42,1.323665624997805,Core ML / Deep Learning
+Text and Document Classification Technologies,19993,1.6379749861361477,0.4154,1.5932098870729792,NLP
+AI in Service Interactions,19422,3.409192571670786,0.68,3.273465898626505,Core ML / Deep Learning
+Security and Verification in Computing,19231,2.329536366238885,0.5549,1.5174482746942224,Core ML / Deep Learning
+Imbalanced Data Classification Techniques,19201,2.2435973598406336,0.5192,2.7525918221214436,Core ML / Deep Learning
+Organizational and Employee Performance,18851,1.123851818310965,0.0,1.0230866160948042,Core ML / Deep Learning
+Machine Learning and Data Classification,18452,1.773399287896705,0.0,2.50729762236612,Core ML / Deep Learning
+Advanced Clustering Algorithms Research,18200,1.7628936251527474,0.4163,1.723341107530726,Core ML / Deep Learning
+Computer Science and Engineering,18168,0.2027429749036768,0.0,0.25879727303705224,Core ML / Deep Learning
+Artificial Intelligence in Games,17762,1.152680534720752,0.0,0.9059045609906514,Core ML / Deep Learning
+Intelligent Tutoring Systems and Adaptive Learning,17541,1.6309189732096232,0.2651,1.2414691716818629,Core ML / Deep Learning
+Machine Learning and Algorithms,17077,1.4759749506458981,0.1399,1.287771506549358,Core ML / Deep Learning
+Cognitive Science and Mapping,16847,1.1509173100094972,0.0,1.0498458637403907,Core ML / Deep Learning
+Seismology and Earthquake Studies,16324,0.9467200118880176,0.0,0.9052744998562158,Core ML / Deep Learning
+Machine Learning in Healthcare,16105,2.10483140157715,0.1748,2.132738460649738,Healthcare AI
+Explainable Artificial Intelligence (XAI),16005,2.7382644558125584,0.2078,3.7423119091275256,AI Ethics & Fairness
+AI-based Problem Solving and Planning,15672,1.177108440038923,0.2762,0.803250894214191,Core ML / Deep Learning
+Educational Technology and Pedagogy,15347,0.35128616489998044,0.0,0.3349525186157499,Core ML / Deep Learning
+Neural Networks and Reservoir Computing,15127,2.305032055782376,0.3497,2.4475489674790434,Core ML / Deep Learning
+Data Stream Mining Techniques,13086,1.8460129620892558,0.4388,1.7690068447549216,Core ML / Deep Learning
+"Law, AI, and Intellectual Property",12855,0.48440958958537533,0.0,0.48635856661802357,Core ML / Deep Learning

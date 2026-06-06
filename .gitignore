@@ -1,0 +1,64 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+
+.venv/
+venv/
+.env
+
+.uv_cache/
+uv_cache/
+uv_cache_ml/
+uv_cache_dashboard/
+.uv-cache/
+.uv-cache-ml/
+.uv-cache-dashboard/
+
+raw/
+cache/
+outputs/
+
+*.parquet
+*.pkl
+*.joblib
+*.zip
+*.rar
+*.7z*
+*preview*.html
+
+# Large raw CSV files are excluded, while Dataset/dashboard_cache/ remains tracked.
+Dataset/*.csv
+Dataset/**/*.csv
+!Dataset/dashboard_cache/
+!Dataset/dashboard_cache/*.csv
+
+# Local cleanup files
+_local_backup/
+files_to_transfer.txt
+files_to_transfer_clean.txt
+tracked_files.txt
+
+# Large local cache files
+Dataset/dashboard_cache/institution_type_paper_view.csv
+Dataset/dashboard_cache/paper_predictions.csv
+
+# Large local cache files
+Dataset/dashboard_cache/institution_type_paper_view.csv
+Dataset/dashboard_cache/paper_predictions.csv
+
+# Large local cache files
+Dataset/dashboard_cache/institution_type_paper_view.csv
+Dataset/dashboard_cache/paper_predictions.csv
+
+# Local cleanup files
+_local_backup/
+files_to_transfer.txt
+files_to_transfer_clean.txt
+tracked_files.txt
+
+# Large local cache files
+Dataset/dashboard_cache/institution_type_paper_view.csv
+Dataset/dashboard_cache/paper_predictions.csv
+
+# Runtime logs
+Dataset/dashboard_cache/_cache_read_log.txt
