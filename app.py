@@ -29,13 +29,8 @@ app_ui = ui.page_navbar(
 def server(input, output, session):
     narrative_server(input, output, session)
 
-app = App(app_ui, server)
-
 from pathlib import Path
-from shiny import App
-
 PROJECT_ROOT = Path(__file__).resolve().parent
 WWW_DIR = PROJECT_ROOT / "www"
 
 app = App(app_ui, server, static_assets=WWW_DIR)
-
