@@ -29,6 +29,12 @@ outputs/
 # Large raw CSV files are excluded, while Dataset/dashboard_cache/ remains tracked.
 Dataset/*.csv
 Dataset/**/*.csv
+Dataset/clean/*.csv
+Dataset/clean/**/*.csv
+Dataset/dashboard_cache_test/*.csv
+Dataset/dashboard_cache_test/**/*.csv
+Dataset/dashboard_cache_backup_raw/*.csv
+Dataset/dashboard_cache_backup_raw/**/*.csv
 !Dataset/dashboard_cache/
 !Dataset/dashboard_cache/*.csv
 
@@ -62,3 +68,7 @@ Dataset/dashboard_cache/paper_predictions.csv
 
 # Runtime logs
 Dataset/dashboard_cache/_cache_read_log.txt
+
+#Old cache files
+src/archive/*.py
+src/archive/**/*.py

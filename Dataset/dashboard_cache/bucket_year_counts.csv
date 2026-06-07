@@ -1,235 +1,27 @@
 year,topic_bucket,count
-2000,AI Ethics & Fairness,134
-2000,Computer Vision,931
-2000,Core ML / Deep Learning,10811
-2000,Healthcare AI,540
-2000,ML Theory & Optimization,2340
-2000,NLP,4279
-2000,Reinforcement Learning,197
-2000,Robotics,2447
-2000,Search & Recommender,27
-2001,AI Ethics & Fairness,160
-2001,Computer Vision,994
-2001,Core ML / Deep Learning,10448
-2001,Healthcare AI,568
-2001,ML Theory & Optimization,2428
-2001,NLP,3477
-2001,Reinforcement Learning,266
-2001,Robotics,2398
-2001,Search & Recommender,35
-2002,AI Ethics & Fairness,226
-2002,Computer Vision,3325
-2002,Core ML / Deep Learning,20782
-2002,Healthcare AI,1000
-2002,ML Theory & Optimization,4991
-2002,NLP,7771
-2002,Reinforcement Learning,656
-2002,Robotics,7739
-2002,Search & Recommender,66
-2003,AI Ethics & Fairness,247
-2003,Computer Vision,2171
-2003,Core ML / Deep Learning,16864
-2003,Healthcare AI,899
-2003,ML Theory & Optimization,4018
-2003,NLP,5840
-2003,Reinforcement Learning,514
-2003,Robotics,4514
-2003,Search & Recommender,49
-2004,AI Ethics & Fairness,346
-2004,Computer Vision,1957
-2004,Core ML / Deep Learning,16256
-2004,Healthcare AI,804
-2004,ML Theory & Optimization,3533
-2004,NLP,6349
-2004,Reinforcement Learning,499
-2004,Robotics,4051
-2004,Search & Recommender,61
-2005,AI Ethics & Fairness,457
-2005,Computer Vision,2576
-2005,Core ML / Deep Learning,19965
-2005,Healthcare AI,1044
-2005,ML Theory & Optimization,4461
-2005,NLP,6908
-2005,Reinforcement Learning,521
-2005,Robotics,5210
-2005,Search & Recommender,67
-2006,AI Ethics & Fairness,663
-2006,Computer Vision,2862
-2006,Core ML / Deep Learning,21581
-2006,Healthcare AI,1134
-2006,ML Theory & Optimization,4897
-2006,NLP,8366
-2006,Reinforcement Learning,616
-2006,Robotics,5145
-2006,Search & Recommender,85
-2007,AI Ethics & Fairness,816
-2007,Computer Vision,2880
-2007,Core ML / Deep Learning,21607
-2007,Healthcare AI,1085
-2007,ML Theory & Optimization,5150
-2007,NLP,7928
-2007,Reinforcement Learning,668
-2007,Robotics,4996
-2007,Search & Recommender,102
-2008,AI Ethics & Fairness,924
-2008,Computer Vision,3033
-2008,Core ML / Deep Learning,22526
-2008,Healthcare AI,1209
-2008,ML Theory & Optimization,5386
-2008,NLP,9027
-2008,Reinforcement Learning,737
-2008,Robotics,4905
-2008,Search & Recommender,129
-2009,AI Ethics & Fairness,1167
-2009,Computer Vision,3331
-2009,Core ML / Deep Learning,24636
-2009,Healthcare AI,1277
-2009,ML Theory & Optimization,5802
-2009,NLP,10110
-2009,Reinforcement Learning,730
-2009,Robotics,5012
-2009,Search & Recommender,135
-2010,AI Ethics & Fairness,1393
-2010,Computer Vision,3546
-2010,Core ML / Deep Learning,25943
-2010,Healthcare AI,1491
-2010,ML Theory & Optimization,6517
-2010,NLP,9718
-2010,Reinforcement Learning,759
-2010,Robotics,5450
-2010,Search & Recommender,148
-2011,AI Ethics & Fairness,1512
-2011,Computer Vision,3803
-2011,Core ML / Deep Learning,27638
-2011,Healthcare AI,1547
-2011,ML Theory & Optimization,6388
-2011,NLP,9624
-2011,Reinforcement Learning,763
-2011,Robotics,5494
-2011,Search & Recommender,177
-2012,AI Ethics & Fairness,1796
-2012,Computer Vision,4241
-2012,Core ML / Deep Learning,27895
-2012,Healthcare AI,1701
-2012,ML Theory & Optimization,7281
-2012,NLP,11043
-2012,Reinforcement Learning,876
-2012,Robotics,5571
-2012,Search & Recommender,172
-2013,AI Ethics & Fairness,2009
-2013,Computer Vision,4240
-2013,Core ML / Deep Learning,28983
-2013,Healthcare AI,1930
-2013,ML Theory & Optimization,8184
-2013,NLP,11490
-2013,Reinforcement Learning,779
-2013,Robotics,5533
-2013,Search & Recommender,180
-2014,AI Ethics & Fairness,2255
-2014,Computer Vision,4700
-2014,Core ML / Deep Learning,31603
-2014,Healthcare AI,2059
-2014,ML Theory & Optimization,8010
-2014,NLP,14433
-2014,Reinforcement Learning,780
-2014,Robotics,5544
-2014,Search & Recommender,206
-2015,AI Ethics & Fairness,2544
-2015,Computer Vision,4847
-2015,Core ML / Deep Learning,29900
-2015,Healthcare AI,2290
-2015,ML Theory & Optimization,7939
-2015,NLP,14425
-2015,Reinforcement Learning,784
-2015,Robotics,5516
-2015,Search & Recommender,270
-2016,AI Ethics & Fairness,2838
-2016,Computer Vision,5266
-2016,Core ML / Deep Learning,33048
-2016,Healthcare AI,2856
-2016,ML Theory & Optimization,8434
-2016,NLP,17298
-2016,Reinforcement Learning,1003
-2016,Robotics,5627
-2016,Search & Recommender,354
-2017,AI Ethics & Fairness,3303
-2017,Computer Vision,5833
-2017,Core ML / Deep Learning,36671
-2017,Healthcare AI,3420
-2017,ML Theory & Optimization,9062
-2017,NLP,18470
-2017,Reinforcement Learning,1298
-2017,Robotics,6070
-2017,Search & Recommender,433
-2018,AI Ethics & Fairness,4121
-2018,Computer Vision,6671
-2018,Core ML / Deep Learning,42294
-2018,Healthcare AI,4585
-2018,ML Theory & Optimization,9881
-2018,NLP,23488
-2018,Reinforcement Learning,1978
-2018,Robotics,5815
-2018,Search & Recommender,635
-2019,AI Ethics & Fairness,5122
-2019,Computer Vision,7409
-2019,Core ML / Deep Learning,47804
-2019,Healthcare AI,6117
-2019,ML Theory & Optimization,10844
-2019,NLP,26728
-2019,Reinforcement Learning,2811
-2019,Robotics,6077
-2019,Search & Recommender,804
-2020,AI Ethics & Fairness,6651
-2020,Computer Vision,7842
-2020,Core ML / Deep Learning,54022
-2020,Healthcare AI,7973
-2020,ML Theory & Optimization,11512
-2020,NLP,29536
-2020,Reinforcement Learning,3230
-2020,Robotics,6260
-2020,Search & Recommender,1131
-2021,AI Ethics & Fairness,8679
-2021,Computer Vision,8416
-2021,Core ML / Deep Learning,61513
-2021,Healthcare AI,9905
-2021,ML Theory & Optimization,12769
-2021,NLP,33353
-2021,Reinforcement Learning,3968
-2021,Robotics,6178
-2021,Search & Recommender,1397
-2022,AI Ethics & Fairness,10505
-2022,Computer Vision,9020
-2022,Core ML / Deep Learning,67006
-2022,Healthcare AI,11907
-2022,ML Theory & Optimization,12840
-2022,NLP,33902
-2022,Reinforcement Learning,3795
-2022,Robotics,6376
-2022,Search & Recommender,1536
-2023,AI Ethics & Fairness,13435
-2023,Computer Vision,10012
-2023,Core ML / Deep Learning,77830
-2023,Healthcare AI,15393
-2023,ML Theory & Optimization,13320
-2023,NLP,42957
-2023,Reinforcement Learning,4189
-2023,Robotics,6498
-2023,Search & Recommender,1867
-2024,AI Ethics & Fairness,13565
-2024,Computer Vision,11059
-2024,Core ML / Deep Learning,94970
-2024,Healthcare AI,15905
-2024,ML Theory & Optimization,12961
-2024,NLP,47610
-2024,Reinforcement Learning,3678
-2024,Robotics,8659
-2024,Search & Recommender,1322
-2025,AI Ethics & Fairness,8643
-2025,Computer Vision,7011
-2025,Core ML / Deep Learning,56234
-2025,Healthcare AI,11455
-2025,ML Theory & Optimization,7488
-2025,NLP,25213
-2025,Reinforcement Learning,2042
-2025,Robotics,4766
-2025,Search & Recommender,695
+2000,Artificial Intelligence,21706
+2001,Artificial Intelligence,20774
+2002,Artificial Intelligence,46556
+2003,Artificial Intelligence,35116
+2004,Artificial Intelligence,33856
+2005,Artificial Intelligence,41209
+2006,Artificial Intelligence,45349
+2007,Artificial Intelligence,45232
+2008,Artificial Intelligence,47876
+2009,Artificial Intelligence,52200
+2010,Artificial Intelligence,54965
+2011,Artificial Intelligence,56946
+2012,Artificial Intelligence,60576
+2013,Artificial Intelligence,63328
+2014,Artificial Intelligence,69590
+2015,Artificial Intelligence,68515
+2016,Artificial Intelligence,76724
+2017,Artificial Intelligence,84560
+2018,Artificial Intelligence,99468
+2019,Artificial Intelligence,113716
+2020,Artificial Intelligence,129044
+2021,Artificial Intelligence,147267
+2022,Artificial Intelligence,159442
+2023,Artificial Intelligence,188509
+2024,Artificial Intelligence,215740
+2025,Artificial Intelligence,261120

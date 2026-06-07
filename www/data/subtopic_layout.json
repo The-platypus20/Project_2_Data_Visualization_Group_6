@@ -25,66 +25,72 @@
       "2017": 53992,
       "2018": 59773,
       "2019": 65844,
-      "2020": 72070,
-      "2021": 78636,
-      "2022": 85194,
-      "2023": 93180,
-      "2024": 106414,
-      "2025": 112955
+      "2020": 72101,
+      "2021": 78694,
+      "2022": 85512,
+      "2023": 93618,
+      "2024": 107401,
+      "2025": 119604
     },
-    "paper_count_2025": 112955,
-    "median_fwci": 1.4558,
-    "growth_rate": 1.5374,
-    "citation_velocity": 1.3465,
-    "frontier_score": 1.1834,
+    "paper_count_2025": 119604,
+    "median_fwci": 0.275,
+    "growth_rate": 4.6426,
+    "citation_velocity": 0.1667,
+    "frontier_score": 0.3322,
     "representative_papers": [
       {
-        "id": "paper-439",
+        "id": "paper-1",
         "title": "MizAR 60 for Mizar 50",
         "year": 2023,
         "family": "NLP & Language AI",
         "topic": "Natural Language Processing Techniques",
         "fwci": 8959.0024,
-        "citation_count": 75922
+        "citation_count": 75922,
+        "country": "CZ",
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
       },
       {
-        "id": "paper-438",
+        "id": "paper-18",
         "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
         "year": 2014,
         "family": "NLP & Language AI",
         "topic": "Natural Language Processing Techniques",
         "fwci": 583.5927,
-        "citation_count": 24298
+        "citation_count": 24298,
+        "country": "United States"
       },
       {
-        "id": "paper-436",
+        "id": "paper-35",
         "title": "Effective Approaches to Attention-based Neural Machine Translation",
         "year": 2015,
         "family": "NLP & Language AI",
         "topic": "Natural Language Processing Techniques",
         "fwci": 633.1464,
-        "citation_count": 8569
+        "citation_count": 8569,
+        "country": "United States"
       },
       {
-        "id": "paper-441",
+        "id": "paper-37",
         "title": "The Stanford CoreNLP Natural Language Processing Toolkit",
         "year": 2014,
         "family": "NLP & Language AI",
         "topic": "Natural Language Processing Techniques",
         "fwci": 760.3737,
-        "citation_count": 7227
+        "citation_count": 7227,
+        "country": "United States"
       },
       {
-        "id": "paper-437",
+        "id": "paper-137",
         "title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
         "year": 2016,
         "family": "NLP & Language AI",
         "topic": "Natural Language Processing Techniques",
         "fwci": 394.92,
-        "citation_count": 2576
+        "citation_count": 2576,
+        "country": "United States"
       }
     ],
-    "quadrant": "Low growth / High velocity"
+    "quadrant": "High growth / Low velocity"
   },
   {
     "family": "NLP & Language AI",
@@ -112,63 +118,70 @@
       "2017": 15918,
       "2018": 21194,
       "2019": 28496,
-      "2020": 37397,
-      "2021": 48630,
-      "2022": 59400,
-      "2023": 75957,
-      "2024": 89714,
-      "2025": 97217
+      "2020": 37421,
+      "2021": 48658,
+      "2022": 59543,
+      "2023": 76173,
+      "2024": 90289,
+      "2025": 107321
     },
-    "paper_count_2025": 97217,
-    "median_fwci": 0.28,
-    "growth_rate": 19.3018,
-    "citation_velocity": 2.8526,
-    "frontier_score": 1.4462,
+    "paper_count_2025": 107321,
+    "median_fwci": 0.6627,
+    "growth_rate": 55.1617,
+    "citation_velocity": 0.4286,
+    "frontier_score": 1.2216,
     "representative_papers": [
       {
-        "id": "paper-605",
+        "id": "paper-4",
         "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
         "year": 2018,
         "family": "NLP & Language AI",
         "topic": "Topic Modeling",
         "fwci": 2264.4055,
-        "citation_count": 45582
+        "citation_count": 45582,
+        "country": "United States",
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
       },
       {
-        "id": "paper-602",
+        "id": "paper-8",
         "title": "Glove: Global Vectors for Word Representation",
         "year": 2014,
         "family": "NLP & Language AI",
         "topic": "Topic Modeling",
         "fwci": 1171.8372,
-        "citation_count": 33641
+        "citation_count": 33641,
+        "country": "United States"
       },
       {
-        "id": "paper-608",
+        "id": "paper-11",
         "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
         "year": 2019,
         "family": "NLP & Language AI",
         "topic": "Topic Modeling",
         "fwci": 1292.1739,
-        "citation_count": 17301
+        "citation_count": 17301,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
       },
       {
-        "id": "paper-606",
+        "id": "paper-7",
         "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
         "year": 2023,
         "family": "NLP & Language AI",
         "topic": "Topic Modeling",
         "fwci": 1885.0405,
-        "citation_count": 14209
+        "citation_count": 14209,
+        "country": "United States",
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
       },
       {
-        "id": "paper-607",
-        "title": "Enriching Word Vectors with Subword Information",
-        "year": 2017,
+        "id": "paper-32",
+        "title": "Convolutional Neural Networks for Sentence Classification",
+        "year": 2014,
         "family": "NLP & Language AI",
         "topic": "Topic Modeling",
-        "fwci": 801.583,
-        "citation_count": 9752
+        "fwci": 471.1031,
+        "citation_count": 13750,
+        "country": "United States"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -199,63 +212,70 @@
       "2017": 24447,
       "2018": 26702,
       "2019": 29183,
-      "2020": 32036,
-      "2021": 35343,
-      "2022": 38980,
-      "2023": 43098,
-      "2024": 47683,
-      "2025": 49810
+      "2020": 32044,
+      "2021": 35363,
+      "2022": 39029,
+      "2023": 43176,
+      "2024": 47828,
+      "2025": 52506
     },
-    "paper_count_2025": 49810,
-    "median_fwci": 0.409,
-    "growth_rate": 1.2108,
-    "citation_velocity": 1.3914,
-    "frontier_score": 0.6091,
+    "paper_count_2025": 52506,
+    "median_fwci": 0.4692,
+    "growth_rate": 3.5746,
+    "citation_velocity": 0.2667,
+    "frontier_score": 0.432,
     "representative_papers": [
       {
-        "id": "paper-547",
+        "id": "paper-46",
         "title": "Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups",
         "year": 2012,
         "family": "NLP & Language AI",
         "topic": "Speech Recognition and Synthesis",
         "fwci": 411.6828,
-        "citation_count": 10284
+        "citation_count": 10284,
+        "country": "Canada",
+        "venue": "IEEE Signal Processing Magazine"
       },
       {
-        "id": "paper-549",
+        "id": "paper-53",
         "title": "Speech recognition with deep recurrent neural networks",
         "year": 2013,
         "family": "NLP & Language AI",
         "topic": "Speech Recognition and Synthesis",
         "fwci": 403.804,
-        "citation_count": 8820
+        "citation_count": 8820,
+        "country": "Canada"
       },
       {
-        "id": "paper-553",
+        "id": "paper-120",
         "title": "SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition",
         "year": 2019,
         "family": "NLP & Language AI",
         "topic": "Speech Recognition and Synthesis",
         "fwci": 282.2322,
-        "citation_count": 3516
+        "citation_count": 3516,
+        "country": "United States"
       },
       {
-        "id": "paper-552",
+        "id": "paper-188",
         "title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
         "year": 2016,
         "family": "NLP & Language AI",
         "topic": "Speech Recognition and Synthesis",
         "fwci": 291.095,
-        "citation_count": 2340
+        "citation_count": 2340,
+        "country": "United States"
       },
       {
-        "id": "paper-551",
+        "id": "paper-186",
         "title": "In-Kernel Aggregation and Broadcast Acceleration for Distributed Communication",
         "year": 2020,
         "family": "NLP & Language AI",
         "topic": "Speech Recognition and Synthesis",
         "fwci": 224.4598,
-        "citation_count": 2446
+        "citation_count": 2446,
+        "country": "IL",
+        "venue": "arXiv (Cornell University)"
       }
     ],
     "quadrant": "Low growth / High velocity"
@@ -286,63 +306,72 @@
       "2017": 8965,
       "2018": 11635,
       "2019": 14483,
-      "2020": 17786,
-      "2021": 21610,
-      "2022": 25821,
-      "2023": 30616,
-      "2024": 35340,
-      "2025": 38186
+      "2020": 17808,
+      "2021": 21642,
+      "2022": 25914,
+      "2023": 30754,
+      "2024": 35648,
+      "2025": 41916
     },
-    "paper_count_2025": 38186,
-    "median_fwci": 0.5218,
-    "growth_rate": 157.9514,
-    "citation_velocity": 2.2831,
-    "frontier_score": 1.6078,
+    "paper_count_2025": 41916,
+    "median_fwci": 0.497,
+    "growth_rate": 322.7529,
+    "citation_velocity": 0.5,
+    "frontier_score": 1.1483,
     "representative_papers": [
       {
-        "id": "paper-537",
+        "id": "paper-90",
         "title": "Sentiment Analysis and Opinion Mining",
         "year": 2017,
         "family": "NLP & Language AI",
         "topic": "Sentiment Analysis and Opinion Mining",
         "fwci": 469.9025,
-        "citation_count": 3329
+        "citation_count": 3329,
+        "country": "United States",
+        "venue": "Encyclopedia of Machine Learning and Data Mining"
       },
       {
-        "id": "paper-536",
+        "id": "paper-145",
         "title": "Opinion Mining and Sentiment Analysis",
         "year": 2008,
         "family": "NLP & Language AI",
         "topic": "Sentiment Analysis and Opinion Mining",
         "fwci": 197.4448,
-        "citation_count": 6177
+        "citation_count": 6177,
+        "country": "United States",
+        "venue": "Foundations and Trends® in Information Retrieval"
       },
       {
-        "id": "paper-532",
+        "id": "paper-252",
         "title": "Attention-based LSTM for Aspect-level Sentiment Classification",
         "year": 2016,
         "family": "NLP & Language AI",
         "topic": "Sentiment Analysis and Opinion Mining",
         "fwci": 204.9713,
-        "citation_count": 2337
+        "citation_count": 2337,
+        "country": "China"
       },
       {
-        "id": "paper-535",
+        "id": "paper-251",
         "title": "Lexicon-Based Methods for Sentiment Analysis",
         "year": 2011,
         "family": "NLP & Language AI",
         "topic": "Sentiment Analysis and Opinion Mining",
         "fwci": 178.0428,
-        "citation_count": 3244
+        "citation_count": 3244,
+        "country": "Canada",
+        "venue": "Computational Linguistics"
       },
       {
-        "id": "paper-534",
-        "title": "Document Modeling with Gated Recurrent Neural Network for Sentiment Classification",
-        "year": 2015,
+        "id": "paper-267",
+        "title": "Sentiment analysis algorithms and applications: A survey",
+        "year": 2014,
         "family": "NLP & Language AI",
         "topic": "Sentiment Analysis and Opinion Mining",
-        "fwci": 201.6707,
-        "citation_count": 1532
+        "fwci": 150.5579,
+        "citation_count": 3200,
+        "country": "EG",
+        "venue": "Ain Shams Engineering Journal"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -373,39 +402,51 @@
       "2017": 15419,
       "2018": 16821,
       "2019": 18287,
-      "2020": 19860,
-      "2021": 21116,
-      "2022": 22201,
-      "2023": 23614,
-      "2024": 24756,
-      "2025": 25260
+      "2020": 19883,
+      "2021": 21162,
+      "2022": 22296,
+      "2023": 23768,
+      "2024": 25007,
+      "2025": 26483
     },
-    "paper_count_2025": 25260,
-    "median_fwci": 0.1034,
-    "growth_rate": 0.9059,
-    "citation_velocity": 0.1197,
-    "frontier_score": 0.114,
+    "paper_count_2025": 26483,
+    "median_fwci": 0.1009,
+    "growth_rate": 2.441,
+    "citation_velocity": 0.1142,
+    "frontier_score": 0.1573,
     "representative_papers": [
       {
-        "id": "paper-358",
-        "title": "Pensamento e Linguagem",
-        "year": 2013,
+        "id": "paper-4148",
+        "title": "Topic, Focus, and V2 Defining the CP Sublayers",
+        "year": 2004,
         "family": "NLP & Language AI",
         "topic": "Linguistic Studies and Language Acquisition",
-        "fwci": 139.4852,
-        "citation_count": 2781
+        "fwci": 13.1986,
+        "citation_count": 684
       },
       {
-        "id": "paper-359",
+        "id": "paper-4298",
+        "title": "Language development in the preschool years",
+        "year": 2014,
+        "family": "NLP & Language AI",
+        "topic": "Linguistic Studies and Language Acquisition",
+        "fwci": 14.8879,
+        "citation_count": 400,
+        "venue": "Psychology Press eBooks"
+      },
+      {
+        "id": "paper-4529",
         "title": "Speech production and second language acquisition",
         "year": 2009,
         "family": "NLP & Language AI",
         "topic": "Linguistic Studies and Language Acquisition",
         "fwci": 15.2664,
-        "citation_count": 350
+        "citation_count": 350,
+        "country": "United States",
+        "venue": "International Journal of Bilingual Education and Bilingualism"
       },
       {
-        "id": "paper-357",
+        "id": "paper-4739",
         "title": "Interrogating the \"Native Speaker Fallacy\": Non-Linguistic Roots, Non-Pedagogical Results",
         "year": 2013,
         "family": "NLP & Language AI",
@@ -414,22 +455,14 @@
         "citation_count": 210
       },
       {
-        "id": "paper-352",
-        "title": "Il contrasto che rende tutto più chiaro",
-        "year": 2025,
+        "id": "paper-4696",
+        "title": "Dialectology meets Typology. Dialect Grammar from a Cross-Linguistic Perspective",
+        "year": 2006,
         "family": "NLP & Language AI",
         "topic": "Linguistic Studies and Language Acquisition",
-        "fwci": 43.5863,
-        "citation_count": 16
-      },
-      {
-        "id": "paper-355",
-        "title": "How children learn the meaning of words",
-        "year": 2000,
-        "family": "NLP & Language AI",
-        "topic": "Linguistic Studies and Language Acquisition",
-        "fwci": 15.8917,
-        "citation_count": 219
+        "fwci": 13.5525,
+        "citation_count": 342,
+        "venue": "Linguistische Berichte (LB)"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -460,159 +493,78 @@
       "2017": 13823,
       "2018": 14789,
       "2019": 15716,
-      "2020": 16524,
-      "2021": 17364,
-      "2022": 18314,
-      "2023": 19392,
-      "2024": 21626,
-      "2025": 22846
+      "2020": 16526,
+      "2021": 17369,
+      "2022": 18366,
+      "2023": 19457,
+      "2024": 21794,
+      "2025": 24070
     },
-    "paper_count_2025": 22846,
-    "median_fwci": 0.2832,
-    "growth_rate": 0.667,
-    "citation_velocity": 0.834,
-    "frontier_score": 0.3843,
+    "paper_count_2025": 24070,
+    "median_fwci": 0.3491,
+    "growth_rate": 2.0319,
+    "citation_velocity": 0.1739,
+    "frontier_score": 0.2964,
     "representative_papers": [
       {
-        "id": "paper-561",
+        "id": "paper-972",
         "title": "Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems",
         "year": 2015,
         "family": "NLP & Language AI",
         "topic": "Speech and dialogue systems",
         "fwci": 122.8992,
-        "citation_count": 843
+        "citation_count": 843,
+        "country": "United Kingdom"
       },
       {
-        "id": "paper-556",
+        "id": "paper-1227",
         "title": "A Network-based End-to-End Trainable Task-oriented Dialogue System",
         "year": 2017,
         "family": "NLP & Language AI",
         "topic": "Speech and dialogue systems",
         "fwci": 87.4165,
-        "citation_count": 804
+        "citation_count": 804,
+        "country": "United Kingdom"
       },
       {
-        "id": "paper-557",
+        "id": "paper-1413",
         "title": "Age-of-acquisition ratings for 30,000 English words",
         "year": 2012,
         "family": "NLP & Language AI",
         "topic": "Speech and dialogue systems",
         "fwci": 55.714,
-        "citation_count": 1246
+        "citation_count": 1246,
+        "country": "Canada",
+        "venue": "Behavior Research Methods"
       },
       {
-        "id": "paper-560",
+        "id": "paper-1929",
+        "title": "Partially observable Markov decision processes for spoken dialog systems",
+        "year": 2006,
+        "family": "NLP & Language AI",
+        "topic": "Speech and dialogue systems",
+        "fwci": 54.9836,
+        "citation_count": 881,
+        "country": "United States",
+        "venue": "Computer Speech & Language"
+      },
+      {
+        "id": "paper-1877",
         "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
         "year": 2024,
         "family": "NLP & Language AI",
         "topic": "Speech and dialogue systems",
         "fwci": 77.6499,
         "citation_count": 250
-      },
-      {
-        "id": "paper-559",
-        "title": "First Language Acquisition",
-        "year": 2011,
-        "family": "NLP & Language AI",
-        "topic": "Speech and dialogue systems",
-        "fwci": 56.9097,
-        "citation_count": 607
       }
     ],
     "quadrant": "Low growth / Low velocity"
   },
   {
     "family": "NLP & Language AI",
-    "topic": "Advanced Text Analysis Techniques",
+    "topic": "Hate Speech and Cyberbullying Detection",
     "x": 461,
     "y": 103,
-    "cumulative_paper_count_by_year": {
-      "2000": 139,
-      "2001": 289,
-      "2002": 556,
-      "2003": 819,
-      "2004": 1072,
-      "2005": 1385,
-      "2006": 1845,
-      "2007": 2279,
-      "2008": 2751,
-      "2009": 3395,
-      "2010": 3974,
-      "2011": 4634,
-      "2012": 5417,
-      "2013": 6257,
-      "2014": 7204,
-      "2015": 8173,
-      "2016": 9215,
-      "2017": 10415,
-      "2018": 11745,
-      "2019": 13141,
-      "2020": 14504,
-      "2021": 15850,
-      "2022": 17157,
-      "2023": 18671,
-      "2024": 20965,
-      "2025": 22140
-    },
-    "paper_count_2025": 22140,
-    "median_fwci": 0.1657,
-    "growth_rate": 2.7523,
-    "citation_velocity": 1.02,
-    "frontier_score": 0.4287,
-    "representative_papers": [
-      {
-        "id": "paper-73",
-        "title": "Estimation issues with PLS and CBSEM: Where the bias lies!",
-        "year": 2016,
-        "family": "NLP & Language AI",
-        "topic": "Advanced Text Analysis Techniques",
-        "fwci": 128.1061,
-        "citation_count": 1731
-      },
-      {
-        "id": "paper-79",
-        "title": "Specification, evaluation, and interpretation of structural equation models",
-        "year": 2011,
-        "family": "NLP & Language AI",
-        "topic": "Advanced Text Analysis Techniques",
-        "fwci": 93.6416,
-        "citation_count": 3634
-      },
-      {
-        "id": "paper-75",
-        "title": "Finding scientific topics",
-        "year": 2004,
-        "family": "NLP & Language AI",
-        "topic": "Advanced Text Analysis Techniques",
-        "fwci": 55.4999,
-        "citation_count": 5992
-      },
-      {
-        "id": "paper-78",
-        "title": "Probabilistic Topic Models",
-        "year": 2015,
-        "family": "NLP & Language AI",
-        "topic": "Advanced Text Analysis Techniques",
-        "fwci": 102.2865,
-        "citation_count": 1033
-      },
-      {
-        "id": "paper-80",
-        "title": "The text mining handbook: advanced approaches in analyzing unstructured data",
-        "year": 2007,
-        "family": "NLP & Language AI",
-        "topic": "Advanced Text Analysis Techniques",
-        "fwci": 75.946,
-        "citation_count": 1626
-      }
-    ],
-    "quadrant": "High growth / Low velocity"
-  },
-  {
-    "family": "NLP & Language AI",
-    "topic": "Hate Speech and Cyberbullying Detection",
-    "x": 417,
-    "y": 199,
     "cumulative_paper_count_by_year": {
       "2000": 68,
       "2001": 130,
@@ -634,66 +586,168 @@
       "2017": 3411,
       "2018": 4354,
       "2019": 5677,
-      "2020": 7480,
-      "2021": 9719,
-      "2022": 12270,
-      "2023": 15515,
-      "2024": 18829,
-      "2025": 20922
+      "2020": 7492,
+      "2021": 9773,
+      "2022": 12400,
+      "2023": 15674,
+      "2024": 19143,
+      "2025": 23075
     },
-    "paper_count_2025": 20922,
-    "median_fwci": 0.1387,
-    "growth_rate": 12.254,
-    "citation_velocity": 1.554,
-    "frontier_score": 0.8324,
+    "paper_count_2025": 23075,
+    "median_fwci": 0.1704,
+    "growth_rate": 42.4366,
+    "citation_velocity": 0.2,
+    "frontier_score": 0.8937,
     "representative_papers": [
       {
-        "id": "paper-308",
+        "id": "paper-348",
         "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
         "year": 2017,
         "family": "NLP & Language AI",
         "topic": "Hate Speech and Cyberbullying Detection",
         "fwci": 131.5964,
-        "citation_count": 2447
+        "citation_count": 2447,
+        "country": "United States",
+        "venue": "Proceedings of the International AAAI Conference on Web and Social Media"
       },
       {
-        "id": "paper-310",
+        "id": "paper-501",
         "title": "Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter",
         "year": 2016,
         "family": "NLP & Language AI",
         "topic": "Hate Speech and Cyberbullying Detection",
         "fwci": 136.9327,
-        "citation_count": 1643
+        "citation_count": 1643,
+        "country": "DK"
       },
       {
-        "id": "paper-306",
+        "id": "paper-613",
         "title": "Abusive Language Detection in Online User Content",
         "year": 2016,
         "family": "NLP & Language AI",
         "topic": "Hate Speech and Cyberbullying Detection",
         "fwci": 149.319,
-        "citation_count": 1133
+        "citation_count": 1133,
+        "country": "United States"
       },
       {
-        "id": "paper-305",
+        "id": "paper-731",
         "title": "A Survey on Hate Speech Detection using Natural Language Processing",
         "year": 2017,
         "family": "NLP & Language AI",
         "topic": "Hate Speech and Cyberbullying Detection",
         "fwci": 94.7411,
-        "citation_count": 1381
+        "citation_count": 1381,
+        "country": "Germany"
       },
       {
-        "id": "paper-304",
+        "id": "paper-932",
         "title": "#Ferguson: Digital protest, hashtag ethnography, and the racial politics of social media in the United States",
         "year": 2015,
         "family": "NLP & Language AI",
         "topic": "Hate Speech and Cyberbullying Detection",
         "fwci": 99.2744,
-        "citation_count": 1093
+        "citation_count": 1093,
+        "country": "United States",
+        "venue": "American Ethnologist"
       }
     ],
-    "quadrant": "High growth / High velocity"
+    "quadrant": "High growth / Low velocity"
+  },
+  {
+    "family": "NLP & Language AI",
+    "topic": "Advanced Text Analysis Techniques",
+    "x": 417,
+    "y": 199,
+    "cumulative_paper_count_by_year": {
+      "2000": 139,
+      "2001": 289,
+      "2002": 556,
+      "2003": 819,
+      "2004": 1072,
+      "2005": 1385,
+      "2006": 1845,
+      "2007": 2279,
+      "2008": 2751,
+      "2009": 3395,
+      "2010": 3974,
+      "2011": 4634,
+      "2012": 5417,
+      "2013": 6257,
+      "2014": 7204,
+      "2015": 8173,
+      "2016": 9215,
+      "2017": 10415,
+      "2018": 11745,
+      "2019": 13141,
+      "2020": 14514,
+      "2021": 15869,
+      "2022": 17193,
+      "2023": 18720,
+      "2024": 21045,
+      "2025": 22913
+    },
+    "paper_count_2025": 22913,
+    "median_fwci": 0.272,
+    "growth_rate": 7.0512,
+    "citation_velocity": 0.1818,
+    "frontier_score": 0.4066,
+    "representative_papers": [
+      {
+        "id": "paper-409",
+        "title": "Specification, evaluation, and interpretation of structural equation models",
+        "year": 2011,
+        "family": "NLP & Language AI",
+        "topic": "Advanced Text Analysis Techniques",
+        "fwci": 93.6416,
+        "citation_count": 3634,
+        "country": "United States",
+        "venue": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "id": "paper-507",
+        "title": "Estimation issues with PLS and CBSEM: Where the bias lies!",
+        "year": 2016,
+        "family": "NLP & Language AI",
+        "topic": "Advanced Text Analysis Techniques",
+        "fwci": 128.1061,
+        "citation_count": 1731,
+        "country": "AU",
+        "venue": "Journal of Business Research"
+      },
+      {
+        "id": "paper-484",
+        "title": "Finding scientific topics",
+        "year": 2004,
+        "family": "NLP & Language AI",
+        "topic": "Advanced Text Analysis Techniques",
+        "fwci": 55.4999,
+        "citation_count": 5992,
+        "country": "United States",
+        "venue": "Proceedings of the National Academy of Sciences"
+      },
+      {
+        "id": "paper-958",
+        "title": "Probabilistic Topic Models",
+        "year": 2015,
+        "family": "NLP & Language AI",
+        "topic": "Advanced Text Analysis Techniques",
+        "fwci": 102.2865,
+        "citation_count": 1033,
+        "country": "United States"
+      },
+      {
+        "id": "paper-1039",
+        "title": "The text mining handbook: advanced approaches in analyzing unstructured data",
+        "year": 2007,
+        "family": "NLP & Language AI",
+        "topic": "Advanced Text Analysis Techniques",
+        "fwci": 75.946,
+        "citation_count": 1626,
+        "venue": "Choice Reviews Online"
+      }
+    ],
+    "quadrant": "High growth / Low velocity"
   },
   {
     "family": "Core ML & Deep Learning",
@@ -721,63 +775,70 @@
       "2017": 58241,
       "2018": 61959,
       "2019": 65757,
-      "2020": 69649,
-      "2021": 73847,
-      "2022": 78411,
-      "2023": 83622,
-      "2024": 95384,
-      "2025": 101529
+      "2020": 69660,
+      "2021": 73871,
+      "2022": 78501,
+      "2023": 83788,
+      "2024": 95651,
+      "2025": 105167
     },
-    "paper_count_2025": 101529,
-    "median_fwci": 1.0363,
-    "growth_rate": 0.5463,
-    "citation_velocity": 1.0623,
-    "frontier_score": 0.8519,
+    "paper_count_2025": 105167,
+    "median_fwci": 1.1674,
+    "growth_rate": 1.6897,
+    "citation_velocity": 0.0833,
+    "frontier_score": 0.7136,
     "representative_papers": [
       {
-        "id": "paper-446",
+        "id": "paper-12",
         "title": "Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach",
         "year": 2003,
         "family": "Core ML & Deep Learning",
         "topic": "Neural Networks and Applications",
         "fwci": 902.8241,
-        "citation_count": 42169
+        "citation_count": 42169,
+        "venue": "Journal of Wildlife Management"
       },
       {
-        "id": "paper-442",
+        "id": "paper-26",
         "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
         "year": 2010,
         "family": "Core ML & Deep Learning",
         "topic": "Neural Networks and Applications",
         "fwci": 692.9938,
-        "citation_count": 12790
+        "citation_count": 12790,
+        "country": "United States",
+        "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)"
       },
       {
-        "id": "paper-448",
+        "id": "paper-33",
         "title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
         "year": 2011,
         "family": "Core ML & Deep Learning",
         "topic": "Neural Networks and Applications",
         "fwci": 420.2881,
-        "citation_count": 15912
+        "citation_count": 15912,
+        "country": "United States",
+        "venue": "Foundations and Trends® in Machine Learning"
       },
       {
-        "id": "paper-444",
+        "id": "paper-62",
         "title": "Independent Component Analysis",
         "year": 2004,
         "family": "Core ML & Deep Learning",
         "topic": "Neural Networks and Applications",
         "fwci": 492.5413,
-        "citation_count": 8017
+        "citation_count": 8017,
+        "venue": "The MIT Press eBooks"
       },
       {
-        "id": "paper-443",
-        "title": "Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) network",
-        "year": 2020,
+        "id": "paper-80",
+        "title": "Pattern Recognition and Machine Learning",
+        "year": 2007,
         "family": "Core ML & Deep Learning",
         "topic": "Neural Networks and Applications",
-        "fwci": 311.3204,
-        "citation_count": 5368
+        "fwci": 305.2463,
+        "citation_count": 8434,
+        "venue": "Kybernetes"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -808,48 +869,52 @@
       "2017": 978,
       "2018": 2191,
       "2019": 4321,
-      "2020": 7605,
-      "2021": 11786,
-      "2022": 16412,
-      "2023": 21940,
-      "2024": 26692,
-      "2025": 29211
+      "2020": 7612,
+      "2021": 11800,
+      "2022": 16506,
+      "2023": 22147,
+      "2024": 27053,
+      "2025": 34802
     },
-    "paper_count_2025": 29211,
-    "median_fwci": 1.6249,
-    "growth_rate": 92.2647,
-    "citation_velocity": 2.5534,
-    "frontier_score": 2.282,
+    "paper_count_2025": 34802,
+    "median_fwci": 0.5112,
+    "growth_rate": 334.967,
+    "citation_velocity": 0.3333,
+    "frontier_score": 1.1145,
     "representative_papers": [
       {
-        "id": "paper-86",
+        "id": "paper-17",
         "title": "On Assessing ML Model Robustness: A Methodological Framework (Academic Track)",
         "year": 2025,
         "family": "Core ML & Deep Learning",
         "topic": "Adversarial Robustness in Machine Learning",
         "fwci": 1238.9389,
-        "citation_count": 4578
+        "citation_count": 4578,
+        "country": "France",
+        "venue": "Dagstuhl Research Online Publication Server"
       },
       {
-        "id": "paper-81",
+        "id": "paper-71",
         "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
         "year": 2016,
         "family": "Core ML & Deep Learning",
         "topic": "Adversarial Robustness in Machine Learning",
         "fwci": 438.6563,
-        "citation_count": 5300
+        "citation_count": 5300,
+        "country": "CH"
       },
       {
-        "id": "paper-82",
+        "id": "paper-89",
         "title": "The Limitations of Deep Learning in Adversarial Settings",
         "year": 2016,
         "family": "Core ML & Deep Learning",
         "topic": "Adversarial Robustness in Machine Learning",
         "fwci": 424.0786,
-        "citation_count": 3903
+        "citation_count": 3903,
+        "country": "United States"
       },
       {
-        "id": "paper-85",
+        "id": "paper-151",
         "title": "Adversarial Examples in the Physical World",
         "year": 2018,
         "family": "Core ML & Deep Learning",
@@ -858,13 +923,14 @@
         "citation_count": 1852
       },
       {
-        "id": "paper-87",
+        "id": "paper-135",
         "title": "Practical Black-Box Attacks against Machine Learning",
         "year": 2017,
         "family": "Core ML & Deep Learning",
         "topic": "Adversarial Robustness in Machine Learning",
         "fwci": 282.7402,
-        "citation_count": 3467
+        "citation_count": 3467,
+        "country": "United States"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -895,63 +961,72 @@
       "2017": 1479,
       "2018": 2431,
       "2019": 3955,
-      "2020": 6160,
-      "2021": 9140,
-      "2022": 12774,
-      "2023": 17175,
-      "2024": 20991,
-      "2025": 23313
+      "2020": 6181,
+      "2021": 9191,
+      "2022": 12905,
+      "2023": 17402,
+      "2024": 21381,
+      "2025": 27812
     },
-    "paper_count_2025": 23313,
-    "median_fwci": 0.3118,
-    "growth_rate": 191.5263,
-    "citation_velocity": 3.3255,
-    "frontier_score": 1.7529,
+    "paper_count_2025": 27812,
+    "median_fwci": 0.5332,
+    "growth_rate": 627.8421,
+    "citation_velocity": 0.3333,
+    "frontier_score": 1.1266,
     "representative_papers": [
       {
-        "id": "paper-50",
+        "id": "paper-3",
         "title": "Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories",
         "year": 2025,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Graph Neural Networks",
         "fwci": 3080.6048,
-        "citation_count": 16129
+        "citation_count": 16129,
+        "country": "China",
+        "venue": "Dagstuhl Research Online Publication Server"
       },
       {
-        "id": "paper-53",
+        "id": "paper-31",
         "title": "A Comprehensive Survey on Graph Neural Networks",
         "year": 2020,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Graph Neural Networks",
         "fwci": 534.6441,
-        "citation_count": 9077
+        "citation_count": 9077,
+        "country": "AU",
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems"
       },
       {
-        "id": "paper-56",
+        "id": "paper-67",
         "title": "Modeling Relational Data with Graph Convolutional Networks",
         "year": 2018,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Graph Neural Networks",
         "fwci": 450.7446,
-        "citation_count": 5020
+        "citation_count": 5020,
+        "country": "NL",
+        "venue": "Lecture notes in computer science"
       },
       {
-        "id": "paper-49",
+        "id": "paper-70",
         "title": "Deep Learning On Graphs (Graphsip Summer School)",
         "year": 2016,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Graph Neural Networks",
         "fwci": 458.0933,
-        "citation_count": 5085
+        "citation_count": 5085,
+        "country": "CH",
+        "venue": "Figshare"
       },
       {
-        "id": "paper-55",
+        "id": "paper-139",
         "title": "Structural Deep Network Embedding",
         "year": 2016,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Graph Neural Networks",
         "fwci": 351.1662,
-        "citation_count": 2815
+        "citation_count": 2815,
+        "country": "China"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -982,63 +1057,73 @@
       "2017": 5054,
       "2018": 5969,
       "2019": 7111,
-      "2020": 8500,
-      "2021": 10187,
-      "2022": 12061,
-      "2023": 14256,
-      "2024": 17088,
-      "2025": 19201
+      "2020": 8513,
+      "2021": 10221,
+      "2022": 12136,
+      "2023": 14378,
+      "2024": 17301,
+      "2025": 21522
     },
-    "paper_count_2025": 19201,
-    "median_fwci": 0.5192,
-    "growth_rate": 10.1122,
-    "citation_velocity": 2.7526,
-    "frontier_score": 1.2771,
+    "paper_count_2025": 21522,
+    "median_fwci": 0.458,
+    "growth_rate": 30.5339,
+    "citation_velocity": 0.4286,
+    "frontier_score": 1.1091,
     "representative_papers": [
       {
-        "id": "paper-314",
+        "id": "paper-57",
         "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
         "year": 2020,
         "family": "Core ML & Deep Learning",
         "topic": "Imbalanced Data Classification Techniques",
         "fwci": 405.5733,
-        "citation_count": 5737
+        "citation_count": 5737,
+        "country": "Canada",
+        "venue": "BMC Genomics"
       },
       {
-        "id": "paper-316",
+        "id": "paper-129",
         "title": "Learning from Imbalanced Data",
         "year": 2009,
         "family": "Core ML & Deep Learning",
         "topic": "Imbalanced Data Classification Techniques",
         "fwci": 143.563,
-        "citation_count": 9629
+        "citation_count": 9629,
+        "country": "United States",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering"
       },
       {
-        "id": "paper-312",
+        "id": "paper-231",
         "title": "A systematic study of the class imbalance problem in convolutional neural networks",
         "year": 2018,
         "family": "Core ML & Deep Learning",
         "topic": "Imbalanced Data Classification Techniques",
         "fwci": 168.5559,
-        "citation_count": 2913
+        "citation_count": 2913,
+        "country": "United States",
+        "venue": "Neural Networks"
       },
       {
-        "id": "paper-318",
+        "id": "paper-240",
         "title": "Survey on deep learning with class imbalance",
         "year": 2019,
         "family": "Core ML & Deep Learning",
         "topic": "Imbalanced Data Classification Techniques",
         "fwci": 153.6746,
-        "citation_count": 2795
+        "citation_count": 2795,
+        "country": "United States",
+        "venue": "Journal Of Big Data"
       },
       {
-        "id": "paper-319",
+        "id": "paper-291",
         "title": "From Prediction to Precision: Leveraging LLMs for Equitable and Data-Driven Writing Placement in Developmental Education",
         "year": 2025,
         "family": "Core ML & Deep Learning",
         "topic": "Imbalanced Data Classification Techniques",
         "fwci": 234.7583,
-        "citation_count": 737
+        "citation_count": 737,
+        "country": "PT",
+        "venue": "Dagstuhl Research Online Publication Server"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -1069,72 +1154,177 @@
       "2017": 4988,
       "2018": 5908,
       "2019": 7191,
-      "2020": 8662,
-      "2021": 10448,
-      "2022": 12472,
-      "2023": 14768,
-      "2024": 17181,
-      "2025": 18452
+      "2020": 8670,
+      "2021": 10459,
+      "2022": 12534,
+      "2023": 14870,
+      "2024": 17350,
+      "2025": 20138
     },
-    "paper_count_2025": 18452,
-    "median_fwci": 1.7734,
-    "growth_rate": 5.9104,
-    "citation_velocity": 2.5073,
-    "frontier_score": 1.7795,
+    "paper_count_2025": 20138,
+    "median_fwci": 0.3636,
+    "growth_rate": 17.1497,
+    "citation_velocity": 0.25,
+    "frontier_score": 0.777,
     "representative_papers": [
       {
-        "id": "paper-387",
+        "id": "paper-158",
         "title": "Static Analysis of Shape in TensorFlow Programs",
         "year": 2016,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Data Classification",
         "fwci": 526.9681,
-        "citation_count": 1684
+        "citation_count": 1684,
+        "country": "GR",
+        "venue": "arXiv (Cornell University)"
       },
       {
-        "id": "paper-384",
+        "id": "paper-105",
         "title": "Accurate predictions on small data with a tabular foundation model",
         "year": 2025,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Data Classification",
         "fwci": 1058.4442,
-        "citation_count": 576
+        "citation_count": 576,
+        "country": "Germany",
+        "venue": "Nature"
       },
       {
-        "id": "paper-390",
+        "id": "paper-215",
         "title": "On hyperparameter optimization of machine learning algorithms: Theory and practice",
         "year": 2020,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Data Classification",
         "fwci": 148.9278,
-        "citation_count": 3109
+        "citation_count": 3109,
+        "country": "Canada",
+        "venue": "Neurocomputing"
       },
       {
-        "id": "paper-385",
+        "id": "paper-278",
         "title": "Classification Based on Decision Tree Algorithm for Machine Learning",
         "year": 2021,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Data Classification",
         "fwci": 175.5927,
-        "citation_count": 1809
+        "citation_count": 1809,
+        "country": "IQ",
+        "venue": "Journal of Applied Science and Technology Trends"
       },
       {
-        "id": "paper-386",
-        "title": "Learning From Noisy Labels With Deep Neural Networks: A Survey",
-        "year": 2022,
+        "id": "paper-276",
+        "title": "Model Selection and Multimodel Inference",
+        "year": 2003,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Data Classification",
-        "fwci": 129.564,
-        "citation_count": 1121
+        "fwci": 113.8713,
+        "citation_count": 5562,
+        "venue": "Technometrics"
       }
     ],
     "quadrant": "High growth / High velocity"
   },
   {
     "family": "Core ML & Deep Learning",
-    "topic": "Advanced Clustering Algorithms Research",
+    "topic": "Machine Learning in Healthcare",
     "x": 127,
     "y": 293,
+    "cumulative_paper_count_by_year": {
+      "2000": 44,
+      "2001": 74,
+      "2002": 102,
+      "2003": 144,
+      "2004": 176,
+      "2005": 230,
+      "2006": 276,
+      "2007": 335,
+      "2008": 386,
+      "2009": 464,
+      "2010": 534,
+      "2011": 643,
+      "2012": 781,
+      "2013": 951,
+      "2014": 1172,
+      "2015": 1484,
+      "2016": 1848,
+      "2017": 2301,
+      "2018": 3009,
+      "2019": 4073,
+      "2020": 5426,
+      "2021": 6965,
+      "2022": 8628,
+      "2023": 10760,
+      "2024": 13872,
+      "2025": 19247
+    },
+    "paper_count_2025": 19247,
+    "median_fwci": 0.3147,
+    "growth_rate": 65.6926,
+    "citation_velocity": 0.2222,
+    "frontier_score": 0.9786,
+    "representative_papers": [
+      {
+        "id": "paper-77",
+        "title": "MIMIC-IV, a freely accessible electronic health record dataset",
+        "year": 2023,
+        "family": "Core ML & Deep Learning",
+        "topic": "Machine Learning in Healthcare",
+        "fwci": 440.1993,
+        "citation_count": 2671,
+        "country": "Canada",
+        "venue": "Scientific Data"
+      },
+      {
+        "id": "paper-206",
+        "title": "Intelligent Clinical Documentation: Harnessing Generative AI for Patient-Centric Clinical Note Generation",
+        "year": 2024,
+        "family": "Core ML & Deep Learning",
+        "topic": "Machine Learning in Healthcare",
+        "fwci": 316.5895,
+        "citation_count": 1018,
+        "venue": "International Journal of Innovative Science and Research Technology (IJISRT)"
+      },
+      {
+        "id": "paper-269",
+        "title": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods",
+        "year": 2025,
+        "family": "Core ML & Deep Learning",
+        "topic": "Machine Learning in Healthcare",
+        "fwci": 588.0245,
+        "citation_count": 320,
+        "country": "NL",
+        "venue": "BMJ"
+      },
+      {
+        "id": "paper-307",
+        "title": "Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records",
+        "year": 2016,
+        "family": "Core ML & Deep Learning",
+        "topic": "Machine Learning in Healthcare",
+        "fwci": 222.6413,
+        "citation_count": 1726,
+        "country": "United States",
+        "venue": "Scientific Reports"
+      },
+      {
+        "id": "paper-309",
+        "title": "Scalable and accurate deep learning with electronic health records",
+        "year": 2018,
+        "family": "Core ML & Deep Learning",
+        "topic": "Machine Learning in Healthcare",
+        "fwci": 146.048,
+        "citation_count": 2371,
+        "country": "United States",
+        "venue": "npj Digital Medicine"
+      }
+    ],
+    "quadrant": "High growth / Low velocity"
+  },
+  {
+    "family": "Core ML & Deep Learning",
+    "topic": "Advanced Clustering Algorithms Research",
+    "x": 241,
+    "y": 213,
     "cumulative_paper_count_by_year": {
       "2000": 97,
       "2001": 226,
@@ -1156,153 +1346,74 @@
       "2017": 10220,
       "2018": 11301,
       "2019": 12345,
-      "2020": 13356,
-      "2021": 14294,
-      "2022": 15258,
-      "2023": 16233,
-      "2024": 17480,
-      "2025": 18200
+      "2020": 13368,
+      "2021": 14314,
+      "2022": 15295,
+      "2023": 16293,
+      "2024": 17565,
+      "2025": 18940
     },
-    "paper_count_2025": 18200,
-    "median_fwci": 0.4163,
-    "growth_rate": 2.0373,
-    "citation_velocity": 1.7233,
-    "frontier_score": 0.7209,
+    "paper_count_2025": 18940,
+    "median_fwci": 0.4396,
+    "growth_rate": 4.8041,
+    "citation_velocity": 0.2963,
+    "frontier_score": 0.46,
     "representative_papers": [
       {
-        "id": "paper-33",
+        "id": "paper-103",
         "title": "Clustering by fast search and find of density peaks",
         "year": 2014,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Clustering Algorithms Research",
         "fwci": 315.0603,
-        "citation_count": 4949
+        "citation_count": 4949,
+        "country": "Italy",
+        "venue": "Science"
       },
       {
-        "id": "paper-34",
+        "id": "paper-115",
         "title": "Data clustering: 50 years beyond K-means",
         "year": 2009,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Clustering Algorithms Research",
         "fwci": 174.3589,
-        "citation_count": 9125
+        "citation_count": 9125,
+        "country": "United States",
+        "venue": "Pattern Recognition Letters"
       },
       {
-        "id": "paper-35",
+        "id": "paper-181",
         "title": "K-means clustering algorithms: A comprehensive review, variants analysis, and advances in the era of big data",
         "year": 2022,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Clustering Algorithms Research",
         "fwci": 237.2967,
-        "citation_count": 1995
+        "citation_count": 1995,
+        "country": "ZA",
+        "venue": "Information Sciences"
       },
       {
-        "id": "paper-37",
+        "id": "paper-249",
         "title": "k-means++: the advantages of careful seeding",
         "year": 2007,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Clustering Algorithms Research",
         "fwci": 103.6086,
-        "citation_count": 6299
+        "citation_count": 6299,
+        "country": "United States"
       },
       {
-        "id": "paper-38",
+        "id": "paper-441",
         "title": "A Survey of Clustering Data Mining Techniques",
         "year": 2006,
         "family": "Core ML & Deep Learning",
         "topic": "Advanced Clustering Algorithms Research",
         "fwci": 127.6716,
-        "citation_count": 2806
+        "citation_count": 2806,
+        "country": "United States"
       }
     ],
     "quadrant": "High growth / High velocity"
-  },
-  {
-    "family": "Core ML & Deep Learning",
-    "topic": "Artificial Intelligence in Games",
-    "x": 241,
-    "y": 213,
-    "cumulative_paper_count_by_year": {
-      "2000": 163,
-      "2001": 331,
-      "2002": 600,
-      "2003": 865,
-      "2004": 1128,
-      "2005": 1428,
-      "2006": 1798,
-      "2007": 2253,
-      "2008": 2720,
-      "2009": 3272,
-      "2010": 3934,
-      "2011": 4631,
-      "2012": 5431,
-      "2013": 6184,
-      "2014": 7056,
-      "2015": 7853,
-      "2016": 8634,
-      "2017": 9528,
-      "2018": 10552,
-      "2019": 11561,
-      "2020": 12645,
-      "2021": 13740,
-      "2022": 14749,
-      "2023": 15857,
-      "2024": 17114,
-      "2025": 17762
-    },
-    "paper_count_2025": 17762,
-    "median_fwci": 1.1527,
-    "growth_rate": 1.8237,
-    "citation_velocity": 0.9059,
-    "frontier_score": 0.9152,
-    "representative_papers": [
-      {
-        "id": "paper-120",
-        "title": "Mastering the game of Go with deep neural networks and tree search",
-        "year": 2016,
-        "family": "Core ML & Deep Learning",
-        "topic": "Artificial Intelligence in Games",
-        "fwci": 2219.7866,
-        "citation_count": 15760
-      },
-      {
-        "id": "paper-121",
-        "title": "Mastering the game of Go without human knowledge",
-        "year": 2017,
-        "family": "Core ML & Deep Learning",
-        "topic": "Artificial Intelligence in Games",
-        "fwci": 729.8188,
-        "citation_count": 9164
-      },
-      {
-        "id": "paper-119",
-        "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
-        "year": 2019,
-        "family": "Core ML & Deep Learning",
-        "topic": "Artificial Intelligence in Games",
-        "fwci": 245.957,
-        "citation_count": 3409
-      },
-      {
-        "id": "paper-117",
-        "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
-        "year": 2018,
-        "family": "Core ML & Deep Learning",
-        "topic": "Artificial Intelligence in Games",
-        "fwci": 228.962,
-        "citation_count": 3513
-      },
-      {
-        "id": "paper-118",
-        "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-        "year": 2023,
-        "family": "Core ML & Deep Learning",
-        "topic": "Artificial Intelligence in Games",
-        "fwci": 229.891,
-        "citation_count": 1397
-      }
-    ],
-    "quadrant": "High growth / Low velocity"
   },
   {
     "family": "Core ML & Deep Learning",
@@ -1330,63 +1441,70 @@
       "2017": 9001,
       "2018": 9868,
       "2019": 10765,
-      "2020": 11840,
-      "2021": 13039,
-      "2022": 14137,
-      "2023": 15358,
-      "2024": 16537,
-      "2025": 17077
+      "2020": 11842,
+      "2021": 13041,
+      "2022": 14195,
+      "2023": 15485,
+      "2024": 16734,
+      "2025": 17887
     },
-    "paper_count_2025": 17077,
-    "median_fwci": 0.1399,
-    "growth_rate": 1.0816,
-    "citation_velocity": 1.2878,
-    "frontier_score": 0.4313,
+    "paper_count_2025": 17887,
+    "median_fwci": 0.466,
+    "growth_rate": 3.1434,
+    "citation_velocity": 0.25,
+    "frontier_score": 0.4131,
     "representative_papers": [
       {
-        "id": "paper-378",
+        "id": "paper-88",
         "title": "Information theory, inference, and learning algorithms",
         "year": 2004,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Algorithms",
         "fwci": 373.237,
-        "citation_count": 6584
+        "citation_count": 6584,
+        "venue": "Choice Reviews Online"
       },
       {
-        "id": "paper-377",
+        "id": "paper-175",
         "title": "Distance Metric Learning for Large Margin Nearest Neighbor Classification",
         "year": 2009,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Algorithms",
         "fwci": 216.4028,
-        "citation_count": 4260
+        "citation_count": 4260,
+        "venue": "Journal of Machine Learning Research"
       },
       {
-        "id": "paper-380",
+        "id": "paper-208",
         "title": "Human-level concept learning through probabilistic program induction",
         "year": 2015,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Algorithms",
         "fwci": 217.7011,
-        "citation_count": 2915
+        "citation_count": 2915,
+        "country": "United States",
+        "venue": "Science"
       },
       {
-        "id": "paper-381",
+        "id": "paper-512",
         "title": "Pegasos: primal estimated sub-gradient solver for SVM",
         "year": 2010,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Algorithms",
         "fwci": 177.5302,
-        "citation_count": 1523
+        "citation_count": 1523,
+        "country": "IL",
+        "venue": "Mathematical Programming"
       },
       {
-        "id": "paper-383",
+        "id": "paper-669",
         "title": "Learning to rank using gradient descent",
         "year": 2005,
         "family": "Core ML & Deep Learning",
         "topic": "Machine Learning and Algorithms",
         "fwci": 78.5395,
-        "citation_count": 2751
+        "citation_count": 2751,
+        "country": "United States"
       }
     ],
     "quadrant": "Low growth / High velocity"
@@ -1417,63 +1535,73 @@
       "2017": 43965,
       "2018": 47358,
       "2019": 51274,
-      "2020": 55240,
-      "2021": 59876,
-      "2022": 65096,
-      "2023": 70658,
-      "2024": 75654,
-      "2025": 78836
+      "2020": 55244,
+      "2021": 59890,
+      "2022": 65122,
+      "2023": 70696,
+      "2024": 75724,
+      "2025": 82033
     },
-    "paper_count_2025": 78836,
-    "median_fwci": 0.818,
-    "growth_rate": 1.3704,
-    "citation_velocity": 2.1232,
-    "frontier_score": 1.0218,
+    "paper_count_2025": 82033,
+    "median_fwci": 0.9721,
+    "growth_rate": 3.5939,
+    "citation_velocity": 0.5,
+    "frontier_score": 0.7675,
     "representative_papers": [
       {
-        "id": "paper-496",
+        "id": "paper-49",
         "title": "Quantum entanglement",
         "year": 2009,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Information and Cryptography",
         "fwci": 446.5399,
-        "citation_count": 9959
+        "citation_count": 9959,
+        "country": "PL",
+        "venue": "Reviews of Modern Physics"
       },
       {
-        "id": "paper-495",
+        "id": "paper-112",
         "title": "Quantum cryptography",
         "year": 2002,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Information and Cryptography",
         "fwci": 237.4767,
-        "citation_count": 8333
+        "citation_count": 8333,
+        "country": "CH",
+        "venue": "Reviews of Modern Physics"
       },
       {
-        "id": "paper-490",
+        "id": "paper-149",
         "title": "A scheme for efficient quantum computation with linear optics",
         "year": 2001,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Information and Cryptography",
         "fwci": 239.9609,
-        "citation_count": 5853
+        "citation_count": 5853,
+        "country": "United States",
+        "venue": "Nature"
       },
       {
-        "id": "paper-497",
+        "id": "paper-160",
         "title": "The quantum internet",
         "year": 2008,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Information and Cryptography",
         "fwci": 197.4448,
-        "citation_count": 5815
+        "citation_count": 5815,
+        "country": "United States",
+        "venue": "Nature"
       },
       {
-        "id": "paper-493",
+        "id": "paper-196",
         "title": "Gaussian quantum information",
         "year": 2012,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Information and Cryptography",
         "fwci": 206.958,
-        "citation_count": 3644
+        "citation_count": 3644,
+        "country": "Canada",
+        "venue": "Reviews of Modern Physics"
       }
     ],
     "quadrant": "Low growth / High velocity"
@@ -1504,63 +1632,72 @@
       "2017": 18431,
       "2018": 20404,
       "2019": 22969,
-      "2020": 26282,
-      "2021": 30862,
-      "2022": 36818,
-      "2023": 44177,
-      "2024": 51740,
-      "2025": 56262
+      "2020": 26294,
+      "2021": 30889,
+      "2022": 36868,
+      "2023": 44272,
+      "2024": 51903,
+      "2025": 62776
     },
-    "paper_count_2025": 56262,
-    "median_fwci": 0.1629,
-    "growth_rate": 3.027,
-    "citation_velocity": 2.0684,
-    "frontier_score": 0.6975,
+    "paper_count_2025": 62776,
+    "median_fwci": 0.5597,
+    "growth_rate": 10.0096,
+    "citation_velocity": 0.25,
+    "frontier_score": 0.6706,
     "representative_papers": [
       {
-        "id": "paper-484",
-        "title": "Quantum supremacy using a programmable superconducting processor",
-        "year": 2019,
-        "family": "Optimization, Theory & Security",
-        "topic": "Quantum Computing Algorithms and Architecture",
-        "fwci": 444.481,
-        "citation_count": 6945
-      },
-      {
-        "id": "paper-486",
+        "id": "paper-51",
         "title": "Quantum Computing in the NISQ era and beyond",
         "year": 2018,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Computing Algorithms and Architecture",
         "fwci": 361.2963,
-        "citation_count": 8136
+        "citation_count": 8136,
+        "country": "United States",
+        "venue": "Quantum"
       },
       {
-        "id": "paper-485",
+        "id": "paper-47",
+        "title": "Quantum supremacy using a programmable superconducting processor",
+        "year": 2019,
+        "family": "Optimization, Theory & Security",
+        "topic": "Quantum Computing Algorithms and Architecture",
+        "fwci": 444.481,
+        "citation_count": 6945,
+        "country": "United States",
+        "venue": "Nature"
+      },
+      {
+        "id": "paper-118",
         "title": "Algorithms for quantum computation: discrete logarithms and factoring",
         "year": 2002,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Computing Algorithms and Architecture",
         "fwci": 210.1903,
-        "citation_count": 8468
+        "citation_count": 8468,
+        "country": "United States"
       },
       {
-        "id": "paper-489",
+        "id": "paper-146",
         "title": "Variational quantum algorithms",
         "year": 2021,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Computing Algorithms and Architecture",
         "fwci": 235.3362,
-        "citation_count": 2897
+        "citation_count": 2897,
+        "country": "United States",
+        "venue": "Nature Reviews Physics"
       },
       {
-        "id": "paper-488",
-        "title": "Superconducting Circuits for Quantum Information: An Outlook",
-        "year": 2013,
+        "id": "paper-189",
+        "title": "Quantum machine learning",
+        "year": 2017,
         "family": "Optimization, Theory & Security",
         "topic": "Quantum Computing Algorithms and Architecture",
-        "fwci": 212.5284,
-        "citation_count": 2100
+        "fwci": 147.4213,
+        "citation_count": 4390,
+        "country": "RU",
+        "venue": "Nature"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -1591,63 +1728,71 @@
       "2017": 27039,
       "2018": 29988,
       "2019": 33104,
-      "2020": 36180,
-      "2021": 39311,
-      "2022": 42482,
-      "2023": 46002,
-      "2024": 49203,
-      "2025": 51302
+      "2020": 36203,
+      "2021": 39346,
+      "2022": 42533,
+      "2023": 46084,
+      "2024": 49337,
+      "2025": 53407
     },
-    "paper_count_2025": 51302,
-    "median_fwci": 0.6789,
-    "growth_rate": 2.2566,
-    "citation_velocity": 1.9124,
-    "frontier_score": 0.9192,
+    "paper_count_2025": 53407,
+    "median_fwci": 0.6944,
+    "growth_rate": 5.3943,
+    "citation_velocity": 0.4583,
+    "frontier_score": 0.6583,
     "representative_papers": [
       {
-        "id": "paper-198",
+        "id": "paper-93",
         "title": "Identity-Based Cryptosystems and Signature Schemes",
         "year": 2007,
         "family": "Optimization, Theory & Security",
         "topic": "Cryptography and Data Security",
         "fwci": 327.7035,
-        "citation_count": 6636
+        "citation_count": 6636,
+        "country": "IL",
+        "venue": "Lecture notes in computer science"
       },
       {
-        "id": "paper-197",
+        "id": "paper-104",
         "title": "Fully homomorphic encryption using ideal lattices",
         "year": 2009,
         "family": "Optimization, Theory & Security",
         "topic": "Cryptography and Data Security",
         "fwci": 279.88,
-        "citation_count": 6530
+        "citation_count": 6530,
+        "country": "United States"
       },
       {
-        "id": "paper-201",
+        "id": "paper-163",
         "title": "Public-Key Cryptosystems Based on Composite Degree Residuosity Classes",
         "year": 2007,
         "family": "Optimization, Theory & Security",
         "topic": "Cryptography and Data Security",
         "fwci": 157.914,
-        "citation_count": 7172
+        "citation_count": 7172,
+        "country": "France",
+        "venue": "Lecture notes in computer science"
       },
       {
-        "id": "paper-194",
+        "id": "paper-338",
         "title": "A Secure and Dynamic Multi-Keyword Ranked Search Scheme over Encrypted Cloud Data",
         "year": 2015,
         "family": "Optimization, Theory & Security",
         "topic": "Cryptography and Data Security",
         "fwci": 311.1703,
-        "citation_count": 1175
+        "citation_count": 1175,
+        "country": "China",
+        "venue": "IEEE Transactions on Parallel and Distributed Systems"
       },
       {
-        "id": "paper-200",
+        "id": "paper-412",
         "title": "Candidate Indistinguishability Obfuscation and Functional Encryption for all Circuits",
         "year": 2013,
         "family": "Optimization, Theory & Security",
         "topic": "Cryptography and Data Security",
         "fwci": 275.2323,
-        "citation_count": 1140
+        "citation_count": 1140,
+        "country": "United States"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -1678,57 +1823,64 @@
       "2017": 24954,
       "2018": 27425,
       "2019": 29936,
-      "2020": 32684,
-      "2021": 35575,
-      "2022": 38658,
-      "2023": 41594,
-      "2024": 44356,
-      "2025": 46085
+      "2020": 32690,
+      "2021": 35586,
+      "2022": 38681,
+      "2023": 41626,
+      "2024": 44414,
+      "2025": 47182
     },
-    "paper_count_2025": 46085,
-    "median_fwci": 0.686,
-    "growth_rate": 2.142,
-    "citation_velocity": 2.8953,
-    "frontier_score": 1.1654,
+    "paper_count_2025": 47182,
+    "median_fwci": 0.7801,
+    "growth_rate": 5.0652,
+    "citation_velocity": 0.5,
+    "frontier_score": 0.706,
     "representative_papers": [
       {
-        "id": "paper-420",
+        "id": "paper-14",
         "title": "Particle swarm optimization",
         "year": 2007,
         "family": "Optimization, Theory & Security",
         "topic": "Metaheuristic Optimization Algorithms Research",
         "fwci": 1049.1492,
-        "citation_count": 21333
+        "citation_count": 21333,
+        "country": "United Kingdom",
+        "venue": "Swarm Intelligence"
       },
       {
-        "id": "paper-424",
+        "id": "paper-23",
         "title": "The Whale Optimization Algorithm",
         "year": 2016,
         "family": "Optimization, Theory & Security",
         "topic": "Metaheuristic Optimization Algorithms Research",
         "fwci": 555.7197,
-        "citation_count": 13873
+        "citation_count": 13873,
+        "country": "AU",
+        "venue": "Advances in Engineering Software"
       },
       {
-        "id": "paper-418",
+        "id": "paper-36",
         "title": "Grey Wolf Optimizer",
         "year": 2014,
         "family": "Optimization, Theory & Security",
         "topic": "Metaheuristic Optimization Algorithms Research",
         "fwci": 305.7518,
-        "citation_count": 18228
+        "citation_count": 18228,
+        "country": "AU",
+        "venue": "Advances in Engineering Software"
       },
       {
-        "id": "paper-425",
+        "id": "paper-84",
         "title": "Making Large-Scale SVM Learning Practical",
         "year": 2006,
         "family": "Optimization, Theory & Security",
         "topic": "Metaheuristic Optimization Algorithms Research",
         "fwci": 590.37,
-        "citation_count": 4326
+        "citation_count": 4326,
+        "venue": "Technical reports"
       },
       {
-        "id": "paper-417",
+        "id": "paper-81",
         "title": "Ant Colony Optimization",
         "year": 2007,
         "family": "Optimization, Theory & Security",
@@ -1765,63 +1917,71 @@
       "2017": 22090,
       "2018": 23766,
       "2019": 25547,
-      "2020": 27375,
-      "2021": 29320,
-      "2022": 31311,
-      "2023": 33322,
-      "2024": 35198,
-      "2025": 36152
+      "2020": 27378,
+      "2021": 29325,
+      "2022": 31320,
+      "2023": 33339,
+      "2024": 35231,
+      "2025": 36981
     },
-    "paper_count_2025": 36152,
-    "median_fwci": 0.1379,
-    "growth_rate": 0.7771,
-    "citation_velocity": 0.6296,
-    "frontier_score": 0.2566,
+    "paper_count_2025": 36981,
+    "median_fwci": 0.3862,
+    "growth_rate": 2.0438,
+    "citation_velocity": 0.1667,
+    "frontier_score": 0.3154,
     "representative_papers": [
       {
-        "id": "paper-150",
+        "id": "paper-1117",
         "title": "On the sphere-decoding algorithm I. Expected complexity",
         "year": 2005,
         "family": "Optimization, Theory & Security",
         "topic": "Coding theory and cryptography",
         "fwci": 98.2843,
-        "citation_count": 1196
+        "citation_count": 1196,
+        "country": "United States",
+        "venue": "IEEE Transactions on Signal Processing"
       },
       {
-        "id": "paper-147",
+        "id": "paper-1081",
         "title": "New Directions in Cryptography",
         "year": 2022,
         "family": "Optimization, Theory & Security",
         "topic": "Coding theory and cryptography",
         "fwci": 89.3767,
-        "citation_count": 652
+        "citation_count": 652,
+        "venue": "ACM eBooks"
       },
       {
-        "id": "paper-149",
+        "id": "paper-1403",
         "title": "Closest point search in lattices",
         "year": 2002,
         "family": "Optimization, Theory & Security",
         "topic": "Coding theory and cryptography",
         "fwci": 62.6654,
-        "citation_count": 1444
+        "citation_count": 1444,
+        "country": "SE",
+        "venue": "IEEE Transactions on Information Theory"
       },
       {
-        "id": "paper-146",
+        "id": "paper-1748",
         "title": "Public-Key Cryptography",
         "year": 2005,
         "family": "Optimization, Theory & Security",
         "topic": "Coding theory and cryptography",
         "fwci": 65.0884,
-        "citation_count": 915
+        "citation_count": 915,
+        "venue": "CODES"
       },
       {
-        "id": "paper-152",
+        "id": "paper-1740",
         "title": "On the concrete hardness of Learning with Errors",
         "year": 2015,
         "family": "Optimization, Theory & Security",
         "topic": "Coding theory and cryptography",
         "fwci": 56.5468,
-        "citation_count": 784
+        "citation_count": 784,
+        "country": "United Kingdom",
+        "venue": "Journal of Mathematical Cryptology"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -1852,63 +2012,71 @@
       "2017": 22650,
       "2018": 24024,
       "2019": 25361,
-      "2020": 26588,
-      "2021": 27726,
-      "2022": 28789,
-      "2023": 29862,
-      "2024": 31334,
-      "2025": 32122
+      "2020": 26596,
+      "2021": 27737,
+      "2022": 28812,
+      "2023": 29894,
+      "2024": 31389,
+      "2025": 32823
     },
-    "paper_count_2025": 32122,
-    "median_fwci": 0.2493,
-    "growth_rate": 0.446,
-    "citation_velocity": 0.821,
-    "frontier_score": 0.3557,
+    "paper_count_2025": 32823,
+    "median_fwci": 0.409,
+    "growth_rate": 1.1306,
+    "citation_velocity": 0.1667,
+    "frontier_score": 0.3005,
     "representative_papers": [
       {
-        "id": "paper-94",
+        "id": "paper-15",
         "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
         "year": 2009,
         "family": "Optimization, Theory & Security",
         "topic": "Algorithms and Data Compression",
         "fwci": 908.9307,
-        "citation_count": 22932
+        "citation_count": 22932,
+        "country": "United States",
+        "venue": "Genome biology"
       },
       {
-        "id": "paper-92",
+        "id": "paper-510",
         "title": "Data Compression: The Complete Reference",
         "year": 2009,
         "family": "Optimization, Theory & Security",
         "topic": "Algorithms and Data Compression",
         "fwci": 174.3841,
-        "citation_count": 1602
+        "citation_count": 1602,
+        "venue": "Kybernetes"
       },
       {
-        "id": "paper-97",
+        "id": "paper-773",
+        "title": "Optimal Detection of Changepoints With a Linear Computational Cost",
+        "year": 2012,
+        "family": "Optimization, Theory & Security",
+        "topic": "Algorithms and Data Compression",
+        "fwci": 61.0261,
+        "citation_count": 2444,
+        "country": "United Kingdom",
+        "venue": "Journal of the American Statistical Association"
+      },
+      {
+        "id": "paper-1262",
         "title": "Modern information retrieval: the concepts and technology behind search",
         "year": 2011,
         "family": "Optimization, Theory & Security",
         "topic": "Algorithms and Data Compression",
         "fwci": 107.8606,
-        "citation_count": 792
+        "citation_count": 792,
+        "venue": "Choice Reviews Online"
       },
       {
-        "id": "paper-90",
+        "id": "paper-1277",
         "title": "Clustering by Compression",
         "year": 2005,
         "family": "Optimization, Theory & Security",
         "topic": "Algorithms and Data Compression",
         "fwci": 82.6771,
-        "citation_count": 1190
-      },
-      {
-        "id": "paper-95",
-        "title": "A performance study of general-purpose applications on graphics processors using CUDA",
-        "year": 2008,
-        "family": "Optimization, Theory & Security",
-        "topic": "Algorithms and Data Compression",
-        "fwci": 108.6965,
-        "citation_count": 610
+        "citation_count": 1190,
+        "country": "AU",
+        "venue": "IEEE Transactions on Information Theory"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -1939,63 +2107,73 @@
       "2017": 18329,
       "2018": 19377,
       "2019": 20380,
-      "2020": 21489,
-      "2021": 22523,
-      "2022": 23588,
-      "2023": 24666,
-      "2024": 26123,
-      "2025": 27025
+      "2020": 21492,
+      "2021": 22531,
+      "2022": 23605,
+      "2023": 24691,
+      "2024": 26158,
+      "2025": 27631
     },
-    "paper_count_2025": 27025,
-    "median_fwci": 0.379,
-    "growth_rate": 0.5373,
-    "citation_velocity": 0.9644,
-    "frontier_score": 0.4657,
+    "paper_count_2025": 27631,
+    "median_fwci": 0.4284,
+    "growth_rate": 1.3893,
+    "citation_velocity": 0.2143,
+    "frontier_score": 0.3309,
     "representative_papers": [
       {
-        "id": "paper-262",
-        "title": "MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing",
-        "year": 2024,
-        "family": "Optimization, Theory & Security",
-        "topic": "Evolutionary Algorithms and Applications",
-        "fwci": 450.3697,
-        "citation_count": 1450
-      },
-      {
-        "id": "paper-260",
+        "id": "paper-179",
         "title": "A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms",
         "year": 2011,
         "family": "Optimization, Theory & Security",
         "topic": "Evolutionary Algorithms and Applications",
         "fwci": 159.1467,
-        "citation_count": 5334
+        "citation_count": 5334,
+        "country": "ES",
+        "venue": "Swarm and Evolutionary Computation"
       },
       {
-        "id": "paper-256",
+        "id": "paper-114",
+        "title": "MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing",
+        "year": 2024,
+        "family": "Optimization, Theory & Security",
+        "topic": "Evolutionary Algorithms and Applications",
+        "fwci": 450.3697,
+        "citation_count": 1450,
+        "country": "United States",
+        "venue": "Molecular Biology and Evolution"
+      },
+      {
+        "id": "paper-537",
         "title": "A Survey on Evolutionary Computation Approaches to Feature Selection",
         "year": 2015,
         "family": "Optimization, Theory & Security",
         "topic": "Evolutionary Algorithms and Applications",
         "fwci": 115.7699,
-        "citation_count": 1795
+        "citation_count": 1795,
+        "country": "NZ",
+        "venue": "IEEE Transactions on Evolutionary Computation"
       },
       {
-        "id": "paper-257",
+        "id": "paper-784",
         "title": "Evolving Deep Neural Networks",
         "year": 2018,
         "family": "Optimization, Theory & Security",
         "topic": "Evolutionary Algorithms and Applications",
         "fwci": 144.4555,
-        "citation_count": 794
+        "citation_count": 794,
+        "country": "United States",
+        "venue": "Elsevier eBooks"
       },
       {
-        "id": "paper-261",
+        "id": "paper-770",
         "title": "KEEL: a software tool to assess evolutionary algorithms for data mining problems",
         "year": 2008,
         "family": "Optimization, Theory & Security",
         "topic": "Evolutionary Algorithms and Applications",
         "fwci": 113.9758,
-        "citation_count": 1488
+        "citation_count": 1488,
+        "country": "ES",
+        "venue": "Soft Computing"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2026,66 +2204,74 @@
       "2017": 15162,
       "2018": 16367,
       "2019": 17542,
-      "2020": 18734,
-      "2021": 20106,
-      "2022": 21418,
-      "2023": 22836,
-      "2024": 24247,
-      "2025": 25009
+      "2020": 18737,
+      "2021": 20122,
+      "2022": 21470,
+      "2023": 22926,
+      "2024": 24388,
+      "2025": 26027
     },
-    "paper_count_2025": 25009,
-    "median_fwci": 1.302,
-    "growth_rate": 0.9396,
-    "citation_velocity": 1.2869,
-    "frontier_score": 1.066,
+    "paper_count_2025": 26027,
+    "median_fwci": 0.4169,
+    "growth_rate": 2.5919,
+    "citation_velocity": 0.2143,
+    "frontier_score": 0.3606,
     "representative_papers": [
       {
-        "id": "paper-145",
+        "id": "paper-164",
         "title": "Upper and Lower Probabilities Induced by a Multivalued Mapping",
         "year": 2008,
         "family": "Optimization, Theory & Security",
         "topic": "Bayesian Modeling and Causal Inference",
         "fwci": 203.9919,
-        "citation_count": 5331
+        "citation_count": 5331,
+        "venue": "Studies in fuzziness and soft computing"
       },
       {
-        "id": "paper-138",
+        "id": "paper-290",
         "title": "Detecting Novel Associations in Large Data Sets",
         "year": 2011,
         "family": "Optimization, Theory & Security",
         "topic": "Bayesian Modeling and Causal Inference",
         "fwci": 145.9578,
-        "citation_count": 3354
+        "citation_count": 3354,
+        "country": "United States",
+        "venue": "Science"
       },
       {
-        "id": "paper-144",
+        "id": "paper-394",
         "title": "Markov logic networks",
         "year": 2006,
         "family": "Optimization, Theory & Security",
         "topic": "Bayesian Modeling and Causal Inference",
         "fwci": 151.9801,
-        "citation_count": 2676
+        "citation_count": 2676,
+        "country": "United States",
+        "venue": "Machine Learning"
       },
       {
-        "id": "paper-142",
+        "id": "paper-225",
+        "title": "Multimodel Inference",
+        "year": 2004,
+        "family": "Optimization, Theory & Security",
+        "topic": "Bayesian Modeling and Causal Inference",
+        "fwci": 69.837,
+        "citation_count": 11528,
+        "venue": "Sociological Methods & Research"
+      },
+      {
+        "id": "paper-676",
         "title": "Statistical Rethinking: a Bayesian Course with Examples in R and Stan",
         "year": 2016,
         "family": "Optimization, Theory & Security",
         "topic": "Bayesian Modeling and Causal Inference",
         "fwci": 167.8714,
-        "citation_count": 908
-      },
-      {
-        "id": "paper-141",
-        "title": "Dynamic causal modeling",
-        "year": 2010,
-        "family": "Optimization, Theory & Security",
-        "topic": "Bayesian Modeling and Causal Inference",
-        "fwci": 178.1673,
-        "citation_count": 565
+        "citation_count": 908,
+        "country": "United Kingdom",
+        "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)"
       }
     ],
-    "quadrant": "Low growth / High velocity"
+    "quadrant": "Low growth / Low velocity"
   },
   {
     "family": "Robotics & Control",
@@ -2113,45 +2299,69 @@
       "2017": 33281,
       "2018": 35346,
       "2019": 37466,
-      "2020": 39592,
-      "2021": 41470,
-      "2022": 43632,
-      "2023": 45523,
-      "2024": 47300,
-      "2025": 48004
+      "2020": 39739,
+      "2021": 41963,
+      "2022": 44331,
+      "2023": 46425,
+      "2024": 48434,
+      "2025": 50483
     },
-    "paper_count_2025": 48004,
-    "median_fwci": 0.0392,
-    "growth_rate": 0.6507,
-    "citation_velocity": 0.0252,
-    "frontier_score": 0.0474,
+    "paper_count_2025": 50483,
+    "median_fwci": 0.0375,
+    "growth_rate": 1.683,
+    "citation_velocity": 0.024,
+    "frontier_score": 0.0771,
     "representative_papers": [
       {
-        "id": "paper-243",
+        "id": "paper-2829",
         "title": "IEEE Control Systems Magazine",
         "year": 2004,
         "family": "Robotics & Control",
         "topic": "Educational Robotics and Engineering",
         "fwci": 43.4915,
-        "citation_count": 543
+        "citation_count": 543,
+        "venue": "IEEE Control Systems"
       },
       {
-        "id": "paper-244",
+        "id": "paper-4712",
         "title": "IEEE PES General Meeting 2009",
         "year": 2009,
         "family": "Robotics & Control",
         "topic": "Educational Robotics and Engineering",
         "fwci": 10.4014,
-        "citation_count": 395
+        "citation_count": 395,
+        "venue": "IEEE Power and Energy Magazine"
       },
       {
-        "id": "paper-245",
+        "id": "paper-4971",
         "title": "Mechanical engineers' handbook",
         "year": 2016,
         "family": "Robotics & Control",
         "topic": "Educational Robotics and Engineering",
         "fwci": 12.4038,
-        "citation_count": 143
+        "citation_count": 143,
+        "venue": "Choice Reviews Online"
+      },
+      {
+        "id": "paper-5126",
+        "title": "Adhesives technology handbook",
+        "year": 2009,
+        "family": "Robotics & Control",
+        "topic": "Educational Robotics and Engineering",
+        "fwci": 7.415,
+        "citation_count": 161,
+        "venue": "Choice Reviews Online"
+      },
+      {
+        "id": "paper-5306",
+        "title": "Conceptual framework of STEM based on Japanese subject principles",
+        "year": 2020,
+        "family": "Robotics & Control",
+        "topic": "Educational Robotics and Engineering",
+        "fwci": 5.8484,
+        "citation_count": 77,
+        "country": "Japan",
+        "venue": "International Journal of STEM Education"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2182,72 +2392,177 @@
       "2017": 20692,
       "2018": 22329,
       "2019": 24019,
-      "2020": 25506,
-      "2021": 27210,
-      "2022": 28747,
-      "2023": 30421,
-      "2024": 32115,
-      "2025": 33085
+      "2020": 25507,
+      "2021": 27212,
+      "2022": 28749,
+      "2023": 30430,
+      "2024": 32143,
+      "2025": 33985
     },
-    "paper_count_2025": 33085,
-    "median_fwci": 0.4314,
-    "growth_rate": 0.9385,
-    "citation_velocity": 1.1466,
-    "frontier_score": 0.5521,
+    "paper_count_2025": 33985,
+    "median_fwci": 0.4417,
+    "growth_rate": 2.2474,
+    "citation_velocity": 0.2727,
+    "frontier_score": 0.3785,
     "representative_papers": [
       {
-        "id": "paper-581",
+        "id": "paper-99",
         "title": "A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking",
         "year": 2002,
         "family": "Robotics & Control",
         "topic": "Target Tracking and Data Fusion in Sensor Networks",
         "fwci": 199.1052,
-        "citation_count": 11467
+        "citation_count": 11467,
+        "country": "AU",
+        "venue": "IEEE Transactions on Signal Processing"
       },
       {
-        "id": "paper-580",
+        "id": "paper-166",
         "title": "Unscented Filtering and Nonlinear Estimation",
         "year": 2004,
         "family": "Robotics & Control",
         "topic": "Target Tracking and Data Fusion in Sensor Networks",
         "fwci": 183.1488,
-        "citation_count": 6440
+        "citation_count": 6440,
+        "country": "United States",
+        "venue": "Proceedings of the IEEE"
       },
       {
-        "id": "paper-585",
+        "id": "paper-483",
         "title": "Cubature Kalman Filters",
         "year": 2009,
         "family": "Robotics & Control",
         "topic": "Target Tracking and Data Fusion in Sensor Networks",
         "fwci": 89.6659,
-        "citation_count": 3304
+        "citation_count": 3304,
+        "country": "Canada",
+        "venue": "IEEE Transactions on Automatic Control"
       },
       {
-        "id": "paper-578",
+        "id": "paper-639",
         "title": "A new approach for filtering nonlinear systems",
         "year": 2005,
         "family": "Robotics & Control",
         "topic": "Target Tracking and Data Fusion in Sensor Networks",
         "fwci": 118.5095,
-        "citation_count": 1920
+        "citation_count": 1920,
+        "country": "United Kingdom"
       },
       {
-        "id": "paper-583",
+        "id": "paper-505",
         "title": "On sequential Monte Carlo sampling methods for Bayesian filtering",
         "year": 2000,
         "family": "Robotics & Control",
         "topic": "Target Tracking and Data Fusion in Sensor Networks",
         "fwci": 78.5754,
-        "citation_count": 4446
+        "citation_count": 4446,
+        "country": "United Kingdom",
+        "venue": "Statistics and Computing"
       }
     ],
-    "quadrant": "Low growth / Low velocity"
+    "quadrant": "Low growth / High velocity"
+  },
+  {
+    "family": "Robotics & Control",
+    "topic": "Reinforcement Learning in Robotics",
+    "x": 129,
+    "y": 507,
+    "cumulative_paper_count_by_year": {
+      "2000": 113,
+      "2001": 273,
+      "2002": 647,
+      "2003": 946,
+      "2004": 1243,
+      "2005": 1550,
+      "2006": 1930,
+      "2007": 2332,
+      "2008": 2767,
+      "2009": 3216,
+      "2010": 3668,
+      "2011": 4125,
+      "2012": 4712,
+      "2013": 5227,
+      "2014": 5703,
+      "2015": 6180,
+      "2016": 6858,
+      "2017": 7789,
+      "2018": 9233,
+      "2019": 11460,
+      "2020": 14029,
+      "2021": 17218,
+      "2022": 20430,
+      "2023": 23994,
+      "2024": 27110,
+      "2025": 31685
+    },
+    "paper_count_2025": 31685,
+    "median_fwci": 0.4161,
+    "growth_rate": 13.0406,
+    "citation_velocity": 0.2857,
+    "frontier_score": 0.6915,
+    "representative_papers": [
+      {
+        "id": "paper-13",
+        "title": "Reinforcement Learning: An Introduction",
+        "year": 2005,
+        "family": "Robotics & Control",
+        "topic": "Reinforcement Learning in Robotics",
+        "fwci": 1313.3656,
+        "citation_count": 25776,
+        "venue": "IEEE Transactions on Neural Networks"
+      },
+      {
+        "id": "paper-28",
+        "title": "Diagnosing Non-Intermittent Anomalies in Reinforcement Learning Policy Executions (Short Paper)",
+        "year": 2017,
+        "family": "Robotics & Control",
+        "topic": "Reinforcement Learning in Robotics",
+        "fwci": 570.9452,
+        "citation_count": 11299,
+        "country": "IL",
+        "venue": "arXiv (Cornell University)"
+      },
+      {
+        "id": "paper-138",
+        "title": "Deep Reinforcement Learning with Double Q-Learning",
+        "year": 2016,
+        "family": "Robotics & Control",
+        "topic": "Reinforcement Learning in Robotics",
+        "fwci": 287.3197,
+        "citation_count": 3520,
+        "country": "United States",
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "id": "paper-128",
+        "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+        "year": 2025,
+        "family": "Robotics & Control",
+        "topic": "Reinforcement Learning in Robotics",
+        "fwci": 924.3011,
+        "citation_count": 504,
+        "country": "United States",
+        "venue": "Nature"
+      },
+      {
+        "id": "paper-180",
+        "title": "A survey on large language model based autonomous agents",
+        "year": 2024,
+        "family": "Robotics & Control",
+        "topic": "Reinforcement Learning in Robotics",
+        "fwci": 338.2431,
+        "citation_count": 1090,
+        "country": "China",
+        "venue": "Frontiers of Computer Science"
+      }
+    ],
+    "quadrant": "High growth / High velocity"
   },
   {
     "family": "Robotics & Control",
     "topic": "Fuzzy Logic and Control Systems",
-    "x": 129,
-    "y": 507,
+    "x": 193,
+    "y": 509,
     "cumulative_paper_count_by_year": {
       "2000": 683,
       "2001": 1313,
@@ -2269,63 +2584,71 @@
       "2017": 21797,
       "2018": 22872,
       "2019": 23938,
-      "2020": 24952,
-      "2021": 25807,
-      "2022": 26626,
-      "2023": 27515,
-      "2024": 28822,
-      "2025": 29498
+      "2020": 24955,
+      "2021": 25811,
+      "2022": 26637,
+      "2023": 27532,
+      "2024": 28857,
+      "2025": 30036
     },
-    "paper_count_2025": 29498,
-    "median_fwci": 0.3715,
-    "growth_rate": 0.2856,
-    "citation_velocity": 0.8775,
-    "frontier_score": 0.4323,
+    "paper_count_2025": 30036,
+    "median_fwci": 0.3844,
+    "growth_rate": 0.7666,
+    "citation_velocity": 0.1905,
+    "frontier_score": 0.282,
     "representative_papers": [
       {
-        "id": "paper-287",
+        "id": "paper-430",
         "title": "Stability analysis and design of fuzzy control systems",
         "year": 2002,
         "family": "Robotics & Control",
         "topic": "Fuzzy Logic and Control Systems",
         "fwci": 197.6082,
-        "citation_count": 2022
+        "citation_count": 2022,
+        "country": "IR"
       },
       {
-        "id": "paper-282",
+        "id": "paper-943",
         "title": "A Survey on Analysis and Design of Model-Based Fuzzy Control Systems",
         "year": 2006,
         "family": "Robotics & Control",
         "topic": "Fuzzy Logic and Control Systems",
         "fwci": 85.75,
-        "citation_count": 1649
+        "citation_count": 1649,
+        "country": "HK",
+        "venue": "IEEE Transactions on Fuzzy Systems"
       },
       {
-        "id": "paper-284",
+        "id": "paper-1302",
         "title": "Fuzzy systems are universal approximators",
         "year": 2003,
         "family": "Robotics & Control",
         "topic": "Fuzzy Logic and Control Systems",
         "fwci": 93.7033,
-        "citation_count": 1071
+        "citation_count": 1071,
+        "country": "United States"
       },
       {
-        "id": "paper-285",
+        "id": "paper-1123",
+        "title": "Interval Type-2 Fuzzy Logic Systems Made Simple",
+        "year": 2006,
+        "family": "Robotics & Control",
+        "topic": "Fuzzy Logic and Control Systems",
+        "fwci": 54.5187,
+        "citation_count": 2088,
+        "country": "United States",
+        "venue": "IEEE Transactions on Fuzzy Systems"
+      },
+      {
+        "id": "paper-1805",
         "title": "Genetic fuzzy systems: taxonomy, current research trends and prospects",
         "year": 2008,
         "family": "Robotics & Control",
         "topic": "Fuzzy Logic and Control Systems",
         "fwci": 91.3203,
-        "citation_count": 566
-      },
-      {
-        "id": "paper-280",
-        "title": "Adaptive Sliding Mode Control for Interval Type-2 Fuzzy Systems",
-        "year": 2016,
-        "family": "Robotics & Control",
-        "topic": "Fuzzy Logic and Control Systems",
-        "fwci": 85.7242,
-        "citation_count": 308
+        "citation_count": 566,
+        "country": "ES",
+        "venue": "Evolutionary Intelligence"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2333,8 +2656,8 @@
   {
     "family": "Robotics & Control",
     "topic": "AI-based Problem Solving and Planning",
-    "x": 193,
-    "y": 509,
+    "x": 155,
+    "y": 475,
     "cumulative_paper_count_by_year": {
       "2000": 425,
       "2001": 812,
@@ -2356,63 +2679,72 @@
       "2017": 10945,
       "2018": 11548,
       "2019": 12108,
-      "2020": 12657,
-      "2021": 13294,
-      "2022": 13784,
-      "2023": 14317,
-      "2024": 15172,
-      "2025": 15672
+      "2020": 12660,
+      "2021": 13304,
+      "2022": 13808,
+      "2023": 14376,
+      "2024": 15278,
+      "2025": 16832
     },
-    "paper_count_2025": 15672,
-    "median_fwci": 0.2762,
-    "growth_rate": 0.3573,
-    "citation_velocity": 0.8033,
-    "frontier_score": 0.3635,
+    "paper_count_2025": 16832,
+    "median_fwci": 0.2826,
+    "growth_rate": 1.202,
+    "citation_velocity": 0.1429,
+    "frontier_score": 0.2272,
     "representative_papers": [
       {
-        "id": "paper-27",
+        "id": "paper-898",
         "title": "PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains",
         "year": 2003,
         "family": "Robotics & Control",
         "topic": "AI-based Problem Solving and Planning",
         "fwci": 92.314,
-        "citation_count": 1730
+        "citation_count": 1730,
+        "country": "United Kingdom",
+        "venue": "Journal of Artificial Intelligence Research"
       },
       {
-        "id": "paper-32",
+        "id": "paper-1016",
         "title": "The FF Planning System: Fast Plan Generation Through Heuristic Search",
         "year": 2001,
         "family": "Robotics & Control",
         "topic": "AI-based Problem Solving and Planning",
         "fwci": 78.1649,
-        "citation_count": 1852
+        "citation_count": 1852,
+        "venue": "Journal of Artificial Intelligence Research"
       },
       {
-        "id": "paper-26",
+        "id": "paper-2040",
         "title": "Cognitive architectures: Research issues and challenges",
         "year": 2008,
         "family": "Robotics & Control",
         "topic": "AI-based Problem Solving and Planning",
         "fwci": 58.1539,
-        "citation_count": 717
+        "citation_count": 717,
+        "country": "United States",
+        "venue": "Cognitive Systems Research"
       },
       {
-        "id": "paper-31",
-        "title": "KnowRob: A knowledge processing infrastructure for cognition-enabled robots",
-        "year": 2013,
+        "id": "paper-2140",
+        "title": "SHOP2: An HTN Planning System",
+        "year": 2003,
         "family": "Robotics & Control",
         "topic": "AI-based Problem Solving and Planning",
-        "fwci": 56.839,
-        "citation_count": 377
+        "fwci": 46.3774,
+        "citation_count": 933,
+        "country": "United States",
+        "venue": "Journal of Artificial Intelligence Research"
       },
       {
-        "id": "paper-28",
-        "title": "A LANGUAGE AND ENVIRONMENT FOR ANALYSIS OF DYNAMICS BY SIMULATION",
-        "year": 2007,
+        "id": "paper-2137",
+        "title": "Planning as heuristic search",
+        "year": 2001,
         "family": "Robotics & Control",
         "topic": "AI-based Problem Solving and Planning",
-        "fwci": 51.3265,
-        "citation_count": 228
+        "fwci": 47.0102,
+        "citation_count": 960,
+        "country": "VE",
+        "venue": "Artificial Intelligence"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2420,8 +2752,8 @@
   {
     "family": "Robotics & Control",
     "topic": "Mathematical Control Systems and Analysis",
-    "x": 155,
-    "y": 475,
+    "x": 97,
+    "y": 513,
     "cumulative_paper_count_by_year": {
       "2000": 96,
       "2001": 194,
@@ -2443,62 +2775,71 @@
       "2017": 2540,
       "2018": 2882,
       "2019": 3218,
-      "2020": 3572,
-      "2021": 3941,
-      "2022": 4258,
-      "2023": 4545,
-      "2024": 4870,
-      "2025": 5013
+      "2020": 3576,
+      "2021": 3948,
+      "2022": 4273,
+      "2023": 4573,
+      "2024": 4903,
+      "2025": 5304
     },
-    "paper_count_2025": 5013,
-    "growth_rate": 1.1748,
-    "citation_velocity": 0,
-    "frontier_score": 0.0352,
+    "paper_count_2025": 5304,
+    "median_fwci": 0.322,
+    "growth_rate": 3.377,
+    "citation_velocity": 0.2258,
+    "frontier_score": 0.3349,
     "representative_papers": [
       {
-        "id": "paper-415",
+        "id": "paper-3882",
         "title": "Über Systeme von linearen partiellen Differential-gleichungen erster Ordnung",
         "year": 2002,
         "family": "Robotics & Control",
         "topic": "Mathematical Control Systems and Analysis",
         "fwci": 20.6619,
-        "citation_count": 565
+        "citation_count": 565,
+        "venue": "World scientific series in 20th century mathematics"
       },
       {
-        "id": "paper-409",
+        "id": "paper-4021",
+        "title": "The Fourier Transform and Its Application",
+        "year": 2014,
+        "family": "Robotics & Control",
+        "topic": "Mathematical Control Systems and Analysis",
+        "fwci": 16.9115,
+        "citation_count": 448,
+        "venue": "Pure Mathematics"
+      },
+      {
+        "id": "paper-4070",
         "title": "Event-Triggered Sampling Problem for Exponential Stability of Stochastic Nonlinear Delay Systems Driven by Lévy Processes",
         "year": 2024,
         "family": "Robotics & Control",
         "topic": "Mathematical Control Systems and Analysis",
         "fwci": 33.4513,
-        "citation_count": 108
+        "citation_count": 108,
+        "country": "China",
+        "venue": "IEEE Transactions on Automatic Control"
       },
       {
-        "id": "paper-410",
+        "id": "paper-5092",
         "title": "Modeling of Complex Structures for the Ship's Power Complex Using Xilinx System",
         "year": 2015,
         "family": "Robotics & Control",
         "topic": "Mathematical Control Systems and Analysis",
         "fwci": 21.814,
-        "citation_count": 52
+        "citation_count": 52,
+        "country": "LV",
+        "venue": "Transport and Telecommunication Journal"
       },
       {
-        "id": "paper-408",
+        "id": "paper-5013",
         "title": "Decision Support System Based on the ELECTRE Method",
         "year": 2022,
         "family": "Robotics & Control",
         "topic": "Mathematical Control Systems and Analysis",
         "fwci": 18.8261,
-        "citation_count": 55
-      },
-      {
-        "id": "paper-412",
-        "title": "Periodicity in a logistic type system with several delays",
-        "year": 2004,
-        "family": "Robotics & Control",
-        "topic": "Mathematical Control Systems and Analysis",
-        "fwci": 20.137,
-        "citation_count": 62
+        "citation_count": 55,
+        "country": "UA",
+        "venue": "Lecture notes in networks and systems"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2529,150 +2870,73 @@
       "2017": 11325,
       "2018": 13201,
       "2019": 15680,
-      "2020": 18745,
-      "2021": 22391,
-      "2022": 27046,
-      "2023": 32788,
-      "2024": 39567,
-      "2025": 44403
+      "2020": 18768,
+      "2021": 22434,
+      "2022": 27111,
+      "2023": 32888,
+      "2024": 39776,
+      "2025": 48447
     },
-    "paper_count_2025": 44403,
-    "median_fwci": 0.497,
-    "growth_rate": 5.4253,
-    "citation_velocity": 2.2859,
-    "frontier_score": 1.0076,
+    "paper_count_2025": 48447,
+    "median_fwci": 0.5211,
+    "growth_rate": 16.5914,
+    "citation_velocity": 0.4,
+    "frontier_score": 0.8843,
     "representative_papers": [
       {
-        "id": "paper-18",
+        "id": "paper-52",
         "title": "Segment anything in medical images",
         "year": 2024,
         "family": "Healthcare AI",
         "topic": "AI in cancer detection",
         "fwci": 711.2735,
-        "citation_count": 2334
+        "citation_count": 2334,
+        "country": "Canada",
+        "venue": "Nature Communications"
       },
       {
-        "id": "paper-22",
+        "id": "paper-150",
         "title": "International evaluation of an AI system for breast cancer screening",
         "year": 2020,
         "family": "Healthcare AI",
         "topic": "AI in cancer detection",
         "fwci": 234.8843,
-        "citation_count": 3105
+        "citation_count": 3105,
+        "country": "United States",
+        "venue": "Nature"
       },
       {
-        "id": "paper-19",
+        "id": "paper-187",
         "title": "Towards a general-purpose foundation model for computational pathology",
         "year": 2024,
         "family": "Healthcare AI",
         "topic": "AI in cancer detection",
         "fwci": 333.5841,
-        "citation_count": 1076
+        "citation_count": 1076,
+        "country": "United States",
+        "venue": "Nature Medicine"
       },
       {
-        "id": "paper-21",
+        "id": "paper-191",
         "title": "Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer",
         "year": 2017,
         "family": "Healthcare AI",
         "topic": "AI in cancer detection",
         "fwci": 193.0045,
-        "citation_count": 3278
+        "citation_count": 3278,
+        "country": "NL",
+        "venue": "JAMA"
       },
       {
-        "id": "paper-24",
-        "title": "A visual-language foundation model for computational pathology",
-        "year": 2024,
+        "id": "paper-232",
+        "title": "Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning",
+        "year": 2018,
         "family": "Healthcare AI",
         "topic": "AI in cancer detection",
-        "fwci": 206.9471,
-        "citation_count": 666
-      }
-    ],
-    "quadrant": "High growth / High velocity"
-  },
-  {
-    "family": "Healthcare AI",
-    "topic": "Machine Learning in Healthcare",
-    "x": 349,
-    "y": 360,
-    "cumulative_paper_count_by_year": {
-      "2000": 44,
-      "2001": 74,
-      "2002": 102,
-      "2003": 144,
-      "2004": 176,
-      "2005": 230,
-      "2006": 276,
-      "2007": 335,
-      "2008": 386,
-      "2009": 464,
-      "2010": 534,
-      "2011": 643,
-      "2012": 781,
-      "2013": 951,
-      "2014": 1172,
-      "2015": 1484,
-      "2016": 1848,
-      "2017": 2301,
-      "2018": 3009,
-      "2019": 4073,
-      "2020": 5412,
-      "2021": 6934,
-      "2022": 8565,
-      "2023": 10671,
-      "2024": 13696,
-      "2025": 16105
-    },
-    "paper_count_2025": 16105,
-    "median_fwci": 0.1748,
-    "growth_rate": 17.9273,
-    "citation_velocity": 2.1327,
-    "frontier_score": 1.1671,
-    "representative_papers": [
-      {
-        "id": "paper-401",
-        "title": "MIMIC-IV, a freely accessible electronic health record dataset",
-        "year": 2023,
-        "family": "Healthcare AI",
-        "topic": "Machine Learning in Healthcare",
-        "fwci": 440.1993,
-        "citation_count": 2671
-      },
-      {
-        "id": "paper-400",
-        "title": "Intelligent Clinical Documentation: Harnessing Generative AI for Patient-Centric Clinical Note Generation",
-        "year": 2024,
-        "family": "Healthcare AI",
-        "topic": "Machine Learning in Healthcare",
-        "fwci": 316.5895,
-        "citation_count": 1018
-      },
-      {
-        "id": "paper-402",
-        "title": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods",
-        "year": 2025,
-        "family": "Healthcare AI",
-        "topic": "Machine Learning in Healthcare",
-        "fwci": 588.0245,
-        "citation_count": 320
-      },
-      {
-        "id": "paper-406",
-        "title": "Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records",
-        "year": 2016,
-        "family": "Healthcare AI",
-        "topic": "Machine Learning in Healthcare",
-        "fwci": 222.6413,
-        "citation_count": 1726
-      },
-      {
-        "id": "paper-405",
-        "title": "Benchmark evaluation of DeepSeek large language models in clinical decision-making",
-        "year": 2025,
-        "family": "Healthcare AI",
-        "topic": "Machine Learning in Healthcare",
-        "fwci": 271.9613,
-        "citation_count": 148
+        "fwci": 169.0562,
+        "citation_count": 2849,
+        "country": "United States",
+        "venue": "Nature Medicine"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -2680,8 +2944,8 @@
   {
     "family": "Healthcare AI",
     "topic": "Psychiatry, Mental Health, Neuroscience",
-    "x": 279,
-    "y": 402,
+    "x": 349,
+    "y": 360,
     "cumulative_paper_count_by_year": {
       "2000": 55,
       "2001": 167,
@@ -2703,62 +2967,72 @@
       "2017": 2435,
       "2018": 2655,
       "2019": 2833,
-      "2020": 3022,
-      "2021": 3166,
-      "2022": 3348,
-      "2023": 3515,
-      "2024": 3757,
-      "2025": 3883
+      "2020": 3031,
+      "2021": 3183,
+      "2022": 3384,
+      "2023": 3575,
+      "2024": 3855,
+      "2025": 4702
     },
-    "paper_count_2025": 3883,
-    "growth_rate": 0.8599,
-    "citation_velocity": 0,
-    "frontier_score": 0.0258,
+    "paper_count_2025": 4702,
+    "median_fwci": 0.1628,
+    "growth_rate": 3.755,
+    "citation_velocity": 0.0964,
+    "frontier_score": 0.2263,
     "representative_papers": [
       {
-        "id": "paper-474",
+        "id": "paper-4313",
         "title": "Automated handwashing assistance for persons with dementia using video and a partially observable Markov decision process",
         "year": 2010,
         "family": "Healthcare AI",
         "topic": "Psychiatry, Mental Health, Neuroscience",
         "fwci": 30.2929,
-        "citation_count": 224
+        "citation_count": 224,
+        "country": "United Kingdom",
+        "venue": "Computer Vision and Image Understanding"
       },
       {
-        "id": "paper-479",
+        "id": "paper-4826",
         "title": "The Cognitive Animal. Empirical and Theoretical Perspectives on Animal Cognition",
         "year": 2003,
         "family": "Healthcare AI",
         "topic": "Psychiatry, Mental Health, Neuroscience",
         "fwci": 21.4725,
-        "citation_count": 176
+        "citation_count": 176,
+        "country": "United Kingdom",
+        "venue": "Ethology"
       },
       {
-        "id": "paper-476",
+        "id": "paper-5031",
         "title": "Dichte Beschreibungen und 3D-Nachbauten. Forschungspraktische Reflexionen zu literarischen und visuellen Methoden der Wohnraumforschung",
         "year": 2024,
         "family": "Healthcare AI",
         "topic": "Psychiatry, Mental Health, Neuroscience",
         "fwci": 24.0893,
-        "citation_count": 30
+        "citation_count": 30,
+        "venue": "transcript Verlag eBooks"
       },
       {
-        "id": "paper-477",
+        "id": "paper-5029",
+        "title": "Memory for Emotional Events",
+        "year": 2004,
+        "family": "Healthcare AI",
+        "topic": "Psychiatry, Mental Health, Neuroscience",
+        "fwci": 7.066,
+        "citation_count": 266,
+        "country": "United States",
+        "venue": "Oxford University Press eBooks"
+      },
+      {
+        "id": "paper-5417",
         "title": "Neuro-Symbolic AI: A Future of Tomorrow",
         "year": 2025,
         "family": "Healthcare AI",
         "topic": "Psychiatry, Mental Health, Neuroscience",
         "fwci": 18.5034,
-        "citation_count": 10
-      },
-      {
-        "id": "paper-481",
-        "title": "A New Model for Autonomous, Networked Control Systems",
-        "year": 2007,
-        "family": "Healthcare AI",
-        "topic": "Psychiatry, Mental Health, Neuroscience",
-        "fwci": 9.6593,
-        "citation_count": 59
+        "citation_count": 10,
+        "country": "India",
+        "venue": "ASEAN Journal on Science and Technology for Development"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -2789,63 +3063,71 @@
       "2017": 10937,
       "2018": 12988,
       "2019": 15401,
-      "2020": 18834,
-      "2021": 23541,
-      "2022": 29597,
-      "2023": 37421,
-      "2024": 45944,
-      "2025": 50979
+      "2020": 18853,
+      "2021": 23574,
+      "2022": 29688,
+      "2023": 37602,
+      "2024": 46265,
+      "2025": 56269
     },
-    "paper_count_2025": 50979,
-    "median_fwci": 0.4276,
-    "growth_rate": 37.3178,
-    "citation_velocity": 2.5581,
-    "frontier_score": 1.6247,
+    "paper_count_2025": 56269,
+    "median_fwci": 0.6623,
+    "growth_rate": 93.5217,
+    "citation_velocity": 0.4444,
+    "frontier_score": 1.2254,
     "representative_papers": [
       {
-        "id": "paper-473",
+        "id": "paper-74",
         "title": "Federated Machine Learning",
         "year": 2019,
         "family": "Responsible AI",
         "topic": "Privacy-Preserving Technologies in Data",
         "fwci": 336.517,
-        "citation_count": 5794
+        "citation_count": 5794,
+        "country": "HK",
+        "venue": "ACM Transactions on Intelligent Systems and Technology"
       },
       {
-        "id": "paper-470",
+        "id": "paper-95",
         "title": "Deep Learning with Differential Privacy",
         "year": 2016,
         "family": "Responsible AI",
         "topic": "Privacy-Preserving Technologies in Data",
         "fwci": 273.8841,
-        "citation_count": 5808
+        "citation_count": 5808,
+        "country": "United States"
       },
       {
-        "id": "paper-472",
+        "id": "paper-92",
         "title": "Federated Learning: Challenges, Methods, and Future Directions",
         "year": 2020,
         "family": "Responsible AI",
         "topic": "Privacy-Preserving Technologies in Data",
         "fwci": 283.7109,
-        "citation_count": 4566
+        "citation_count": 4566,
+        "country": "United States",
+        "venue": "IEEE Signal Processing Magazine"
       },
       {
-        "id": "paper-467",
+        "id": "paper-107",
         "title": "Advances and Open Problems in Federated Learning",
         "year": 2020,
         "family": "Responsible AI",
         "topic": "Privacy-Preserving Technologies in Data",
         "fwci": 244.8129,
-        "citation_count": 4637
+        "citation_count": 4637,
+        "country": "United States",
+        "venue": "Foundations and Trends® in Machine Learning"
       },
       {
-        "id": "paper-471",
-        "title": "Federated Learning in Mobile Edge Networks: A Comprehensive Survey",
-        "year": 2020,
+        "id": "paper-172",
+        "title": "Membership Inference Attacks Against Machine Learning Models",
+        "year": 2017,
         "family": "Responsible AI",
         "topic": "Privacy-Preserving Technologies in Data",
-        "fwci": 195.1703,
-        "citation_count": 2388
+        "fwci": 167.2024,
+        "citation_count": 4180,
+        "country": "United States"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -2876,63 +3158,72 @@
       "2017": 575,
       "2018": 981,
       "2019": 1770,
-      "2020": 3109,
-      "2021": 5056,
-      "2022": 7352,
-      "2023": 10501,
-      "2024": 13666,
-      "2025": 16005
+      "2020": 3126,
+      "2021": 5095,
+      "2022": 7441,
+      "2023": 10674,
+      "2024": 14029,
+      "2025": 20896
     },
-    "paper_count_2025": 16005,
-    "median_fwci": 0.2078,
-    "growth_rate": 60.5098,
-    "citation_velocity": 3.7423,
-    "frontier_score": 1.7999,
+    "paper_count_2025": 20896,
+    "median_fwci": 0.359,
+    "growth_rate": 281.2794,
+    "citation_velocity": 0.25,
+    "frontier_score": 1.0099,
     "representative_papers": [
       {
-        "id": "paper-279",
+        "id": "paper-6",
         "title": "On a Method to Measure Supervised Multiclass Model’s Interpretability: Application to Degradation Diagnosis (Short Paper)",
         "year": 2024,
         "family": "Responsible AI",
         "topic": "Explainable Artificial Intelligence (XAI)",
         "fwci": 1963.6117,
-        "citation_count": 13283
+        "citation_count": 13283,
+        "country": "France",
+        "venue": "Dagstuhl Research Online Publication Server"
       },
       {
-        "id": "paper-273",
+        "id": "paper-20",
         "title": "\"Why Should I Trust You?\"",
         "year": 2016,
         "family": "Responsible AI",
         "topic": "Explainable Artificial Intelligence (XAI)",
         "fwci": 726.2347,
-        "citation_count": 14994
+        "citation_count": 14994,
+        "country": "United States"
       },
       {
-        "id": "paper-272",
+        "id": "paper-38",
         "title": "From local explanations to global understanding with explainable AI for trees",
         "year": 2020,
         "family": "Responsible AI",
         "topic": "Explainable Artificial Intelligence (XAI)",
         "fwci": 443.9273,
-        "citation_count": 8655
+        "citation_count": 8655,
+        "country": "United States",
+        "venue": "Nature Machine Intelligence"
       },
       {
-        "id": "paper-278",
+        "id": "paper-44",
         "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
         "year": 2019,
         "family": "Responsible AI",
         "topic": "Explainable Artificial Intelligence (XAI)",
         "fwci": 385.1298,
-        "citation_count": 8768
+        "citation_count": 8768,
+        "country": "United States",
+        "venue": "Nature Machine Intelligence"
       },
       {
-        "id": "paper-274",
+        "id": "paper-48",
         "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
         "year": 2019,
         "family": "Responsible AI",
         "topic": "Explainable Artificial Intelligence (XAI)",
         "fwci": 341.5959,
-        "citation_count": 8836
+        "citation_count": 8836,
+        "country": "ES",
+        "venue": "Information Fusion"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -2963,57 +3254,62 @@
       "2017": 3399,
       "2018": 3910,
       "2019": 4631,
-      "2020": 5560,
-      "2021": 6577,
-      "2022": 7661,
-      "2023": 9074,
-      "2024": 11243,
-      "2025": 12855
+      "2020": 5577,
+      "2021": 6609,
+      "2022": 7710,
+      "2023": 9155,
+      "2024": 11422,
+      "2025": 14429
     },
-    "paper_count_2025": 12855,
-    "median_fwci": 0.4844,
-    "growth_rate": 4.0759,
-    "citation_velocity": 0.4864,
-    "frontier_score": 0.5103,
+    "paper_count_2025": 14429,
+    "median_fwci": 0.4988,
+    "growth_rate": 14.6472,
+    "citation_velocity": 0.4333,
+    "frontier_score": 0.8221,
     "representative_papers": [
       {
-        "id": "paper-347",
+        "id": "paper-592",
         "title": "Big Data�s Disparate Impact",
         "year": 2016,
         "family": "Responsible AI",
         "topic": "Law, AI, and Intellectual Property",
         "fwci": 168.2962,
-        "citation_count": 1055
+        "citation_count": 1055,
+        "venue": "California Law Review"
       },
       {
-        "id": "paper-351",
+        "id": "paper-1052",
         "title": "When LLMs meet cybersecurity: a systematic literature review",
         "year": 2025,
         "family": "Responsible AI",
         "topic": "Law, AI, and Intellectual Property",
         "fwci": 266.0184,
-        "citation_count": 146
+        "citation_count": 146,
+        "country": "China",
+        "venue": "Cybersecurity"
       },
       {
-        "id": "paper-350",
+        "id": "paper-1026",
         "title": "The Berne Convention for the Protection of Literary and Artistic Works",
         "year": 2025,
         "family": "Responsible AI",
         "topic": "Law, AI, and Intellectual Property",
         "fwci": 72.0499,
-        "citation_count": 552
+        "citation_count": 552,
+        "venue": "Edward Elgar Publishing eBooks"
       },
       {
-        "id": "paper-344",
+        "id": "paper-1791",
         "title": "Demystifying the Draft EU Artificial Intelligence Act — Analysing the good, the bad, and the unclear elements of the proposed approach",
         "year": 2021,
         "family": "Responsible AI",
         "topic": "Law, AI, and Intellectual Property",
         "fwci": 47.7221,
-        "citation_count": 620
+        "citation_count": 620,
+        "venue": "Computer Law Review International"
       },
       {
-        "id": "paper-346",
+        "id": "paper-2667",
         "title": "23 Artificial Intelligence Act",
         "year": 2024,
         "family": "Responsible AI",
@@ -3022,100 +3318,13 @@
         "citation_count": 138
       }
     ],
-    "quadrant": "High growth / Low velocity"
-  },
-  {
-    "family": "Reinforcement Learning & Agents",
-    "topic": "Reinforcement Learning in Robotics",
-    "x": 743,
-    "y": 506,
-    "cumulative_paper_count_by_year": {
-      "2000": 113,
-      "2001": 273,
-      "2002": 647,
-      "2003": 946,
-      "2004": 1243,
-      "2005": 1550,
-      "2006": 1930,
-      "2007": 2332,
-      "2008": 2767,
-      "2009": 3216,
-      "2010": 3668,
-      "2011": 4125,
-      "2012": 4712,
-      "2013": 5227,
-      "2014": 5703,
-      "2015": 6180,
-      "2016": 6858,
-      "2017": 7789,
-      "2018": 9233,
-      "2019": 11460,
-      "2020": 14016,
-      "2021": 17198,
-      "2022": 20233,
-      "2023": 23576,
-      "2024": 26481,
-      "2025": 27992
-    },
-    "paper_count_2025": 27992,
-    "median_fwci": 1.3766,
-    "growth_rate": 4.2337,
-    "citation_velocity": 1.9381,
-    "frontier_score": 1.3687,
-    "representative_papers": [
-      {
-        "id": "paper-505",
-        "title": "Reinforcement Learning: An Introduction",
-        "year": 2005,
-        "family": "Reinforcement Learning & Agents",
-        "topic": "Reinforcement Learning in Robotics",
-        "fwci": 1313.3656,
-        "citation_count": 25776
-      },
-      {
-        "id": "paper-502",
-        "title": "Diagnosing Non-Intermittent Anomalies in Reinforcement Learning Policy Executions (Short Paper)",
-        "year": 2017,
-        "family": "Reinforcement Learning & Agents",
-        "topic": "Reinforcement Learning in Robotics",
-        "fwci": 570.9452,
-        "citation_count": 11299
-      },
-      {
-        "id": "paper-500",
-        "title": "Deep Reinforcement Learning with Double Q-Learning",
-        "year": 2016,
-        "family": "Reinforcement Learning & Agents",
-        "topic": "Reinforcement Learning in Robotics",
-        "fwci": 287.3197,
-        "citation_count": 3520
-      },
-      {
-        "id": "paper-501",
-        "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-        "year": 2025,
-        "family": "Reinforcement Learning & Agents",
-        "topic": "Reinforcement Learning in Robotics",
-        "fwci": 924.3011,
-        "citation_count": 504
-      },
-      {
-        "id": "paper-499",
-        "title": "A survey on large language model based autonomous agents",
-        "year": 2024,
-        "family": "Reinforcement Learning & Agents",
-        "topic": "Reinforcement Learning in Robotics",
-        "fwci": 338.2431,
-        "citation_count": 1090
-      }
-    ],
     "quadrant": "High growth / High velocity"
   },
   {
     "family": "Reinforcement Learning & Agents",
     "topic": "Multi-Agent Systems and Negotiation",
-    "x": 829,
-    "y": 510,
+    "x": 743,
+    "y": 506,
     "cumulative_paper_count_by_year": {
       "2000": 539,
       "2001": 1226,
@@ -3137,63 +3346,73 @@
       "2017": 19375,
       "2018": 20176,
       "2019": 20868,
-      "2020": 21557,
-      "2021": 22215,
-      "2022": 22758,
-      "2023": 23417,
-      "2024": 24634,
-      "2025": 25470
+      "2020": 21559,
+      "2021": 22225,
+      "2022": 22793,
+      "2023": 23476,
+      "2024": 24727,
+      "2025": 26826
     },
-    "paper_count_2025": 25470,
-    "median_fwci": 0.4263,
-    "growth_rate": 0.3242,
-    "citation_velocity": 0.7559,
-    "frontier_score": 0.4332,
+    "paper_count_2025": 26826,
+    "median_fwci": 0.4362,
+    "growth_rate": 0.9955,
+    "citation_velocity": 0.1818,
+    "frontier_score": 0.3152,
     "representative_papers": [
       {
-        "id": "paper-431",
+        "id": "paper-100",
         "title": "The vision of autonomic computing",
         "year": 2003,
         "family": "Reinforcement Learning & Agents",
         "topic": "Multi-Agent Systems and Negotiation",
         "fwci": 344.8254,
-        "citation_count": 6415
+        "citation_count": 6415,
+        "country": "United States",
+        "venue": "Computer"
       },
       {
-        "id": "paper-429",
+        "id": "paper-555",
         "title": "The Gaia Methodology for Agent-Oriented Analysis and Design",
         "year": 2000,
         "family": "Reinforcement Learning & Agents",
         "topic": "Multi-Agent Systems and Negotiation",
         "fwci": 161.5428,
-        "citation_count": 1872
+        "citation_count": 1872,
+        "country": "United Kingdom",
+        "venue": "Autonomous Agents and Multi-Agent Systems"
       },
       {
-        "id": "paper-432",
+        "id": "paper-598",
         "title": "Tropos: An Agent-Oriented Software Development Methodology",
         "year": 2004,
         "family": "Reinforcement Learning & Agents",
         "topic": "Multi-Agent Systems and Negotiation",
         "fwci": 146.6032,
-        "citation_count": 1733
+        "citation_count": 1733,
+        "country": "Italy",
+        "venue": "Autonomous Agents and Multi-Agent Systems"
       },
       {
-        "id": "paper-427",
+        "id": "paper-726",
         "title": "On agent-based software engineering",
         "year": 2000,
         "family": "Reinforcement Learning & Agents",
         "topic": "Multi-Agent Systems and Negotiation",
         "fwci": 133.7905,
-        "citation_count": 1612
+        "citation_count": 1612,
+        "country": "United Kingdom",
+        "venue": "Artificial Intelligence"
       },
       {
-        "id": "paper-430",
-        "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
-        "year": 2025,
+        "id": "paper-870",
+        "title": "Developing multiagent systems",
+        "year": 2003,
         "family": "Reinforcement Learning & Agents",
         "topic": "Multi-Agent Systems and Negotiation",
-        "fwci": 210.9382,
-        "citation_count": 114
+        "fwci": 131.2077,
+        "citation_count": 1270,
+        "country": "Italy",
+        "venue": "ACM Transactions on Software Engineering and Methodology"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -3224,63 +3443,72 @@
       "2017": 50673,
       "2018": 53754,
       "2019": 56582,
-      "2020": 59213,
-      "2021": 61523,
-      "2022": 63761,
-      "2023": 66289,
-      "2024": 70585,
-      "2025": 73000
+      "2020": 59224,
+      "2021": 61546,
+      "2022": 63803,
+      "2023": 66362,
+      "2024": 70724,
+      "2025": 74773
     },
-    "paper_count_2025": 73000,
-    "median_fwci": 0.1751,
-    "growth_rate": 0.7862,
-    "citation_velocity": 0.7527,
-    "frontier_score": 0.3081,
+    "paper_count_2025": 74773,
+    "median_fwci": 0.2834,
+    "growth_rate": 1.8962,
+    "citation_velocity": 0.1364,
+    "frontier_score": 0.2469,
     "representative_papers": [
       {
-        "id": "paper-525",
+        "id": "paper-79",
         "title": "Linked Data - The Story So Far",
         "year": 2009,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Semantic Web and Ontologies",
         "fwci": 540.2597,
-        "citation_count": 4558
+        "citation_count": 4558,
+        "country": "Germany",
+        "venue": "International Journal on Semantic Web and Information Systems"
       },
       {
-        "id": "paper-524",
+        "id": "paper-121",
         "title": "DBpedia – A large-scale, multilingual knowledge base extracted from Wikipedia",
         "year": 2015,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Semantic Web and Ontologies",
         "fwci": 376.6974,
-        "citation_count": 3181
+        "citation_count": 3181,
+        "country": "Germany",
+        "venue": "Semantic Web"
       },
       {
-        "id": "paper-527",
+        "id": "paper-228",
         "title": "Pellet: A practical OWL-DL reasoner",
         "year": 2007,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Semantic Web and Ontologies",
         "fwci": 285.295,
-        "citation_count": 2605
+        "citation_count": 2605,
+        "country": "United States",
+        "venue": "Journal of Web Semantics"
       },
       {
-        "id": "paper-523",
+        "id": "paper-205",
         "title": "Causality: Models, Reasoning and Inference",
         "year": 2001,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Semantic Web and Ontologies",
         "fwci": 196.2182,
-        "citation_count": 4835
+        "citation_count": 4835,
+        "venue": "The Philosophical Review"
       },
       {
-        "id": "paper-522",
+        "id": "paper-467",
         "title": "The Semantic Web Revisited",
         "year": 2006,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Semantic Web and Ontologies",
         "fwci": 182.7145,
-        "citation_count": 1804
+        "citation_count": 1804,
+        "country": "United Kingdom",
+        "venue": "IEEE Intelligent Systems"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -3311,66 +3539,75 @@
       "2017": 26854,
       "2018": 28517,
       "2019": 29878,
-      "2020": 31217,
-      "2021": 32580,
-      "2022": 33652,
-      "2023": 34839,
-      "2024": 35878,
-      "2025": 36341
+      "2020": 31223,
+      "2021": 32593,
+      "2022": 33682,
+      "2023": 34883,
+      "2024": 35935,
+      "2025": 37523
     },
-    "paper_count_2025": 36341,
-    "median_fwci": 0.4314,
-    "growth_rate": 0.3168,
-    "citation_velocity": 0.8356,
-    "frontier_score": 0.4557,
+    "paper_count_2025": 37523,
+    "median_fwci": 0.4976,
+    "growth_rate": 0.8541,
+    "citation_velocity": 0.25,
+    "frontier_score": 0.3618,
     "representative_papers": [
       {
-        "id": "paper-368",
+        "id": "paper-126",
         "title": "Constructing Induction Rules for Deductive Synthesis Proofs",
         "year": 2006,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, programming, and type systems",
         "fwci": 539.2032,
-        "citation_count": 2817
+        "citation_count": 2817,
+        "country": "United Kingdom",
+        "venue": "Electronic Notes in Theoretical Computer Science"
       },
       {
-        "id": "paper-375",
+        "id": "paper-218",
         "title": "Z3: An Efficient SMT Solver",
         "year": 2008,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, programming, and type systems",
         "fwci": 120.5253,
-        "citation_count": 6277
+        "citation_count": 6277,
+        "country": "United States",
+        "venue": "Lecture notes in computer science"
       },
       {
-        "id": "paper-370",
+        "id": "paper-656",
         "title": "Separation logic: a logic for shared mutable data structures",
         "year": 2003,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, programming, and type systems",
         "fwci": 106.8474,
-        "citation_count": 2154
+        "citation_count": 2154,
+        "country": "United States"
       },
       {
-        "id": "paper-371",
+        "id": "paper-1377",
         "title": "Simplify: a theorem prover for program checking",
         "year": 2005,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, programming, and type systems",
         "fwci": 114.371,
-        "citation_count": 778
+        "citation_count": 778,
+        "country": "United States",
+        "venue": "Journal of the ACM"
       },
       {
-        "id": "paper-373",
+        "id": "paper-1643",
         "title": "An overview of JML tools and applications",
         "year": 2004,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, programming, and type systems",
         "fwci": 95.6606,
-        "citation_count": 713
+        "citation_count": 713,
+        "country": "France",
+        "venue": "International Journal on Software Tools for Technology Transfer"
       }
     ],
-    "quadrant": "Low growth / Low velocity"
+    "quadrant": "Low growth / High velocity"
   },
   {
     "family": "Knowledge, Logic & Reasoning",
@@ -3398,30 +3635,21 @@
       "2017": 20477,
       "2018": 21816,
       "2019": 23174,
-      "2020": 24422,
-      "2021": 25831,
-      "2022": 27094,
-      "2023": 28528,
-      "2024": 29724,
-      "2025": 30298
+      "2020": 24426,
+      "2021": 25838,
+      "2022": 27122,
+      "2023": 28587,
+      "2024": 29824,
+      "2025": 31597
     },
-    "paper_count_2025": 30298,
-    "median_fwci": 0.272,
-    "growth_rate": 0.5008,
-    "citation_velocity": 0.6729,
-    "frontier_score": 0.3328,
+    "paper_count_2025": 31597,
+    "median_fwci": 0.3386,
+    "growth_rate": 1.4484,
+    "citation_velocity": 0.1667,
+    "frontier_score": 0.2714,
     "representative_papers": [
       {
-        "id": "paper-363",
-        "title": "The DLV system for knowledge representation and reasoning",
-        "year": 2006,
-        "family": "Knowledge, Logic & Reasoning",
-        "topic": "Logic, Reasoning, and Knowledge",
-        "fwci": 127.6939,
-        "citation_count": 1169
-      },
-      {
-        "id": "paper-366",
+        "id": "paper-869",
         "title": "Semantical Considerations on Modal Logic",
         "year": 2012,
         "family": "Knowledge, Logic & Reasoning",
@@ -3430,31 +3658,47 @@
         "citation_count": 1601
       },
       {
-        "id": "paper-362",
+        "id": "paper-899",
+        "title": "The DLV system for knowledge representation and reasoning",
+        "year": 2006,
+        "family": "Knowledge, Logic & Reasoning",
+        "topic": "Logic, Reasoning, and Knowledge",
+        "fwci": 127.6939,
+        "citation_count": 1169,
+        "country": "Italy",
+        "venue": "ACM Transactions on Computational Logic"
+      },
+      {
+        "id": "paper-1551",
         "title": "Knowledge in action: logical foundations for specifying and implementing dynamical systems",
         "year": 2002,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, Reasoning, and Knowledge",
         "fwci": 69.8884,
-        "citation_count": 1114
+        "citation_count": 1114,
+        "venue": "Choice Reviews Online"
       },
       {
-        "id": "paper-365",
+        "id": "paper-1638",
         "title": "Answer set programming at a glance",
         "year": 2011,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, Reasoning, and Knowledge",
         "fwci": 62.4188,
-        "citation_count": 919
+        "citation_count": 919,
+        "country": "Germany",
+        "venue": "Communications of the ACM"
       },
       {
-        "id": "paper-361",
+        "id": "paper-1917",
         "title": "Defeasible logic programming: an argumentative approach",
         "year": 2004,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Logic, Reasoning, and Knowledge",
         "fwci": 62.4327,
-        "citation_count": 819
+        "citation_count": 819,
+        "country": "AR",
+        "venue": "Theory and Practice of Logic Programming"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -3485,65 +3729,74 @@
       "2017": 405,
       "2018": 449,
       "2019": 488,
-      "2020": 532,
-      "2021": 562,
-      "2022": 583,
-      "2023": 601,
-      "2024": 617,
-      "2025": 620
+      "2020": 535,
+      "2021": 567,
+      "2022": 589,
+      "2023": 609,
+      "2024": 625,
+      "2025": 647
     },
-    "paper_count_2025": 620,
-    "growth_rate": 1.7769,
-    "citation_velocity": 0,
-    "frontier_score": 0.0533,
+    "paper_count_2025": 647,
+    "median_fwci": 0.7936,
+    "growth_rate": 4.3243,
+    "citation_velocity": 0.1111,
+    "frontier_score": 0.594,
     "representative_papers": [
       {
-        "id": "paper-271",
+        "id": "paper-589",
         "title": "THE REFINEMENT TO THE 2006 IPCC GUIDELINES FOR NATIONAL GREENHOUSE GAS INVENTORIES",
         "year": 2019,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Experience-Based Knowledge Management",
         "fwci": 93.3089,
-        "citation_count": 1631
+        "citation_count": 1631,
+        "venue": "Fundamental and Applied Climatology"
       },
       {
-        "id": "paper-265",
+        "id": "paper-4868",
         "title": "Virtual Engineering Factory: Creating Experience Base for Industry 4.0",
         "year": 2016,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Experience-Based Knowledge Management",
         "fwci": 20.7663,
-        "citation_count": 113
+        "citation_count": 113,
+        "country": "AU",
+        "venue": "Cybernetics & Systems"
       },
       {
-        "id": "paper-266",
+        "id": "paper-4909",
         "title": "Virtual Engineering Object (VEO): Toward Experience-Based Design and Manufacturing for Industry 4.0",
         "year": 2015,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Experience-Based Knowledge Management",
         "fwci": 14.2344,
-        "citation_count": 159
+        "citation_count": 159,
+        "country": "AU",
+        "venue": "Cybernetics & Systems"
       },
       {
-        "id": "paper-267",
+        "id": "paper-5168",
         "title": "Standardized methods for the regulation of cigarette-smoke constituents",
         "year": 2015,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Experience-Based Knowledge Management",
         "fwci": 11.5738,
-        "citation_count": 76
+        "citation_count": 76,
+        "country": "United Kingdom",
+        "venue": "TrAC Trends in Analytical Chemistry"
       },
       {
-        "id": "paper-269",
+        "id": "paper-5258",
         "title": "Product Lifecycle Management (PLM)",
         "year": 2022,
         "family": "Knowledge, Logic & Reasoning",
         "topic": "Experience-Based Knowledge Management",
         "fwci": 11.5992,
-        "citation_count": 39
+        "citation_count": 39,
+        "venue": "Decision engineering"
       }
     ],
-    "quadrant": "High growth / Low velocity"
+    "quadrant": "Low growth / Low velocity"
   },
   {
     "family": "Applied / Interdisciplinary AI",
@@ -3571,63 +3824,70 @@
       "2017": 27054,
       "2018": 30049,
       "2019": 33622,
-      "2020": 37240,
-      "2021": 40985,
-      "2022": 44766,
-      "2023": 48948,
-      "2024": 53391,
-      "2025": 56567
+      "2020": 37251,
+      "2021": 41004,
+      "2022": 44803,
+      "2023": 49009,
+      "2024": 53476,
+      "2025": 58254
     },
-    "paper_count_2025": 56567,
-    "median_fwci": 0.9978,
-    "growth_rate": 1.3724,
-    "citation_velocity": 1.0206,
-    "frontier_score": 0.8451,
+    "paper_count_2025": 58254,
+    "median_fwci": 1.0241,
+    "growth_rate": 3.9256,
+    "citation_velocity": 0.1111,
+    "frontier_score": 0.7088,
     "representative_papers": [
       {
-        "id": "paper-296",
-        "title": "Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study",
-        "year": 2024,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Geochemistry and Geologic Mapping",
-        "fwci": 301.1566,
-        "citation_count": 958
-      },
-      {
-        "id": "paper-298",
+        "id": "paper-272",
         "title": "IsoplotR: A free and open toolbox for geochronology",
         "year": 2018,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Geochemistry and Geologic Mapping",
         "fwci": 119.3039,
-        "citation_count": 3304
+        "citation_count": 3304,
+        "country": "United Kingdom",
+        "venue": "Geoscience Frontiers"
       },
       {
-        "id": "paper-301",
+        "id": "paper-227",
+        "title": "Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study",
+        "year": 2024,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Geochemistry and Geologic Mapping",
+        "fwci": 301.1566,
+        "citation_count": 958,
+        "venue": "International Journal of Innovative Science and Research Technology (IJISRT)"
+      },
+      {
+        "id": "paper-477",
         "title": "Statistics for Spatio‐Temporal Data",
         "year": 2012,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Geochemistry and Geologic Mapping",
         "fwci": 171.1027,
-        "citation_count": 1597
+        "citation_count": 1597,
+        "venue": "Journal of Time Series Analysis"
       },
       {
-        "id": "paper-302",
+        "id": "paper-334",
         "title": "Treatise on geochemistry",
         "year": 2004,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Geochemistry and Geologic Mapping",
         "fwci": 111.373,
-        "citation_count": 4576
+        "citation_count": 4576,
+        "venue": "Choice Reviews Online"
       },
       {
-        "id": "paper-300",
+        "id": "paper-620",
         "title": "Death to Kappa: birth of quantity disagreement and allocation disagreement for accuracy assessment",
         "year": 2011,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Geochemistry and Geologic Mapping",
         "fwci": 101.555,
-        "citation_count": 1975
+        "citation_count": 1975,
+        "country": "United States",
+        "venue": "International Journal of Remote Sensing"
       }
     ],
     "quadrant": "Low growth / Low velocity"
@@ -3658,63 +3918,73 @@
       "2017": 10295,
       "2018": 12456,
       "2019": 15187,
-      "2020": 18574,
-      "2021": 22902,
-      "2022": 27843,
-      "2023": 33947,
-      "2024": 43008,
-      "2025": 48658
+      "2020": 18589,
+      "2021": 22919,
+      "2022": 27887,
+      "2023": 34018,
+      "2024": 43148,
+      "2025": 52425
     },
-    "paper_count_2025": 48658,
-    "median_fwci": 0.3388,
-    "growth_rate": 15.6138,
-    "citation_velocity": 1.977,
-    "frontier_score": 1.149,
+    "paper_count_2025": 52425,
+    "median_fwci": 0.4228,
+    "growth_rate": 41.4227,
+    "citation_velocity": 0.3333,
+    "frontier_score": 1.0659,
     "representative_papers": [
       {
-        "id": "paper-98",
+        "id": "paper-152",
         "title": "A survey of deep neural network architectures and their applications",
         "year": 2016,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Anomaly Detection Techniques and Applications",
         "fwci": 280.5103,
-        "citation_count": 3245
+        "citation_count": 3245,
+        "country": "United Kingdom",
+        "venue": "Neurocomputing"
       },
       {
-        "id": "paper-101",
+        "id": "paper-169",
         "title": "Deep Learning for Anomaly Detection",
         "year": 2021,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Anomaly Detection Techniques and Applications",
         "fwci": 230.719,
-        "citation_count": 2430
+        "citation_count": 2430,
+        "country": "AU",
+        "venue": "ACM Computing Surveys"
       },
       {
-        "id": "paper-99",
+        "id": "paper-248",
         "title": "Deep learning and its applications to machine health monitoring",
         "year": 2018,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Anomaly Detection Techniques and Applications",
         "fwci": 169.7589,
-        "citation_count": 2605
+        "citation_count": 2605,
+        "country": "China",
+        "venue": "Mechanical Systems and Signal Processing"
       },
       {
-        "id": "paper-100",
+        "id": "paper-281",
         "title": "Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery",
         "year": 2017,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Anomaly Detection Techniques and Applications",
         "fwci": 171.0426,
-        "citation_count": 2372
+        "citation_count": 2372,
+        "country": "AT",
+        "venue": "Lecture notes in computer science"
       },
       {
-        "id": "paper-104",
-        "title": "Understanding of Machine Learning with Deep Learning: Architectures, Workflow, Applications and Future Directions",
-        "year": 2023,
+        "id": "paper-397",
+        "title": "A survey on deep learning and its applications",
+        "year": 2021,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Anomaly Detection Techniques and Applications",
-        "fwci": 156.3325,
-        "citation_count": 950
+        "fwci": 143.4462,
+        "citation_count": 1505,
+        "country": "China",
+        "venue": "Computer Science Review"
       }
     ],
     "quadrant": "High growth / High velocity"
@@ -3745,246 +4015,80 @@
       "2017": 5983,
       "2018": 8686,
       "2019": 12186,
-      "2020": 16375,
-      "2021": 21203,
-      "2022": 26359,
-      "2023": 32521,
-      "2024": 37846,
-      "2025": 40312
+      "2020": 16381,
+      "2021": 21248,
+      "2022": 26443,
+      "2023": 32744,
+      "2024": 38362,
+      "2025": 43050
     },
-    "paper_count_2025": 40312,
-    "median_fwci": 0.2717,
-    "growth_rate": 129.5434,
-    "citation_velocity": 0.3739,
-    "frontier_score": 0.9929,
+    "paper_count_2025": 43050,
+    "median_fwci": 0.2552,
+    "growth_rate": 339.1758,
+    "citation_velocity": 0.3502,
+    "frontier_score": 0.9779,
     "representative_papers": [
       {
-        "id": "paper-242",
+        "id": "paper-197",
         "title": "ANALISIS DATA KUALITATIF",
         "year": 2019,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Edcuational Technology Systems",
         "fwci": 187.3336,
-        "citation_count": 2913
+        "citation_count": 2913,
+        "country": "Indonesia",
+        "venue": "ALHADHARAH JURNAL ILMU DAKWAH"
       },
       {
-        "id": "paper-241",
+        "id": "paper-1603",
         "title": "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches, 5th Edition",
         "year": 2022,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Edcuational Technology Systems",
         "fwci": 58.4064,
-        "citation_count": 573
+        "citation_count": 573,
+        "country": "United States",
+        "venue": "Journal of Electronic Resources in Medical Libraries"
       },
       {
-        "id": "paper-237",
+        "id": "paper-1348",
         "title": "Dasar Metodologi Penelitian",
         "year": 2017,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Edcuational Technology Systems",
         "fwci": 29.1384,
-        "citation_count": 2087
+        "citation_count": 2087,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)"
       },
       {
-        "id": "paper-236",
+        "id": "paper-2645",
         "title": "What are Different Research Approaches? Comprehensive Review of Qualitative, Quantitative, and Mixed Method Research, Their Applications, Types, and Limitations",
         "year": 2022,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Edcuational Technology Systems",
         "fwci": 39.1329,
-        "citation_count": 331
+        "citation_count": 331,
+        "country": "Canada",
+        "venue": "Journal of Management Science & Engineering research"
       },
       {
-        "id": "paper-238",
+        "id": "paper-3413",
         "title": "Konsep Uji Validitas Dan Reliabilitas Dengan Menggunakan SPSS",
         "year": 2021,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Edcuational Technology Systems",
         "fwci": 31.7605,
-        "citation_count": 252
+        "citation_count": 252,
+        "country": "Indonesia"
       }
     ],
-    "quadrant": "High growth / Low velocity"
-  },
-  {
-    "family": "Applied / Interdisciplinary AI",
-    "topic": "Advanced Computational Techniques and Applications",
-    "x": 613,
-    "y": 354,
-    "cumulative_paper_count_by_year": {
-      "2000": 324,
-      "2001": 588,
-      "2002": 1318,
-      "2003": 1915,
-      "2004": 2479,
-      "2005": 3231,
-      "2006": 4136,
-      "2007": 5033,
-      "2008": 6187,
-      "2009": 7918,
-      "2010": 10054,
-      "2011": 12153,
-      "2012": 14171,
-      "2013": 16072,
-      "2014": 17705,
-      "2015": 18928,
-      "2016": 20024,
-      "2017": 21100,
-      "2018": 22228,
-      "2019": 23265,
-      "2020": 24251,
-      "2021": 25127,
-      "2022": 25998,
-      "2023": 26967,
-      "2024": 29085,
-      "2025": 30196
-    },
-    "paper_count_2025": 30196,
-    "median_fwci": 0.2953,
-    "growth_rate": 0.923,
-    "citation_velocity": 0.1867,
-    "frontier_score": 0.2368,
-    "representative_papers": [
-      {
-        "id": "paper-48",
-        "title": "World Ocean Database",
-        "year": 2009,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Computational Techniques and Applications",
-        "fwci": 85.1179,
-        "citation_count": 459
-      },
-      {
-        "id": "paper-45",
-        "title": "Climate Change and Management",
-        "year": 2014,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Computational Techniques and Applications",
-        "fwci": 30.4488,
-        "citation_count": 419
-      },
-      {
-        "id": "paper-43",
-        "title": "Survey of spectral clustering based on graph theory",
-        "year": 2024,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Computational Techniques and Applications",
-        "fwci": 43.484,
-        "citation_count": 140
-      },
-      {
-        "id": "paper-47",
-        "title": "CropScape: A Web service based application for exploring and disseminating US conterminous geospatial cropland data products for decision support",
-        "year": 2012,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Computational Techniques and Applications",
-        "fwci": 29.1828,
-        "citation_count": 387
-      },
-      {
-        "id": "paper-44",
-        "title": "FTA-Net: Frequency-Temporal-Aware Network for Remote Sensing Change Detection",
-        "year": 2025,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Computational Techniques and Applications",
-        "fwci": 73.0399,
-        "citation_count": 39
-      }
-    ],
-    "quadrant": "Low growth / Low velocity"
-  },
-  {
-    "family": "Applied / Interdisciplinary AI",
-    "topic": "Advanced Software Engineering Methodologies",
-    "x": 575,
-    "y": 320,
-    "cumulative_paper_count_by_year": {
-      "2000": 457,
-      "2001": 902,
-      "2002": 2699,
-      "2003": 3882,
-      "2004": 5243,
-      "2005": 6801,
-      "2006": 8470,
-      "2007": 10036,
-      "2008": 11656,
-      "2009": 13205,
-      "2010": 14811,
-      "2011": 16428,
-      "2012": 18072,
-      "2013": 19494,
-      "2014": 20900,
-      "2015": 22204,
-      "2016": 23438,
-      "2017": 24471,
-      "2018": 25511,
-      "2019": 26362,
-      "2020": 27101,
-      "2021": 27761,
-      "2022": 28398,
-      "2023": 28902,
-      "2024": 29373,
-      "2025": 29603
-    },
-    "paper_count_2025": 29603,
-    "median_fwci": 0.6623,
-    "growth_rate": 0.2568,
-    "citation_velocity": 0.8875,
-    "frontier_score": 0.5938,
-    "representative_papers": [
-      {
-        "id": "paper-63",
-        "title": "On Non-Functional Requirements in Software Engineering",
-        "year": 2009,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Software Engineering Methodologies",
-        "fwci": 165.6379,
-        "citation_count": 2254
-      },
-      {
-        "id": "paper-60",
-        "title": "An Overview of AspectJ",
-        "year": 2001,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Software Engineering Methodologies",
-        "fwci": 128.8879,
-        "citation_count": 2769
-      },
-      {
-        "id": "paper-59",
-        "title": "A classification and comparison framework for software architecture description languages",
-        "year": 2000,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Software Engineering Methodologies",
-        "fwci": 125.3515,
-        "citation_count": 1981
-      },
-      {
-        "id": "paper-64",
-        "title": "Self-adaptive software",
-        "year": 2009,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Software Engineering Methodologies",
-        "fwci": 121.3382,
-        "citation_count": 1242
-      },
-      {
-        "id": "paper-61",
-        "title": "Documenting software architectures: views and beyond",
-        "year": 2003,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Advanced Software Engineering Methodologies",
-        "fwci": 107.569,
-        "citation_count": 1439
-      }
-    ],
-    "quadrant": "Low growth / Low velocity"
+    "quadrant": "High growth / High velocity"
   },
   {
     "family": "Applied / Interdisciplinary AI",
     "topic": "Domain Adaptation and Few-Shot Learning",
-    "x": 517,
-    "y": 358,
+    "x": 613,
+    "y": 354,
     "cumulative_paper_count_by_year": {
       "2000": 8,
       "2001": 18,
@@ -4006,66 +4110,267 @@
       "2017": 2583,
       "2018": 3728,
       "2019": 5646,
-      "2020": 8540,
-      "2021": 12795,
-      "2022": 17690,
-      "2023": 23543,
-      "2024": 27047,
-      "2025": 28704
+      "2020": 8541,
+      "2021": 12797,
+      "2022": 17760,
+      "2023": 23695,
+      "2024": 27295,
+      "2025": 31658
     },
-    "paper_count_2025": 28704,
-    "median_fwci": 0.14,
-    "growth_rate": 116.6116,
-    "citation_velocity": 4.2163,
-    "frontier_score": 1.8811,
+    "paper_count_2025": 31658,
+    "median_fwci": 0.8832,
+    "growth_rate": 394.1364,
+    "citation_velocity": 0.5,
+    "frontier_score": 1.3608,
     "representative_papers": [
       {
-        "id": "paper-232",
+        "id": "paper-16",
         "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
         "year": 2017,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Domain Adaptation and Few-Shot Learning",
         "fwci": 744.1861,
-        "citation_count": 18824
+        "citation_count": 18824,
+        "country": "United States"
       },
       {
-        "id": "paper-231",
-        "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
-        "year": 2020,
-        "family": "Applied / Interdisciplinary AI",
-        "topic": "Domain Adaptation and Few-Shot Learning",
-        "fwci": 907.5757,
-        "citation_count": 11969
-      },
-      {
-        "id": "paper-233",
+        "id": "paper-22",
         "title": "Aggregated Residual Transformations for Deep Neural Networks",
         "year": 2017,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Domain Adaptation and Few-Shot Learning",
         "fwci": 631.7461,
-        "citation_count": 11821
+        "citation_count": 11821,
+        "country": "United States"
       },
       {
-        "id": "paper-228",
+        "id": "paper-30",
         "title": "Domain-Adversarial Training of Neural Networks",
         "year": 2017,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Domain Adaptation and Few-Shot Learning",
         "fwci": 798.4385,
-        "citation_count": 7586
+        "citation_count": 7586,
+        "country": "RU",
+        "venue": "Advances in computer vision and pattern recognition"
       },
       {
-        "id": "paper-234",
+        "id": "paper-54",
         "title": "A Comprehensive Survey on Transfer Learning",
         "year": 2020,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Domain Adaptation and Few-Shot Learning",
         "fwci": 391.4286,
-        "citation_count": 6101
+        "citation_count": 6101,
+        "country": "China",
+        "venue": "Proceedings of the IEEE"
+      },
+      {
+        "id": "paper-66",
+        "title": "Emerging Properties in Self-Supervised Vision Transformers",
+        "year": 2021,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Domain Adaptation and Few-Shot Learning",
+        "fwci": 378.8473,
+        "citation_count": 4948,
+        "country": "IL",
+        "venue": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
       }
     ],
     "quadrant": "High growth / High velocity"
+  },
+  {
+    "family": "Applied / Interdisciplinary AI",
+    "topic": "Advanced Computational Techniques and Applications",
+    "x": 575,
+    "y": 320,
+    "cumulative_paper_count_by_year": {
+      "2000": 324,
+      "2001": 588,
+      "2002": 1318,
+      "2003": 1915,
+      "2004": 2479,
+      "2005": 3231,
+      "2006": 4136,
+      "2007": 5033,
+      "2008": 6187,
+      "2009": 7918,
+      "2010": 10054,
+      "2011": 12153,
+      "2012": 14171,
+      "2013": 16072,
+      "2014": 17705,
+      "2015": 18928,
+      "2016": 20024,
+      "2017": 21100,
+      "2018": 22228,
+      "2019": 23265,
+      "2020": 24253,
+      "2021": 25132,
+      "2022": 26004,
+      "2023": 26976,
+      "2024": 29112,
+      "2025": 30755
+    },
+    "paper_count_2025": 30755,
+    "median_fwci": 0.2983,
+    "growth_rate": 2.3178,
+    "citation_velocity": 0.1833,
+    "frontier_score": 0.2794,
+    "representative_papers": [
+      {
+        "id": "paper-2086",
+        "title": "World Ocean Database",
+        "year": 2009,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Computational Techniques and Applications",
+        "fwci": 85.1179,
+        "citation_count": 459,
+        "venue": "Eos"
+      },
+      {
+        "id": "paper-3290",
+        "title": "Climate Change and Management",
+        "year": 2014,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Computational Techniques and Applications",
+        "fwci": 30.4488,
+        "citation_count": 419,
+        "country": "United States",
+        "venue": "Academy of Management Journal"
+      },
+      {
+        "id": "paper-3317",
+        "title": "Survey of spectral clustering based on graph theory",
+        "year": 2024,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Computational Techniques and Applications",
+        "fwci": 43.484,
+        "citation_count": 140,
+        "country": "China",
+        "venue": "Pattern Recognition"
+      },
+      {
+        "id": "paper-3587",
+        "title": "CropScape: A Web service based application for exploring and disseminating US conterminous geospatial cropland data products for decision support",
+        "year": 2012,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Computational Techniques and Applications",
+        "fwci": 29.1828,
+        "citation_count": 387,
+        "country": "United States",
+        "venue": "Computers and Electronics in Agriculture"
+      },
+      {
+        "id": "paper-4110",
+        "title": "FTA-Net: Frequency-Temporal-Aware Network for Remote Sensing Change Detection",
+        "year": 2025,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Computational Techniques and Applications",
+        "fwci": 73.0399,
+        "citation_count": 39,
+        "country": "China",
+        "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+      }
+    ],
+    "quadrant": "Low growth / Low velocity"
+  },
+  {
+    "family": "Applied / Interdisciplinary AI",
+    "topic": "Advanced Software Engineering Methodologies",
+    "x": 517,
+    "y": 358,
+    "cumulative_paper_count_by_year": {
+      "2000": 457,
+      "2001": 902,
+      "2002": 2699,
+      "2003": 3882,
+      "2004": 5243,
+      "2005": 6801,
+      "2006": 8470,
+      "2007": 10036,
+      "2008": 11656,
+      "2009": 13205,
+      "2010": 14811,
+      "2011": 16428,
+      "2012": 18072,
+      "2013": 19494,
+      "2014": 20900,
+      "2015": 22204,
+      "2016": 23438,
+      "2017": 24471,
+      "2018": 25511,
+      "2019": 26362,
+      "2020": 27102,
+      "2021": 27770,
+      "2022": 28415,
+      "2023": 28924,
+      "2024": 29421,
+      "2025": 30073
+    },
+    "paper_count_2025": 30073,
+    "median_fwci": 0.6828,
+    "growth_rate": 0.5457,
+    "citation_velocity": 0.2857,
+    "frontier_score": 0.4633,
+    "representative_papers": [
+      {
+        "id": "paper-398",
+        "title": "On Non-Functional Requirements in Software Engineering",
+        "year": 2009,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Software Engineering Methodologies",
+        "fwci": 165.6379,
+        "citation_count": 2254,
+        "country": "United States",
+        "venue": "Lecture notes in computer science"
+      },
+      {
+        "id": "paper-480",
+        "title": "An Overview of AspectJ",
+        "year": 2001,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Software Engineering Methodologies",
+        "fwci": 128.8879,
+        "citation_count": 2769,
+        "country": "Canada",
+        "venue": "Lecture notes in computer science"
+      },
+      {
+        "id": "paper-647",
+        "title": "A classification and comparison framework for software architecture description languages",
+        "year": 2000,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Software Engineering Methodologies",
+        "fwci": 125.3515,
+        "citation_count": 1981,
+        "country": "United States",
+        "venue": "IEEE Transactions on Software Engineering"
+      },
+      {
+        "id": "paper-840",
+        "title": "Self-adaptive software",
+        "year": 2009,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Software Engineering Methodologies",
+        "fwci": 121.3382,
+        "citation_count": 1242,
+        "country": "Canada",
+        "venue": "ACM Transactions on Autonomous and Adaptive Systems"
+      },
+      {
+        "id": "paper-923",
+        "title": "Documenting software architectures: views and beyond",
+        "year": 2003,
+        "family": "Applied / Interdisciplinary AI",
+        "topic": "Advanced Software Engineering Methodologies",
+        "fwci": 107.569,
+        "citation_count": 1439,
+        "country": "United States",
+        "venue": "25th International Conference on Software Engineering, 2003. Proceedings."
+      }
+    ],
+    "quadrant": "Low growth / High velocity"
   },
   {
     "family": "Applied / Interdisciplinary AI",
@@ -4093,150 +4398,168 @@
       "2017": 8711,
       "2018": 10165,
       "2019": 11753,
-      "2020": 13531,
-      "2021": 15543,
-      "2022": 17738,
-      "2023": 20232,
-      "2024": 22992,
-      "2025": 24887
+      "2020": 13533,
+      "2021": 15554,
+      "2022": 17754,
+      "2023": 20262,
+      "2024": 23056,
+      "2025": 26529
     },
-    "paper_count_2025": 24887,
-    "median_fwci": 0.4982,
-    "growth_rate": 4.3707,
-    "citation_velocity": 2.1892,
-    "frontier_score": 0.9524,
+    "paper_count_2025": 26529,
+    "median_fwci": 0.4659,
+    "growth_rate": 13.4581,
+    "citation_velocity": 0.5,
+    "frontier_score": 0.785,
     "representative_papers": [
       {
-        "id": "paper-543",
+        "id": "paper-629",
         "title": "Review of photovoltaic power forecasting",
         "year": 2016,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Solar Radiation and Photovoltaics",
         "fwci": 132.5317,
-        "citation_count": 1237
+        "citation_count": 1237,
+        "country": "ES",
+        "venue": "Solar Energy"
       },
       {
-        "id": "paper-542",
+        "id": "paper-685",
         "title": "Long-term patterns of European PV output using 30 years of validated hourly reanalysis and satellite data",
         "year": 2016,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Solar Radiation and Photovoltaics",
         "fwci": 91.9035,
-        "citation_count": 1627
+        "citation_count": 1627,
+        "country": "CH",
+        "venue": "Energy"
       },
       {
-        "id": "paper-544",
-        "title": "Photovoltaic power forecasting based on VMD-SSA-Transformer: Multidimensional analysis of dataset length, weather mutation and forecast accuracy",
-        "year": 2025,
+        "id": "paper-1244",
+        "title": "Solar forecasting methods for renewable energy integration",
+        "year": 2013,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Solar Radiation and Photovoltaics",
-        "fwci": 138.7334,
-        "citation_count": 72
+        "fwci": 81.0574,
+        "citation_count": 1001,
+        "venue": "Progress in Energy and Combustion Science"
       },
       {
-        "id": "paper-539",
-        "title": "Parallel TimesNet-BiLSTM model for ultra-short-term photovoltaic power forecasting using STL decomposition and auto-tuning",
-        "year": 2025,
+        "id": "paper-996",
+        "title": "The National Solar Radiation Data Base (NSRDB)",
+        "year": 2018,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Solar Radiation and Photovoltaics",
-        "fwci": 97.6611,
-        "citation_count": 53
+        "fwci": 64.3057,
+        "citation_count": 1354,
+        "country": "United States",
+        "venue": "Renewable and Sustainable Energy Reviews"
       },
       {
-        "id": "paper-545",
-        "title": "Ultra-short-term prediction of photovoltaic cluster power based on spatiotemporal convergence effect and spatiotemporal dynamic graph attention network",
-        "year": 2025,
+        "id": "paper-1410",
+        "title": "Hourly day-ahead solar irradiance prediction using weather forecasts by LSTM",
+        "year": 2018,
         "family": "Applied / Interdisciplinary AI",
         "topic": "Solar Radiation and Photovoltaics",
-        "fwci": 98.0458,
-        "citation_count": 44
+        "fwci": 58.1977,
+        "citation_count": 929,
+        "country": "China",
+        "venue": "Energy"
       }
     ],
     "quadrant": "High growth / High velocity"
   },
   {
     "family": "Applied / Interdisciplinary AI",
-    "topic": "Computational Physics and Python Applications",
+    "topic": "AI in Service Interactions",
     "x": 587,
     "y": 374,
     "cumulative_paper_count_by_year": {
-      "2000": 283,
-      "2001": 602,
-      "2002": 969,
-      "2003": 1290,
-      "2004": 1693,
-      "2005": 2024,
-      "2006": 2439,
-      "2007": 2875,
-      "2008": 3291,
-      "2009": 3810,
-      "2010": 4315,
-      "2011": 4861,
-      "2012": 5448,
-      "2013": 5991,
-      "2014": 6720,
-      "2015": 7468,
-      "2016": 8327,
-      "2017": 9285,
-      "2018": 10327,
-      "2019": 11526,
-      "2020": 12837,
-      "2021": 14267,
-      "2022": 15830,
-      "2023": 17608,
-      "2024": 20073,
-      "2025": 21401
+      "2000": 34,
+      "2001": 63,
+      "2002": 95,
+      "2003": 138,
+      "2004": 184,
+      "2005": 212,
+      "2006": 249,
+      "2007": 295,
+      "2008": 343,
+      "2009": 401,
+      "2010": 477,
+      "2011": 545,
+      "2012": 618,
+      "2013": 710,
+      "2014": 814,
+      "2015": 885,
+      "2016": 1033,
+      "2017": 1264,
+      "2018": 1781,
+      "2019": 2545,
+      "2020": 3701,
+      "2021": 5172,
+      "2022": 7186,
+      "2023": 10064,
+      "2024": 15332,
+      "2025": 25315
     },
-    "paper_count_2025": 21401,
-    "median_fwci": 0.7945,
-    "growth_rate": 1.7659,
-    "citation_velocity": 1.3771,
-    "frontier_score": 0.8342,
+    "paper_count_2025": 25315,
+    "median_fwci": 0.2826,
+    "growth_rate": 106.9061,
+    "citation_velocity": 0.25,
+    "frontier_score": 0.9679,
     "representative_papers": [
       {
-        "id": "paper-171",
-        "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
-        "year": 2020,
+        "id": "paper-110",
+        "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+        "year": 2025,
         "family": "Applied / Interdisciplinary AI",
-        "topic": "Computational Physics and Python Applications",
-        "fwci": 2432.7598,
-        "citation_count": 37330
+        "topic": "AI in Service Interactions",
+        "fwci": 1025.3678,
+        "citation_count": 558,
+        "country": "CH",
+        "venue": "Societies"
       },
       {
-        "id": "paper-170",
-        "title": "Array programming with NumPy",
-        "year": 2020,
+        "id": "paper-305",
+        "title": "Artificial Intelligence in Service",
+        "year": 2018,
         "family": "Applied / Interdisciplinary AI",
-        "topic": "Computational Physics and Python Applications",
-        "fwci": 1265.2745,
-        "citation_count": 21839
+        "topic": "AI in Service Interactions",
+        "fwci": 108.1351,
+        "citation_count": 3219,
+        "country": "TW",
+        "venue": "Journal of Service Research"
       },
       {
-        "id": "paper-174",
-        "title": "REVIEW OF PARTICLE PHYSICS Particle Data Group",
-        "year": 2014,
+        "id": "paper-402",
+        "title": "ChatGPT for Language Teaching and Learning",
+        "year": 2023,
         "family": "Applied / Interdisciplinary AI",
-        "topic": "Computational Physics and Python Applications",
-        "fwci": 1218.2139,
-        "citation_count": 3678
+        "topic": "AI in Service Interactions",
+        "fwci": 169.3327,
+        "citation_count": 1029,
+        "country": "HK",
+        "venue": "RELC Journal"
       },
       {
-        "id": "paper-173",
-        "title": "MadGraph 5: going beyond",
-        "year": 2011,
+        "id": "paper-561",
+        "title": "AI revolutionizing industries worldwide: A comprehensive overview of its diverse applications",
+        "year": 2024,
         "family": "Applied / Interdisciplinary AI",
-        "topic": "Computational Physics and Python Applications",
-        "fwci": 424.6844,
-        "citation_count": 2523
+        "topic": "AI in Service Interactions",
+        "fwci": 176.4207,
+        "citation_count": 568,
+        "venue": "Hybrid Advances"
       },
       {
-        "id": "paper-176",
-        "title": "corner.py: Scatterplot matrices in Python",
-        "year": 2016,
+        "id": "paper-559",
+        "title": "Revolutionizing education with AI: Exploring the transformative potential of ChatGPT",
+        "year": 2023,
         "family": "Applied / Interdisciplinary AI",
-        "topic": "Computational Physics and Python Applications",
-        "fwci": 170.9658,
-        "citation_count": 2176
+        "topic": "AI in Service Interactions",
+        "fwci": 138.2126,
+        "citation_count": 840,
+        "country": "TR",
+        "venue": "Contemporary Educational Technology"
       }
     ],
     "quadrant": "High growth / High velocity"

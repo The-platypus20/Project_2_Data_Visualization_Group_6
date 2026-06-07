@@ -30,36 +30,97 @@ from typing import Any, Iterable
 
 import pandas as pd
 
+SCHOOL_EXCLUDE_KEYWORDS = [
+    "high school",
+    "senior high school",
+    "secondary school",
+    "middle school",
+    "primary school",
+    "elementary school",
+    "public school",
+    "public schools",
+]
 
 UNIVERSITY_KEYWORDS = [
-    "university", "université", "universidad", "universita", "universität",
-    "college", "school of", "institute of technology", "polytechnic",
-    "academy", "faculty of", "department of", "higher education",
+    "universiti",
+    "university",
+    "université",
+    "universidad",
+    "universita",
+    "università",
+    "universität",
+    "univ.",
+    "college",
+    "school of",
+    "business school",
+    "graduate school",
+    "institute of technology",
+    "technical university",
+    "state university",
+    "normal university",
+    "medical university",
+    "polytechnic",
+    "école polytechnique",
+    "faculty of",
+    "higher education",
 ]
 
 BUSINESS_KEYWORDS = [
-    "inc", "ltd", "llc", "corp", "corporation", "company", "co.", "limited",
-    "gmbh", "s.a.", "sa", "plc", "ag", "pte", "bv", "nv",
-    "google", "microsoft", "meta", "facebook", "amazon", "apple", "ibm", "intel",
-    "nvidia", "openai", "deepmind", "anthropic", "huawei", "tencent", "alibaba",
-    "baidu", "samsung", "sony", "siemens", "bosch", "oracle", "salesforce",
+    "inc", "ltd", "llc", "corp", "corporation", 
+    "company", "limited", "gmbh", "s.a.",
+    "plc", "google", "microsoft", "meta",
+    "facebook", "amazon", "apple", "ibm",
+    "intel", "nvidia", "openai", "deepmind",
+    "anthropic", "huawei", "tencent", "alibaba",
+    "baidu", "samsung", "sony", "siemens",
+    "bosch", "oracle", "salesforce",
     "adobe", "nec", "fujitsu", "qualcomm", "tesla",
 ]
 
 GOVERNMENT_KEYWORDS = [
-    "government", "ministry", "department of defense", "national laboratory",
-    "national lab", "army", "navy", "air force", "nasa", "nih", "nsf",
-    "national institute", "agency", "commission", "council",
+    "government",
+    "ministry",
+    "department of defense",
+    "national laboratory",
+    "national lab",
+    "army",
+    "navy",
+    "air force",
+    "nasa",
+    "nih",
+    "nsf",
+    "national institute",
+    "agency",
+    "commission",
+    "council",
 ]
 
 HEALTHCARE_KEYWORDS = [
-    "hospital", "medical center", "clinic", "health system", "healthcare",
-    "cancer center", "children's hospital", "nhs", "medical school",
+    "hospital",
+    "medical center",
+    "clinic",
+    "health system",
+    "healthcare",
+    "cancer center",
+    "children's hospital",
+    "nhs",
 ]
 
 NONPROFIT_KEYWORDS = [
-    "foundation", "nonprofit", "non-profit", "charity", "association",
-    "society", "institute for", "research institute", "laboratory for",
+    "foundation",
+    "nonprofit",
+    "non-profit",
+    "charity",
+    "association",
+    "society",
+    "institute for",
+    "research institute",
+    "laboratory for",
+    "research center",
+    "research centre",
+    "max planck institute",
+    "fraunhofer institute",
+    "allen institute",
 ]
 
 OPENALEX_TYPE_MAP = {
@@ -242,7 +303,6 @@ def classify_institution(name: str, openalex_type: str | None = None) -> str:
     if not n:
         return "Unknown"
 
-    # Order matters: medical schools are education unless name is clearly hospital/center.
     if has_keyword(n, HEALTHCARE_KEYWORDS):
         return "Healthcare"
     if has_keyword(n, UNIVERSITY_KEYWORDS):
@@ -251,7 +311,9 @@ def classify_institution(name: str, openalex_type: str | None = None) -> str:
         return "Government"
     if has_keyword(n, BUSINESS_KEYWORDS):
         return "Business"
-
+    if has_keyword(n, NONPROFIT_KEYWORDS):
+        return "Nonprofit"
+    return "Other"
 
 # ---------- Build view ----------
 
@@ -365,7 +427,6 @@ def save_outputs(long_df: pd.DataFrame, outdir: Path) -> None:
         .reset_index()
     )
     year_summary.to_csv(outdir / "institution_type_year_summary.csv", index=False)
-
     top_inst = (
         long_df
         .groupby(["institution_type", "institution_name"], dropna=False)
