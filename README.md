@@ -10,7 +10,7 @@ It answers three questions across three tabs:
 |-----|----------|-----------|
 | **How AI grew** | How fast did AI research scale, and who led it? | growth curve with research-wave milestones, top countries, institution types, topic diversity |
 | **Where ideas moved** | Which topics rose, faded, and where did the frontier go? | topic bubbles & drill-down, growth–impact frontier, rising / fading terms |
-| **The Anatomy of Impact** | What makes a paper high-impact — and can we predict it? | Lorenz/Gini concentration, logistic-regression drivers, gradient-boosting prediction, LSTM forecast |
+| **What drives impact** | What makes a paper high-impact — and can we predict it? | citation-concentration funnel, logistic-regression drivers, gradient-boosting prediction, LSTM forecast |
 
 ---
 
@@ -60,7 +60,7 @@ the app reads instantly:
 │   ├── mod_narrative.py         # Assembles the three tabs into the navbar
 │   ├── tab_how_ai_grew.py       # Tab 1
 │   ├── tab_where_ideas_moved.py # Tab 2
-│   ├── tab_what_created_impact.py# Tab 3  ("The Anatomy of Impact")
+│   ├── tab_what_created_impact.py# Tab 3  ("What drives impact")
 │   ├── build_landscape_json.py  # Builds www/data/*.json layouts for Tab 2
 │   └── preprocess/              # Offline builders (run once, write cache)
 │       ├── merge_raw_dataset.py            # STEP 1: merge 3 shards → 1 raw file
@@ -136,6 +136,68 @@ You only need these to **rebuild** the cache. Two options:
 - **Fast path** — download just `ai_works_clean.csv` into `Dataset/clean/`, then run `build_all_cache.py` ([§6](#6-rebuilding-the-cache)).
 - **Full path** — download the 3 shards into `Dataset/`, then run the whole pipeline from STEP 1.
 
+### 5.1 Crawling the raw shards yourself from OpenAlex (optional)
+
+If you'd rather regenerate the raw shards from scratch instead of downloading them,
+use `src/export_openalex_ai_works.py`. It pulls the OpenAlex *Artificial
+Intelligence* subfield (`primary_topic.subfield.id:1702`, DOI-bearing, non-retracted
+articles/preprints/chapters/proceedings) with cursor pagination, and is **fully
+resumable**.
+
+**1) Get an OpenAlex API key** and export it (plus a contact email) as environment
+variables:
+
+```bash
+export OPENALEX_API_KEY="your_key_here"
+export OPENALEX_EMAIL="you@example.com"     # optional but polite (sent as mailto)
+pip install requests                         # crawler dependency (also in requirements-build.txt)
+```
+
+**2) Crawl each of the three shards** (`--target-rows 0` = all matching works for
+that year range):
+
+```bash
+python src/export_openalex_ai_works.py --start-year 2000 --end-year 2009 --target-rows 0
+python src/export_openalex_ai_works.py --start-year 2010 --end-year 2019 --target-rows 0
+python src/export_openalex_ai_works.py --start-year 2020 --end-year 2025 --target-rows 0
+```
+
+Each shard is written as resumable chunks:
+`Dataset/openalex_exports/ai_works_<start>_<end>/part_00001.csv`, `part_00002.csv`, …
+plus a `manifest.json`.
+
+- **Resuming:** if a run stops (network drop, daily limit, you close the laptop),
+  re-run the *same* command with `--resume` — it continues from the last chunk and
+  never re-downloads finished paper IDs:
+  ```bash
+  python src/export_openalex_ai_works.py --start-year 2020 --end-year 2025 --target-rows 0 --resume
+  ```
+- **Free-tier daily limit:** OpenAlex allows ~10,000 list calls/day (≈ 1M works).
+  The script caps itself safely (`--max-daily-list-calls`, default 9500). Large
+  shards (e.g. 2020–2025 ≈ 1.1M rows) therefore span **multiple days** — just
+  `--resume` the next day (a new API key resets the budget sooner). Pass
+  `--allow-full-budget` to use the entire estimated daily budget in one go.
+
+**3) Concatenate each shard's chunks into the single file the pipeline expects**
+(`merge_raw_dataset.py` keeps the first header and drops the rest):
+
+```bash
+python src/preprocess/merge_raw_dataset.py \
+  --input Dataset/openalex_exports/ai_works_2000_2009/part_*.csv \
+  --output Dataset/ai_works_merge_2000_2009.csv
+
+python src/preprocess/merge_raw_dataset.py \
+  --input Dataset/openalex_exports/ai_works_2010_2019/part_*.csv \
+  --output Dataset/ai_works_merge_2010_2019.csv
+
+python src/preprocess/merge_raw_dataset.py \
+  --input Dataset/openalex_exports/ai_works_2020_2025/part_*.csv \
+  --output Dataset/ai_works_merge_2020_2025.csv
+```
+
+You now have the three `Dataset/ai_works_merge_*.csv` shards — continue with the
+full pipeline in [§6 Option B](#6-rebuilding-the-cache).
+
 ---
 
 ## 6. Rebuilding the cache
@@ -207,12 +269,14 @@ The models predict that yes/no label **using only traits known at publication
 time** (number of references, team size, institutions, international reach, open
 access, venue type) — **no citation data is used as input**, so there is no leakage.
 
-| Beat | Method | Library | Output |
-|------|--------|---------|--------|
-| Concentration | Lorenz curve + Gini coefficient + citation-threshold funnel | numpy | how unequally citations are distributed |
-| Which traits drive impact | **Standardized logistic regression** | scikit-learn | comparable per-trait coefficients (tornado) |
-| Can we predict it | **Gradient boosting** on a 20% hold-out | LightGBM | ROC-AUC ≈ 0.82, calibration, lift@10 ≈ 4× |
-| Where impact is heading | **LSTM** sequence forecast | PyTorch | each family's share of high-impact papers, 2026–2028 + uncertainty band |
+The tab is laid out as a top-to-bottom flow of four beats:
+
+| Beat | Question | Method | Library | Shown as |
+|------|----------|--------|---------|----------|
+| 1 | How concentrated is impact? | citation-threshold funnel (Gini/Lorenz also computed in cache) | numpy | funnel with exact counts for the rare highly-cited tiers |
+| 2 | Which traits drive impact? | **standardized logistic regression** | scikit-learn | per-trait coefficient tornado |
+| 3 | Can we predict it? | **gradient boosting** on a 20% hold-out | LightGBM | ROC curve + 3-model comparison (ROC-AUC ≈ 0.82, lift@10 ≈ 4×) |
+| 4 | Where is impact heading? | **LSTM** sequence forecast | PyTorch | every family's share of high-impact papers, all lines at once with a highlighted 2026–2028 forecast + band |
 
 ---
 

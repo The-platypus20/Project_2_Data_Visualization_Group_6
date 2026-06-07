@@ -1,4 +1,4 @@
-"""Cached readers for the Tab 3 "Anatomy of Impact" ML cache files.
+"""Cached readers for the Tab 3 "What drives impact" ML cache files.
 
 Mirrors the narrative_data pattern: the Shiny app only ever reads the small
 precomputed ``tab3_*.csv`` files produced offline by

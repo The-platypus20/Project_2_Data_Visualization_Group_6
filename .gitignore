@@ -72,3 +72,10 @@ Dataset/dashboard_cache/_cache_read_log.txt
 #Old cache files
 src/archive/*.py
 src/archive/**/*.py
+
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Raw OpenAlex crawl output (chunks + manifest); regenerate with export_openalex_ai_works.py
+Dataset/openalex_exports/

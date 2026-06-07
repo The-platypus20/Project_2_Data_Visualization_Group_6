@@ -6,3 +6,4 @@
 scikit-learn        # logistic regression, metrics, train/test split (Tab 3)
 lightgbm            # gradient-boosting classifier (Tab 3)
 torch               # LSTM forecast (Tab 3)
+requests            # OpenAlex API crawler (src/export_openalex_ai_works.py)

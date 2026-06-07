@@ -1,4 +1,4 @@
-"""Tab 3: "The Anatomy of Impact".
+"""Tab 3: "What drives impact".
 
 A machine-learning tour of what separates a high-impact AI paper from the rest.
 Heavy compute lives offline in src/preprocess/build_impact_ml_cache.py; this tab
@@ -12,9 +12,9 @@ otherwise punish recent papers (a 2024 paper has had less time to collect
 citations than a 2008 paper).
 
 Four beats:
-  1. How concentrated is impact?   Lorenz curve + Gini + citation funnel
+  1. How concentrated is impact?   citation funnel
   2. Which traits drive impact?    standardized logistic-regression tornado
-  3. Can we predict it?            gradient boosting ROC + calibration
+  3. Can we predict it?            gradient boosting ROC
   4. Where is impact heading?      LSTM forecast of every family's share
 """
 from __future__ import annotations
@@ -27,7 +27,7 @@ from shinywidgets import output_widget, render_widget
 
 from . import theme
 from . import tab3_data as t3
-from .narrative_common import badge, card_header, metric
+from .narrative_common import badge, card_header, metric, notice
 
 ACCENT = theme.ACCENT          # blue
 GOOD = "#7BE0B5"               # green  -> raises the odds of impact
@@ -66,6 +66,39 @@ def _explain(title: str, *body) -> ui.Tag:
     )
 
 
+def _flow() -> ui.Tag:
+    """A top-to-bottom roadmap of the four beats on this tab."""
+    steps = [
+        ("1", "How concentrated is impact?", "citation funnel"),
+        ("2", "Which traits drive impact?", "logistic-regression drivers"),
+        ("3", "Can we predict it?", "gradient-boosting model"),
+        ("4", "Where is impact heading?", "LSTM forecast"),
+    ]
+    rows = []
+    for i, (num, question, method) in enumerate(steps):
+        rows.append(ui.div(
+            ui.span(num, style="display:inline-grid; place-items:center; min-width:30px; height:30px; "
+                               "border-radius:50%; background:#7CC9FF; color:#06111F; font-weight:850;"),
+            ui.div(
+                ui.span(question, style="font-weight:800; color:#EAF2FF; font-size:1.06rem;"),
+                ui.span("  →  " + method, style="color:#9FB2CC; font-size:.96rem;"),
+            ),
+            style="display:flex; align-items:center; gap:.75rem; padding:.3rem .1rem;",
+        ))
+        if i < len(steps) - 1:
+            rows.append(ui.div("↓", style="color:#7CC9FF; font-size:1.05rem; margin:0 0 0 13px; line-height:1;"))
+    return ui.div(
+        ui.div("What this tab does, step by step",
+               style="font-weight:850; color:#EAF2FF; font-size:1.02rem; margin-bottom:.55rem;"),
+        *rows,
+        ui.div("Impact = a paper in the top 10% citation velocity of its own publication year.",
+               style="color:#9FB2CC; font-size:.9rem; margin-top:.6rem; "
+                     "border-top:1px solid rgba(255,255,255,0.08); padding-top:.5rem;"),
+        class_="interpretation",
+        style="padding:.95rem 1.1rem;",
+    )
+
+
 def _rgba(hex_color: str, alpha: float) -> str:
     h = hex_color.lstrip("#")
     r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
@@ -99,12 +132,12 @@ def _pct(x, digits: int = 1) -> str:
 def impact_ui():
     fam_choices = _forecast_families()
     return ui.nav_panel(
-        "The Anatomy of Impact",
+        "What drives impact",
         ui.div(
             # ---- header -------------------------------------------------- #
             ui.div(
                 ui.div(
-                    ui.h2("The Anatomy of Impact"),
+                    ui.h2("What drives impact"),
                     ui.p(
                         "Most AI papers are barely cited; a tiny minority shape the field. "
                         "Here we dissect what a high-impact paper is made of — and train "
@@ -120,42 +153,20 @@ def impact_ui():
                 ),
                 class_="growth-header-row",
             ),
-            _explain(
-                "What “high impact” means here:",
-                "a paper is labelled \"high impact\" if its citation velocity (citations per year) is in the ",
-                ui.tags.strong("top 10% of its own publication year"),
-                ". Comparing each paper only against its peers from the same year removes the age bias "
-                "that would otherwise make old papers always look better than new ones.",
-            ),
+            _flow(),
             ui.output_ui("tab3_headline_kpis"),
 
             # ---- Beat 1: concentration ---------------------------------- #
             _section("1", "How concentrated is impact?"),
-            ui.layout_columns(
-                ui.card(
-                    card_header(
-                        "A few papers hold most of the citations",
-                        "Lorenz curve of citations across all AI papers.",
-                    ),
-                    output_widget("tab3_lorenz"),
+            ui.card(
+                card_header(
+                    "From all papers down to the rare giants",
+                    "How many papers survive each citation threshold.",
                 ),
-                ui.card(
-                    card_header(
-                        "From all papers down to the rare giants",
-                        "How many papers survive each citation threshold.",
-                    ),
-                    output_widget("tab3_funnel"),
-                ),
-                col_widths=[6, 6],
+                output_widget("tab3_funnel"),
+                notice("The highly-cited tiers are so rare their bars almost vanish — the white callouts give the exact counts."),
             ),
-            _explain(
-                "Lorenz curve & Gini —",
-                "the Lorenz curve plots the cumulative share of citations (y) earned by the least-cited "
-                "share of papers (x). Perfect equality would be the diagonal line. The ",
-                ui.tags.strong("Gini coefficient"),
-                " summarises the gap in one number from 0 (everyone equal) to 1 (one paper takes everything). "
-                "Citations in science are famously top-heavy, so we expect a Gini close to 1.",
-            ),
+            _explain("A few proportion of papers hold most of the citations"),
 
             # ---- Beat 2: drivers (logistic regression) ------------------ #
             _section("2", "Which traits drive impact?"),
@@ -174,17 +185,10 @@ def impact_ui():
             ),
             _explain(
                 "How this model works —",
-                "we fit a ",
+                "a ",
                 ui.tags.strong("logistic regression"),
-                ", a model that predicts a yes/no outcome (high impact?) from a weighted sum of the inputs. "
-                "Unlike a simple average, it weighs every trait ",
-                ui.tags.strong("at the same time"),
-                ", so each bar is that trait's own pull on impact after the others are accounted for. "
-                "Every input is ",
-                ui.tags.strong("standardized"),
-                " (rescaled to mean 0, standard deviation 1) so the bars are directly comparable: a longer bar "
-                "means a one-standard-deviation change in that trait moves the odds of impact more. References "
-                "are entered as log(1+references) because their effect tapers off.",
+                " weighs all traits together; each standardized bar is that trait's own pull on the odds of "
+                "high impact (longer = stronger, green = raises, rose = lowers).",
             ),
 
             # ---- Beat 3: prediction (gradient boosting) ----------------- #
@@ -194,7 +198,6 @@ def impact_ui():
                 ui.tags.strong("is this paper in the top 10% citation velocity of its own publication year?"),
                 " — but here we measure how accurately the model predicts it on papers it has never seen.",
             ),
-            ui.output_ui("tab3_model_cards"),
             ui.layout_columns(
                 ui.card(
                     card_header(
@@ -205,24 +208,22 @@ def impact_ui():
                 ),
                 ui.card(
                     card_header(
-                        "Calibration — are the probabilities honest?",
-                        "Predicted probability vs. the rate of impact actually observed.",
+                        "Model comparison",
+                        "Three models scored on the same hold-out set.",
                     ),
-                    output_widget("tab3_calibration"),
+                    ui.output_ui("tab3_model_cards"),
+                    notice("Gradient boosting ranks impact best; baseline is random guessing at the 10% rate."),
                 ),
                 col_widths=[6, 6],
             ),
             _explain(
                 "How this model works —",
-                "we train ",
                 ui.tags.strong("gradient boosting (LightGBM)"),
-                ", an ensemble that builds hundreds of small decision trees where each new tree fixes the "
-                "errors of the previous ones. We split the data 80/20, fit on the 80% and score the untouched 20%. ",
+                " stacks hundreds of small decision trees. ",
                 ui.tags.strong("ROC-AUC"),
-                " is the chance the model ranks a random high-impact paper above a random ordinary one (0.5 = coin "
-                "flip, 1.0 = perfect). ",
-                ui.tags.strong("Lift@10%"),
-                " says how many more high-impact papers you catch by trusting the model's top 10% versus picking at random.",
+                " ≈ chance it ranks a high-impact paper above an ordinary one (0.5 = guessing, 1.0 = perfect); ",
+                ui.tags.strong("lift@10%"),
+                " = how many more hits you get from its top 10% versus random.",
             ),
 
             # ---- Beat 4: forecast (LSTM) -------------------------------- #
@@ -274,46 +275,14 @@ def impact_server(input, output, session):
         if not mm.empty and "roc_auc" in mm:
             mm["roc_auc"] = pd.to_numeric(mm["roc_auc"], errors="coerce")
             roc = float(mm["roc_auc"].max())
-        gini = c.get("gini")
         never = c.get("never_cited_pct")
         top1 = c.get("top1pct_citation_share")
-        median = c.get("median_citations")
         return ui.div(
-            ui.div(ui.div("Median citations / paper", class_="kpi-label"), ui.div(f"{median:.0f}" if median is not None and not pd.isna(median) else "N/A", class_="kpi-value"), ui.div("", class_="kpi-note"), class_="kpi-card"),
             ui.div(ui.div("Never cited", class_="kpi-label"), ui.div(_pct(never, 1), class_="kpi-value"), ui.div("Papers with zero citations", class_="kpi-note"), class_="kpi-card"),
             ui.div(ui.div("Top 1% citation share", class_="kpi-label"), ui.div(_pct(top1, 0), class_="kpi-value"), ui.div("Citations held by top 1%", class_="kpi-note"), class_="kpi-card"),
-            ui.div(ui.div("Citation Gini", class_="kpi-label"), ui.div(f"{gini:.2f}" if gini is not None and not pd.isna(gini) else "N/A", class_="kpi-value"), ui.div("0 = equal, 1 = winner-takes-all", class_="kpi-note"), class_="kpi-card"),
             ui.div(ui.div("Best model ROC-AUC", class_="kpi-label"), ui.div(f"{roc:.3f}" if not pd.isna(roc) else "N/A", class_="kpi-value"), ui.div("Ranking power on unseen papers", class_="kpi-note"), class_="kpi-card"),
             class_="kpi-grid tab3-kpi-grid",
         )
-
-    # ---- Beat 1: Lorenz --------------------------------------------------- #
-    @render_widget
-    def tab3_lorenz():
-        df = t3.lorenz().copy()
-        if df.empty:
-            return theme.empty_figure("Lorenz cache is empty — run build_impact_ml_cache.py")
-        df["paper_frac"] = pd.to_numeric(df["paper_frac"], errors="coerce")
-        df["citation_frac"] = pd.to_numeric(df["citation_frac"], errors="coerce")
-        gini = t3.concentration().get("gini")
-
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(
-            x=[0, 100], y=[0, 100], mode="lines", name="Perfect equality",
-            line=dict(color=MUTED, width=1.6, dash="dash"), hoverinfo="skip"))
-        fig.add_trace(go.Scatter(
-            x=df["paper_frac"] * 100, y=df["citation_frac"] * 100, mode="lines",
-            name="Observed", line=dict(color="#FFB778", width=3),
-            fill="tonexty", fillcolor="rgba(255,183,120,0.12)",
-            hovertemplate="Bottom %{x:.0f}% of papers<br>hold %{y:.1f}% of citations<extra></extra>"))
-        if gini is not None and not pd.isna(gini):
-            fig.add_annotation(x=20, y=82, text=f"Gini = {gini:.2f}", showarrow=False,
-                               font=dict(size=15, color=theme.TEXT),
-                               bgcolor="rgba(6,17,31,0.7)", bordercolor="rgba(255,255,255,0.16)", borderwidth=1)
-        fig.update_xaxes(title_text="Cumulative share of papers (%)", range=[0, 100], showgrid=True, gridcolor=theme.GRID)
-        fig.update_yaxes(title_text="Cumulative share of citations (%)", range=[0, 100])
-        fig.update_layout(showlegend=True, margin=dict(l=58, r=18, t=20, b=46))
-        return theme.style(fig, height=340)
 
     # ---- Beat 1: Funnel --------------------------------------------------- #
     @render_widget
@@ -380,6 +349,11 @@ def impact_server(input, output, session):
             return ui.div("Model-metrics cache is empty.", class_="text-muted small")
         for col in ["roc_auc", "pr_auc", "lift_at_10"]:
             df[col] = pd.to_numeric(df[col], errors="coerce")
+        # Fixed display order: best model first, random baseline last.
+        order = ["gradient boosting", "logistic regression", "baseline"]
+        df["__o"] = df["model"].apply(
+            lambda m: next((i for i, o in enumerate(order) if o in str(m).lower()), len(order)))
+        df = df.sort_values("__o")
         cards = []
         for _, r in df.iterrows():
             cards.append(metric(
@@ -387,7 +361,7 @@ def impact_server(input, output, session):
                 f"AUC {r['roc_auc']:.3f}",
                 f"PR-AUC {r['pr_auc']:.3f} · lift@10 {r['lift_at_10']:.2f}×",
             ))
-        return ui.div(*cards, class_="metric-grid", style=f"grid-template-columns:repeat({len(cards)}, minmax(0,1fr));")
+        return ui.div(*cards, class_="metric-grid one-wide")
 
     # ---- Beat 3: ROC ------------------------------------------------------ #
     @render_widget
@@ -417,27 +391,6 @@ def impact_server(input, output, session):
                                bgcolor="rgba(6,17,31,0.7)", bordercolor="rgba(255,255,255,0.16)", borderwidth=1)
         fig.update_xaxes(title_text="False positive rate", range=[0, 1], showgrid=True, gridcolor=theme.GRID)
         fig.update_yaxes(title_text="True positive rate", range=[0, 1])
-        fig.update_layout(showlegend=True, margin=dict(l=56, r=18, t=20, b=44))
-        return theme.style(fig, height=330)
-
-    # ---- Beat 3: calibration --------------------------------------------- #
-    @render_widget
-    def tab3_calibration():
-        df = t3.calibration().copy()
-        if df.empty:
-            return theme.empty_figure("Calibration cache is empty.")
-        df["predicted"] = pd.to_numeric(df["predicted"], errors="coerce")
-        df["observed"] = pd.to_numeric(df["observed"], errors="coerce")
-        df = df.dropna(subset=["predicted", "observed"])
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(x=[0, 1], y=[0, 1], mode="lines", name="Perfect calibration",
-                                 line=dict(color=MUTED, width=1.6, dash="dash"), hoverinfo="skip"))
-        fig.add_trace(go.Scatter(x=df["predicted"], y=df["observed"], mode="lines+markers",
-                                 name="Model", line=dict(color=GOOD, width=3),
-                                 marker=dict(size=7, color=GOOD),
-                                 hovertemplate="Predicted %{x:.2f}<br>Observed %{y:.2f}<extra></extra>"))
-        fig.update_xaxes(title_text="Predicted probability", range=[0, 1], showgrid=True, gridcolor=theme.GRID)
-        fig.update_yaxes(title_text="Observed high-impact rate", range=[0, 1])
         fig.update_layout(showlegend=True, margin=dict(l=56, r=18, t=20, b=44))
         return theme.style(fig, height=330)
 
