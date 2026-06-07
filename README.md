@@ -62,6 +62,7 @@ the app reads instantly:
 │   ├── tab_where_ideas_moved.py # Tab 2
 │   ├── tab_what_created_impact.py# Tab 3  ("What drives impact")
 │   ├── build_landscape_json.py  # Builds www/data/*.json layouts for Tab 2
+│   ├── export_openalex_ai_works.py  # Resumable OpenAlex crawler (STEP 0, see §5.1)
 │   └── preprocess/              # Offline builders (run once, write cache)
 │       ├── merge_raw_dataset.py            # STEP 1: merge 3 shards → 1 raw file
 │       ├── build_clean_dataset.py          # STEP 2: EDA + clean → ai_works_clean.csv + report

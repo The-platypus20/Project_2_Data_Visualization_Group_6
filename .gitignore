@@ -79,3 +79,7 @@ src/archive/**/*.py
 
 # Raw OpenAlex crawl output (chunks + manifest); regenerate with export_openalex_ai_works.py
 Dataset/openalex_exports/
+# rsconnect deploy tooling/output
+rsconnect-python/
+rsconnect/
+manifest.json
