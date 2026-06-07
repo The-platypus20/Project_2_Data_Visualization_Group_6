@@ -11,7 +11,7 @@ from src.mod_narrative import narrative_server, narrative_ui
 
 app_ui = ui.page_navbar(
     *narrative_ui(),
-    title="AI Research Landscape Map",
+    title="AI Research Growth & Concentration",
     id="navbar",
     fillable=False,
     header=ui.head_content(ui.tags.style(theme.DASHBOARD_CSS)),

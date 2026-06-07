@@ -1,503 +1,515 @@
-﻿"""Tab 3: growth-impact frontier ranking."""
+"""Tab 3: "The Anatomy of Impact".
+
+A machine-learning tour of what separates a high-impact AI paper from the rest.
+Heavy compute lives offline in src/preprocess/build_impact_ml_cache.py; this tab
+only reads the small tab3_*.csv cache files (see src/tab3_data.py), so every
+chart renders instantly.
+
+Impact label used everywhere on this tab: a paper is "high impact" if its
+citation_velocity (citations per year) sits in the TOP 10% of its own
+publication year. Ranking within each year removes the age bias that would
+otherwise punish recent papers (a 2024 paper has had less time to collect
+citations than a 2008 paper).
+
+Four beats:
+  1. How concentrated is impact?   Lorenz curve + Gini + citation funnel
+  2. Which traits drive impact?    standardized logistic-regression tornado
+  3. Can we predict it?            gradient boosting ROC + calibration
+  4. Where is impact heading?      LSTM forecast of every family's share
+"""
 from __future__ import annotations
 
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-from shiny import reactive, render, ui
+from shiny import render, ui
 from shinywidgets import output_widget, render_widget
 
-from . import narrative_data as nd
 from . import theme
-from .narrative_common import badge, card_header, metric, notice, paper_list
+from . import tab3_data as t3
+from .narrative_common import badge, card_header, metric, notice
+
+ACCENT = theme.ACCENT          # blue
+GOOD = "#7BE0B5"               # green  -> raises the odds of impact
+BAD = "#FF8CA1"                # rose   -> lowers the odds of impact
+MUTED = "rgba(159,178,204,0.45)"
 
 
-QUADRANT_COLORS = {
-    "Rising stars": "#059669",
-    "Hidden gems": "#1d4ed8",
-    "Fast growth, lower impact": "#d97706",
-    "Mature or crowded": "#64748b",
-}
-
-
-def _clean_topics() -> pd.DataFrame:
-    df = nd.growth_impact_matrix().copy()
-    if df.empty:
-        return df
-    df = df.replace([np.inf, -np.inf], np.nan).dropna(
-        subset=["primary_topic", "family", "growth", "median_fwci", "paper_count"]
+# --------------------------------------------------------------------------- #
+# small helpers
+# --------------------------------------------------------------------------- #
+def _section(num: str, text: str) -> ui.Tag:
+    """A large, readable section heading (bigger than the default label)."""
+    return ui.div(
+        ui.span(num + " · ", style=f"color:{ACCENT};"),
+        text,
+        class_="story-section-label",
+        style="font-size:1.5rem; font-weight:850; color:#EAF2FF; "
+              "margin:1.6rem 0 .6rem; letter-spacing:.01em;",
     )
-    for col in ["growth", "median_fwci", "median_velocity", "paper_count"]:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
-    df["growth"] = df["growth"].clip(lower=.01)
-    df["median_velocity"] = df["median_velocity"].fillna(0)
-    return _add_frontier_score(df.dropna(subset=["growth", "median_fwci", "paper_count"]))
 
 
-def _add_frontier_score(df: pd.DataFrame) -> pd.DataFrame:
-    out = df.copy()
-    growth_rank = np.log1p(out["growth"]).rank(pct=True)
-    impact_rank = out["median_fwci"].rank(pct=True)
-    velocity_rank = out["median_velocity"].rank(pct=True)
-    out["frontier_score"] = 100 * (.40 * growth_rank + .35 * impact_rank + .25 * velocity_rank)
-    out["top_signal"] = np.select(
-        [
-            growth_rank >= impact_rank.combine(velocity_rank, max),
-            impact_rank >= growth_rank.combine(velocity_rank, max),
-        ],
-        ["Recent growth", "Normalized impact"],
-        default="Citation velocity",
+def _taskline(*body) -> ui.Tag:
+    """States the prediction problem the models on beats 2-3 are solving."""
+    return ui.div(
+        ui.tags.strong("The task — "), *body,
+        style="font-size:1.08rem; color:#BFE4FF; margin:.1rem .2rem .8rem; "
+              "padding:.55rem .85rem; border-left:3px solid #7CC9FF; "
+              "background:rgba(124,201,255,0.07); border-radius:8px; line-height:1.5;",
     )
-    return out
 
 
-def _family_frame(topics: pd.DataFrame) -> pd.DataFrame:
-    rows = []
-    for family, sub in topics.groupby("family"):
-        weight = sub["paper_count"].clip(lower=1)
-        rows.append({
-            "name": family,
-            "family": family,
-            "primary_topic": family,
-            "paper_count": float(sub["paper_count"].sum()),
-            "growth": float(np.average(sub["growth"], weights=weight)),
-            "median_fwci": float(np.average(sub["median_fwci"], weights=weight)),
-            "median_velocity": float(np.average(sub["median_velocity"], weights=weight)),
-            "topics_shown": int(len(sub)),
-            "top_topics": ", ".join(sub.sort_values("frontier_score", ascending=False)["primary_topic"].head(5)),
-        })
-    return _add_frontier_score(pd.DataFrame(rows))
-
-
-def _apply_quadrants(df: pd.DataFrame) -> tuple[pd.DataFrame, float, float]:
-    out = df.copy()
-    x_cut = float(out["growth"].quantile(.75))
-    y_cut = float(out["median_fwci"].quantile(.75))
-    out["quadrant"] = np.select(
-        [
-            (out["growth"] >= x_cut) & (out["median_fwci"] >= y_cut),
-            (out["growth"] < x_cut) & (out["median_fwci"] >= y_cut),
-            (out["growth"] >= x_cut) & (out["median_fwci"] < y_cut),
-        ],
-        ["Rising stars", "Hidden gems", "Fast growth, lower impact"],
-        default="Mature or crowded",
+def _explain(title: str, *body) -> ui.Tag:
+    """A themed explanation box (reuses the .interpretation style, enlarged)."""
+    return ui.div(
+        ui.span(ui.tags.strong(title + " "), *body),
+        class_="interpretation",
+        style="font-size:1.04rem; line-height:1.55; padding:.85rem 1rem;",
     )
-    return out, x_cut, y_cut
 
 
-def _size_buckets(df: pd.DataFrame) -> pd.DataFrame:
-    out = df.copy()
-    quantiles = out["paper_count"].quantile([.25, .5, .75]).to_dict()
-
-    def bucket(count):
-        if count <= quantiles[.25]:
-            return "Small", 18
-        if count <= quantiles[.5]:
-            return "Medium", 28
-        if count <= quantiles[.75]:
-            return "Large", 38
-        return "XL", 52
-
-    buckets = out["paper_count"].map(bucket)
-    out["size_tier"] = [label for label, _ in buckets]
-    out["bubble_size"] = [size for _, size in buckets]
-    return out
+def _rgba(hex_color: str, alpha: float) -> str:
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r},{g},{b},{alpha})"
 
 
-def _metric_if(label: str, value, note: str | None = None, fmt=None):
-    if value is None or (isinstance(value, float) and not np.isfinite(value)) or pd.isna(value):
-        return None
-    return metric(label, fmt(value) if fmt else str(value), note)
+def _family_palette(families: list[str]) -> dict[str, str]:
+    return {fam: theme.PALETTE[i % len(theme.PALETTE)] for i, fam in enumerate(families)}
 
 
-def _metric_group(*items):
-    visible = [item for item in items if item is not None]
-    return ui.div(*visible, class_="metric-grid") if visible else ui.div()
+def _forecast_families() -> list[str]:
+    """Families ordered by their average recent share of high-impact papers."""
+    df = t3.forecast()
+    if df.empty or "family" not in df:
+        return []
+    df = df.copy()
+    df["share"] = pd.to_numeric(df["share"], errors="coerce")
+    df["year"] = pd.to_numeric(df["year"], errors="coerce")
+    recent = df[df["year"] <= 2025]
+    order = recent.groupby("family")["share"].mean().sort_values(ascending=False).index.tolist()
+    return order or sorted(df["family"].dropna().unique().tolist())
 
 
+def _pct(x, digits: int = 1) -> str:
+    return "N/A" if x is None or pd.isna(x) else f"{float(x):.{digits}f}%"
+
+
+# --------------------------------------------------------------------------- #
+# UI
+# --------------------------------------------------------------------------- #
 def impact_ui():
+    fam_choices = _forecast_families()
     return ui.nav_panel(
-        "What created impact",
+        "The Anatomy of Impact",
         ui.div(
+            # ---- header -------------------------------------------------- #
             ui.div(
-                badge("Growth-impact matrix"),
-                badge("Frontier score"),
-                badge("Interpretable ranking"),
-                class_="badge-row",
+                ui.div(
+                    ui.h2("The Anatomy of Impact"),
+                    ui.p(
+                        "Most AI papers are barely cited; a tiny minority shape the field. "
+                        "Here we dissect what a high-impact paper is made of — and train "
+                        "machine-learning models to see whether impact can be explained and predicted.",
+                        class_="tab-insight",
+                    ),
+                ),
+                ui.div(
+                    badge("OpenAlex 2000-2025"),
+                    badge("Machine learning"),
+                    badge("Top-10% citation velocity"),
+                    class_="badge-row",
+                ),
+                class_="growth-header-row",
             ),
-            ui.h2("What created impact"),
-            ui.p(
-                "Growth alone does not explain visibility. We compare growth, normalized impact, and frontier signals.",
-                class_="tab-insight",
+            _explain(
+                "What “high impact” means here:",
+                "a paper is labelled \"high impact\" if its citation velocity (citations per year) is in the ",
+                ui.tags.strong("top 10% of its own publication year"),
+                ". Comparing each paper only against its peers from the same year removes the age bias "
+                "that would otherwise make old papers always look better than new ones.",
             ),
-            class_="tab-heading",
-        ),
-        ui.layout_columns(
+            ui.output_ui("tab3_headline_kpis"),
+
+            # ---- Beat 1: concentration ---------------------------------- #
+            _section("1", "How concentrated is impact?"),
+            ui.layout_columns(
+                ui.card(
+                    card_header(
+                        "A few papers hold most of the citations",
+                        "Lorenz curve of citations across all AI papers.",
+                    ),
+                    output_widget("tab3_lorenz"),
+                    notice("The further the orange curve bows below the grey diagonal, the more unequal citations are."),
+                ),
+                ui.card(
+                    card_header(
+                        "From all papers down to the rare giants",
+                        "How many papers survive each citation threshold.",
+                    ),
+                    output_widget("tab3_funnel"),
+                    notice("The highly-cited tiers are so rare their bars almost vanish — the white callouts give the exact counts."),
+                ),
+                col_widths=[6, 6],
+            ),
+            _explain(
+                "Lorenz curve & Gini —",
+                "the Lorenz curve plots the cumulative share of citations (y) earned by the least-cited "
+                "share of papers (x). Perfect equality would be the diagonal line. The ",
+                ui.tags.strong("Gini coefficient"),
+                " summarises the gap in one number from 0 (everyone equal) to 1 (one paper takes everything). "
+                "Citations in science are famously top-heavy, so we expect a Gini close to 1.",
+            ),
+
+            # ---- Beat 2: drivers (logistic regression) ------------------ #
+            _section("2", "Which traits drive impact?"),
+            _taskline(
+                "is this paper in the ",
+                ui.tags.strong("top 10% citation velocity of its own publication year?"),
+                " The model learns this yes/no answer from traits known at publication time "
+                "(no citation data), then we read off which traits matter most.",
+            ),
             ui.card(
                 card_header(
-                    "Frontier map: growth vs normalized impact",
-                    "Read right for growth, upward for FWCI, and bubble size for topic volume.",
+                    "Standardized logistic-regression drivers",
+                    "Each bar is one trait's effect on the odds of being high impact, holding the others fixed.",
                 ),
-                ui.output_ui("frontier_view_controls"),
-                output_widget("growth_impact_matrix"),
-                ui.tags.script("""
-                (function() {
-                  function bindPlot(outputId, flag, inputId) {
-                    const wrapper = document.getElementById(outputId);
-                    const el = wrapper && (wrapper.classList.contains("js-plotly-plot") ? wrapper : wrapper.querySelector(".js-plotly-plot"));
-                    if (!el || el.dataset[flag] || !window.Shiny || typeof el.on !== "function") return false;
-                    el.dataset[flag] = "1";
-                    el.on("plotly_click", function(eventData) {
-                      const point = eventData && eventData.points && eventData.points[0];
-                      const d = point && point.customdata;
-                      if (d) Shiny.setInputValue(inputId, {
-                        kind: d[0], family: d[1], topic: d[2], name: d[3]
-                      }, {priority: "event"});
-                    });
-                    return true;
-                  }
-                  function bindAll() {
-                    bindPlot("growth_impact_matrix", "frontierMapBound", "frontier_map_click");
-                    bindPlot("frontier_ranking", "frontierRankingBound", "frontier_ranking_click");
-                  }
-                  let tries = 0;
-                  const retry = setInterval(function() {
-                    bindAll();
-                    tries += 1;
-                    if (tries > 80) clearInterval(retry);
-                  }, 250);
-                  document.addEventListener("shiny:value", function(e) {
-                    if (e.target && (e.target.id === "growth_impact_matrix" || e.target.id === "frontier_ranking")) {
-                      setTimeout(bindAll, 80);
-                    }
-                  });
-                })();
-                """),
+                output_widget("tab3_drivers"),
+                notice("Green bars raise the odds of high impact; rose bars lower them. Longer bar = stronger effect."),
             ),
-            ui.card(
-                ui.output_ui("selected_frontier_detail"),
+            _explain(
+                "How this model works —",
+                "we fit a ",
+                ui.tags.strong("logistic regression"),
+                ", a model that predicts a yes/no outcome (high impact?) from a weighted sum of the inputs. "
+                "Unlike a simple average, it weighs every trait ",
+                ui.tags.strong("at the same time"),
+                ", so each bar is that trait's own pull on impact after the others are accounted for. "
+                "Every input is ",
+                ui.tags.strong("standardized"),
+                " (rescaled to mean 0, standard deviation 1) so the bars are directly comparable: a longer bar "
+                "means a one-standard-deviation change in that trait moves the odds of impact more. References "
+                "are entered as log(1+references) because their effect tapers off.",
             ),
-            col_widths=[8, 4],
-        ),
-        ui.layout_columns(
+
+            # ---- Beat 3: prediction (gradient boosting) ----------------- #
+            _section("3", "Can we predict it?"),
+            _taskline(
+                "the same yes/no question — ",
+                ui.tags.strong("is this paper in the top 10% citation velocity of its own publication year?"),
+                " — but here we measure how accurately the model predicts it on papers it has never seen.",
+            ),
+            ui.output_ui("tab3_model_cards"),
+            ui.layout_columns(
+                ui.card(
+                    card_header(
+                        "ROC curve — ranking power on unseen papers",
+                        "Tested on a 20% hold-out set the model never trained on.",
+                    ),
+                    output_widget("tab3_roc"),
+                    notice("The further the blue curve bows toward the top-left, the better the model separates impact from non-impact."),
+                ),
+                ui.card(
+                    card_header(
+                        "Calibration — are the probabilities honest?",
+                        "Predicted probability vs. the rate of impact actually observed.",
+                    ),
+                    output_widget("tab3_calibration"),
+                    notice("Dots near the diagonal mean a predicted '30% chance' really does come true ~30% of the time."),
+                ),
+                col_widths=[6, 6],
+            ),
+            _explain(
+                "How this model works —",
+                "we train ",
+                ui.tags.strong("gradient boosting (LightGBM)"),
+                ", an ensemble that builds hundreds of small decision trees where each new tree fixes the "
+                "errors of the previous ones. We split the data 80/20, fit on the 80% and score the untouched 20%. ",
+                ui.tags.strong("ROC-AUC"),
+                " is the chance the model ranks a random high-impact paper above a random ordinary one (0.5 = coin "
+                "flip, 1.0 = perfect). ",
+                ui.tags.strong("Lift@10%"),
+                " says how many more high-impact papers you catch by trusting the model's top 10% versus picking at random.",
+            ),
+
+            # ---- Beat 4: forecast (LSTM) -------------------------------- #
+            _section("4", "Where is impact heading?"),
             ui.card(
                 card_header(
-                    "Top frontier topics",
-                    "Topics ranked by combined growth, field-normalized impact, and citation velocity.",
+                    "Forecasting each family's share of high-impact papers",
+                    "All families at once; pick one to highlight its 2026-2028 LSTM forecast and uncertainty band.",
                 ),
-                output_widget("frontier_ranking"),
-                notice(
-                    "The score is directional, not causal. It surfaces topics with recent growth and normalized impact."
+                ui.input_select("tab3_family", "Highlight a research family",
+                                choices=fam_choices, selected=(fam_choices[0] if fam_choices else None)),
+                output_widget("tab3_forecast"),
+                notice("Shares sum to 100% across families each year, so this shows which families dominate the frontier, not raw volume."),
+            ),
+            _explain(
+                "How this model works —",
+                "an ",
+                ui.tags.strong("LSTM (Long Short-Term Memory) neural network"),
+                " reads each family's recent history as a sequence and learns the temporal pattern to predict the "
+                "next year. We forecast each family's ",
+                ui.tags.strong("share of all high-impact papers"),
+                " (not raw counts) because the most recent years are still accumulating citations — shares are "
+                "far more stable than absolute impact numbers near the present. The shaded band is an approximate "
+                "80% confidence range that widens further into the future.",
+            ),
+            ui.div(
+                ui.tags.small(
+                    "Models: scikit-learn (logistic regression), LightGBM (gradient boosting), PyTorch (LSTM). "
+                    "All trained offline; this tab reads only the cached results.",
+                    class_="text-muted",
                 ),
+                style="margin:.3rem .25rem 1rem;",
             ),
-            ui.card(
-                card_header("Topic passport"),
-                ui.output_ui("topic_passport"),
-            ),
-            col_widths=[7, 5],
+            class_="growth-tab",
         ),
     )
 
 
+# --------------------------------------------------------------------------- #
+# Server
+# --------------------------------------------------------------------------- #
 def impact_server(input, output, session):
-    selected_family = reactive.Value(None)
-    selected_topic = reactive.Value(None)
 
-    @reactive.effect
-    @reactive.event(input.frontier_map_click)
-    def _frontier_map_click():
-        payload = input.frontier_map_click()
-        if not payload:
-            return
-        kind = payload.get("kind")
-        if kind == "family":
-            selected_family.set(str(payload.get("family")))
-            selected_topic.set(None)
-        elif kind == "topic":
-            selected_family.set(str(payload.get("family")))
-            selected_topic.set(str(payload.get("topic")))
-
-    @reactive.effect
-    @reactive.event(input.frontier_ranking_click)
-    def _frontier_ranking_click():
-        payload = input.frontier_ranking_click()
-        if not payload:
-            return
-        selected_family.set(str(payload.get("family")))
-        selected_topic.set(str(payload.get("topic")))
-
-    @reactive.effect
-    @reactive.event(input.back_to_families)
-    def _back_to_families():
-        selected_family.set(None)
-        selected_topic.set(None)
-
-    @reactive.effect
-    @reactive.event(input.reset_frontier_view)
-    def _reset_frontier_view():
-        selected_family.set(None)
-        selected_topic.set(None)
-
+    # ---- headline KPIs ---------------------------------------------------- #
     @render.ui
-    def frontier_view_controls():
-        family = selected_family()
-        topic = selected_topic()
-        breadcrumb = "All AI"
-        if family:
-            breadcrumb += f" > {family}"
-        if topic:
-            breadcrumb += f" > {topic}"
+    def tab3_headline_kpis():
+        c = t3.concentration()
+        mm = t3.model_metrics().copy()
+        roc = np.nan
+        if not mm.empty and "roc_auc" in mm:
+            mm["roc_auc"] = pd.to_numeric(mm["roc_auc"], errors="coerce")
+            roc = float(mm["roc_auc"].max())
+        gini = c.get("gini")
+        never = c.get("never_cited_pct")
+        top1 = c.get("top1pct_citation_share")
+        median = c.get("median_citations")
         return ui.div(
-            ui.div(ui.tags.strong("Viewing:"), f" {breadcrumb}", class_="text-muted small"),
-            ui.div(
-                ui.input_action_button("back_to_families", "Back to families", class_="btn btn-outline-secondary btn-sm"),
-                ui.input_action_button("reset_frontier_view", "Reset view", class_="btn btn-outline-secondary btn-sm"),
-                class_="d-flex gap-2 flex-wrap my-2",
-            ),
+            metric("Median citations / paper",
+                   f"{median:.0f}" if median is not None and not pd.isna(median) else "N/A"),
+            metric("Never cited", _pct(never, 1),
+                   "Papers with zero citations"),
+            metric("Top 1% citation share", _pct(top1, 0),
+                   "Citations held by the top 1% of papers"),
+            metric("Citation Gini", f"{gini:.2f}" if gini is not None and not pd.isna(gini) else "N/A",
+                   "0 = equal, 1 = winner-takes-all"),
+            metric("Best model ROC-AUC", f"{roc:.3f}" if not pd.isna(roc) else "N/A",
+                   "Ranking power on unseen papers"),
+            class_="metric-grid", style="grid-template-columns:repeat(5, minmax(0,1fr));",
         )
 
+    # ---- Beat 1: Lorenz --------------------------------------------------- #
     @render_widget
-    def growth_impact_matrix():
-        topics = _clean_topics()
-        if topics.empty:
-            return theme.empty_figure("No growth-impact matrix data")
-
-        family = selected_family()
-        topic = selected_topic()
-        if family:
-            plot_df = topics[topics["family"].eq(family)].copy()
-            kind = "topic"
-            name_col = "primary_topic"
-            if plot_df.empty:
-                selected_family.set(None)
-                plot_df = _family_frame(topics)
-                kind = "family"
-                name_col = "name"
-        else:
-            plot_df = _family_frame(topics)
-            kind = "family"
-            name_col = "name"
-
-        plot_df, x_cut, y_cut = _apply_quadrants(plot_df)
-        plot_df = _size_buckets(plot_df)
-        plot_df["name"] = plot_df[name_col].astype(str)
-        selected_name = topic if kind == "topic" else family
-        top_labels = set(plot_df.sort_values("frontier_score", ascending=False).head(4)["name"])
-        top_labels.update(plot_df.sort_values("growth", ascending=False).head(1)["name"])
-        top_labels.update(plot_df.sort_values("median_fwci", ascending=False).head(1)["name"])
-        if selected_name:
-            top_labels.add(str(selected_name))
-
-        x_min = max(float(plot_df["growth"].min()) * .72, .01)
-        x_max = max(float(plot_df["growth"].max()) * 1.4, x_min * 1.4)
-        y_min = 0.0
-        y_max = max(float(plot_df["median_fwci"].max()) * 1.18, .8)
-        fig = go.Figure()
-        bg = {
-            "Rising stars": "rgba(5,150,105,.09)",
-            "Hidden gems": "rgba(29,78,216,.08)",
-            "Fast growth, lower impact": "rgba(217,119,6,.08)",
-            "Mature or crowded": "rgba(100,116,139,.07)",
-        }
-        for x0, x1, y0, y1, label in [
-            (x_cut, x_max, y_cut, y_max, "Rising stars"),
-            (x_min, x_cut, y_cut, y_max, "Hidden gems"),
-            (x_cut, x_max, y_min, y_cut, "Fast growth, lower impact"),
-            (x_min, x_cut, y_min, y_cut, "Mature or crowded"),
-        ]:
-            fig.add_shape(type="rect", x0=x0, x1=x1, y0=y0, y1=y1, fillcolor=bg[label], line=dict(width=0), layer="below")
-
-        for quad, sub in plot_df.groupby("quadrant"):
-            is_selected = sub["name"].eq(str(selected_name))
-            show_label = sub["name"].isin(top_labels)
-            custom = pd.DataFrame({
-                "kind": kind,
-                "family": sub["family"],
-                "topic": sub["primary_topic"],
-                "name": sub["name"],
-                "paper_count": sub["paper_count"],
-                "growth": sub["growth"],
-                "median_fwci": sub["median_fwci"],
-                "median_velocity": sub["median_velocity"],
-                "frontier_score": sub["frontier_score"],
-                "size_tier": sub["size_tier"],
-            })
-            fig.add_trace(go.Scatter(
-                x=sub["growth"],
-                y=sub["median_fwci"],
-                mode="markers+text",
-                name=quad,
-                text=sub["name"].where(show_label, ""),
-                textposition="top center",
-                textfont=dict(size=10, color="#0f172a"),
-                marker=dict(
-                    size=sub["bubble_size"],
-                    color=QUADRANT_COLORS[quad],
-                    opacity=np.where(show_label | is_selected, .86, .48),
-                    line=dict(color=np.where(is_selected, "#020617", "#ffffff"), width=np.where(is_selected, 3, 1.2)),
-                ),
-                customdata=custom,
-                hovertemplate=(
-                    "<b>%{customdata[3]}</b><br>"
-                    "%{customdata[4]:,.0f} papers<br>"
-                    "Growth ratio %{customdata[5]:.2f}x<br>"
-                    "Median FWCI %{customdata[6]:.2f}<br>"
-                    "Citation velocity %{customdata[7]:.1f}/yr<br>"
-                    "Frontier score %{customdata[8]:.1f}<extra></extra>"
-                ),
-            ))
-
-        fig.add_vline(x=x_cut, line_color="#0f172a", line_dash="dash", line_width=1.7)
-        fig.add_hline(y=y_cut, line_color="#0f172a", line_dash="dash", line_width=1.7)
-        fig.add_annotation(x=x_cut, y=y_max * .98, showarrow=False, text="Top 25 percent growth cutoff",
-                           textangle=-90, xanchor="left", yanchor="top", font=dict(size=10, color="#0f172a"),
-                           bgcolor="rgba(255,255,255,.86)")
-        fig.add_annotation(x=x_min * 1.05, y=y_cut, showarrow=False, text="Top 25 percent impact cutoff",
-                           xanchor="left", yanchor="bottom", font=dict(size=10, color="#0f172a"),
-                           bgcolor="rgba(255,255,255,.86)")
-
-        tickvals = [v for v in [.01, .02, .05, .1, .2, .5, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000] if x_min <= v <= x_max]
-        fig.update_xaxes(
-            title_text="Recent growth ratio",
-            type="log",
-            range=[np.log10(x_min), np.log10(x_max)],
-            tickmode="array",
-            tickvals=tickvals,
-            ticktext=[f"{v:g}x" for v in tickvals],
-            showgrid=True,
-            gridcolor="#edf2f7",
-        )
-        fig.update_yaxes(title_text="Median FWCI", range=[y_min, y_max], showgrid=True, gridcolor="#edf2f7")
-        fig.update_layout(margin=dict(l=56, r=20, t=54, b=54), legend=dict(orientation="h", y=1.12, x=0, font=dict(size=10)))
-        return theme.style(fig, height=470)
-
-    @render.ui
-    def selected_frontier_detail():
-        topics = _clean_topics()
-        if topics.empty:
-            return ui.p("No matrix detail data is available.", class_="text-muted small")
-        family = selected_family()
-        topic = selected_topic()
-        if topic:
-            row = topics[topics["primary_topic"].eq(topic)]
-            if row.empty:
-                topic = None
-            else:
-                r = row.iloc[0]
-                return ui.div(
-                    card_header("Selected frontier detail"),
-                    _metric_group(
-                        metric("Selected topic", str(r["primary_topic"]), str(r["family"])),
-                        metric("Paper count", f"{float(r['paper_count']):,.0f}"),
-                        metric("Growth ratio", f"{float(r['growth']):.2f}x"),
-                        metric("Median FWCI", f"{float(r['median_fwci']):.2f}"),
-                        metric("Citation velocity", f"{float(r['median_velocity']):.1f}/yr"),
-                        metric("Frontier score", f"{float(r['frontier_score']):.1f}"),
-                    ),
-                )
-        if family:
-            sub = topics[topics["family"].eq(family)].sort_values("frontier_score", ascending=False)
-            if not sub.empty:
-                items = [
-                    ui.tags.li(
-                        ui.tags.strong(str(row["primary_topic"])),
-                        ui.br(),
-                        ui.span(f"Score {float(row['frontier_score']):.1f} | {float(row['growth']):.2f}x growth | FWCI {float(row['median_fwci']):.2f}",
-                                class_="text-muted small"),
-                    )
-                    for _, row in sub.head(5).iterrows()
-                ]
-                return ui.div(
-                    card_header("Selected frontier detail"),
-                    _metric_group(
-                        metric("Selected family", family),
-                        metric("Topics shown", f"{len(sub):,.0f}"),
-                        metric("Family papers", f"{float(sub['paper_count'].sum()):,.0f}"),
-                        metric("Median FWCI", f"{float(sub['median_fwci'].median()):.2f}"),
-                    ),
-                    ui.p("This family view separates its faster-growing subtopics from the subtopics with stronger normalized impact.",
-                         class_="interpretation"),
-                    ui.p(ui.tags.strong("Top 5 subtopics"), class_="panel-label"),
-                    ui.tags.ul(*items, class_="paper-list"),
-                )
-        return ui.div(
-            card_header("How to read the matrix"),
-            ui.p(
-                "Each bubble is a topic family. Right means faster recent growth. Up means stronger normalized impact. Larger bubbles mean more papers.",
-                class_="interpretation",
-            ),
-            ui.p("Click a family to inspect its subtopics.", class_="text-muted small"),
-        )
-
-    @render_widget
-    def frontier_ranking():
-        topics = _clean_topics()
-        if topics.empty:
-            return theme.empty_figure("No frontier ranking data")
-        family = selected_family()
-        df = topics[topics["family"].eq(family)].copy() if family else topics.copy()
+    def tab3_lorenz():
+        df = t3.lorenz().copy()
         if df.empty:
-            df = topics.copy()
-        df = df.sort_values("frontier_score", ascending=False).head(8).sort_values("frontier_score")
-        selected = selected_topic()
-        colors = np.where(df["primary_topic"].eq(str(selected)), "#0f172a", "#1d4ed8")
+            return theme.empty_figure("Lorenz cache is empty — run build_impact_ml_cache.py")
+        df["paper_frac"] = pd.to_numeric(df["paper_frac"], errors="coerce")
+        df["citation_frac"] = pd.to_numeric(df["citation_frac"], errors="coerce")
+        gini = t3.concentration().get("gini")
+
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+            x=[0, 100], y=[0, 100], mode="lines", name="Perfect equality",
+            line=dict(color=MUTED, width=1.6, dash="dash"), hoverinfo="skip"))
+        fig.add_trace(go.Scatter(
+            x=df["paper_frac"] * 100, y=df["citation_frac"] * 100, mode="lines",
+            name="Observed", line=dict(color="#FFB778", width=3),
+            fill="tonexty", fillcolor="rgba(255,183,120,0.12)",
+            hovertemplate="Bottom %{x:.0f}% of papers<br>hold %{y:.1f}% of citations<extra></extra>"))
+        if gini is not None and not pd.isna(gini):
+            fig.add_annotation(x=20, y=82, text=f"Gini = {gini:.2f}", showarrow=False,
+                               font=dict(size=15, color=theme.TEXT),
+                               bgcolor="rgba(6,17,31,0.7)", bordercolor="rgba(255,255,255,0.16)", borderwidth=1)
+        fig.update_xaxes(title_text="Cumulative share of papers (%)", range=[0, 100], showgrid=True, gridcolor=theme.GRID)
+        fig.update_yaxes(title_text="Cumulative share of citations (%)", range=[0, 100])
+        fig.update_layout(showlegend=True, margin=dict(l=58, r=18, t=20, b=46))
+        return theme.style(fig, height=340)
+
+    # ---- Beat 1: Funnel --------------------------------------------------- #
+    @render_widget
+    def tab3_funnel():
+        df = t3.funnel().copy()
+        if df.empty:
+            return theme.empty_figure("Funnel cache is empty.")
+        df["count"] = pd.to_numeric(df["count"], errors="coerce")
+        total = float(df["count"].iloc[0]) if len(df) else 1.0
+
+        fig = go.Figure(go.Funnel(
+            y=df["stage"], x=df["count"],
+            textposition="inside", textinfo="value+percent initial",
+            marker=dict(color=theme.PALETTE[:len(df)],
+                        line=dict(color="rgba(255,255,255,0.18)", width=1)),
+            connector=dict(line=dict(color=MUTED, width=1)),
+            hovertemplate="%{y}<br>%{x:,.0f} papers (%{percentInitial:.2%} of all)<extra></extra>"))
+
+        # The ≥100 and ≥1000 tiers are so tiny their bars vanish: add white
+        # callouts with an arrow pointing at the (near-zero-width) bar.
+        for stage in ["Cited ≥ 100", "Cited ≥ 1000"]:
+            row = df[df["stage"] == stage]
+            if row.empty:
+                continue
+            cnt = float(row["count"].iloc[0])
+            pct = 100.0 * cnt / max(total, 1)
+            fig.add_annotation(
+                x=0.5, xref="paper", xanchor="left",
+                y=stage, yref="y",
+                text=f"<b>{cnt:,.0f}</b> papers ({pct:.2f}%)",
+                showarrow=True, arrowhead=3, arrowsize=1.1, arrowwidth=1.6,
+                arrowcolor="#FFFFFF", ax=110, ay=0,
+                font=dict(color="#FFFFFF", size=13),
+                bgcolor="rgba(6,17,31,0.78)", bordercolor="rgba(255,255,255,0.35)", borderwidth=1,
+            )
+        fig.update_layout(margin=dict(l=20, r=28, t=20, b=20))
+        return theme.style(fig, height=340)
+
+    # ---- Beat 2: drivers -------------------------------------------------- #
+    @render_widget
+    def tab3_drivers():
+        df = t3.drivers().copy()
+        if df.empty:
+            return theme.empty_figure("Driver cache is empty.")
+        df["coef"] = pd.to_numeric(df["coef"], errors="coerce")
+        df = df.dropna(subset=["coef"]).sort_values("coef")
+        colors = np.where(df["coef"] >= 0, GOOD, BAD)
         fig = go.Figure(go.Bar(
-            x=df["frontier_score"],
-            y=df["primary_topic"],
-            orientation="h",
-            marker_color=colors,
-            customdata=pd.DataFrame({
-                "kind": "topic",
-                "family": df["family"],
-                "topic": df["primary_topic"],
-                "name": df["primary_topic"],
-                "paper_count": df["paper_count"],
-                "growth": df["growth"],
-                "median_fwci": df["median_fwci"],
-                "median_velocity": df["median_velocity"],
-                "frontier_score": df["frontier_score"],
-            }),
-            hovertemplate=(
-                "<b>%{y}</b><br>"
-                "Frontier score %{x:.1f}<br>"
-                "%{customdata[4]:,.0f} papers<br>"
-                "Growth ratio %{customdata[5]:.2f}x<br>"
-                "Median FWCI %{customdata[6]:.2f}<br>"
-                "Citation velocity %{customdata[7]:.1f}/yr<extra></extra>"
-            ),
-        ))
-        fig.update_xaxes(title_text="Frontier score")
-        fig.update_yaxes(title_text="", automargin=True)
-        fig.update_layout(margin=dict(l=8, r=16, t=12, b=46), showlegend=False)
-        return theme.style(fig, height=390)
+            x=df["coef"], y=df["feature"], orientation="h",
+            marker=dict(color=colors, line=dict(color="rgba(255,255,255,0.16)", width=1)),
+            hovertemplate="<b>%{y}</b><br>coefficient %{x:+.2f}<extra></extra>"))
+        fig.add_vline(x=0, line_color=MUTED, line_width=1.2)
+        fig.update_xaxes(title_text="Effect on log-odds of high impact (standardized)", showgrid=True, gridcolor=theme.GRID, zeroline=False)
+        fig.update_yaxes(title_text="")
+        fig.update_layout(showlegend=False, margin=dict(l=10, r=18, t=18, b=44))
+        return theme.style(fig, height=360)
 
+    # ---- Beat 3: model cards --------------------------------------------- #
     @render.ui
-    def topic_passport():
-        topics = _clean_topics()
-        if topics.empty:
-            return ui.p("No topic passport data is available.", class_="text-muted small")
-        topic = selected_topic()
-        rows = topics[topics["primary_topic"].eq(topic)] if topic else pd.DataFrame()
-        if rows.empty:
-            rows = topics.sort_values("frontier_score", ascending=False).head(1)
-        row = rows.iloc[0]
-        papers = nd.representative_papers(str(row["primary_topic"]), family=str(row["family"]), limit=4)
-        return ui.div(
-            _metric_group(
-                metric("Selected topic", str(row["primary_topic"]), str(row["family"])),
-                metric("Parent family", str(row["family"])),
-                metric("Paper count", f"{float(row['paper_count']):,.0f}"),
-                metric("Frontier score", f"{float(row['frontier_score']):.1f}"),
-                metric("Growth ratio", f"{float(row['growth']):.2f}x"),
-                metric("Median FWCI", f"{float(row['median_fwci']):.2f}"),
-                metric("Citation velocity", f"{float(row['median_velocity']):.1f}/yr"),
-                metric("Top signal", str(row["top_signal"])),
-            ),
-            ui.p(
-                "The frontier score combines recent growth, normalized impact, and citation velocity. It is a ranking signal, not a causal explanation.",
-                class_="interpretation",
-            ),
-            ui.p(ui.tags.strong("Representative papers"), class_="panel-label"),
-            paper_list(papers, topic=True, limit=4),
-        )
+    def tab3_model_cards():
+        df = t3.model_metrics().copy()
+        if df.empty:
+            return notice("Model-metrics cache is empty.")
+        for col in ["roc_auc", "pr_auc", "lift_at_10"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+        cards = []
+        for _, r in df.iterrows():
+            cards.append(metric(
+                str(r["model"]),
+                f"AUC {r['roc_auc']:.3f}",
+                f"PR-AUC {r['pr_auc']:.3f} · lift@10 {r['lift_at_10']:.2f}×",
+            ))
+        return ui.div(*cards, class_="metric-grid", style=f"grid-template-columns:repeat({len(cards)}, minmax(0,1fr));")
 
+    # ---- Beat 3: ROC ------------------------------------------------------ #
+    @render_widget
+    def tab3_roc():
+        df = t3.roc_curve().copy()
+        if df.empty:
+            return theme.empty_figure("ROC cache is empty.")
+        df["fpr"] = pd.to_numeric(df["fpr"], errors="coerce")
+        df["tpr"] = pd.to_numeric(df["tpr"], errors="coerce")
+        mm = t3.model_metrics().copy()
+        auc = np.nan
+        if not mm.empty:
+            mm["roc_auc"] = pd.to_numeric(mm["roc_auc"], errors="coerce")
+            gbm = mm[mm["model"].str.contains("oost", case=False, na=False)]
+            auc = float(gbm["roc_auc"].iloc[0]) if not gbm.empty else float(mm["roc_auc"].max())
+
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=[0, 1], y=[0, 1], mode="lines", name="Random",
+                                 line=dict(color=MUTED, width=1.6, dash="dash"), hoverinfo="skip"))
+        fig.add_trace(go.Scatter(x=df["fpr"], y=df["tpr"], mode="lines", name="Gradient boosting",
+                                 line=dict(color=ACCENT, width=3), fill="tozeroy",
+                                 fillcolor="rgba(124,201,255,0.10)",
+                                 hovertemplate="FPR %{x:.2f}<br>TPR %{y:.2f}<extra></extra>"))
+        if not pd.isna(auc):
+            fig.add_annotation(x=0.62, y=0.18, text=f"ROC-AUC = {auc:.3f}", showarrow=False,
+                               font=dict(size=15, color=theme.TEXT),
+                               bgcolor="rgba(6,17,31,0.7)", bordercolor="rgba(255,255,255,0.16)", borderwidth=1)
+        fig.update_xaxes(title_text="False positive rate", range=[0, 1], showgrid=True, gridcolor=theme.GRID)
+        fig.update_yaxes(title_text="True positive rate", range=[0, 1])
+        fig.update_layout(showlegend=True, margin=dict(l=56, r=18, t=20, b=44))
+        return theme.style(fig, height=330)
+
+    # ---- Beat 3: calibration --------------------------------------------- #
+    @render_widget
+    def tab3_calibration():
+        df = t3.calibration().copy()
+        if df.empty:
+            return theme.empty_figure("Calibration cache is empty.")
+        df["predicted"] = pd.to_numeric(df["predicted"], errors="coerce")
+        df["observed"] = pd.to_numeric(df["observed"], errors="coerce")
+        df = df.dropna(subset=["predicted", "observed"])
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=[0, 1], y=[0, 1], mode="lines", name="Perfect calibration",
+                                 line=dict(color=MUTED, width=1.6, dash="dash"), hoverinfo="skip"))
+        fig.add_trace(go.Scatter(x=df["predicted"], y=df["observed"], mode="lines+markers",
+                                 name="Model", line=dict(color=GOOD, width=3),
+                                 marker=dict(size=7, color=GOOD),
+                                 hovertemplate="Predicted %{x:.2f}<br>Observed %{y:.2f}<extra></extra>"))
+        fig.update_xaxes(title_text="Predicted probability", range=[0, 1], showgrid=True, gridcolor=theme.GRID)
+        fig.update_yaxes(title_text="Observed high-impact rate", range=[0, 1])
+        fig.update_layout(showlegend=True, margin=dict(l=56, r=18, t=20, b=44))
+        return theme.style(fig, height=330)
+
+    # ---- Beat 4: forecast (all families, highlight one) ------------------ #
+    @render_widget
+    def tab3_forecast():
+        df = t3.forecast().copy()
+        if df.empty:
+            return theme.empty_figure("Forecast cache is empty — run build_impact_ml_cache.py")
+        for col in ["year", "share", "lo", "hi"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        families = _forecast_families()
+        palette = _family_palette(families)
+        sel = input.tab3_family() or (families[0] if families else None)
+
+        fig = go.Figure()
+        # Draw non-selected families first (faded), selected last so it sits on top.
+        for fam in [f for f in families if f != sel] + ([sel] if sel in families else []):
+            sub = df[df["family"] == fam].sort_values("year")
+            if sub.empty:
+                continue
+            hist = sub[sub["kind"] == "history"]
+            fore = sub[sub["kind"] == "forecast"]
+            # Bridge history into forecast for a continuous line.
+            if not hist.empty and not fore.empty:
+                fore = pd.concat([hist.iloc[[-1]].assign(kind="forecast"), fore], ignore_index=True)
+            color = palette.get(fam, ACCENT)
+            is_sel = fam == sel
+
+            if is_sel:
+                # confidence band
+                if not fore.empty and fore["hi"].notna().any():
+                    fig.add_trace(go.Scatter(
+                        x=pd.concat([fore["year"], fore["year"][::-1]]),
+                        y=pd.concat([fore["hi"], fore["lo"][::-1]]),
+                        fill="toself", fillcolor=_rgba(color, 0.16),
+                        line=dict(color="rgba(0,0,0,0)"), showlegend=False, hoverinfo="skip"))
+                fig.add_trace(go.Scatter(
+                    x=hist["year"], y=hist["share"], mode="lines+markers", name=fam,
+                    legendgroup=fam, line=dict(color=color, width=4), marker=dict(size=6, color=color),
+                    hovertemplate=f"<b>{fam}</b><br>%{{x}}: %{{y:.1f}}%<extra></extra>"))
+                if not fore.empty:
+                    fig.add_trace(go.Scatter(
+                        x=fore["year"], y=fore["share"], mode="lines+markers", name=f"{fam} (forecast)",
+                        legendgroup=fam, showlegend=False,
+                        line=dict(color=color, width=4, dash="dash"), marker=dict(size=6, color=color),
+                        hovertemplate=f"<b>{fam}</b><br>%{{x}}: %{{y:.1f}}% (forecast)<extra></extra>"))
+            else:
+                full = pd.concat([hist, fore[fore["kind"] == "forecast"]], ignore_index=True).sort_values("year")
+                fig.add_trace(go.Scatter(
+                    x=full["year"], y=full["share"], mode="lines", name=fam, legendgroup=fam,
+                    line=dict(color=_rgba(color, 0.32), width=1.6),
+                    hovertemplate=f"{fam}<br>%{{x}}: %{{y:.1f}}%<extra></extra>"))
+
+        fig.add_vline(x=2025, line_dash="dot", line_color=MUTED, line_width=1,
+                      annotation_text="last data (2025) · forecast →", annotation_position="top",
+                      annotation_font=dict(color=theme.SUBTLE_TEXT, size=11))
+        fig.update_xaxes(title_text="", tickmode="linear", dtick=4)
+        fig.update_yaxes(title_text="Share of high-impact papers (%)", showgrid=True, gridcolor=theme.GRID, rangemode="tozero")
+        fig.update_layout(legend=dict(orientation="h", y=1.12, x=0, font=dict(size=10)),
+                          margin=dict(l=56, r=18, t=44, b=34))
+        return theme.style(fig, height=420)

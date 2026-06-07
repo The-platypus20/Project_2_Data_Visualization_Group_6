@@ -1,0 +1,8 @@
+feature,coef,direction
+Conference venue,0.031524504329772114,raises
+Institutions,0.04872147879502681,raises
+Open access,0.07607824412950227,raises
+International reach,0.14283911706077382,raises
+Journal venue,0.2932402376511771,raises
+Team size,0.3131109312568889,raises
+References (log),1.0609194600140657,raises

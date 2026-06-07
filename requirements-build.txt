@@ -1,0 +1,8 @@
+# Extra dependencies needed ONLY to rebuild the cache files offline
+# (the runtime dashboard in app.py does not need these).
+#
+#   pip install -r requirements.txt -r requirements-build.txt
+#
+scikit-learn        # logistic regression, metrics, train/test split (Tab 3)
+lightgbm            # gradient-boosting classifier (Tab 3)
+torch               # LSTM forecast (Tab 3)
