@@ -43,9 +43,8 @@ def _section(num: str, text: str) -> ui.Tag:
     return ui.div(
         ui.span(num + " · ", style=f"color:{ACCENT};"),
         text,
-        class_="story-section-label",
-        style="font-size:1.5rem; font-weight:850; color:#EAF2FF; "
-              "margin:1.6rem 0 .6rem; letter-spacing:.01em;",
+        class_="story-section-label tab3-section-title",
+        style="font-size:1.5rem; font-weight:850; margin:1.6rem 0 .6rem; letter-spacing:.01em;",
     )
 
 
@@ -53,9 +52,8 @@ def _taskline(*body) -> ui.Tag:
     """States the prediction problem the models on beats 2-3 are solving."""
     return ui.div(
         ui.tags.strong("The task — "), *body,
-        style="font-size:1.08rem; color:#BFE4FF; margin:.1rem .2rem .8rem; "
-              "padding:.55rem .85rem; border-left:3px solid #7CC9FF; "
-              "background:rgba(124,201,255,0.07); border-radius:8px; line-height:1.5;",
+        class_="tab3-taskline",
+        style="font-size:1.08rem; margin:.1rem .2rem .8rem; padding:.55rem .85rem; border-radius:8px; line-height:1.5;",
     )
 
 
@@ -63,7 +61,7 @@ def _explain(title: str, *body) -> ui.Tag:
     """A themed explanation box (reuses the .interpretation style, enlarged)."""
     return ui.div(
         ui.span(ui.tags.strong(title + " "), *body),
-        class_="interpretation",
+        class_="interpretation tab3-explain",
         style="font-size:1.04rem; line-height:1.55; padding:.85rem 1rem;",
     )
 
@@ -184,7 +182,6 @@ def impact_ui():
                     "Each bar is one trait's effect on the odds of being high impact, holding the others fixed.",
                 ),
                 output_widget("tab3_drivers"),
-                notice("Green bars raise the odds of high impact; rose bars lower them. Longer bar = stronger effect."),
             ),
             _explain(
                 "How this model works —",
@@ -208,7 +205,6 @@ def impact_ui():
                         "Tested on a 20% hold-out set the model never trained on.",
                     ),
                     output_widget("tab3_roc"),
-                    notice("The further the blue curve bows toward the top-left, the better the model separates impact from non-impact."),
                 ),
                 ui.card(
                     card_header(
@@ -240,7 +236,6 @@ def impact_ui():
                 ui.input_select("tab3_family", "Highlight a research family",
                                 choices=fam_choices, selected=(fam_choices[0] if fam_choices else None)),
                 output_widget("tab3_forecast"),
-                notice("Shares sum to 100% across families each year, so this shows which families dominate the frontier, not raw volume."),
             ),
             _explain(
                 "How this model works —",
@@ -283,13 +278,10 @@ def impact_server(input, output, session):
         never = c.get("never_cited_pct")
         top1 = c.get("top1pct_citation_share")
         return ui.div(
-            metric("Never cited", _pct(never, 1),
-                   "Papers with zero citations"),
-            metric("Top 1% citation share", _pct(top1, 0),
-                   "Citations held by the top 1% of papers"),
-            metric("Best model ROC-AUC", f"{roc:.3f}" if not pd.isna(roc) else "N/A",
-                   "Ranking power on unseen papers"),
-            class_="metric-grid", style="grid-template-columns:repeat(3, minmax(0,1fr));",
+            ui.div(ui.div("Never cited", class_="kpi-label"), ui.div(_pct(never, 1), class_="kpi-value"), ui.div("Papers with zero citations", class_="kpi-note"), class_="kpi-card"),
+            ui.div(ui.div("Top 1% citation share", class_="kpi-label"), ui.div(_pct(top1, 0), class_="kpi-value"), ui.div("Citations held by top 1%", class_="kpi-note"), class_="kpi-card"),
+            ui.div(ui.div("Best model ROC-AUC", class_="kpi-label"), ui.div(f"{roc:.3f}" if not pd.isna(roc) else "N/A", class_="kpi-value"), ui.div("Ranking power on unseen papers", class_="kpi-note"), class_="kpi-card"),
+            class_="kpi-grid tab3-kpi-grid",
         )
 
     # ---- Beat 1: Funnel --------------------------------------------------- #
@@ -337,7 +329,8 @@ def impact_server(input, output, session):
             return theme.empty_figure("Driver cache is empty.")
         df["coef"] = pd.to_numeric(df["coef"], errors="coerce")
         df = df.dropna(subset=["coef"]).sort_values("coef")
-        colors = np.where(df["coef"] >= 0, GOOD, BAD)
+        top_idx = df["coef"].abs().idxmax()
+        colors = [ACCENT if idx == top_idx else "rgba(148,163,184,0.58)" for idx in df.index]
         fig = go.Figure(go.Bar(
             x=df["coef"], y=df["feature"], orientation="h",
             marker=dict(color=colors, line=dict(color="rgba(255,255,255,0.16)", width=1)),
@@ -353,7 +346,7 @@ def impact_server(input, output, session):
     def tab3_model_cards():
         df = t3.model_metrics().copy()
         if df.empty:
-            return notice("Model-metrics cache is empty.")
+            return ui.div("Model-metrics cache is empty.", class_="text-muted small")
         for col in ["roc_auc", "pr_auc", "lift_at_10"]:
             df[col] = pd.to_numeric(df[col], errors="coerce")
         # Fixed display order: best model first, random baseline last.

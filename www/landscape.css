@@ -900,3 +900,174 @@
 #landscape-root .family-paper-particle {
   opacity: .95;
 }
+
+
+/* Tab 2 final light-theme and readability fixes */
+
+#landscape-root .landscape-svg-shell {
+  min-height: 700px !important;
+}
+
+#landscape-root svg {
+  height: clamp(700px, 78vh, 820px) !important;
+}
+
+#landscape-root .family-label {
+  font-size: 17.2px !important;
+  font-weight: 950 !important;
+  stroke-width: 5px !important;
+}
+
+#landscape-root .family-count {
+  font-size: 15.2px !important;
+  font-weight: 930 !important;
+  fill: #F8FBFF !important;
+  stroke-width: 4px !important;
+}
+
+#landscape-root .family-range {
+  font-size: 12.4px !important;
+  font-weight: 900 !important;
+}
+
+#landscape-root .family-paper-particle {
+  transition: opacity 220ms ease, filter 220ms ease;
+}
+
+body.ai-light-theme #landscape-root .landscape-toolbar {
+  background: rgba(255,255,255,0.96) !important;
+  border-color: rgba(15,23,42,0.10) !important;
+  box-shadow: 0 18px 44px rgba(15,23,42,0.10) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-slider-label {
+  color: #0F172A !important;
+}
+
+body.ai-light-theme #landscape-root #landscape-year-range-value {
+  color: #1D4ED8 !important;
+  background: rgba(37,99,235,0.08) !important;
+  border-color: rgba(37,99,235,0.18) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-range-rail {
+  background: #DCE8F6 !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-range-fill {
+  background: linear-gradient(90deg, #60A5FA, #2563EB) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-svg-shell {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(37,99,235,0.12), transparent 30%),
+    radial-gradient(circle at 82% 28%, rgba(14,165,233,0.10), transparent 32%),
+    radial-gradient(circle at 45% 86%, rgba(245,158,11,0.08), transparent 30%),
+    linear-gradient(180deg, #F8FBFF 0%, #EAF3FF 100%) !important;
+  border-color: rgba(15,23,42,0.10) !important;
+  box-shadow: 0 20px 52px rgba(15,23,42,0.12) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-stars circle {
+  fill: rgba(37,99,235,0.28) !important;
+}
+
+body.ai-light-theme #landscape-root .family-label {
+  fill: #0F172A !important;
+  stroke: rgba(255,255,255,0.94) !important;
+}
+
+body.ai-light-theme #landscape-root .family-count,
+body.ai-light-theme #landscape-root .family-range {
+  fill: #334155 !important;
+  stroke: rgba(255,255,255,0.94) !important;
+}
+
+body.ai-light-theme #landscape-root .family-bubble {
+  fill-opacity: 0.24 !important;
+  stroke-opacity: 0.70 !important;
+}
+
+body.ai-light-theme #landscape-root .family-halo {
+  fill-opacity: 0.12 !important;
+}
+
+body.ai-light-theme #landscape-root .watermark {
+  fill: rgba(37,99,235,0.10) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-tooltip {
+  background: rgba(255,255,255,0.98) !important;
+  border-color: rgba(15,23,42,0.12) !important;
+  color: #0F172A !important;
+  box-shadow: 0 18px 42px rgba(15,23,42,0.18) !important;
+}
+
+body.ai-light-theme #landscape-root .landscape-tooltip strong {
+  color: #0F172A !important;
+}
+
+body.ai-light-theme .landscape-detail-card {
+  background: rgba(255,255,255,0.96) !important;
+  border-color: rgba(15,23,42,0.10) !important;
+  box-shadow: 0 18px 44px rgba(15,23,42,0.10) !important;
+}
+
+body.ai-light-theme .landscape-breadcrumb,
+body.ai-light-theme .landscape-detail-copy,
+body.ai-light-theme .subtopic-rank-value,
+body.ai-light-theme .landscape-section-title,
+body.ai-light-theme .landscape-detail-card .text-muted,
+body.ai-light-theme .landscape-detail-card .small {
+  color: #475569 !important;
+}
+
+body.ai-light-theme .landscape-detail-title,
+body.ai-light-theme .subtopic-rank-name,
+body.ai-light-theme .landscape-detail-card .panel-label,
+body.ai-light-theme .landscape-detail-card .paper-list li,
+body.ai-light-theme .landscape-detail-card .paper-list strong {
+  color: #0F172A !important;
+}
+
+body.ai-light-theme .landscape-detail-card .metric {
+  background: rgba(248,251,255,0.96) !important;
+  border-color: rgba(15,23,42,0.10) !important;
+}
+
+body.ai-light-theme .landscape-detail-card .metric-label {
+  color: #475569 !important;
+}
+
+body.ai-light-theme .landscape-detail-card .metric-value {
+  color: #0F172A !important;
+}
+
+body.ai-light-theme .subtopic-rank-track {
+  background: rgba(15,23,42,0.10) !important;
+}
+
+body.ai-light-theme .subtopic-rank-fill {
+  background: linear-gradient(90deg, #2563EB, #38BDF8) !important;
+}
+
+body.ai-light-theme #landscape-root #landscape-play {
+  color: #FFFFFF !important;
+  background: linear-gradient(180deg, #60A5FA, #2563EB) !important;
+}
+
+body.ai-light-theme #landscape-root #landscape-reset {
+  color: #0F172A !important;
+  background: rgba(255,255,255,0.92) !important;
+  border-color: rgba(15,23,42,0.14) !important;
+}
+
+body.ai-light-theme .term-shift-card .card-header,
+body.ai-light-theme .term-shift-card .card-header *,
+body.ai-light-theme .term-shift-card .chart-title {
+  color: #0F172A !important;
+}
+
+body.ai-light-theme .term-shift-card .chart-subtitle {
+  color: #475569 !important;
+}

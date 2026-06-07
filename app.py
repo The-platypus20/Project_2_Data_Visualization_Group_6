@@ -1,4 +1,4 @@
-﻿"""AI research narrative dashboard.
+"""AI research narrative dashboard.
 
 Run with: shiny run app.py --reload
 """
@@ -247,6 +247,40 @@ body {
     border-color: rgba(124,201,255,0.30);
   }
 
+  .theme-segmented-control {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem;
+    padding: 0.28rem;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+
+  .theme-choice-btn {
+    border: 0;
+    border-radius: 12px;
+    padding: 0.56rem 0.45rem;
+    color: #9FB2CC;
+    background: transparent;
+    font-size: 0.8rem;
+    font-weight: 880;
+    text-align: center;
+    transition: background 140ms ease, color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+  }
+
+  .theme-choice-btn:hover {
+    color: #EAF2FF;
+    background: rgba(124,201,255,0.10);
+    transform: translateY(-1px);
+  }
+
+  .theme-choice-btn.is-active {
+    color: #06111F;
+    background: linear-gradient(180deg, #BFE4FF, #7CC9FF);
+    box-shadow: 0 10px 24px rgba(124,201,255,0.22);
+  }
+
   .container-fluid {
     max-width: 1520px;
   }
@@ -429,6 +463,26 @@ body.ai-light-theme .sidebar-action-btn {
   border-color: rgba(37,99,235,0.14);
 }
 
+body.ai-light-theme .theme-segmented-control {
+  background: rgba(37,99,235,0.06);
+  border-color: rgba(37,99,235,0.14);
+}
+
+body.ai-light-theme .theme-choice-btn {
+  color: #475569;
+}
+
+body.ai-light-theme .theme-choice-btn:hover {
+  color: #0F172A;
+  background: rgba(37,99,235,0.08);
+}
+
+body.ai-light-theme .theme-choice-btn.is-active {
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #60A5FA, #2563EB);
+  box-shadow: 0 10px 24px rgba(37,99,235,0.20);
+}
+
 body.ai-light-theme .form-control,
 body.ai-light-theme .form-select,
 body.ai-light-theme .selectize-input,
@@ -447,25 +501,70 @@ body.ai-light-theme .selectize-dropdown {
 
 SIDEBAR_UX_JS = """
 (function () {
-  function applyTheme(theme) {
-    var isLight = theme === "light";
-    document.body.classList.toggle("ai-light-theme", isLight);
-    document.documentElement.classList.toggle("ai-light-theme", isLight);
-    var btn = document.getElementById("ai-theme-toggle");
-    if (btn) btn.textContent = isLight ? "Theme: Light" : "Theme: Dark";
-    try { localStorage.setItem("ai-dashboard-theme", theme); } catch (e) {}
+  function setPressed(id, active) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.classList.toggle("is-active", active);
+    el.setAttribute("aria-pressed", active ? "true" : "false");
   }
 
-  function resetCurrentView() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    var landscapeReset = document.getElementById("landscape-reset");
-    if (landscapeReset) landscapeReset.click();
-    var frontierReset = document.getElementById("reset_frontier_view");
-    if (frontierReset) frontierReset.click();
-    if (window.Shiny && typeof window.Shiny.setInputValue === "function") {
-      window.Shiny.setInputValue("global_reset_view", Date.now(), { priority: "event" });
-    }
+  function relayoutPlotlyTheme(isLight) {
+    if (!window.Plotly) return;
+    var layout = isLight ? {
+      "paper_bgcolor": "rgba(0,0,0,0)",
+      "plot_bgcolor": "rgba(0,0,0,0)",
+      "font.color": "#334155",
+      "legend.font.color": "#334155",
+      "xaxis.color": "#475569",
+      "yaxis.color": "#475569",
+      "xaxis.gridcolor": "#E2E8F0",
+      "yaxis.gridcolor": "#E2E8F0",
+      "yaxis2.color": "#475569",
+      "yaxis2.gridcolor": "rgba(0,0,0,0)"
+    } : {
+      "paper_bgcolor": "rgba(0,0,0,0)",
+      "plot_bgcolor": "rgba(0,0,0,0)",
+      "font.color": "#EAF2FF",
+      "legend.font.color": "#EAF2FF",
+      "xaxis.color": "#EAF2FF",
+      "yaxis.color": "#EAF2FF",
+      "xaxis.gridcolor": "rgba(255,255,255,0.08)",
+      "yaxis.gridcolor": "rgba(255,255,255,0.08)",
+      "yaxis2.color": "#EAF2FF",
+      "yaxis2.gridcolor": "rgba(0,0,0,0)"
+    };
+    document.querySelectorAll(".js-plotly-plot").forEach(function (plot) {
+      try {
+        window.Plotly.relayout(plot, layout);
+        window.Plotly.restyle(plot, {
+          "textfont.color": isLight ? "#0F172A" : "#EAF2FF",
+          "marker.line.color": isLight ? "rgba(15,23,42,0.18)" : "rgba(255,255,255,0.55)"
+        });
+      } catch (e) {}
+    });
   }
+
+  function applyTheme(theme) {
+    var normalized = theme === "light" ? "light" : "dark";
+    var isLight = normalized === "light";
+    document.body.classList.toggle("ai-light-theme", isLight);
+    document.documentElement.classList.toggle("ai-light-theme", isLight);
+    setPressed("ai-theme-dark", !isLight);
+    setPressed("ai-theme-light", isLight);
+    try { localStorage.setItem("ai-dashboard-theme", normalized); } catch (e) {}
+    setTimeout(function () { relayoutPlotlyTheme(isLight); }, 80);
+    setTimeout(function () { relayoutPlotlyTheme(isLight); }, 500);
+  }
+
+  function schedulePlotlyRestyle(delay) {
+    var isLight = document.body.classList.contains("ai-light-theme");
+    setTimeout(function () { relayoutPlotlyTheme(isLight); }, delay || 60);
+  }
+
+  document.addEventListener("shiny:value", function () { schedulePlotlyRestyle(60); });
+  document.addEventListener("plotly_afterplot", function () { schedulePlotlyRestyle(30); });
+  document.addEventListener("shown.bs.tab", function () { schedulePlotlyRestyle(80); });
+  window.addEventListener("resize", function () { schedulePlotlyRestyle(120); });
 
   function mountSidebarActions() {
     var nav = document.querySelector(".navbar");
@@ -473,15 +572,18 @@ SIDEBAR_UX_JS = """
     var container = nav.querySelector(".container-fluid") || nav.querySelector(".container") || nav;
     var actions = document.createElement("div");
     actions.className = "sidebar-actions";
-    actions.innerHTML = '<div class="sidebar-actions-title">ACTIONS</div>' +
-      '<button type="button" class="sidebar-action-btn" id="ai-reset-view">Reset view</button>' +
-      '<button type="button" class="sidebar-action-btn" id="ai-theme-toggle">Theme: Dark</button>';
+    actions.innerHTML = '<div class="sidebar-actions-title">DISPLAY</div>' +
+      '<div class="theme-segmented-control" role="group" aria-label="Theme selector">' +
+      '<button type="button" class="theme-choice-btn" id="ai-theme-dark" aria-pressed="true">Dark</button>' +
+      '<button type="button" class="theme-choice-btn" id="ai-theme-light" aria-pressed="false">Light</button>' +
+      '</div>';
     container.appendChild(actions);
 
-    document.getElementById("ai-reset-view").addEventListener("click", resetCurrentView);
-    document.getElementById("ai-theme-toggle").addEventListener("click", function () {
-      var next = document.body.classList.contains("ai-light-theme") ? "dark" : "light";
-      applyTheme(next);
+    document.getElementById("ai-theme-dark").addEventListener("click", function () {
+      applyTheme("dark");
+    });
+    document.getElementById("ai-theme-light").addEventListener("click", function () {
+      applyTheme("light");
     });
 
     var saved = "dark";

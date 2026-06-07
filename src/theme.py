@@ -38,7 +38,7 @@ _TEMPLATE.layout = go.Layout(
         color=TEXT,
     ),
     paper_bgcolor="rgba(0,0,0,0)",
-    plot_bgcolor="rgba(13,25,46,0.28)",
+    plot_bgcolor="rgba(0,0,0,0)",
     colorway=PALETTE,
     margin=dict(l=60, r=20, t=70, b=50),
     xaxis=dict(
@@ -592,6 +592,172 @@ table {
     border-radius: 14px;
 }
 
+
+/* Consistent dashboard typography and KPI cards */
+.chart-title,
+.card-header,
+.card-header * {
+    font-size: 0.98rem !important;
+    font-weight: 800 !important;
+    line-height: 1.25 !important;
+    letter-spacing: -0.015em !important;
+}
+
+.chart-subtitle,
+.card-subtitle {
+    font-size: 0.84rem !important;
+    font-weight: 520 !important;
+    line-height: 1.38 !important;
+    color: var(--ai-muted) !important;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0.95rem 0 0.9rem;
+}
+
+.kpi-card {
+    min-height: 118px;
+    padding: 1.25rem 1.35rem;
+    border-radius: 22px;
+    background:
+        radial-gradient(circle at 88% 18%, rgba(124,201,255,0.12), transparent 34%),
+        linear-gradient(180deg, rgba(20,42,78,.96), rgba(10,24,46,.94));
+    border: 1px solid rgba(124,201,255,.18);
+    box-shadow: 0 18px 46px rgba(2,8,23,.24), inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+.kpi-label {
+    color: #BFE4FF;
+    font-size: 0.72rem;
+    font-weight: 850;
+    line-height: 1;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.kpi-value {
+    color: #F8FBFF;
+    font-size: clamp(1.8rem, 2.2vw, 2.35rem);
+    font-weight: 920;
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    margin-bottom: 0.55rem;
+    white-space: nowrap;
+}
+
+.kpi-note {
+    color: #B9D7F6;
+    font-size: 0.78rem;
+    font-weight: 520;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1200px) {
+    .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .kpi-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+body.ai-light-theme .kpi-card {
+    background:
+        radial-gradient(circle at 88% 18%, rgba(37,99,235,0.10), transparent 34%),
+        linear-gradient(180deg, rgba(255,255,255,0.98), rgba(239,246,255,0.94)) !important;
+    border-color: rgba(37,99,235,0.14) !important;
+    box-shadow: 0 18px 48px rgba(15,23,42,0.10) !important;
+}
+
+body.ai-light-theme .kpi-label {
+    color: #1D4ED8 !important;
+}
+
+body.ai-light-theme .kpi-value {
+    color: #0F172A !important;
+}
+
+body.ai-light-theme .kpi-note {
+    color: #475569 !important;
+}
+
+
+.tab3-kpi-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media (max-width: 1300px) {
+    .tab3-kpi-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    .tab3-kpi-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Tab 3 light-theme text fixes */
+.tab3-section-title {
+    color: var(--ai-text) !important;
+}
+
+.tab3-taskline {
+    color: #BFE4FF !important;
+    border-left: 3px solid #7CC9FF !important;
+    background: rgba(124,201,255,0.07) !important;
+}
+
+.tab3-explain,
+.interpretation {
+    color: #D8EFFF !important;
+}
+
+body.ai-light-theme .tab3-section-title {
+    color: #0F172A !important;
+}
+
+body.ai-light-theme .tab3-taskline {
+    color: #0F172A !important;
+    background: rgba(37,99,235,0.07) !important;
+    border-left-color: #2563EB !important;
+}
+
+body.ai-light-theme .tab3-taskline strong,
+body.ai-light-theme .tab3-explain strong,
+body.ai-light-theme .interpretation strong {
+    color: #0F172A !important;
+}
+
+body.ai-light-theme .tab3-explain,
+body.ai-light-theme .interpretation {
+    color: #334155 !important;
+    background: rgba(37,99,235,0.07) !important;
+    border-color: rgba(37,99,235,0.16) !important;
+    border-left-color: #2563EB !important;
+}
+
+body.ai-light-theme .story-section-label {
+    color: #0F172A !important;
+}
+
+body.ai-light-theme .story-section-label span {
+    color: #2563EB !important;
+}
+
 @media (max-width: 1100px) {
     .metric-grid {
         grid-template-columns: 1fr;
@@ -622,6 +788,12 @@ table {
 def style(fig: go.Figure, *, title: str | None = None, height: int | None = None) -> go.Figure:
     """Apply the shared template plus optional title/height in one call."""
     fig.update_layout(template="g6")
+    # Keep every Plotly chart transparent so light theme cards do not turn gray.
+    # Theme switching in app.py relayouts visible charts for dark/light text and grid colors.
+    fig.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+    )
     if title is not None:
         fig.update_layout(title=title)
     if height is not None:
