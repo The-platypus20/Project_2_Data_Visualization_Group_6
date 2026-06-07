@@ -271,6 +271,38 @@ def _size_buckets(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def _matrix_text_positions(names: pd.Series) -> list[str]:
+    """Keep labels inside the plot area for points near the top border."""
+    return [
+        "bottom center" if str(name) == "Core ML & Deep Learning" or str(name) == "Applied / Interdisciplinary AI" else "top center"
+        for name in names
+    ]
+
+
+def _add_quadrant_labels(fig: go.Figure) -> None:
+    """Label the four frontier regions without adding extra legend items."""
+    labels = [
+        (0.74, 0.93, "Rising stars", "#DFFCF3"),
+        (0.25, 0.93, "High-impact niches", "#D8E7FF"),
+        (0.74, 0.08, "Fast growth, lower impact", "#FFE8C2"),
+        (0.25, 0.08, "Mature / crowded", "#D8DEE8"),
+    ]
+    for x, y, label, color in labels:
+        fig.add_annotation(
+            x=x,
+            y=y,
+            xref="x",
+            yref="y",
+            text=label,
+            showarrow=False,
+            font=dict(size=12, color=color),
+            bgcolor="rgba(6,17,31,0.52)",
+            bordercolor="rgba(255,255,255,0.12)",
+            borderwidth=1,
+            borderpad=4,
+        )
+
+
 def _metric_group(*items):
     visible = [item for item in items if item is not None]
     return ui.div(*visible, class_="metric-grid") if visible else ui.div()
@@ -342,7 +374,6 @@ def _default_detail():
         ui.tags.ol(
             ui.tags.li("The map covers all cached papers without double counting."),
             ui.tags.li("Circle size follows cumulative paper volume through the selected year."),
-            ui.tags.li("Computer vision and LLMs are cross-cutting signals, not standalone primary families."),
             class_="small",
         ),
     )
@@ -605,12 +636,15 @@ def movement_ui():
             ),
             ui.h2("Where ideas moved"),
             ui.p(
-                "AI ideas concentrated in topic families, then shifted toward newer research language after 2020.",
+                "AI’s frontier is shifting from broad growth to specific high-momentum families, with Responsible AI becoming a visible high-growth, high-impact area after 2020.",
                 class_="tab-insight",
             ),
             class_="tab-heading",
         ),
-        section_label("Topic-family drill-down"),
+        ui.div(
+            section_label(""),
+            style="margin-top: 1.1rem;",
+        ),
         ui.layout_columns(
             ui.card(
                 card_header(
@@ -627,14 +661,29 @@ def movement_ui():
             ),
             col_widths=[8, 4],
         ),
-        section_label("Topic momentum and selected-family language shift"),
+        section_label(""),
         ui.layout_columns(
             ui.card(
                 card_header(
-                    "Frontier map: growth vs normalized impact",
-                    "Click a family bubble or matrix point. The term charts on the right switch to that family when cached data exists.",
+                    "Emerging terms show where attention is moving next",
+                    "The charts show the terms with the biggest growth or decline in share of papers.",
                 ),
                 output_widget("movement_growth_impact_matrix"),
+                ui.div(
+                    "Core ML & Deep Learning still carries strong technical impact. Responsible AI is the clearer rising signal, showing that AI ethics, safety, and governance are gaining attention. Healthcare AI is also starting to show impact, while Applied / Interdisciplinary AI shows AI spreading into real-world domains.",
+                    class_="chart-insight-note",
+                    style=(
+                        "margin: 0.15rem 1rem 1rem;"
+                        "padding: 0.78rem 0.95rem;"
+                        "border-left: 3px solid var(--ai-accent);"
+                        "border-radius: 12px;"
+                        "background: rgba(124,201,255,0.08);"
+                        "color: var(--ai-muted);"
+                        "font-size: 0.88rem;"
+                        "line-height: 1.45;"
+                    ),
+                ),
+
                 ui.tags.script("""
                 (function() {
                   function bindMovementMatrix() {
@@ -951,10 +1000,10 @@ def movement_server(input, output, session):
         y_min, y_max = 0.0, 1.0
         fig = go.Figure()
         bg = {
-            "Rising stars": "rgba(5,150,105,.22)",
-            "Hidden gems": "rgba(29,78,216,.20)",
-            "Fast growth, lower impact": "rgba(217,119,6,.20)",
-            "Mature or crowded": "rgba(100,116,139,.18)",
+            "Rising stars": "rgba(16,185,129,.34)",
+            "Hidden gems": "rgba(59,130,246,.24)",
+            "Fast growth, lower impact": "rgba(245,158,11,.24)",
+            "Mature or crowded": "rgba(100,116,139,.16)",
         }
         for x0, x1, y0, y1, label in [
             (x_cut, x_max, y_cut, y_max, "Rising stars"),
@@ -979,19 +1028,33 @@ def movement_server(input, output, session):
                 "frontier_score": sub["frontier_score"],
                 "size_tier": sub["size_tier"],
             })
+            text_positions = _matrix_text_positions(sub["name"])
+            highlight = show_label | is_selected | sub["quadrant"].eq("Rising stars")
+            line_colors = np.where(
+                is_selected,
+                "#FFFFFF",
+                np.where(sub["quadrant"].eq("Rising stars"), "#DFFCF3", "rgba(255,255,255,0.78)"),
+            )
+            line_widths = np.where(
+                is_selected,
+                4.2,
+                np.where(sub["quadrant"].eq("Rising stars"), 2.6, 1.2),
+            )
+            marker_sizes = np.where(sub["quadrant"].eq("Rising stars"), sub["bubble_size"] * 1.08, sub["bubble_size"])
+
             fig.add_trace(go.Scatter(
                 x=sub["display_growth"],
                 y=sub["display_fwci"],
                 mode="markers+text",
                 name=quad,
                 text=sub["name"].where(show_label, ""),
-                textposition="top center",
+                textposition=text_positions,
                 textfont=dict(size=11, color=theme.TEXT),
                 marker=dict(
-                    size=sub["bubble_size"],
+                    size=marker_sizes,
                     color=QUADRANT_COLORS[quad],
-                    opacity=np.where(show_label | is_selected, .90, .42),
-                    line=dict(color=np.where(is_selected, "#020617", "#ffffff"), width=np.where(is_selected, 3, 1.2)),
+                    opacity=np.where(highlight, .96, .30),
+                    line=dict(color=line_colors, width=line_widths),
                 ),
                 customdata=custom,
                 hovertemplate=(
@@ -1006,13 +1069,14 @@ def movement_server(input, output, session):
 
         fig.add_vline(x=x_cut, line_color=theme.TEXT, line_dash="dash", line_width=1.5)
         fig.add_hline(y=y_cut, line_color=theme.TEXT, line_dash="dash", line_width=1.5)
+        _add_quadrant_labels(fig)
 
         fig.update_xaxes(
             title_text="Growth momentum rank",
             range=[x_min, x_max],
             tickmode="array",
-            tickvals=[0, .25, .5, .75, 1],
-            ticktext=["Low", "", "Median", "", "High"],
+            tickvals=[.5, 1],
+            ticktext=["Median", "High"],
             showgrid=True,
             gridcolor=theme.GRID,
             zeroline=False,
@@ -1021,14 +1085,14 @@ def movement_server(input, output, session):
             title_text="Normalized impact rank",
             range=[y_min, y_max],
             tickmode="array",
-            tickvals=[0, .25, .5, .75, 1],
-            ticktext=["Low", "", "Median", "", "High"],
+            tickvals=[0, .5, 1],
+            ticktext=["Low", "Median", "High"],
             showgrid=True,
             gridcolor=theme.GRID,
             zeroline=False,
         )
         fig.update_layout(
-            margin=dict(l=64, r=28, t=58, b=60),
+            margin=dict(l=64, r=28, t=74, b=62),
             legend=dict(orientation="h", y=1.13, x=0, font=dict(size=10)),
             hovermode="closest",
         )

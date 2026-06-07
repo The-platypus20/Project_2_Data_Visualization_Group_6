@@ -79,39 +79,18 @@ def _latest_entropy() -> tuple[str, str]:
     last = df.iloc[-1]
     first = df.iloc[0]
     delta = float(last["entropy"] - first["entropy"])
-    return f"{float(last['entropy']):.2f}", f"{_format_delta(delta)} since {int(first['year'])}"
+    return (
+    f"{float(last['entropy']):.2f}",
+    f"{_format_delta(delta)} since {int(first['year'])}. Higher = broader topic spread.",
+)
 
 
 def _kpi_card(label: str, value: str, note: str, accent: str = TAB1_ACCENT) -> ui.Tag:
     return ui.div(
-        ui.div(
-            label,
-            style=(
-                "font-size:11px; font-weight:760; letter-spacing:.075em; "
-                "text-transform:uppercase; color:#BFE4FF;"
-            ),
-        ),
-        ui.div(
-            value,
-            style=(
-                "font-size:30px; line-height:1.04; font-weight:900; "
-                "color:#F8FBFF; margin-top:8px;"
-            ),
-        ),
-        ui.div(
-            note,
-            style=(
-                "font-size:12px; color:#9FB2CC; margin-top:7px; "
-                "white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"
-            ),
-        ),
-        style=(
-            "min-height:102px; padding:17px 19px; border-radius:20px; "
-            "background:linear-gradient(180deg, rgba(20,42,78,.96), rgba(10,24,46,.94)); "
-            "border:1px solid rgba(124,201,255,.18); "
-            "box-shadow:0 18px 46px rgba(2,8,23,.24), inset 0 1px 0 rgba(255,255,255,.06); "
-            f"border-top:3px solid {accent};"
-        ),
+        ui.div(label, class_="kpi-label"),
+        ui.div(value, class_="kpi-value"),
+        ui.div(note, class_="kpi-note"),
+        class_="kpi-card",
     )
 
 
@@ -134,7 +113,7 @@ def growth_ui():
                 ui.div(
                     ui.h2("How AI grew"),
                     ui.p(
-                        "2.1M indexed AI papers show fast output growth, concentrated country leadership, and shifting access patterns.",
+                        "AI research output grew steadily in the 2000s, then surged after 2017. The field's growth was anchored by universities and concentrated in a few leading countries, but open access expansion made research more accessible globally.",
                         class_="tab-insight",
                     ),
                 ),
@@ -144,7 +123,7 @@ def growth_ui():
             ui.output_ui("growth_kpi_cards"),
             ui.card(
                 card_header(
-                    "AI output surged while mean field impact moved separately",
+                    "AI output surged after 2017, but field impact did not rise at the same pace",
                     "Annual paper count with mean field-normalized impact overlay. A value of 1.0 means world average.",
                 ),
                 output_widget("paper_timeline"),
@@ -152,26 +131,26 @@ def growth_ui():
             ui.layout_columns(
                 ui.card(
                     card_header(
-                        "Leading countries over time",
-                        "Yearly AI paper output. The two largest producers are highlighted.",
+                        "China and the United States became the clear output leaders",
+                        "Yearly AI paper output for the top 8 countries. The US and China lead by a wide margin, with a growing gap between #2 and #3.",
                     ),
                     output_widget("growth_top_countries"),
                 ),
                 ui.card(
                     card_header(
-                        "University anchors institutional participation",
-                        "Stacked area chart across all institution groups. University is highlighted.",
+                        "Universities remained the main institutional anchor of AI research",
+                        "Share of institutional participation by year. University involvement stays dominant across the full period.",
                     ),
                     output_widget("institution_type_participation"),
                 ),
-                ui.card(
-                    card_header(
-                        "Open access mix changed across periods",
-                        "Open, closed, and unknown access status by publication period.",
-                    ),
-                    output_widget("open_access_period_chart"),
+                col_widths=[6, 6],
+            ),
+            ui.card(
+                card_header(
+                    "AI research became more accessible as open access expanded.",
+                    "Open and closed access status by publication period." ,
                 ),
-                col_widths=[4, 4, 4],
+                output_widget("open_access_period_chart"),
             ),
             class_="growth-tab",
         ),
@@ -189,7 +168,7 @@ def growth_server(input, output, session):
                 _kpi_card("Output Growth", "N/A", "No yearly cache"),
                 _kpi_card("Leading Countries", "N/A", "No country cache"),
                 _kpi_card("Topic Diversity", "N/A", "No diversity cache"),
-                style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px; margin-bottom:10px;",
+                class_="kpi-grid",
             )
 
         first = yearly.iloc[0]
@@ -222,7 +201,7 @@ def growth_server(input, output, session):
             ),
             _kpi_card("Leading Countries", country_value, country_note, accent="#F59E0B"),
             _kpi_card("Topic Diversity", entropy_value, entropy_note, accent="#22C55E"),
-            style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px; margin-bottom:10px;",
+            class_="kpi-grid",
         )
 
     @render_widget
@@ -302,7 +281,7 @@ def growth_server(input, output, session):
                 legend=dict(orientation="h", y=1.12, x=0, font=dict(size=12)),
             )
         fig.update_layout(showlegend=bool(df[["mean_fwci", "median_fwci"]].notna().any().any()), font=dict(size=12), margin=dict(l=62, r=70, t=42, b=38))
-        return theme.style(fig, height=365)
+        return theme.style(fig, height=430)
 
     @render_widget
     def growth_top_countries():
@@ -394,7 +373,7 @@ def growth_server(input, output, session):
             font=dict(size=12),
             margin=dict(l=54, r=18, t=48, b=36),
         )
-        return theme.style(fig, height=330)
+        return theme.style(fig, height=390)
 
     @render_widget
     def institution_type_participation():
@@ -516,7 +495,7 @@ def growth_server(input, output, session):
             font=dict(size=12),
             margin=dict(l=56, r=8, t=46, b=36),
         )
-        return theme.style(fig, height=330)
+        return theme.style(fig, height=390)
 
     @render.ui
     def institution_lead_note():
@@ -573,7 +552,10 @@ def growth_server(input, output, session):
 
         df["count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0)
         period_order = ["2000-2009", "2010-2019", "2020-2025"]
-        status_order = ["Open access", "Closed", "Unknown"]
+        status_order = ["Open access", "Closed"]
+
+        df = df[df["access_status"].astype(str).isin(status_order)].copy()
+
         df["period"] = pd.Categorical(df["period"], categories=period_order, ordered=True)
         df["access_status"] = pd.Categorical(df["access_status"], categories=status_order, ordered=True)
         df = df.dropna(subset=["period", "access_status"])
@@ -584,8 +566,7 @@ def growth_server(input, output, session):
 
         colors = {
             "Open access": TAB1_ACCENT,
-            "Closed": "rgba(159,178,204,0.68)",
-            "Unknown": "rgba(245,158,11,0.72)",
+            "Closed": "rgba(159,178,204,0.68)"
         }
         fig = go.Figure()
         for status in status_order:
@@ -599,6 +580,10 @@ def growth_server(input, output, session):
                     name=status,
                     marker=dict(color=colors[status], line=dict(color="rgba(255,255,255,0.18)", width=1)),
                     customdata=sub[["count", "share"]].to_numpy(),
+                    text=sub["share"].map(lambda v: f"{v:.0f}%" if v >= 6 else ""),
+                    textposition="inside",
+                    insidetextanchor="middle",
+                    textfont=dict(size=13, color="#07111F" if status == "Open access" else "#0F172A"),
                     hovertemplate=(
                         f"<b>{status}</b><br>"
                         "Period %{x}<br>"
@@ -619,8 +604,10 @@ def growth_server(input, output, session):
         )
         fig.update_layout(
             barmode="stack",
+            uniformtext_minsize=11,
+            uniformtext_mode="hide",
             legend=dict(orientation="h", y=1.14, x=0, font=dict(size=11)),
             font=dict(size=12),
             margin=dict(l=54, r=8, t=46, b=36),
         )
-        return theme.style(fig, height=330)
+        return theme.style(fig, height=390)
