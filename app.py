@@ -1,4 +1,4 @@
-"""AI research narrative dashboard.
+﻿"""AI research narrative dashboard.
 
 Run with: shiny run app.py --reload
 """
@@ -500,7 +500,7 @@ SIDEBAR_UX_JS = """
 
 app_ui = ui.page_navbar(
     *narrative_ui(),
-    title="AI Research Observatory",
+    title="AI Research Growth & Concentration",
     id="navbar",
     fillable=False,
     header=ui.head_content(
