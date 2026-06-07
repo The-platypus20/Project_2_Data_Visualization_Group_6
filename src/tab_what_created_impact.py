@@ -48,54 +48,12 @@ def _section(num: str, text: str) -> ui.Tag:
     )
 
 
-def _taskline(*body) -> ui.Tag:
-    """States the prediction problem the models on beats 2-3 are solving."""
-    return ui.div(
-        ui.tags.strong("The task — "), *body,
-        class_="tab3-taskline",
-        style="font-size:1.08rem; margin:.1rem .2rem .8rem; padding:.55rem .85rem; border-radius:8px; line-height:1.5;",
-    )
-
-
 def _explain(title: str, *body) -> ui.Tag:
     """A themed explanation box (reuses the .interpretation style, enlarged)."""
     return ui.div(
         ui.span(ui.tags.strong(title + " "), *body),
         class_="interpretation tab3-explain",
         style="font-size:1.04rem; line-height:1.55; padding:.85rem 1rem;",
-    )
-
-
-def _flow() -> ui.Tag:
-    """A top-to-bottom roadmap of the four beats on this tab."""
-    steps = [
-        ("1", "How concentrated is impact?", "citation funnel"),
-        ("2", "Which traits drive impact?", "logistic-regression drivers"),
-        ("3", "Can we predict it?", "gradient-boosting model"),
-        ("4", "Where is impact heading?", "LSTM forecast"),
-    ]
-    rows = []
-    for i, (num, question, method) in enumerate(steps):
-        rows.append(ui.div(
-            ui.span(num, style="display:inline-grid; place-items:center; min-width:30px; height:30px; "
-                               "border-radius:50%; background:#7CC9FF; color:#06111F; font-weight:850;"),
-            ui.div(
-                ui.span(question, style="font-weight:800; color:#EAF2FF; font-size:1.06rem;"),
-                ui.span("  →  " + method, style="color:#9FB2CC; font-size:.96rem;"),
-            ),
-            style="display:flex; align-items:center; gap:.75rem; padding:.3rem .1rem;",
-        ))
-        if i < len(steps) - 1:
-            rows.append(ui.div("↓", style="color:#7CC9FF; font-size:1.05rem; margin:0 0 0 13px; line-height:1;"))
-    return ui.div(
-        ui.div("What this tab does, step by step",
-               style="font-weight:850; color:#EAF2FF; font-size:1.02rem; margin-bottom:.55rem;"),
-        *rows,
-        ui.div("Impact = a paper in the top 10% citation velocity of its own publication year.",
-               style="color:#9FB2CC; font-size:.9rem; margin-top:.6rem; "
-                     "border-top:1px solid rgba(255,255,255,0.08); padding-top:.5rem;"),
-        class_="interpretation",
-        style="padding:.95rem 1.1rem;",
     )
 
 
@@ -153,7 +111,6 @@ def impact_ui():
                 ),
                 class_="growth-header-row",
             ),
-            _flow(),
             ui.output_ui("tab3_headline_kpis"),
 
             # ---- Beat 1: concentration ---------------------------------- #
@@ -170,12 +127,6 @@ def impact_ui():
 
             # ---- Beat 2: drivers (logistic regression) ------------------ #
             _section("2", "Which traits drive impact?"),
-            _taskline(
-                "is this paper in the ",
-                ui.tags.strong("top 10% citation velocity of its own publication year?"),
-                " The model learns this yes/no answer from traits known at publication time "
-                "(no citation data), then we read off which traits matter most.",
-            ),
             ui.card(
                 card_header(
                     "Standardized logistic-regression drivers",
@@ -193,11 +144,6 @@ def impact_ui():
 
             # ---- Beat 3: prediction (gradient boosting) ----------------- #
             _section("3", "Can we predict it?"),
-            _taskline(
-                "the same yes/no question — ",
-                ui.tags.strong("is this paper in the top 10% citation velocity of its own publication year?"),
-                " — but here we measure how accurately the model predicts it on papers it has never seen.",
-            ),
             ui.layout_columns(
                 ui.card(
                     card_header(

@@ -81,7 +81,7 @@ def _latest_entropy() -> tuple[str, str]:
     delta = float(last["entropy"] - first["entropy"])
     return (
     f"{float(last['entropy']):.2f}",
-    f"{_format_delta(delta)} since {int(first['year'])}. Higher = broader topic spread.",
+    f"Higher = broader topic spread.",
 )
 
 
