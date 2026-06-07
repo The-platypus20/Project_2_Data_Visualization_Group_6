@@ -395,6 +395,14 @@ def rising_primary_topics(top_n: int = 8) -> pd.DataFrame:
     return _cache_csv("rising_primary_topics.csv", ["primary_topic", "early", "late", "growth", "family"]).head(top_n)
 
 
+
+@functools.lru_cache(maxsize=1)
+def open_access_period_summary() -> pd.DataFrame:
+    return _cache_csv(
+        "oa_period_status.csv",
+        ["period", "access_status", "count"],
+    )
+
 def discovery_metrics() -> dict[str, pd.DataFrame]:
     return {
         "collaboration": _cache_csv("discovery_collaboration.csv"),
@@ -410,13 +418,13 @@ def rising_fading_terms() -> pd.DataFrame:
     return _cache_csv(
         "rising_fading_terms.csv",
         [
+            "scope",
             "term",
-            "family",
             "early_count",
             "late_count",
-            "early_share",
-            "late_share",
-            "delta_share",
+            "early_share_per_1000",
+            "late_share_per_1000",
+            "delta_share_per_1000",
             "growth_ratio",
             "direction",
         ],
@@ -428,13 +436,13 @@ def rising_terms() -> pd.DataFrame:
     return _cache_csv(
         "rising_terms.csv",
         [
+            "scope",
             "term",
-            "family",
             "early_count",
             "late_count",
-            "early_share",
-            "late_share",
-            "delta_share",
+            "early_share_per_1000",
+            "late_share_per_1000",
+            "delta_share_per_1000",
             "growth_ratio",
             "direction",
         ],
@@ -446,13 +454,13 @@ def fading_terms() -> pd.DataFrame:
     return _cache_csv(
         "fading_terms.csv",
         [
+            "scope",
             "term",
-            "family",
             "early_count",
             "late_count",
-            "early_share",
-            "late_share",
-            "delta_share",
+            "early_share_per_1000",
+            "late_share_per_1000",
+            "delta_share_per_1000",
             "growth_ratio",
             "direction",
         ],
@@ -464,13 +472,13 @@ def wordcloud_terms() -> pd.DataFrame:
     return _cache_csv(
         "wordcloud_terms.csv",
         [
+            "scope",
             "term",
-            "family",
             "early_count",
             "late_count",
-            "early_share",
-            "late_share",
-            "delta_share",
+            "early_share_per_1000",
+            "late_share_per_1000",
+            "delta_share_per_1000",
             "growth_ratio",
             "direction",
             "score",

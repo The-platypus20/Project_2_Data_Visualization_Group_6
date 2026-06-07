@@ -53,8 +53,8 @@ FAMILY_SPECS = [
     {
         "family": "Optimization, Theory & Security",
         "color": "#dc2626",
-        "x": 380,
-        "y": 540,
+        "x": 600,
+        "y": 600,
         "bucket": "ML Theory & Optimization",
         "description": "Optimization, probabilistic methods, algorithms, cryptography, and security-oriented AI infrastructure.",
         "terms": [
@@ -78,8 +78,8 @@ FAMILY_SPECS = [
     {
         "family": "Healthcare AI",
         "color": "#be185d",
-        "x": 305,
-        "y": 370,
+        "x": 325,
+        "y": 390,
         "bucket": "Healthcare AI",
         "description": "Medical, clinical, cancer, mental-health, and healthcare machine-learning applications.",
         "terms": [

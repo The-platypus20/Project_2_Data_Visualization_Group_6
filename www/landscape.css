@@ -874,3 +874,29 @@
 .landscape-section-title {
   color: #9FB2CC !important;
 }
+
+
+/* Fix 10: larger family labels, counts, and period line in hero bubble map */
+#landscape-root .family-label {
+  font-size: 16.5px !important;
+  font-weight: 950 !important;
+  stroke-width: 4.8px !important;
+}
+
+#landscape-root .family-count {
+  font-size: 13.6px !important;
+  font-weight: 900 !important;
+  fill: #EAF6FF !important;
+  stroke-width: 3.7px !important;
+}
+
+#landscape-root .family-range {
+  font-size: 11.4px !important;
+  font-weight: 880 !important;
+  fill: #BFE4FF !important;
+  stroke-width: 3.2px !important;
+}
+
+#landscape-root .family-paper-particle {
+  opacity: .95;
+}

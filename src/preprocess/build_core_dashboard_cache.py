@@ -133,6 +133,8 @@ def choose_columns(columns: Iterable[str]) -> dict[str, str | None]:
         "citation_velocity": find_col(cols, ["citation_velocity", "citations_per_year"]),
         "country": find_col(cols, ["country", "countries", "authorship_countries", "country_code", "country_codes"]),
         "venue": find_col(cols, ["venue", "venue_source", "source", "source_display_name", "journal", "conference"]),
+        "is_oa": find_col(cols, ["is_oa", "open_access", "is_open_access"]),
+        "oa_status": find_col(cols, ["oa_status", "open_access_status"]),
         "id": find_col(cols, ["id", "work_id", "openalex_id", "doi"]),
     }
 
@@ -143,9 +145,22 @@ def normalize_topic(value: Any) -> str:
 
 
 def classify_bucket(topic: Any, explicit_bucket: Any = None) -> str:
+    """Map OpenAlex topic metadata into dashboard-facing AI families.
+
+    OpenAlex AI exports often contain broad fields such as "Artificial Intelligence"
+    or "Computer Science" in primary_field. If we use those labels directly,
+    every paper falls into one bucket and entropy becomes 0. Treat broad labels
+    as generic, then infer a more useful family from the primary topic text.
+    """
     bucket = str(explicit_bucket or "").strip()
-    if bucket and bucket.lower() not in {"nan", "none", "null", "unknown"}:
+    generic_buckets = {
+        "nan", "none", "null", "unknown", "",
+        "artificial intelligence", "computer science", "computing sciences",
+        "information and computing sciences", "mathematics",
+    }
+    if bucket and bucket.lower() not in generic_buckets:
         return bucket
+
     text = str(topic or "").lower()
     for label, keywords in TOPIC_RULES:
         if any(keyword in text for keyword in keywords):
@@ -238,6 +253,33 @@ def first_country_text(countries: list[str]) -> str:
     return countries[0] if countries else ""
 
 
+def period_label_for_year(year: int) -> str | None:
+    if 2000 <= int(year) <= 2009:
+        return "2000-2009"
+    if 2010 <= int(year) <= 2019:
+        return "2010-2019"
+    if 2020 <= int(year) <= 2025:
+        return "2020-2025"
+    return None
+
+
+def normalize_oa_status(is_oa_value: Any = None, oa_status_value: Any = None) -> str:
+    status = str(oa_status_value or "").strip().lower()
+    if status in {"gold", "green", "hybrid", "bronze", "diamond", "open", "oa", "true"}:
+        return "Open access"
+    if status in {"closed", "false", "non-oa", "non oa"}:
+        return "Closed"
+
+    if is_oa_value is not None and not (isinstance(is_oa_value, float) and pd.isna(is_oa_value)):
+        value = str(is_oa_value).strip().lower()
+        if value in {"true", "1", "yes", "y", "t"}:
+            return "Open access"
+        if value in {"false", "0", "no", "n", "f"}:
+            return "Closed"
+
+    return "Unknown"
+
+
 def build_cache(args: argparse.Namespace) -> None:
     files = expand_inputs(args.input)
     output_dir = Path(args.output_dir)
@@ -248,6 +290,7 @@ def build_cache(args: argparse.Namespace) -> None:
     topic_year_counts: Counter[tuple[int, str, str]] = Counter()
     country_counts: Counter[str] = Counter()
     country_topic_year_counts: Counter[tuple[str, int, str]] = Counter()
+    oa_period_counts: Counter[tuple[str, str]] = Counter()
 
     topic_metric_rows: list[pd.DataFrame] = []
     paper_candidates: list[pd.DataFrame] = []
@@ -291,6 +334,14 @@ def build_cache(args: argparse.Namespace) -> None:
             yearly_counts.update(chunk["_year"].tolist())
             bucket_year_counts.update(zip(chunk["_year"], chunk["_topic_bucket"]))
             topic_year_counts.update(zip(chunk["_year"], chunk["_primary_topic"], chunk["_topic_bucket"]))
+
+            # Open access status by broad period. Unknown is kept explicit when metadata is missing.
+            is_oa_series = string_series(chunk, cols_map["is_oa"]) if cols_map.get("is_oa") else pd.Series([None] * len(chunk), index=chunk.index)
+            oa_status_series = string_series(chunk, cols_map["oa_status"]) if cols_map.get("oa_status") else pd.Series([None] * len(chunk), index=chunk.index)
+            for y, is_oa_value, oa_status_value in zip(chunk["_year"], is_oa_series, oa_status_series):
+                period = period_label_for_year(int(y))
+                if period:
+                    oa_period_counts[(period, normalize_oa_status(is_oa_value, oa_status_value))] += 1
 
             # Countries and country-topic-year.
             if cols_map["country"]:
@@ -388,6 +439,18 @@ def build_cache(args: argparse.Namespace) -> None:
         metrics_all["citation_count"] = pd.to_numeric(metrics_all["citation_count"], errors="coerce")
         metrics_all["citation_velocity"] = pd.to_numeric(metrics_all["citation_velocity"], errors="coerce")
 
+        yearly_fwci = (
+            metrics_all.groupby("year", as_index=False)
+            .agg(
+                mean_fwci=("fwci", "mean"),
+                median_fwci=("fwci", "median"),
+                mean_citation_velocity=("citation_velocity", "mean"),
+                median_citation_velocity=("citation_velocity", "median"),
+            )
+        )
+        yearly_df = yearly_df.merge(yearly_fwci, on="year", how="left")
+        yearly_df.to_csv(output_dir / "yearly_counts.csv", index=False)
+
         topic_totals = (
             metrics_all.groupby("primary_topic", as_index=False)
             .agg(
@@ -430,6 +493,17 @@ def build_cache(args: argparse.Namespace) -> None:
     ])
     country_topic_year_df.to_csv(output_dir / "country_topic_year.csv", index=False)
 
+    # oa_period_status.csv
+    oa_rows = []
+    for period in ["2000-2009", "2010-2019", "2020-2025"]:
+        for status in ["Open access", "Closed", "Unknown"]:
+            oa_rows.append({
+                "period": period,
+                "access_status": status,
+                "count": oa_period_counts.get((period, status), 0),
+            })
+    pd.DataFrame(oa_rows).to_csv(output_dir / "oa_period_status.csv", index=False)
+
     # paper_lookup.csv
     if paper_candidates:
         paper_lookup = pd.concat(paper_candidates, ignore_index=True)
@@ -458,6 +532,7 @@ def build_cache(args: argparse.Namespace) -> None:
         "impact_topic_scatter.csv",
         "top_countries.csv",
         "country_topic_year.csv",
+        "oa_period_status.csv",
         "paper_lookup.csv",
     ]:
         path = output_dir / name

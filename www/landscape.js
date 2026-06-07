@@ -4,16 +4,16 @@
   const SVG_NS = "http://www.w3.org/2000/svg";
   const MIN_YEAR = 2000;
   const MAX_YEAR = 2025;
-  const VIEWBOX = { width: 1080, height: 680 };
+  const VIEWBOX = { width: 1080, height: 750 };
 
-  const FAMILY_RADIUS_MIN = 28;
-  const FAMILY_RADIUS_MAX = 116;
+  const FAMILY_RADIUS_MIN = 30;
+  const FAMILY_RADIUS_MAX = 110;
   const SUBTOPIC_RADIUS_MIN = 7;
   const SUBTOPIC_RADIUS_MAX = 34;
   const TRANSITION_MS = 420;
 
-  const PARTICLE_PAPER_UNIT = 2800;
-  const PARTICLE_MAX_PER_FAMILY = 150;
+  const PARTICLE_PAPER_UNIT = 2600;
+  const PARTICLE_MAX_PER_FAMILY = 170;
   const PARTICLE_MIN_VISIBLE = 6;
 
   const FALLBACK_COLORS = [
@@ -135,8 +135,8 @@
 
   function particlePositions(seed, radius, count, dotR) {
     const points = [];
-    const maxR = Math.max(0, radius * 0.72);
-    const minGap = dotR * 2.55;
+    const maxR = Math.max(0, radius * 0.78);
+    const minGap = dotR * 2.25;
     const maxAttempts = 90;
 
     for (let i = 0; i < count; i += 1) {
@@ -228,7 +228,8 @@
 
   function updateYearRangeLabel() {
     const label = $("landscape-year-range-value");
-    if (label) label.textContent = `${state.yearStart}–${state.yearEnd}`;
+    if (label) label.textContent = `
+    ${state.yearStart}–${state.yearEnd}`;
   }
 
   function updateYearRangeFill() {
@@ -399,6 +400,20 @@
     svg.appendChild(stars);
   }
 
+
+  function familyLabelOffset(family) {
+    const name = String(family || "").toLowerCase();
+    const offsets = {
+      "optimization, theory & security": { x: -16, y: 16 },
+      "healthcare ai": { x: 0, y: -18 },
+      "applied / interdisciplinary ai": { x: 0, y: -10 },
+      "responsible ai": { x: 18, y: -6 },
+      "reinforcement learning & agents": { x: 0, y: 18 },
+      "robotics & control": { x: -8, y: 0 },
+    };
+    return offsets[name] || { x: 0, y: 0 };
+  }
+
   function drawFamilyNode(layer, d, index, maxFamilyCount, newFamilyR, newParticleCounts) {
     const familyCount = countThrough(d, state.yearStart, state.yearEnd);
     if (familyCount <= 0) return;
@@ -456,7 +471,7 @@
     const particleLayer = svgEl("g", {
       class: `family-particle-layer ${particleMode === "topic" ? "is-topic-filtered" : "is-family-total"}`,
     });
-    const dotR = particleMode === "topic" ? 3.05 : (selected ? 3.2 : 2.9);
+    const dotR = particleMode === "topic" ? 3.55 : (selected ? 3.85 : 3.45);
     const spreadRadius = particleMode === "topic" ? Math.max(34, r * 0.48) : r;
     const focusX = particleMode === "topic" ? d.x + (Number(focusedTopic.x) - Number(d.x)) * 0.48 : Number(d.x);
     const focusY = particleMode === "topic" ? d.y + (Number(focusedTopic.y) - Number(d.y)) * 0.48 : Number(d.y);
@@ -525,21 +540,17 @@
     });
     group.appendChild(particleLayer);
 
-    const labelY = Math.max(24, d.y - r - 20);
-    const label = svgEl("text", { class: "family-label", x: d.x, y: labelY });
+    const labelOffset = familyLabelOffset(d.family);
+    const labelX = Number(d.x) + labelOffset.x;
+    const labelY = Math.max(28, Number(d.y) - r - 24 + labelOffset.y);
+    const label = svgEl("text", { class: "family-label", x: labelX, y: labelY });
     label.textContent = labelFor(d.family, 31);
 
-    const countLabel = svgEl("text", { class: "family-count", x: d.x, y: labelY + 18 });
+    const countLabel = svgEl("text", { class: "family-count", x: labelX, y: labelY + 21 });
     countLabel.textContent = `${fmt(familyCount)} papers`;
-
-    const rangeLabel = svgEl("text", { class: "family-range", x: d.x, y: labelY + 34 });
-    rangeLabel.textContent = particleMode === "topic"
-      ? `${labelFor(focusedTopic.topic, 22)} · ${fmt(topicCount)}`
-      : `${state.yearStart}–${state.yearEnd}`;
 
     group.appendChild(label);
     group.appendChild(countLabel);
-    group.appendChild(rangeLabel);
 
     group.addEventListener("click", () => setSelectedFamily(d.family));
     group.addEventListener("mousemove", (event) => showTooltip(event, tooltipHtml("family", d)));
@@ -635,7 +646,7 @@
     const watermark = svgEl("text", {
       class: "watermark",
       x: VIEWBOX.width - 34,
-      y: VIEWBOX.height - 36,
+      y: VIEWBOX.height - 4,
     });
     watermark.textContent = `${state.yearStart}–${state.yearEnd}`;
     svg.appendChild(watermark);

@@ -39,10 +39,10 @@ COUNTRY_CHOICES = [
 
 
 QUADRANT_COLORS = {
-    "Rising stars": "#059669",
-    "Hidden gems": "#1d4ed8",
-    "Fast growth, lower impact": "#d97706",
-    "Mature or crowded": "#64748b",
+    "Rising stars": "#10B981",
+    "Hidden gems": "#3B82F6",
+    "Fast growth, lower impact": "#F59E0B",
+    "Mature or crowded": "#94A3B8",
 }
 
 
@@ -657,18 +657,12 @@ def movement_ui():
             ),
             ui.div(
                 ui.card(
-                    card_header(
-                        "Terms gaining attention",
-                        "Filtered by selected family when available; otherwise shows All AI.",
-                    ),
+                    ui.output_ui("rising_terms_card_header"),
                     output_widget("rising_terms_bar"),
                     class_="term-shift-card",
                 ),
                 ui.card(
-                    card_header(
-                        "Terms losing relative attention",
-                        "Filtered by selected family when available; otherwise shows All AI.",
-                    ),
+                    ui.output_ui("fading_terms_card_header"),
                     output_widget("fading_terms_bar"),
                     class_="term-shift-card",
                 ),
@@ -773,6 +767,23 @@ def movement_server(input, output, session):
             return sub, scope
         return df.copy(), scope
     
+    @render.ui
+    def rising_terms_card_header():
+        _, scope = _terms_for_selected_scope(nd.rising_terms().copy())
+        return card_header(
+            f"{scope} rising terms",
+            "Top 1–2 terms are highlighted. Values show share gain per 1,000 papers.",
+        )
+
+
+    @render.ui
+    def fading_terms_card_header():
+        _, scope = _terms_for_selected_scope(nd.fading_terms().copy())
+        return card_header(
+            f"{scope} fading terms",
+            "Top 1–2 fading terms are highlighted. Values show share loss per 1,000 papers.",
+        )
+
     @reactive.effect
     @reactive.event(input.landscape_year_start)
     def _sync_landscape_start_year():
@@ -821,7 +832,6 @@ def movement_server(input, output, session):
         fig.update_xaxes(title_text="", zeroline=True, zerolinecolor="rgba(255,255,255,.28)")
         fig.update_yaxes(title_text="", automargin=True)
         fig.update_layout(
-            title=dict(text=scope, font=dict(size=11, color=theme.SUBTLE_TEXT), y=0.98),
             showlegend=False,
             margin=dict(l=8, r=10, t=24, b=24),
         )
@@ -855,7 +865,6 @@ def movement_server(input, output, session):
         fig.update_xaxes(title_text="")
         fig.update_yaxes(title_text="", automargin=True)
         fig.update_layout(
-            title=dict(text=scope, font=dict(size=11, color=theme.SUBTLE_TEXT), y=0.98),
             showlegend=False,
             margin=dict(l=8, r=10, t=24, b=24),
         )
@@ -915,10 +924,10 @@ def movement_server(input, output, session):
         y_min, y_max = 0.0, 1.0
         fig = go.Figure()
         bg = {
-            "Rising stars": "rgba(5,150,105,.09)",
-            "Hidden gems": "rgba(29,78,216,.08)",
-            "Fast growth, lower impact": "rgba(217,119,6,.08)",
-            "Mature or crowded": "rgba(100,116,139,.07)",
+            "Rising stars": "rgba(5,150,105,.22)",
+            "Hidden gems": "rgba(29,78,216,.20)",
+            "Fast growth, lower impact": "rgba(217,119,6,.20)",
+            "Mature or crowded": "rgba(100,116,139,.18)",
         }
         for x0, x1, y0, y1, label in [
             (x_cut, x_max, y_cut, y_max, "Rising stars"),

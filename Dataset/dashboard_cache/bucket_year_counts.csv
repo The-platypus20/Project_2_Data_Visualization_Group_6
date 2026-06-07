@@ -1,27 +1,209 @@
 year,topic_bucket,count
-2000,Artificial Intelligence,21706
-2001,Artificial Intelligence,20774
-2002,Artificial Intelligence,46556
-2003,Artificial Intelligence,35116
-2004,Artificial Intelligence,33856
-2005,Artificial Intelligence,41209
-2006,Artificial Intelligence,45349
-2007,Artificial Intelligence,45232
-2008,Artificial Intelligence,47876
-2009,Artificial Intelligence,52200
-2010,Artificial Intelligence,54965
-2011,Artificial Intelligence,56946
-2012,Artificial Intelligence,60576
-2013,Artificial Intelligence,63328
-2014,Artificial Intelligence,69590
-2015,Artificial Intelligence,68515
-2016,Artificial Intelligence,76724
-2017,Artificial Intelligence,84560
-2018,Artificial Intelligence,99468
-2019,Artificial Intelligence,113716
-2020,Artificial Intelligence,129044
-2021,Artificial Intelligence,147267
-2022,Artificial Intelligence,159442
-2023,Artificial Intelligence,188509
-2024,Artificial Intelligence,215740
-2025,Artificial Intelligence,261120
+2000,AI Ethics & Fairness,164
+2000,Applied / Interdisciplinary AI,6521
+2000,Core ML / Deep Learning,2951
+2000,Healthcare AI,282
+2000,ML Theory & Optimization,3972
+2000,NLP,4827
+2000,Reinforcement Learning,539
+2000,Robotics,2450
+2001,AI Ethics & Fairness,133
+2001,Applied / Interdisciplinary AI,6234
+2001,Core ML / Deep Learning,2654
+2001,Healthcare AI,321
+2001,ML Theory & Optimization,4283
+2001,NLP,3990
+2001,Reinforcement Learning,687
+2001,Robotics,2472
+2002,AI Ethics & Fairness,169
+2002,Applied / Interdisciplinary AI,10782
+2002,Core ML / Deep Learning,9506
+2002,Healthcare AI,434
+2002,ML Theory & Optimization,8748
+2002,NLP,8478
+2002,Reinforcement Learning,1331
+2002,Robotics,7108
+2003,AI Ethics & Fairness,183
+2003,Applied / Interdisciplinary AI,9262
+2003,Core ML / Deep Learning,5469
+2003,Healthcare AI,456
+2003,ML Theory & Optimization,7345
+2003,NLP,6767
+2003,Reinforcement Learning,1125
+2003,Robotics,4509
+2004,AI Ethics & Fairness,252
+2004,Applied / Interdisciplinary AI,9429
+2004,Core ML / Deep Learning,3707
+2004,Healthcare AI,402
+2004,ML Theory & Optimization,7090
+2004,NLP,7647
+2004,Reinforcement Learning,1130
+2004,Robotics,4199
+2005,AI Ethics & Fairness,270
+2005,Applied / Interdisciplinary AI,11633
+2005,Core ML / Deep Learning,5034
+2005,Healthcare AI,576
+2005,ML Theory & Optimization,8645
+2005,NLP,8396
+2005,Reinforcement Learning,1173
+2005,Robotics,5482
+2006,AI Ethics & Fairness,430
+2006,Applied / Interdisciplinary AI,12438
+2006,Core ML / Deep Learning,5285
+2006,Healthcare AI,586
+2006,ML Theory & Optimization,9552
+2006,NLP,10279
+2006,Reinforcement Learning,1376
+2006,Robotics,5403
+2007,AI Ethics & Fairness,482
+2007,Applied / Interdisciplinary AI,13129
+2007,Core ML / Deep Learning,4420
+2007,Healthcare AI,601
+2007,ML Theory & Optimization,9965
+2007,NLP,10005
+2007,Reinforcement Learning,1227
+2007,Robotics,5403
+2008,AI Ethics & Fairness,626
+2008,Applied / Interdisciplinary AI,13784
+2008,Core ML / Deep Learning,4738
+2008,Healthcare AI,703
+2008,ML Theory & Optimization,10216
+2008,NLP,11389
+2008,Reinforcement Learning,1228
+2008,Robotics,5192
+2009,AI Ethics & Fairness,761
+2009,Applied / Interdisciplinary AI,15727
+2009,Core ML / Deep Learning,5174
+2009,Healthcare AI,691
+2009,ML Theory & Optimization,10851
+2009,NLP,12463
+2009,Reinforcement Learning,1267
+2009,Robotics,5266
+2010,AI Ethics & Fairness,934
+2010,Applied / Interdisciplinary AI,17466
+2010,Core ML / Deep Learning,5248
+2010,Healthcare AI,832
+2010,ML Theory & Optimization,11380
+2010,NLP,12066
+2010,Reinforcement Learning,1162
+2010,Robotics,5877
+2011,AI Ethics & Fairness,951
+2011,Applied / Interdisciplinary AI,18512
+2011,Core ML / Deep Learning,5494
+2011,Healthcare AI,857
+2011,ML Theory & Optimization,11610
+2011,NLP,12329
+2011,Reinforcement Learning,1379
+2011,Robotics,5814
+2012,AI Ethics & Fairness,1191
+2012,Applied / Interdisciplinary AI,19656
+2012,Core ML / Deep Learning,5593
+2012,Healthcare AI,929
+2012,ML Theory & Optimization,12588
+2012,NLP,13298
+2012,Reinforcement Learning,1153
+2012,Robotics,6168
+2013,AI Ethics & Fairness,1235
+2013,Applied / Interdisciplinary AI,20613
+2013,Core ML / Deep Learning,5758
+2013,Healthcare AI,991
+2013,ML Theory & Optimization,13793
+2013,NLP,13679
+2013,Reinforcement Learning,995
+2013,Robotics,6264
+2014,AI Ethics & Fairness,1462
+2014,Applied / Interdisciplinary AI,23222
+2014,Core ML / Deep Learning,6465
+2014,Healthcare AI,1028
+2014,ML Theory & Optimization,13654
+2014,NLP,16636
+2014,Reinforcement Learning,1060
+2014,Robotics,6063
+2015,AI Ethics & Fairness,1588
+2015,Applied / Interdisciplinary AI,22349
+2015,Core ML / Deep Learning,6752
+2015,Healthcare AI,1091
+2015,ML Theory & Optimization,13307
+2015,NLP,16464
+2015,Reinforcement Learning,894
+2015,Robotics,6070
+2016,AI Ethics & Fairness,1827
+2016,Applied / Interdisciplinary AI,25400
+2016,Core ML / Deep Learning,7829
+2016,Healthcare AI,1374
+2016,ML Theory & Optimization,13907
+2016,NLP,19247
+2016,Reinforcement Learning,824
+2016,Robotics,6316
+2017,AI Ethics & Fairness,2253
+2017,Applied / Interdisciplinary AI,28421
+2017,Core ML / Deep Learning,9138
+2017,Healthcare AI,1606
+2017,ML Theory & Optimization,14926
+2017,NLP,20403
+2017,Reinforcement Learning,825
+2017,Robotics,6988
+2018,AI Ethics & Fairness,2968
+2018,Applied / Interdisciplinary AI,33251
+2018,Core ML / Deep Learning,12336
+2018,Healthcare AI,2096
+2018,ML Theory & Optimization,15667
+2018,NLP,25183
+2018,Reinforcement Learning,801
+2018,Robotics,7166
+2019,AI Ethics & Fairness,3923
+2019,Applied / Interdisciplinary AI,37464
+2019,Core ML / Deep Learning,15460
+2019,Healthcare AI,2657
+2019,ML Theory & Optimization,17298
+2019,NLP,28223
+2019,Reinforcement Learning,692
+2019,Robotics,7999
+2020,AI Ethics & Fairness,5754
+2020,Applied / Interdisciplinary AI,42561
+2020,Core ML / Deep Learning,18662
+2020,Healthcare AI,3286
+2020,ML Theory & Optimization,18666
+2020,NLP,31167
+2020,Reinforcement Learning,691
+2020,Robotics,8257
+2021,AI Ethics & Fairness,7722
+2021,Applied / Interdisciplinary AI,47852
+2021,Core ML / Deep Learning,22220
+2021,Healthcare AI,3818
+2021,ML Theory & Optimization,21201
+2021,NLP,34798
+2021,Reinforcement Learning,666
+2021,Robotics,8990
+2022,AI Ethics & Fairness,9561
+2022,Applied / Interdisciplinary AI,51475
+2022,Core ML / Deep Learning,25169
+2022,Healthcare AI,4878
+2022,ML Theory & Optimization,23094
+2022,NLP,35925
+2022,Reinforcement Learning,568
+2022,Robotics,8772
+2023,AI Ethics & Fairness,12592
+2023,Applied / Interdisciplinary AI,59689
+2023,Core ML / Deep Learning,29615
+2023,Healthcare AI,5968
+2023,ML Theory & Optimization,24869
+2023,NLP,45991
+2023,Reinforcement Learning,683
+2023,Robotics,9102
+2024,AI Ethics & Fairness,14285
+2024,Applied / Interdisciplinary AI,67850
+2024,Core ML / Deep Learning,36818
+2024,Healthcare AI,7168
+2024,ML Theory & Optimization,24834
+2024,NLP,54139
+2024,Reinforcement Learning,1251
+2024,Robotics,9395
+2025,AI Ethics & Fairness,19878
+2025,Applied / Interdisciplinary AI,85025
+2025,Core ML / Deep Learning,45304
+2025,Healthcare AI,9518
+2025,ML Theory & Optimization,30836
+2025,NLP,56860
+2025,Reinforcement Learning,2099
+2025,Robotics,11600

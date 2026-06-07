@@ -44,15 +44,20 @@ def _format_delta(value: float, suffix: str = "") -> str:
 def _yearly_growth() -> pd.DataFrame:
     df = nd.yearly_counts().sort_values("year").copy()
     if df.empty:
-        return pd.DataFrame(columns=["year", "paper_count", "yoy_growth"])
+        return pd.DataFrame(columns=["year", "paper_count", "yoy_growth", "mean_fwci", "median_fwci"])
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df["paper_count"] = pd.to_numeric(df["count"], errors="coerce")
+    for col in ["mean_fwci", "median_fwci"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+        else:
+            df[col] = np.nan
     df = df.dropna(subset=["year", "paper_count"])
     df["year"] = df["year"].astype(int)
     df["yoy_growth"] = (
         df["paper_count"].pct_change().replace([float("inf"), -float("inf")], pd.NA) * 100
     )
-    return df[["year", "paper_count", "yoy_growth"]]
+    return df[["year", "paper_count", "yoy_growth", "mean_fwci", "median_fwci"]]
 
 
 def _breakpoint_rows() -> pd.DataFrame:
@@ -79,14 +84,32 @@ def _latest_entropy() -> tuple[str, str]:
 
 def _kpi_card(label: str, value: str, note: str, accent: str = TAB1_ACCENT) -> ui.Tag:
     return ui.div(
-        ui.div(label, style="font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#64748B;"),
-        ui.div(value, style="font-size:28px; line-height:1.05; font-weight:800; color:#0B172A; margin-top:8px;"),
-        ui.div(note, style="font-size:12px; color:#64748B; margin-top:7px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"),
+        ui.div(
+            label,
+            style=(
+                "font-size:11px; font-weight:760; letter-spacing:.075em; "
+                "text-transform:uppercase; color:#BFE4FF;"
+            ),
+        ),
+        ui.div(
+            value,
+            style=(
+                "font-size:30px; line-height:1.04; font-weight:900; "
+                "color:#F8FBFF; margin-top:8px;"
+            ),
+        ),
+        ui.div(
+            note,
+            style=(
+                "font-size:12px; color:#9FB2CC; margin-top:7px; "
+                "white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"
+            ),
+        ),
         style=(
-            "min-height:96px; padding:16px 18px; border-radius:18px; "
-            "background:linear-gradient(180deg, rgba(255,255,255,.96), rgba(248,251,255,.96)); "
-            "border:1px solid rgba(209,222,238,.95); "
-            "box-shadow:0 10px 24px rgba(15,23,42,.06); "
+            "min-height:102px; padding:17px 19px; border-radius:20px; "
+            "background:linear-gradient(180deg, rgba(20,42,78,.96), rgba(10,24,46,.94)); "
+            "border:1px solid rgba(124,201,255,.18); "
+            "box-shadow:0 18px 46px rgba(2,8,23,.24), inset 0 1px 0 rgba(255,255,255,.06); "
             f"border-top:3px solid {accent};"
         ),
     )
@@ -111,56 +134,48 @@ def growth_ui():
                 ui.div(
                     ui.h2("How AI grew"),
                     ui.p(
-                        "AI scaled fast, while topic diversity and research leadership changed with it.",
+                        "2.1M indexed AI papers show fast output growth, concentrated country leadership, and shifting access patterns.",
                         class_="tab-insight",
                     ),
                 ),
                 ui.div(badge("OpenAlex 2000-2025"), badge("Scale and structure"), class_="badge-row"),
                 class_="growth-header-row",
             ),
-            section_label("At a glance"),
             ui.output_ui("growth_kpi_cards"),
-            section_label("Growth curve"),
             ui.card(
                 card_header(
-                    "AI papers grew sharply after key research waves",
-                    "Annual paper count with turning points annotated on the line.",
+                    "AI output surged while mean field impact moved separately",
+                    "Annual paper count with mean field-normalized impact overlay. A value of 1.0 means world average.",
                 ),
                 output_widget("paper_timeline"),
-                notice("Milestone labels are historical anchors for reading the curve, not causal estimates."),
             ),
-            section_label("Leadership and structure"),
             ui.layout_columns(
                 ui.card(
                     card_header(
-                        "Country output is concentrated at the top",
-                        "Top countries by AI paper count. The two largest producers are highlighted.",
+                        "Leading countries over time",
+                        "Yearly AI paper output. The two largest producers are highlighted.",
                     ),
                     output_widget("growth_top_countries"),
-                    ui.output_ui("country_concentration_note"),
                 ),
                 ui.card(
                     card_header(
-                        "University remained the institutional anchor",
-                        "Papers involving each institution type over time. University is highlighted.",
+                        "University anchors institutional participation",
+                        "Stacked area chart across all institution groups. University is highlighted.",
                     ),
                     output_widget("institution_type_participation"),
-                    ui.output_ui("institution_lead_note"),
                 ),
                 ui.card(
                     card_header(
-                        "Topic diversity increased",
-                        "Entropy measures how evenly papers spread across topic families.",
+                        "Open access mix changed across periods",
+                        "Open, closed, and unknown access status by publication period.",
                     ),
-                    output_widget("theme_diversity"),
-                    notice("Higher entropy means AI papers are spread more evenly across topic families."),
+                    output_widget("open_access_period_chart"),
                 ),
                 col_widths=[4, 4, 4],
             ),
             class_="growth-tab",
         ),
     )
-
 
 def growth_server(input, output, session):
     @render.ui
@@ -170,10 +185,10 @@ def growth_server(input, output, session):
 
         if yearly.empty:
             return ui.div(
-                _kpi_card("Total papers", "N/A", "No yearly cache"),
-                _kpi_card("Growth multiplier", "N/A", "No yearly cache"),
-                _kpi_card("Country leaders", "N/A", "No country cache"),
-                _kpi_card("Topic entropy", "N/A", "No diversity cache"),
+                _kpi_card("AI Papers Indexed", "N/A", "No yearly cache"),
+                _kpi_card("Output Growth", "N/A", "No yearly cache"),
+                _kpi_card("Leading Countries", "N/A", "No country cache"),
+                _kpi_card("Topic Diversity", "N/A", "No diversity cache"),
                 style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px; margin-bottom:10px;",
             )
 
@@ -186,7 +201,7 @@ def growth_server(input, output, session):
             else np.nan
         )
 
-        country_value = "China + US"
+        country_value = "USA + China"
         country_note = "Largest output producers"
         if not countries.empty:
             countries["papers"] = pd.to_numeric(countries["papers"], errors="coerce")
@@ -198,15 +213,15 @@ def growth_server(input, output, session):
         entropy_value, entropy_note = _latest_entropy()
 
         return ui.div(
-            _kpi_card("Total papers", f"{_compact_count(total_papers)}", f"{int(first['year'])}-{int(last['year'])}"),
+            _kpi_card("AI Papers Indexed", f"{_compact_count(total_papers)}", f"{int(first['year'])}-{int(last['year'])}"),
             _kpi_card(
-                "Growth multiplier",
+                "Output Growth",
                 f"{growth_multiplier:.1f}×" if pd.notna(growth_multiplier) else "N/A",
                 f"{int(first['year'])} to {int(last['year'])}",
                 accent="#A78BFA",
             ),
-            _kpi_card("Country leaders", country_value, country_note, accent="#F59E0B"),
-            _kpi_card("Topic entropy", entropy_value, entropy_note, accent="#22C55E"),
+            _kpi_card("Leading Countries", country_value, country_note, accent="#F59E0B"),
+            _kpi_card("Topic Diversity", entropy_value, entropy_note, accent="#22C55E"),
             style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px; margin-bottom:10px;",
         )
 
@@ -233,6 +248,21 @@ def growth_server(input, output, session):
             )
         )
 
+        impact_col = "mean_fwci"
+        if impact_col in df and df[impact_col].notna().any():
+            fig.add_trace(
+                go.Scatter(
+                    x=df["year"],
+                    y=df[impact_col],
+                    mode="lines+markers",
+                    name="Mean field impact",
+                    yaxis="y2",
+                    line=dict(color=SECONDARY_ACCENT, width=2.4, dash="dot"),
+                    marker=dict(size=5, color=SECONDARY_ACCENT),
+                    hovertemplate="Year %{x}<br>Mean field-normalized impact %{y:.2f}<extra></extra>",
+                )
+            )
+
         ymax = float(df["paper_count"].max()) * 1.20
         annotation_offsets = {2012: 34, 2017: 52, 2020: 34, 2022: 56}
         for _, row in _breakpoint_rows().iterrows():
@@ -249,66 +279,121 @@ def growth_server(input, output, session):
                 bgcolor="rgba(255,255,255,.94)",
                 bordercolor="#D8E4F2",
                 borderwidth=1,
-                font=dict(size=10, color="#0B172A"),
+                font=dict(size=12, color="#0B172A"),
                 align="center",
             )
 
         max_count = float(df["paper_count"].max())
         tick_step = 50_000 if max_count > 150_000 else 25_000
         tickvals = [v for v in range(0, int(ymax) + tick_step, tick_step) if v <= ymax]
-        fig.update_xaxes(title_text="", tickmode="linear", dtick=2, range=[1999.5, 2025.5])
+        fig.update_xaxes(title_text="", tickmode="linear", dtick=2, range=[1999.5, 2025.5], tickfont=dict(size=12))
         fig.update_yaxes(
-            title_text="Papers",
+            title=dict(text="Papers", font=dict(size=13)),
+            tickfont=dict(size=12),
             range=[0, ymax],
             tickvals=tickvals,
             ticktext=[_compact_count(v) for v in tickvals],
             showgrid=True,
             gridcolor="#EAF1F8",
         )
-        fig.update_layout(showlegend=False, margin=dict(l=54, r=16, t=38, b=34))
+        if df[["mean_fwci", "median_fwci"]].notna().any().any():
+            fig.update_layout(
+                yaxis2=dict(title=dict(text="Mean field impact", font=dict(size=13)), overlaying="y", side="right", showgrid=False, rangemode="tozero"),
+                legend=dict(orientation="h", y=1.12, x=0, font=dict(size=12)),
+            )
+        fig.update_layout(showlegend=bool(df[["mean_fwci", "median_fwci"]].notna().any().any()), font=dict(size=12), margin=dict(l=62, r=70, t=42, b=38))
         return theme.style(fig, height=365)
 
     @render_widget
     def growth_top_countries():
-        df = nd.top_countries(10).copy()
+        df = nd.country_topic_year_counts().copy()
         if df.empty:
-            return theme.empty_figure("Country output cache is empty.")
+            return theme.empty_figure("Country-year output cache is empty.")
 
-        df["papers"] = pd.to_numeric(df["papers"], errors="coerce")
-        df = df.dropna(subset=["papers"]).sort_values("papers", ascending=True)
-        colors = np.where(df["country"].isin(HIGHLIGHT_COUNTRIES), theme.ACCENT, "rgba(159,178,204,0.38)")
+        df["year"] = pd.to_numeric(df["year"], errors="coerce")
+        df["count"] = pd.to_numeric(df["count"], errors="coerce")
+        df = df.dropna(subset=["year", "count", "country"]).copy()
+        df["year"] = df["year"].astype(int)
+        if df.empty:
+            return theme.empty_figure("Country-year output cache has no readable values.")
 
-        fig = go.Figure(
-            go.Bar(
-                x=df["papers"],
-                y=df["country"],
-                orientation="h",
-                marker=dict(color=colors, line=dict(color="rgba(255,255,255,0.18)", width=1)),
-                customdata=df[["country", "papers"]],
-                hovertemplate="<b>%{customdata[0]}</b><br>%{customdata[1]:,.0f} papers<extra></extra>",
-            )
+        yearly_country = (
+            df.groupby(["year", "country"], as_index=False)["count"]
+            .sum()
+            .sort_values(["country", "year"])
         )
+        totals = yearly_country.groupby("country")["count"].sum().sort_values(ascending=False)
+        keep = list(totals.head(8).index)
+        top_two = list(totals.head(2).index)
+        plot_df = yearly_country[yearly_country["country"].isin(keep)].copy()
 
-        latest_max = float(df["papers"].max()) if not df.empty else 0
-        top_desc = df.sort_values("papers", ascending=False).head(2)
-        for _, row in top_desc.iterrows():
-            country = str(row["country"])
-            papers = float(row["papers"])
-            fig.add_annotation(
-                x=papers,
-                y=country,
-                text=f"{_compact_count(papers)} papers",
-                showarrow=False,
-                xshift=42,
-                font=dict(size=10, color=theme.TEXT),
-                bgcolor="rgba(255,255,255,.88)",
-                bordercolor="rgba(203,213,225,.8)",
-                borderwidth=1,
+        fig = go.Figure()
+        highlight_colors = [TAB1_ACCENT, SECONDARY_ACCENT]
+        color_lookup = {country: highlight_colors[i] for i, country in enumerate(top_two[:2])}
+
+        # Draw muted countries first, then highlighted leaders on top.
+        draw_order = [c for c in keep if c not in top_two] + top_two
+        for country in draw_order:
+            sub = plot_df[plot_df["country"].eq(country)].sort_values("year")
+            if sub.empty:
+                continue
+            is_highlight = country in top_two
+            fig.add_trace(
+                go.Scatter(
+                    x=sub["year"],
+                    y=sub["count"],
+                    mode="lines+markers" if is_highlight else "lines",
+                    name=country,
+                    line=dict(
+                        color=color_lookup.get(country, "rgba(159,178,204,0.42)"),
+                        width=3.6 if is_highlight else 1.4,
+                    ),
+                    marker=dict(size=6 if is_highlight else 0, color=color_lookup.get(country, "rgba(159,178,204,0.42)")),
+                    opacity=1.0 if is_highlight else 0.45,
+                    customdata=np.column_stack([
+                        np.repeat(country, len(sub)),
+                        sub["count"].to_numpy(),
+                    ]),
+                    hovertemplate="<b>%{customdata[0]}</b><br>Year %{x}<br>Papers %{customdata[1]:,.0f}<extra></extra>",
+                )
             )
 
-        fig.update_xaxes(title_text="Papers", showgrid=True, gridcolor=theme.GRID, range=[0, latest_max * 1.23])
-        fig.update_yaxes(title_text="", automargin=True)
-        fig.update_layout(showlegend=False, margin=dict(l=8, r=14, t=12, b=42))
+        for country in top_two:
+            sub = plot_df[plot_df["country"].eq(country)].sort_values("year")
+            if sub.empty:
+                continue
+            last = sub.iloc[-1]
+            fig.add_annotation(
+                x=int(last["year"]),
+                y=float(last["count"]),
+                text=f"{country}, {int(last['year'])}: {_compact_count(last['count'])}",
+                showarrow=True,
+                arrowhead=2,
+                ax=-78,
+                ay=-26 if country == top_two[0] else 24,
+                bgcolor="rgba(255,255,255,.94)",
+                bordercolor="rgba(203,213,225,.85)",
+                borderwidth=1,
+                font=dict(size=12, color="#0B172A"),
+            )
+
+        max_count = float(plot_df["count"].max()) if not plot_df.empty else 0
+        fig.update_xaxes(title_text="", tickmode="linear", dtick=4, tickfont=dict(size=12))
+        fig.update_yaxes(
+            title=dict(text="Papers", font=dict(size=13)),
+            tickformat="~s",
+            tickfont=dict(size=12),
+            showgrid=True,
+            gridcolor=theme.GRID,
+            range=[0, max_count * 1.16 if max_count > 0 else 1],
+        )
+        fig.update_layout(
+            showlegend=True,
+            legend=dict(orientation="h", y=1.15, x=0, font=dict(size=10)),
+            hovermode="x unified",
+            font=dict(size=12),
+            margin=dict(l=54, r=18, t=48, b=36),
+        )
         return theme.style(fig, height=330)
 
     @render_widget
@@ -320,7 +405,7 @@ def growth_server(input, output, session):
         df["year"] = pd.to_numeric(df["year"], errors="coerce")
         value_col = "unique_papers" if "unique_papers" in df else "paper_institution_rows"
         df[value_col] = pd.to_numeric(df[value_col], errors="coerce")
-        df = df.dropna(subset=["year", value_col]).copy()
+        df = df.dropna(subset=["year", value_col, "institution_type"]).copy()
         df["year"] = df["year"].astype(int)
 
         pivot = (
@@ -334,59 +419,102 @@ def growth_server(input, output, session):
             .sort_index()
         )
 
-        fig = go.Figure()
+        if pivot.empty:
+            return theme.empty_figure("Institution type cache has no readable yearly values.")
+
         draw_order = [g for g in INSTITUTION_TYPE_ORDER if g in pivot.columns]
         draw_order += [g for g in pivot.columns if g not in draw_order]
+        # Put University first so its band is easy to compare across time.
+        draw_order = [g for g in draw_order if g == "University"] + [g for g in draw_order if g != "University"]
 
-        for group in draw_order:
+        totals = pivot.sum(axis=1).replace(0, np.nan)
+        share = pivot.div(totals, axis=0) * 100
+        share = share.fillna(0)
+
+        fig = go.Figure()
+        muted_fills = [
+            "rgba(148,163,184,0.24)",
+            "rgba(148,163,184,0.19)",
+            "rgba(148,163,184,0.14)",
+            "rgba(148,163,184,0.10)",
+            "rgba(148,163,184,0.08)",
+            "rgba(148,163,184,0.06)",
+        ]
+
+        cumulative = pd.Series(0.0, index=share.index)
+
+        for i, group in enumerate(draw_order):
             is_university = group == "University"
+            y_share = share[group]
+            y_count = pivot[group]
+            upper = cumulative + y_share
+            lower = cumulative.copy()
+
             fig.add_trace(
                 go.Scatter(
-                    x=pivot.index,
-                    y=pivot[group],
-                    mode="lines+markers" if is_university else "lines",
+                    x=share.index,
+                    y=upper,
+                    mode="lines",
                     name=group,
+                    fill="tonexty" if i > 0 else "tozeroy",
                     line=dict(
-                        color=(TAB1_ACCENT if is_university else "rgba(148,163,184,.48)"),
-                        width=(3.4 if is_university else 1.6),
+                        color=TAB1_ACCENT if is_university else "rgba(159,178,204,0.62)",
+                        width=3.4 if is_university else 1.1,
                     ),
-                    marker=dict(size=(6 if is_university else 0), color=TAB1_ACCENT),
+                    fillcolor="rgba(124,201,255,0.68)" if is_university else muted_fills[i % len(muted_fills)],
+                    opacity=1.0 if is_university else 0.82,
                     customdata=np.column_stack([
-                        np.repeat(group, len(pivot)),
-                        pivot.index.to_numpy(),
-                        pivot[group].to_numpy(),
+                        np.repeat(group, len(share)),
+                        share.index.to_numpy(),
+                        y_count.to_numpy(),
+                        y_share.to_numpy(),
+                        lower.to_numpy(),
+                        upper.to_numpy(),
                     ]),
                     hovertemplate=(
                         "Group %{customdata[0]}<br>"
                         "Year %{customdata[1]}<br>"
+                        "Share %{customdata[3]:.1f}%<br>"
                         "Papers involving group %{customdata[2]:,.0f}<extra></extra>"
                     ),
                 )
             )
 
-        if "University" in pivot.columns and not pivot.empty:
-            last_year = int(pivot.index.max())
-            last_value = float(pivot.loc[last_year, "University"])
+            cumulative = upper
+
+        if "University" in share.columns and not share.empty:
+            last_year = int(share.index.max())
+            last_share = float(share.loc[last_year, "University"])
+            last_count = float(pivot.loc[last_year, "University"])
             fig.add_annotation(
                 x=last_year,
-                y=last_value,
-                text="University leads",
+                y=last_share,
+                text=f"University, {last_year}: {last_share:.0f}%",
                 showarrow=True,
                 arrowhead=2,
-                ax=-70,
-                ay=-32,
-                bgcolor="rgba(255,255,255,.92)",
+                ax=-90,
+                ay=-24,
+                bgcolor="rgba(255,255,255,.94)",
                 bordercolor="#D8E4F2",
                 borderwidth=1,
-                font=dict(size=10, color="#0B172A"),
+                font=dict(size=12, color="#0B172A"),
+                hovertext=f"{last_count:,.0f} papers",
             )
 
-        fig.update_xaxes(title_text="", tickmode="linear", dtick=4)
-        fig.update_yaxes(title_text="Papers involving group", tickformat="~s", showgrid=True, gridcolor=theme.GRID)
+        fig.update_xaxes(title_text="", tickmode="linear", dtick=4, tickfont=dict(size=12))
+        fig.update_yaxes(
+            title=dict(text="Share of institutional participation", font=dict(size=13)),
+            range=[0, 100],
+            ticksuffix="%",
+            tickfont=dict(size=12),
+            showgrid=True,
+            gridcolor=theme.GRID,
+        )
         fig.update_layout(
-            legend=dict(orientation="h", y=1.12, x=0, font=dict(size=9)),
+            legend=dict(orientation="h", y=1.14, x=0, font=dict(size=10)),
             hovermode="x unified",
-            margin=dict(l=52, r=8, t=42, b=34),
+            font=dict(size=12),
+            margin=dict(l=56, r=8, t=46, b=36),
         )
         return theme.style(fig, height=330)
 
@@ -434,77 +562,65 @@ def growth_server(input, output, session):
         )
 
     @render_widget
-    def theme_diversity():
-        df = nd.diversity_metrics().copy()
+    def open_access_period_chart():
+        df = nd.open_access_period_summary().copy()
         if df.empty:
-            return theme.empty_figure("Diversity cache is empty.")
+            return theme.empty_figure("Open access cache is empty. Rebuild the dashboard cache to create oa_period_status.csv.")
 
-        df["year"] = pd.to_numeric(df["year"], errors="coerce")
-        df["entropy"] = pd.to_numeric(df["entropy"], errors="coerce")
-        df["top5_share"] = pd.to_numeric(df.get("top5_share"), errors="coerce")
-        df = df.dropna(subset=["year", "entropy"]).sort_values("year")
+        needed = {"period", "access_status", "count"}
+        if not needed.issubset(df.columns):
+            return theme.empty_figure("Open access cache is missing required columns.")
 
-        custom = df[["entropy", "top5_share"]].to_numpy()
+        df["count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0)
+        period_order = ["2000-2009", "2010-2019", "2020-2025"]
+        status_order = ["Open access", "Closed", "Unknown"]
+        df["period"] = pd.Categorical(df["period"], categories=period_order, ordered=True)
+        df["access_status"] = pd.Categorical(df["access_status"], categories=status_order, ordered=True)
+        df = df.dropna(subset=["period", "access_status"])
+
+        totals = df.groupby("period", observed=False)["count"].transform("sum").replace(0, np.nan)
+        df["share"] = 100 * df["count"] / totals
+        df["share"] = df["share"].fillna(0)
+
+        colors = {
+            "Open access": TAB1_ACCENT,
+            "Closed": "rgba(159,178,204,0.68)",
+            "Unknown": "rgba(245,158,11,0.72)",
+        }
         fig = go.Figure()
-        fig.add_trace(
-            go.Scatter(
-                x=df["year"],
-                y=df["entropy"],
-                customdata=custom,
-                mode="lines+markers",
-                name="Entropy",
-                line=dict(color=TAB1_ACCENT, width=3),
-                marker=dict(size=5, color=TAB1_ACCENT),
-                hovertemplate=(
-                    "Year %{x}<br>"
-                    "Topic entropy %{customdata[0]:.2f}<br>"
-                    "Top-5 share %{customdata[1]:.1f}%<extra></extra>"
-                ),
-            )
-        )
-
-        if "top5_share" in df and df["top5_share"].notna().any():
+        for status in status_order:
+            sub = df[df["access_status"].astype(str).eq(status)].sort_values("period")
+            if sub.empty:
+                continue
             fig.add_trace(
-                go.Scatter(
-                    x=df["year"],
-                    y=df["top5_share"],
-                    customdata=custom,
-                    mode="lines",
-                    name="Top-5 share",
-                    yaxis="y2",
-                    line=dict(color=SECONDARY_ACCENT, width=2.2),
+                go.Bar(
+                    x=sub["period"].astype(str),
+                    y=sub["share"],
+                    name=status,
+                    marker=dict(color=colors[status], line=dict(color="rgba(255,255,255,0.18)", width=1)),
+                    customdata=sub[["count", "share"]].to_numpy(),
                     hovertemplate=(
-                        "Year %{x}<br>"
-                        "Topic entropy %{customdata[0]:.2f}<br>"
-                        "Top-5 share %{customdata[1]:.1f}%<extra></extra>"
+                        f"<b>{status}</b><br>"
+                        "Period %{x}<br>"
+                        "Share %{customdata[1]:.1f}%<br>"
+                        "Papers %{customdata[0]:,.0f}<extra></extra>"
                     ),
                 )
             )
 
-        if len(df) >= 2:
-            first = df.iloc[0]
-            last = df.iloc[-1]
-            delta = float(last["entropy"] - first["entropy"])
-            fig.add_annotation(
-                x=float(last["year"]),
-                y=float(last["entropy"]),
-                text=f"Entropy {_format_delta(delta)}",
-                showarrow=True,
-                arrowhead=2,
-                ax=-52,
-                ay=-34,
-                bgcolor="rgba(255,255,255,.9)",
-                bordercolor="#D8E4F2",
-                borderwidth=1,
-                font=dict(size=10, color="#0B172A"),
-            )
-
-        fig.update_xaxes(title_text="", tickmode="linear", dtick=4)
+        fig.update_xaxes(title_text="", tickfont=dict(size=12))
+        fig.update_yaxes(
+            title=dict(text="Share of papers", font=dict(size=13)),
+            range=[0, 100],
+            ticksuffix="%",
+            tickfont=dict(size=12),
+            showgrid=True,
+            gridcolor=theme.GRID,
+        )
         fig.update_layout(
-            yaxis=dict(title="Entropy", gridcolor=theme.GRID),
-            yaxis2=dict(title="Top-5 share", overlaying="y", side="right", ticksuffix="%", showgrid=False),
-            legend=dict(orientation="h", y=1.12, x=0, font=dict(size=9)),
-            hovermode="x unified",
-            margin=dict(l=48, r=54, t=42, b=34),
+            barmode="stack",
+            legend=dict(orientation="h", y=1.14, x=0, font=dict(size=11)),
+            font=dict(size=12),
+            margin=dict(l=54, r=8, t=46, b=36),
         )
         return theme.style(fig, height=330)
