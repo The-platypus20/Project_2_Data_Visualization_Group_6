@@ -1,4 +1,4 @@
-"""Build the Tab 3 "The Anatomy of Impact" ML cache files.
+"""Build the Tab 3 "What drives impact" ML cache files.
 
 Reads the paper-level merged files ONCE and writes small, dashboard-ready CSVs
 into Dataset/dashboard_cache/ (all prefixed ``tab3_``). The Shiny app only reads
