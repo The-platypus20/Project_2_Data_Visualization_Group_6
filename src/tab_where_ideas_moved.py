@@ -14,7 +14,7 @@ from shinywidgets import output_widget, render_widget
 
 from . import narrative_data as nd
 from . import theme
-from .narrative_common import badge, card_header, metric, notice, paper_list, section_label
+from .narrative_common import badge, card_header, metric, paper_list, section_label
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -579,6 +579,18 @@ def _prepare_term_shift(df: pd.DataFrame, direction: str, limit: int = 8) -> pd.
     return out.assign(loss_positive=out["delta_share"].abs()).sort_values("loss_positive")
 
 
+def _top_two_bar_colors(df: pd.DataFrame, *, accent: str) -> list[str]:
+    if df.empty:
+        return []
+    # Bars are sorted ascending for horizontal readability, so the last two rows
+    # are the strongest terms. Highlight only those; keep the rest neutral.
+    highlight_index = set(df.tail(2).index)
+    return [
+        accent if idx in highlight_index else "rgba(148,163,184,0.58)"
+        for idx in df.index
+    ]
+
+
 def movement_ui():
     return ui.nav_panel(
         "Where ideas moved",
@@ -606,11 +618,10 @@ def movement_ui():
                     "Drag the year slider to see how each family grows. Click a family to inspect subtopics and representative papers.",
                 ),
                 _landscape_container(),
-                notice("Families are single-label groups to avoid double counting. Computer vision and LLMs are treated as cross-cutting signals across healthcare, robotics, NLP, and core ML."),
                 class_="hero-card landscape-card",
             ),
             ui.card(
-                card_header("Selected Bubble Detail"),
+                card_header("Selected bubble detail"),
                 ui.output_ui("landscape_profile"),
                 class_="landscape-detail-card",
             ),
@@ -653,7 +664,6 @@ def movement_ui():
                   });
                 })();
                 """),
-                notice("Right means faster recent growth. Up means stronger normalized impact. Larger bubbles mean more papers in the selected range."),
             ),
             ui.div(
                 ui.card(
@@ -723,6 +733,22 @@ def movement_server(input, output, session):
     def _reset_landscape_selection():
         selected_family.set("")
         selected_topic.set("")
+
+    @reactive.effect
+    @reactive.event(input.landscape_selection_payload)
+    def _sync_landscape_selection_payload():
+        payload = input.landscape_selection_payload() or {}
+        try:
+            start = int(payload.get("yearStart", selected_start_year()))
+            end = int(payload.get("yearEnd", selected_end_year()))
+        except (TypeError, ValueError, AttributeError):
+            start, end = selected_start_year(), selected_end_year()
+
+        selected_start_year.set(max(2000, min(2025, start)))
+        selected_end_year.set(max(2000, min(2025, end)))
+        selected_family.set(str(payload.get("family") or ""))
+        selected_topic.set(str(payload.get("topic") or ""))
+
 
     @render.ui
     def landscape_profile():
@@ -816,7 +842,7 @@ def movement_server(input, output, session):
                 x=df["delta_share"],
                 y=df["term"],
                 orientation="h",
-                marker=dict(color=theme.ACCENT),
+                marker=dict(color=_top_two_bar_colors(df, accent=theme.ACCENT), line=dict(color="rgba(255,255,255,0.72)", width=0.8)),
                 customdata=df[["early_count", "late_count", "early_share", "late_share", "growth_ratio"]].fillna(0),
                 hovertemplate=(
                     "<b>%{y}</b><br>"
@@ -829,13 +855,13 @@ def movement_server(input, output, session):
                 ),
             )
         )
-        fig.update_xaxes(title_text="", zeroline=True, zerolinecolor="rgba(255,255,255,.28)")
-        fig.update_yaxes(title_text="", automargin=True)
+        fig.update_xaxes(title_text="", zeroline=True, zerolinecolor="rgba(148,163,184,.45)", tickfont=dict(size=11))
+        fig.update_yaxes(title_text="", automargin=True, tickfont=dict(size=11))
         fig.update_layout(
             showlegend=False,
             margin=dict(l=8, r=10, t=24, b=24),
         )
-        return theme.style(fig, height=225)
+        return theme.style(fig, height=255)
 
     @render_widget
     def fading_terms_bar():
@@ -849,7 +875,7 @@ def movement_server(input, output, session):
                 x=df["loss_positive"],
                 y=df["term"],
                 orientation="h",
-                marker=dict(color="#FF8CA1"),
+                marker=dict(color=_top_two_bar_colors(df, accent="#FF8CA1"), line=dict(color="rgba(255,255,255,0.72)", width=0.8)),
                 customdata=df[["early_count", "late_count", "early_share", "late_share", "growth_ratio", "delta_share"]].fillna(0),
                 hovertemplate=(
                     "<b>%{y}</b><br>"
@@ -862,13 +888,13 @@ def movement_server(input, output, session):
                 ),
             )
         )
-        fig.update_xaxes(title_text="")
-        fig.update_yaxes(title_text="", automargin=True)
+        fig.update_xaxes(title_text="", tickfont=dict(size=11))
+        fig.update_yaxes(title_text="", automargin=True, tickfont=dict(size=11))
         fig.update_layout(
             showlegend=False,
             margin=dict(l=8, r=10, t=24, b=24),
         )
-        return theme.style(fig, height=225)
+        return theme.style(fig, height=255)
 
 
     @reactive.effect
@@ -914,7 +940,8 @@ def movement_server(input, output, session):
         plot_df = _size_buckets(plot_df)
         plot_df["name"] = plot_df[name_col].astype(str)
         selected_name = topic if kind == "topic" else family
-        top_labels = set(plot_df.sort_values("frontier_score", ascending=False).head(4)["name"])
+        top_labels = set(plot_df.loc[plot_df["quadrant"].eq("Rising stars"), "name"])
+        top_labels.update(plot_df.sort_values("frontier_score", ascending=False).head(3)["name"])
         top_labels.update(plot_df.sort_values("growth", ascending=False).head(1)["name"])
         top_labels.update(plot_df.sort_values("median_fwci", ascending=False).head(1)["name"])
         if selected_name:
@@ -959,11 +986,11 @@ def movement_server(input, output, session):
                 name=quad,
                 text=sub["name"].where(show_label, ""),
                 textposition="top center",
-                textfont=dict(size=10, color="#0f172a"),
+                textfont=dict(size=11, color=theme.TEXT),
                 marker=dict(
                     size=sub["bubble_size"],
                     color=QUADRANT_COLORS[quad],
-                    opacity=np.where(show_label | is_selected, .86, .48),
+                    opacity=np.where(show_label | is_selected, .90, .42),
                     line=dict(color=np.where(is_selected, "#020617", "#ffffff"), width=np.where(is_selected, 3, 1.2)),
                 ),
                 customdata=custom,
@@ -977,8 +1004,8 @@ def movement_server(input, output, session):
                 ),
             ))
 
-        fig.add_vline(x=x_cut, line_color="#0f172a", line_dash="dash", line_width=1.5)
-        fig.add_hline(y=y_cut, line_color="#0f172a", line_dash="dash", line_width=1.5)
+        fig.add_vline(x=x_cut, line_color=theme.TEXT, line_dash="dash", line_width=1.5)
+        fig.add_hline(y=y_cut, line_color=theme.TEXT, line_dash="dash", line_width=1.5)
 
         fig.update_xaxes(
             title_text="Growth momentum rank",
@@ -987,7 +1014,7 @@ def movement_server(input, output, session):
             tickvals=[0, .25, .5, .75, 1],
             ticktext=["Low", "", "Median", "", "High"],
             showgrid=True,
-            gridcolor="#edf2f7",
+            gridcolor=theme.GRID,
             zeroline=False,
         )
         fig.update_yaxes(
@@ -997,11 +1024,15 @@ def movement_server(input, output, session):
             tickvals=[0, .25, .5, .75, 1],
             ticktext=["Low", "", "Median", "", "High"],
             showgrid=True,
-            gridcolor="#edf2f7",
+            gridcolor=theme.GRID,
             zeroline=False,
         )
-        fig.update_layout(margin=dict(l=60, r=24, t=54, b=56), legend=dict(orientation="h", y=1.12, x=0, font=dict(size=10)))
-        return theme.style(fig, height=470)
+        fig.update_layout(
+            margin=dict(l=64, r=28, t=58, b=60),
+            legend=dict(orientation="h", y=1.13, x=0, font=dict(size=10)),
+            hovermode="closest",
+        )
+        return theme.style(fig, height=520)
 
     @render.ui
     def movement_frontier_detail():
@@ -1089,7 +1120,7 @@ def movement_server(input, output, session):
             customdata=df[["country", "papers"]],
             hovertemplate="<b>%{customdata[0]}</b><br>%{customdata[1]:,.0f} papers<extra></extra>",
         ))
-        fig.update_xaxes(title_text="Paper count, 2000-2025", showgrid=True, gridcolor="#edf2f7")
+        fig.update_xaxes(title_text="Paper count, 2000-2025", showgrid=True, gridcolor=theme.GRID)
         fig.update_yaxes(title_text="", automargin=True)
         fig.update_layout(showlegend=False, margin=dict(l=8, r=14, t=12, b=46))
         return theme.style(fig, height=430)

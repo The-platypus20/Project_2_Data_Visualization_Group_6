@@ -7,19 +7,42 @@
   const VIEWBOX = { width: 1080, height: 750 };
 
   const FAMILY_RADIUS_MIN = 30;
-  const FAMILY_RADIUS_MAX = 110;
+  const FAMILY_RADIUS_MAX = 118;
   const SUBTOPIC_RADIUS_MIN = 7;
   const SUBTOPIC_RADIUS_MAX = 34;
-  const TRANSITION_MS = 420;
+  const TRANSITION_MS = 760;
 
-  const PARTICLE_PAPER_UNIT = 2600;
-  const PARTICLE_MAX_PER_FAMILY = 170;
+  const PARTICLE_PAPER_UNIT = 2200;
+  const PARTICLE_MAX_PER_FAMILY = 190;
   const PARTICLE_MIN_VISIBLE = 6;
 
   const FALLBACK_COLORS = [
     "#7cc9ff", "#7be0b5", "#ffd27a", "#ff8ca1", "#b79cff",
     "#88e1ff", "#ffb778", "#9fd97d", "#c084fc", "#94a3b8"
   ];
+
+  // Presentation layout override.
+  // The JSON keeps the data, but these fixed anchors spread the family bubbles
+  // across the hero map so labels and click targets do not crowd each other.
+  const FAMILY_POSITION_OVERRIDES = {
+    "Core ML / Deep Learning": { x: 185, y: 300 },
+    "NLP & Language AI": { x: 430, y: 185 },
+    "Applied / Interdisciplinary AI": { x: 600, y: 390 },
+    "Optimization, Theory & Security": { x: 395, y: 650 },
+    "Robotics & Control": { x: 165, y: 620 },
+    "Healthcare AI": { x: 320, y: 410 },
+    "Knowledge, Logic & Reasoning": { x: 770, y: 210 },
+    "Responsible AI": { x: 825, y: 380 },
+    "Reinforcement Learning & Agents": { x: 770, y: 605 },
+    "Other": { x: 930, y: 550 }
+  };
+
+  function spreadFamilyPosition(row) {
+    const key = String(row.family || row.topic_family || row.name || "");
+    const override = FAMILY_POSITION_OVERRIDES[key];
+    if (!override) return row;
+    return { ...row, x: override.x, y: override.y };
+  }
 
   const state = {
     families: [],
@@ -50,6 +73,16 @@
     if (window.Shiny && typeof window.Shiny.setInputValue === "function") {
       window.Shiny.setInputValue(id, value, { priority: "event" });
     }
+  }
+
+  function sendSelectionPayload(family, topic) {
+    sendInput("landscape_selection_payload", {
+      family: family || "",
+      topic: topic || "",
+      yearStart: state.yearStart,
+      yearEnd: state.yearEnd,
+      ts: Date.now()
+    });
   }
 
   function fmt(value) {
@@ -228,8 +261,7 @@
 
   function updateYearRangeLabel() {
     const label = $("landscape-year-range-value");
-    if (label) label.textContent = `
-    ${state.yearStart}–${state.yearEnd}`;
+    if (label) label.textContent = `${state.yearStart}–${state.yearEnd}`;
   }
 
   function updateYearRangeFill() {
@@ -270,8 +302,11 @@
     state.selectedFamily = family || "";
     state.selectedTopic = "";
     state.previousParticleCounts = new Map();
+    sendInput("landscape_year_start", state.yearStart);
+    sendInput("landscape_year_end", state.yearEnd);
     sendInput("landscape_family_click", state.selectedFamily);
     sendInput("landscape_topic_click", "");
+    sendSelectionPayload(state.selectedFamily, "");
     render();
   }
 
@@ -279,8 +314,11 @@
     state.selectedFamily = d.family || "";
     state.selectedTopic = d.topic || "";
     state.previousParticleCounts = new Map();
+    sendInput("landscape_year_start", state.yearStart);
+    sendInput("landscape_year_end", state.yearEnd);
     sendInput("landscape_family_click", state.selectedFamily);
     sendInput("landscape_topic_click", state.selectedTopic);
+    sendSelectionPayload(state.selectedFamily, state.selectedTopic);
     render();
   }
 
@@ -294,6 +332,7 @@
     sendInput("landscape_reset", Date.now());
     sendInput("landscape_family_click", "");
     sendInput("landscape_topic_click", "");
+    sendSelectionPayload("", "");
     setYearRange(MIN_YEAR, MAX_YEAR);
   }
 
@@ -322,7 +361,7 @@
         return;
       }
       setYearRange(state.yearStart, state.yearEnd + 1);
-    }, 850);
+    }, 1050);
   }
 
   function familyOpacity(family) {
@@ -542,9 +581,9 @@
 
     const labelOffset = familyLabelOffset(d.family);
     const labelX = Number(d.x) + labelOffset.x;
-    const labelY = Math.max(28, Number(d.y) - r - 24 + labelOffset.y);
+    const labelY = Math.max(34, Number(d.y) - r - 30 + labelOffset.y);
     const label = svgEl("text", { class: "family-label", x: labelX, y: labelY });
-    label.textContent = labelFor(d.family, 31);
+    label.textContent = labelFor(d.family, 34);
 
     const countLabel = svgEl("text", { class: "family-count", x: labelX, y: labelY + 21 });
     countLabel.textContent = `${fmt(familyCount)} papers`;
@@ -705,14 +744,15 @@
 
   function normalizeRows(rows, type) {
     return (rows || []).map((d, i) => {
-      const color = normalizeColor(d, i);
+      const base = type === "family" ? spreadFamilyPosition(d) : d;
+      const color = normalizeColor(base, i);
       return {
-        ...d,
-        x: Number(d.x ?? d.cx ?? 540),
-        y: Number(d.y ?? d.cy ?? 340),
+        ...base,
+        x: Number(base.x ?? base.cx ?? 540),
+        y: Number(base.y ?? base.cy ?? 340),
         color,
-        family: String(d.family || d.topic_family || d.name || ""),
-        topic: type === "subtopic" ? String(d.topic || d.primary_topic || d.name || "") : d.topic,
+        family: String(base.family || base.topic_family || base.name || ""),
+        topic: type === "subtopic" ? String(base.topic || base.primary_topic || base.name || "") : base.topic,
       };
     });
   }
